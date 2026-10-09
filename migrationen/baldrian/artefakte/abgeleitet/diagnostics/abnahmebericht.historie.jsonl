@@ -1,0 +1,3 @@
+{"ended_at": "2026-10-02T16:07:10.814555+00:00", "exit_code": 20, "fehler": ["pb1_contract"], "started_at": "2026-10-02T16:07:09.013289+00:00", "status": "failed", "versuch": 1}
+{"ended_at": "2026-10-02T16:08:08.173058+00:00", "exit_code": 20, "fehler": ["fuehrungsprobe_contract"], "started_at": "2026-10-02T16:08:06.356647+00:00", "status": "failed", "versuch": 2}
+{"ended_at": "2026-10-02T16:09:28.439338+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T16:09:25.463089+00:00", "status": "passed", "versuch": 3}

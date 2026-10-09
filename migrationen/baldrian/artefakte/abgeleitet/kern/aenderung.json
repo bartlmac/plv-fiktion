@@ -1,0 +1,252 @@
+{
+  "art": "kernstand",
+  "begruendung": "Kern 3.22.0 und Tafeln DAV2008 (Fall 3); Config-Block TG2015 und Testliste: kern/ gegenueber der Vorlage 4c272d1 unveraendert",
+  "commits": [
+    {
+      "betreff": "feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)",
+      "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+      "datum": "2026-10-02",
+      "module": [
+        "src/rechner_pipeline/kern/__init__.py",
+        "src/rechner_pipeline/kern/beitragsreduktion.py",
+        "src/rechner_pipeline/kern/rechenkern.py",
+        "src/rechner_pipeline/kern/vorgangsfolge.py"
+      ]
+    },
+    {
+      "betreff": "feat(kern): Tafeln DAV2008 NR/R (F, M, U70) ueber den Tafel-Import des Falls 3 eingetragen",
+      "commit": "4c272d1f9dd022c7623a7dd47551d840c09d0109",
+      "datum": "2026-10-02",
+      "module": [
+        "src/rechner_pipeline/kern/__init__.py",
+        "src/rechner_pipeline/kern/tafeln.xml"
+      ]
+    }
+  ],
+  "geaenderte_referenzwerte": [],
+  "gegenstand": [
+    {
+      "begruendung": "Code des Rechenkerns: was der Kern rechnet und wie (Thiele-Rueckgrat, Produkte, Rechnungsgrundlagen)",
+      "gliederung": "je_eintrag",
+      "pfad": "src/rechner_pipeline/kern"
+    },
+    {
+      "begruendung": "eingefrorene Referenzwerte: der Massstab, an dem eine Aenderung des Kerns sichtbar wird; wer sie verschiebt, verschiebt den Massstab",
+      "gliederung": "gesamt",
+      "pfad": "tests/fixtures/kern_referenzwerte"
+    },
+    {
+      "begruendung": "Grundsatzdokumentation: die normative Mathematik, der die Implementierung folgt",
+      "gliederung": "gesamt",
+      "pfad": "docs/mathematik/grundsatzdokumentation.md"
+    }
+  ],
+  "git": {
+    "aktuell": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+    "dirty": "nein",
+    "merge_base": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "referenz": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "referenz_commit": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "zweig": "fall3-rueckbau"
+  },
+  "kern_alt_sha256": "444e6b113a8881b403ece1b0304d07b2039edaa96f97efacf4c1361de865dc5f",
+  "kern_sha256": "c1621d90720602e36509838ac28d766f6eb2cc3894f6bfad9d2b301546726784",
+  "module": [
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [
+        {
+          "betreff": "feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)",
+          "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+          "datum": "2026-10-02"
+        },
+        {
+          "betreff": "feat(kern): Tafeln DAV2008 NR/R (F, M, U70) ueber den Tafel-Import des Falls 3 eingetragen",
+          "commit": "4c272d1f9dd022c7623a7dd47551d840c09d0109",
+          "datum": "2026-10-02"
+        }
+      ],
+      "dateien": [
+        {
+          "hinzu": 16,
+          "pfad": "src/rechner_pipeline/kern/__init__.py",
+          "weg": 1
+        }
+      ],
+      "hinzu": 16,
+      "modul": "src/rechner_pipeline/kern/__init__.py",
+      "nicht_committet": [],
+      "weg": 1
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [
+        {
+          "betreff": "feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)",
+          "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+          "datum": "2026-10-02"
+        }
+      ],
+      "dateien": [
+        {
+          "hinzu": 43,
+          "pfad": "src/rechner_pipeline/kern/beitragsreduktion.py",
+          "weg": 9
+        }
+      ],
+      "hinzu": 43,
+      "modul": "src/rechner_pipeline/kern/beitragsreduktion.py",
+      "nicht_committet": [],
+      "weg": 9
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/konventionen.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/korrekturschicht.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/model_point.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/produkte",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [
+        {
+          "betreff": "feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)",
+          "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+          "datum": "2026-10-02"
+        }
+      ],
+      "dateien": [
+        {
+          "hinzu": 23,
+          "pfad": "src/rechner_pipeline/kern/rechenkern.py",
+          "weg": 27
+        }
+      ],
+      "hinzu": 23,
+      "modul": "src/rechner_pipeline/kern/rechenkern.py",
+      "nicht_committet": [],
+      "weg": 27
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/tafeln.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [
+        {
+          "betreff": "feat(kern): Tafeln DAV2008 NR/R (F, M, U70) ueber den Tafel-Import des Falls 3 eingetragen",
+          "commit": "4c272d1f9dd022c7623a7dd47551d840c09d0109",
+          "datum": "2026-10-02"
+        }
+      ],
+      "dateien": [
+        {
+          "hinzu": 762,
+          "pfad": "src/rechner_pipeline/kern/tafeln.xml",
+          "weg": 0
+        }
+      ],
+      "hinzu": 762,
+      "modul": "src/rechner_pipeline/kern/tafeln.xml",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [
+        {
+          "betreff": "feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)",
+          "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+          "datum": "2026-10-02"
+        }
+      ],
+      "dateien": [
+        {
+          "hinzu": 40,
+          "pfad": "src/rechner_pipeline/kern/vorgangsfolge.py",
+          "weg": 15
+        }
+      ],
+      "hinzu": 40,
+      "modul": "src/rechner_pipeline/kern/vorgangsfolge.py",
+      "nicht_committet": [],
+      "weg": 15
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/zahlungspfad.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "src/rechner_pipeline/kern",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "src/rechner_pipeline/kern/zustandsmodell.py",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "tests/fixtures/kern_referenzwerte",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "tests/fixtures/kern_referenzwerte",
+      "nicht_committet": [],
+      "weg": 0
+    },
+    {
+      "bereich": "docs/mathematik/grundsatzdokumentation.md",
+      "commits": [],
+      "dateien": [],
+      "hinzu": 0,
+      "modul": "docs/mathematik/grundsatzdokumentation.md",
+      "nicht_committet": [],
+      "weg": 0
+    }
+  ],
+  "nach_version": "3.22.0",
+  "referenzwerte_sha256": "f77cbd2a6d4bd7aea210cd1b706241ab13a826ed76af42654a9c654592aeb793",
+  "schema_version": 4,
+  "veraendert": true,
+  "von_version": "3.21.0"
+}

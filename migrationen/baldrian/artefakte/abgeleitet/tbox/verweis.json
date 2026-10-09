@@ -1,0 +1,56 @@
+{
+  "art": "standverweis",
+  "gate": "A-O1",
+  "herkunft": "Linie linie, entscheide/A-O1-70c30e43625138646a29193edf0b68f2ba6956631b4d74b73b638fe8e2842b85.json",
+  "schema_version": 1,
+  "snapshot": {
+    "artefakt_hashes": {
+      "entscheide/A-K2-8bf215a69778de2861e7276104abdca6b0da9fa71a2f734b64a32f21e7e275fd.json": "af6a13c8ca9954cb80bbf0b24fca508e366c65e402c218ed91e8c1bbc9017dab",
+      "linie.json": "fcf79f9c98f51eff0b9b49264ea588ecf96e6915e9a9c27387be543cf93f3d3a"
+    },
+    "begruendung": "Erstabnahme T-Box des Basis-Stands",
+    "command": "gate_entscheid",
+    "entscheid": "angenommen",
+    "entscheider": "KI-Session unter Mandat des Maintainers vom 2026-10-02, als mensch/architektur",
+    "entschieden_am": "2026-10-02T06:44:15.632477+00:00",
+    "fall": "linie",
+    "fall_scope": "linie",
+    "freigabe": {
+      "schluessel_sha256": "9ce41673b6ce6b45a5197aa8c54e00c88e611bfbb8dcd024764d419da6196fc9",
+      "signatur": "db5b623a712e3a08651dd303bb1ac292ec0e3e88ab159cae5c07a5e0edafc95f",
+      "verfahren": "hmac-sha256-v1"
+    },
+    "gate": "A-O1",
+    "gate_version": "5.0.0",
+    "pflichtbelege": {
+      "stellungnahme_aktuariat": [
+        "853e3b333d610e9e6312299ded8f1f34955493e88f42ea71f2ad542b64b5f14c"
+      ],
+      "tbox_aenderung": [
+        "cd7768ad6428e675340e45e16d02cb4ce12fb04cfc784eb1a6f48bfd7bad03d1"
+      ]
+    },
+    "rolle": "mensch/architektur",
+    "schema_version": 10,
+    "snapshot_sha256": "70c30e43625138646a29193edf0b68f2ba6956631b4d74b73b638fe8e2842b85",
+    "stand": {
+      "tbox_sha256": "94f4aacb7012b1f6deebbb27094fec447c4ec05d0c21158ad44ad34e3a116808",
+      "version": "0.2.0",
+      "vokabular_sha256": "77030f79940e8c7c80806b2d7ffc457cc3c59c55468bfaa71fd679f84f2e1dfc"
+    },
+    "system": {
+      "branch": "fall3-rueckbau",
+      "commit": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+      "dirty": "nein",
+      "quellcode_sha256": "04b9c6f9fd79116f2de65cdeec0626c738cbbd992d2fb777d51f27d7f9bfa6d2"
+    },
+    "vorgaenger": [],
+    "zeichnung": {
+      "mandat_sha256": "12889a3fbf8ee361a45177860740f0ac64e747b17cf0c1f726da69c7e4f43412",
+      "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+      "ordnungsglied_sha256": "c8c71a6807e591bf1ced049a3b91340cd2f49683f92a6c2ab9c0989f092923ed",
+      "rolle": "mensch/architektur",
+      "schluesselklasse": "simulation"
+    }
+  }
+}

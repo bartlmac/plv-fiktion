@@ -1,0 +1,29 @@
+{
+  "ausgaben": {
+    "bestand.parquet": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac",
+    "bestand_gesamt.parquet": "a333153eec6ac77a9c0325ae48db9f9ee55b878d16088d7422c4d59e06bc0702",
+    "historie.parquet": "3d4206814c3b096f73d04275c24887960e6d65c4dd44b5b762b8a2edac09695d",
+    "ledger.parquet": "bf8e0d0744019811fc604a86e9efab04724f81c1f8f606b8cda4b4e3ccd38bad",
+    "merkmale.parquet": "645cc2388a0a0e6a15ed9db3febed27534a028a2653377938425b525b5c94803",
+    "reduktionen.parquet": "360106a8e07564a530d3c5fc0d54ffbfc889c3be1b0c1ac5001840d056270098",
+    "scheiben.parquet": "63e1d72ad34bbf40836537e57904bc7d96fd28b9f7d93c18f975f9c89694fd27",
+    "schichten.parquet": "f5c5dc4714f7ae5e35cf450846a381d48f9efd64dcf97f4a514b11a3cdcc9965",
+    "verankerung.parquet": "28b589e6e6f38f59c51a81b77d026ec30cf232a26ae89a1312c729b1e6f95387",
+    "zugaenge.parquet": "2fe105ff4e9c5347d3b8d2a86b5096256faa6a415d9c7eab56f96e921df63b2d"
+  },
+  "config": {
+    "datei": "bestand_gesamt.toml",
+    "sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158"
+  },
+  "eingaben": {
+    "merkmale": {
+      "datei": "merkmale.parquet",
+      "sha256": "645cc2388a0a0e6a15ed9db3febed27534a028a2653377938425b525b5c94803"
+    }
+  },
+  "erzeuger": "bestand_fortschreibung",
+  "horizont": "2027-01-01",
+  "kern_version": "3.22.0",
+  "neuzugang_ab": null,
+  "schema_version": 1
+}

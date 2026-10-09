@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "gate": "A-M4.migrationscontrolling",
+  "command": "abnahmebericht",
+  "gate_version": "10.0.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 3,
+  "started_at": "2026-10-02T16:09:25.463089+00:00",
+  "input_hashes": {
+    "abgeleitet/berichte/migrationssuite.json": "4f8f931bad93ba81b508b42888dca9dc5132ffe1666062c99bb502ae79822b09",
+    "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.spec.json": "c28b46a9d27ef93dd4ac400735ac068a87898e8834144bbcbe67d3be3061b8c6",
+    "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.ergebnis.json": "de33e317915f58073dfa2f8adc5b152929cc0e6a871595edb5fe4264bfbf7960",
+    "abgeleitet/berichte/bestandsbericht-vor.html": "a57657654d33fdc27670a10a064b9c50bc778ae167a431e67dff05298b4d6bb7",
+    "abgeleitet/berichte/bestandsbericht-nach.html": "6240710409f520a5ab0268db2c83cd07f9a63a323aa37b456ee6940815d9f5c9",
+    "abgeleitet/diagnostics/bestand_validate.gate.json": "2e93c2bfda19cd48a0bdce176b193ef8de9033c1e81212096f3f7c1126991aae",
+    "abgeleitet/berichte/fuehrungsprobe.json": "31d156ed6768d077e0c1e6495d04efd5f4e6c6ca18c6d59e3aa4b0c7305c3170"
+  },
+  "diagnostics_path": "<baum>/faelle/baldrian-klv-tg2015-fall3/abgeleitet/berichte/migrationsabnahme.html",
+  "summary": {
+    "anzahl": 834,
+    "erwartete_anzahl": 834,
+    "bestanden": 834,
+    "fehlgeschlagen": 0,
+    "suite_bestanden": true,
+    "befunde": 0,
+    "mengenbefunde": 0,
+    "pruefungen": 2508,
+    "max_residuum": 0.03151236512348987,
+    "vollstaendig_geprueft": true,
+    "pruefluecken": [],
+    "bericht_bestanden": true,
+    "abnahmehindernisse": [],
+    "fuehrungswert": {
+      "art": "systemwert",
+      "konvention": "monatsgenau",
+      "bestand_sha256": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac",
+      "config_sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158",
+      "stichtag_1": {
+        "stichtag": "2026-01-01",
+        "in_kraft": 834,
+        "nicht_in_kraft": 0,
+        "summen": {
+          "deckungskapital": 34784446.77739141,
+          "rueckkaufswert": 34690962.351583555,
+          "korrekturschicht": -0.1401047019182501
+        }
+      },
+      "stichtag_2": {
+        "stichtag": "2027-01-01",
+        "in_kraft": 827,
+        "nicht_in_kraft": 7,
+        "summen": {
+          "deckungskapital": 37244277.50757684,
+          "rueckkaufswert": 37144456.028752275,
+          "korrekturschicht": -0.13808123458008068
+        }
+      }
+    },
+    "uebersetzung_gebunden": true,
+    "abnahme": "offen — Gate A-M4 (Mensch, gates/gate_entscheid)",
+    "bericht_erzeugung": {
+      "titel": "Migrationsabnahme Baldrian KLV TG2015 (Fall 3) zum 01.01.2026 und 01.01.2027",
+      "stichtag_1": "2026-01-01",
+      "stichtag_2": "2027-01-01",
+      "spec": {
+        "quelle_datei": "baldrian_bestandsabzug_2026-01-01.csv",
+        "quelle_sha256": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f",
+        "akteur": "claude-sonnet-5-5/transformiere-quellbestand+mapping-aenderung@2ad478c",
+        "erhoben_am": "2026-10-02",
+        "felder": [
+          {
+            "ziel": "police_id",
+            "typ": "direkt",
+            "quellen": [
+              "POLNR"
+            ],
+            "begruendung": "POLNR ist die Versicherungsscheinnummer (ganzzahlig, 834 verschiedene Werte bei 834 Zeilen: eindeutig je Vertrag)."
+          },
+          {
+            "ziel": "beginn",
+            "typ": "berechnung",
+            "quellen": [
+              "BEGINN"
+            ],
+            "begruendung": "BEGINN ist der Versicherungsbeginn (Datum TT.MM.JJJJ); Zielform ISO.",
+            "berechnung": "datum_nach_iso"
+          },
+          {
+            "ziel": "entry_age",
+            "typ": "berechnung",
+            "quellen": [
+              "GEBDAT",
+              "BEGINN"
+            ],
+            "begruendung": "Eintrittsalter nach Tarifplan Mitteilung 143 Abschnitt 3: Differenz der Kalenderjahre von Versicherungsbeginn und Geburt (absaetze[1]) — Kalenderjahresmethode, nicht die Geburtstagsmethode.",
+            "berechnung": "alter_kalenderjahresmethode"
+          },
+          {
+            "ziel": "sex",
+            "typ": "kodierung",
+            "quellen": [
+              "GESCHL"
+            ],
+            "begruendung": "GESCHL M/W: M = maennlich, W = weiblich; Ziel kennt M/F. Der Tarif ist Unisex (U70); das Geschlecht bleibt Vertragsattribut fuer Nachweisung und Folgebewertung. Die Bedeutung von M/W ist im Spaltenprofil nur aus dem Kuerzel gelesen, die Lieferung dokumentiert sie nicht (Befund fuer A-Q1, geringes Risiko).",
+            "kodierung": {
+              "M": "M",
+              "W": "F"
+            }
+          },
+          {
+            "ziel": "duration",
+            "typ": "berechnung",
+            "quellen": [
+              "BEGINN",
+              "ABLAUF"
+            ],
+            "begruendung": "Versicherungsdauer in vollen Jahren aus Beginn und Ablauftermin (ABLAUF = vereinbarter Ablauftermin, AVB Ziffer 1).",
+            "berechnung": "jahre_aus_datumsdifferenz"
+          },
+          {
+            "ziel": "premium_duration",
+            "typ": "berechnung",
+            "quellen": [
+              "BZDAUER"
+            ],
+            "begruendung": "BZDAUER = Beitragszahlungsdauer in Jahren (ganzzahlig, 10 bis 35, AVB Ziffer 2).",
+            "berechnung": "ganzzahl"
+          },
+          {
+            "ziel": "sum_insured",
+            "typ": "berechnung",
+            "quellen": [
+              "ERLSUMME"
+            ],
+            "begruendung": "ERLSUMME = Erlebensfallsumme; bei beitragsfrei gestellten Vertraegen die beitragsfreie Summe (Tarifplan Abschnitt 6). Fuer BFR-Vertraege ist das nicht die urspruengliche Versicherungssumme — siehe Befund fuer A-Q1.",
+            "berechnung": "zahl"
+          },
+          {
+            "ziel": "zahlweise",
+            "typ": "kodierung",
+            "quellen": [
+              "ZAHLW"
+            ],
+            "begruendung": "Zahlweise als Zahl der Raten je Jahr (Ziel: 1, 2, 4, 12).",
+            "kodierung": {
+              "jaehrlich": 1,
+              "halbjaehrlich": 2,
+              "vierteljaehrlich": 4,
+              "monatlich": 12
+            }
+          },
+          {
+            "ziel": "status",
+            "typ": "kodierung",
+            "quellen": [
+              "RK"
+            ],
+            "begruendung": "RK = Risikoklasse (Tarifplan Abschnitt 1): NR Nichtraucher, R Raucher; Ziel-Dimension status der Generation (nicht der Vertragsstatus).",
+            "kodierung": {
+              "NR": "nichtraucher",
+              "R": "raucher"
+            }
+          },
+          {
+            "ziel": "tarifart",
+            "typ": "kodierung",
+            "quellen": [
+              "BGRP"
+            ],
+            "begruendung": "BGRP = Bestandsgruppe (AVB Ziffer 1; Tarifplan Abschnitt 2): E Einzel, K Kollektiv, H Haus; Ziel-Dimension tarifart der Generation. Kuerzelauflosung E/K/H aus den drei Gruppen des Tarifplans, nicht woertlich dokumentiert.",
+            "kodierung": {
+              "E": "einzel",
+              "K": "kollektiv",
+              "H": "haus"
+            }
+          },
+          {
+            "ziel": "geburtsdatum",
+            "typ": "berechnung",
+            "quellen": [
+              "GEBDAT"
+            ],
+            "begruendung": "Geburtsdatum; optionales Zielfeld, fuer Nachweisung und Eintrittsalter-Gegenprobe.",
+            "berechnung": "datum_nach_iso"
+          },
+          {
+            "ziel": "brutto_jahresbeitrag",
+            "typ": "berechnung",
+            "quellen": [
+              "JBRUTTO"
+            ],
+            "begruendung": "JBRUTTO = aktueller Jahresbeitrag; 0,00 bei Beitragsfreiheit und nach Ablauf der Beitragszahlungsdauer (Tarifplan Abschnitt 6).",
+            "berechnung": "zahl"
+          },
+          {
+            "ziel": "deckungskapital",
+            "typ": "berechnung",
+            "quellen": [
+              "DECKKAP"
+            ],
+            "begruendung": "DECKKAP = Deckungskapital laut Quelle, letzte Standmitteilung zum letzten Vertragsjahrestag vor dem Abzugsstichtag, nicht interpoliert (Tarifplan Abschnitt 6).",
+            "berechnung": "zahl"
+          },
+          {
+            "ziel": "dk_ta",
+            "typ": "berechnung",
+            "quellen": [
+              "DECKKAP"
+            ],
+            "begruendung": "Verankerungswert: das Deckungskapital am letzten exakten Rechenpunkt der Quelle (Jahrestag) — dieselbe Spalte wie deckungskapital, dort als Abgleichswert, hier als Verankerungsattribut (Zielfelder dk_ta und monate_ta gehoeren zusammen).",
+            "berechnung": "zahl"
+          },
+          {
+            "ziel": "monate_ta",
+            "typ": "berechnung",
+            "quellen": [
+              "BEGINN"
+            ],
+            "begruendung": "Volle Vertragsmonate seit Beginn bis zum letzten Vertragsjahrestag vor dem Abzugsstichtag 01.01.2026 (Vielfaches von 12), weil die Quelle ihr Deckungskapital nur am Jahrestag fuehrt (Tarifplan Abschnitt 6).",
+            "berechnung": "monate_letzter_jahrestag_vor_stichtag",
+            "parameter": {
+              "stichtag": "2026-01-01"
+            }
+          },
+          {
+            "ziel": "",
+            "typ": "nicht_uebernommen",
+            "quellen": [
+              "TARIF"
+            ],
+            "begruendung": "TARIF hat genau einen Wert (KLV15); die Generation steht im Fall (Tarifwerk KLV TG2015), nicht je Zeile."
+          },
+          {
+            "ziel": "",
+            "typ": "nicht_uebernommen",
+            "quellen": [
+              "VTG_STATUS"
+            ],
+            "begruendung": "AKT/BFR (aktiv/beitragsfrei) hat im Abzugsformat des Ziels kein Feld (VERTRAG_PFLICHT/VERTRAG_OPTIONAL). Die Beitragsfreiheit erreicht das Ziel ueber JBRUTTO = 0 und die GeVo-Vorgeschichte (PEX). Gegenpruefung der Lieferung (Messung 04): im Abzug 01.01.2026 160 BFR-Zeilen, alle mit JBRUTTO 0,00 und alle mit PEX in der Vorgeschichte; kein AKT-Vertrag traegt PEX (0 von 674); die 124 AKT mit JBRUTTO 0 haben alle die Beitragszahlungsdauer bis 01.01.2026 beendet. Auskunft Nr. 1, Zu Rueckfrage 05 Punkt 2, bestaetigt die Zuordnung. Ein eigenes Zielfeld waere A-O1."
+          },
+          {
+            "ziel": "",
+            "typ": "nicht_uebernommen",
+            "quellen": [
+              "STORNO_KZ"
+            ],
+            "begruendung": "STORNO_KZ wird nicht uebernommen: R = Beitragsrueckstand (Mahnverfahren laeuft), S = Sperrvermerk (z. B. Abtretung oder Pfaendung; Auszahlungen gesperrt), beide ohne Rechenwirkung; gekennzeichnete Vertraege bleiben im uebertragenen Bestand (Auskunft Nr. 1, Zu Rueckfrage 03, eingang/auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md). Gegenpruefung der Lieferung (Messung 04, bestaetigt in Messung 05): 23 Policen (20 R, 3 S), in beiden Abzuegen (01.01.2026 und 01.01.2027) dieselben Policen mit demselben Wert, keine im GeVo-Protokoll 2026; keine der 23 Policen, die 2027 im Abzug fehlen, traegt ein Kennzeichen. Kein Zielfeld."
+          }
+        ],
+        "offene_konflikte": [],
+        "anmerkungen": [
+          "Mapping fuer den Abzug 01.01.2026 (834 Zeilen). Der Abzug 01.01.2027 hat dieselben 15 Spalten (Profil); fuer ihn wuerde nur der Parameter stichtag von monate_ta auf 2027-01-01 wechseln — nicht Gegenstand dieser Spec.",
+          "Offen, ohne Zielfeld: vertragsjahre_am_stichtag (optional) und brutto_zahlbeitrag (optional) liefert die Quelle nicht; sie werden nicht gemappt.",
+          "Entry-Age-Regel (Kalenderjahre) ist aus dem Tarifplan belegt; die Abzugsprobe (Eintrittsalter gegen den gelieferten Beitrag) ist Sache der Gates, nicht dieser Spec.",
+          "Aenderung dieses Mappings (Zug 10): Der offene Konflikt zur Spalte STORNO_KZ entfaellt, weil die Quelle ihn beantwortet hat (Auskunft Nr. 1, Zu Rueckfrage 03; SHA-256 8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754). Die Spalte ist nun als nicht_uebernommen mit Begruendung gefuehrt. Die Vorfassung der Spec liegt unveraendert unter protokoll/werkzeug-aktuariat/baldrian_bestandsabzug_2026-01-01.spec.vor-zug-10.json.",
+          "Beobachtung ohne Urteil: Alle 23 gekennzeichneten Policen tragen eine Vorgeschichte (ERH, PEX oder RED); im Gesamtbestand sind es 577 von 834 (69 %). Eine der 23 ist beitragsfrei. Die Auskunft nennt keine Rechenwirkung; die Haeufung ist keine Gegenaussage.",
+          "Mapping fuer den Abzug 01.01.2026 (834 Zeilen); der Abzug 01.01.2027 hat dieselben 15 Spalten, nur der Parameter stichtag von monate_ta waere ein anderer."
+        ]
+      },
+      "transformation_ergebnis": {
+        "befunde": [],
+        "quelle_sha256": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f",
+        "quellspalten": [
+          "POLNR",
+          "TARIF",
+          "VTG_STATUS",
+          "GESCHL",
+          "RK",
+          "BGRP",
+          "GEBDAT",
+          "BEGINN",
+          "ABLAUF",
+          "BZDAUER",
+          "ERLSUMME",
+          "ZAHLW",
+          "JBRUTTO",
+          "DECKKAP",
+          "STORNO_KZ"
+        ],
+        "schema_version": 1,
+        "spec_sha256": "c28b46a9d27ef93dd4ac400735ac068a87898e8834144bbcbe67d3be3061b8c6",
+        "zeilen_quelle": 834,
+        "zeilen_ziel": 834,
+        "ziel_datei": "abgeleitet/bestand/bestand.parquet",
+        "ziel_sha256": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac"
+      },
+      "bestandsbericht_vor": "abgeleitet/berichte/bestandsbericht-vor.html",
+      "bestandsbericht_nach": "abgeleitet/berichte/bestandsbericht-nach.html"
+    },
+    "renderer_artefakte": {
+      "spec": {
+        "pfad": "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.spec.json",
+        "sha256": "c28b46a9d27ef93dd4ac400735ac068a87898e8834144bbcbe67d3be3061b8c6"
+      },
+      "transformation_ergebnis": {
+        "pfad": "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.ergebnis.json",
+        "sha256": "de33e317915f58073dfa2f8adc5b152929cc0e6a871595edb5fe4264bfbf7960"
+      },
+      "bestandsbericht_vor": {
+        "pfad": "abgeleitet/berichte/bestandsbericht-vor.html",
+        "sha256": "a57657654d33fdc27670a10a064b9c50bc778ae167a431e67dff05298b4d6bb7"
+      },
+      "bestandsbericht_nach": {
+        "pfad": "abgeleitet/berichte/bestandsbericht-nach.html",
+        "sha256": "6240710409f520a5ab0268db2c83cd07f9a63a323aa37b456ee6940815d9f5c9"
+      }
+    },
+    "scope_bindung": {
+      "scope": "bestand",
+      "eingang_sha256": "1cd21fb78c7a49c2a6697e8f7fc43b82670189d09d19c47d49c37ff3167dafca",
+      "abox_sha256": "118887ec375574183e7117418be344e35877db09e86c9bf187368d53d262d3d7",
+      "system": {
+        "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+        "branch": "fall3-rueckbau",
+        "dirty": "nein",
+        "quellcode_sha256": "fdd046d0c76abbbf1b6102b704c3e7a969e278f009cc57643020cb261839acc2"
+      },
+      "stichtage": [
+        "2026-01-01",
+        "2027-01-01"
+      ]
+    },
+    "red_anteile_datei": {
+      "bezug": {
+        "7000396": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000523": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000533": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000539": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000676": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000679": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000722": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000754": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000910": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ],
+        "7000994": [
+          "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+        ]
+      },
+      "name": "anteile-06.csv",
+      "sha256": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1"
+    },
+    "tarifregeln": {
+      "spez": "abgeleitet/spez/klv-tg2015.spez.json",
+      "spez_sha256": "8f67d2af7c7a90bcc148e622ee43b97c0aee7ba103e995699c9e571e5b60651e",
+      "regeln": {
+        "generation": "klv/tg2015",
+        "tarifwerk": {
+          "red_verfahren": "teilkuendigung",
+          "scheiben_mit_gamma1": true,
+          "stoab_je_baustein": true,
+          "tku_umfang": "grundversicherung"
+        },
+        "quellverfahren": {
+          "dk_stichtag": "jahrestag",
+          "erhoehungssatz": 0.05,
+          "formfunktion": "proportional_zur_basis",
+          "red_verfahren": "teilkuendigung"
+        }
+      }
+    },
+    "pb1_umfang": {
+      "geprueft": [
+        "config",
+        "historie",
+        "ledger",
+        "merkmale",
+        "portfolio",
+        "scheiben",
+        "schichten",
+        "verankerung"
+      ],
+      "bewegungskonto_geprueft": true
+    },
+    "bestandsbelege": {
+      "pb1_ledger": {
+        "pfad": "abgeleitet/diagnostics/bestand_validate.gate.json",
+        "sha256": "2e93c2bfda19cd48a0bdce176b193ef8de9033c1e81212096f3f7c1126991aae"
+      },
+      "migrationssuite": {
+        "pfad": "abgeleitet/berichte/migrationssuite.json",
+        "sha256": "4f8f931bad93ba81b508b42888dca9dc5132ffe1666062c99bb502ae79822b09"
+      },
+      "fuehrungsprobe": {
+        "pfad": "abgeleitet/berichte/fuehrungsprobe.json",
+        "sha256": "31d156ed6768d077e0c1e6495d04efd5f4e6c6ca18c6d59e3aa4b0c7305c3170"
+      },
+      "abnahmebericht": {
+        "pfad": "abgeleitet/berichte/migrationsabnahme.html",
+        "sha256": "82bd0f882d8d38763c1fe56092b8d9b088ff54830aa1dd12ecb13a19231b30bb"
+      }
+    },
+    "exit_code": 0,
+    "ended_at": "2026-10-02T16:09:28.437307+00:00",
+    "output_hashes": {
+      "abgeleitet/berichte/migrationsabnahme.html": "82bd0f882d8d38763c1fe56092b8d9b088ff54830aa1dd12ecb13a19231b30bb"
+    },
+    "command_line": [
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--suite",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/berichte/migrationssuite.json",
+      "--titel",
+      "Migrationsabnahme Baldrian KLV TG2015 (Fall 3) zum 01.01.2026 und 01.01.2027",
+      "--stichtag-1",
+      "2026-01-01",
+      "--stichtag-2",
+      "2027-01-01",
+      "--spec",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.spec.json",
+      "--transformation-ergebnis",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.ergebnis.json",
+      "--bestandsbericht-vor",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/berichte/bestandsbericht-vor.html",
+      "--bestandsbericht-nach",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/berichte/bestandsbericht-nach.html",
+      "--repo-root",
+      "."
+    ]
+  }
+}

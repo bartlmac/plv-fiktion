@@ -1,0 +1,10 @@
+{
+  "grund": "Werkzeug noch nicht erstellt",
+  "grundlage": "ADR-018, Nachtrag 2026-10-01",
+  "kern_alt_sha256": "444e6b113a8881b403ece1b0304d07b2039edaa96f97efacf4c1361de865dc5f",
+  "kern_sha256": "c1621d90720602e36509838ac28d766f6eb2cc3894f6bfad9d2b301546726784",
+  "nach_version": "3.22.0",
+  "schema_version": 1,
+  "von_version": "3.21.0",
+  "zustand": "nicht_gefahren"
+}

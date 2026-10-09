@@ -1,0 +1,1217 @@
+# Beispiel-Konfiguration: GESAMTBESTAND eines Lebensversicherers.
+#
+# Ein Bestand, zwei Versicherungsarten — so, wie ein Unternehmen ihn
+# fuehrt: getrennt sind die NACHWEISUNGEN (Bezugsgroesse Versicherungssumme
+# gegen Jahresrente, nicht addierbar), nicht der Bestand. Ein Lauf ueber
+# diese Config erzeugt daher EINEN Bestand und EINEN Bericht mit beiden
+# Nachweisungen.
+#
+# Kapitallebensversicherung: zehn Generationen entlang der
+# Hoechstrechnungszins-Stufen (4,0 % bis 0,25 %, seit 2025 wieder 1,0 %;
+# die Stufen im Einzelnen stehen ueber dem jeweiligen Generations-Block).
+# Berufsunfaehigkeit: drei Generationen (1,75 / 0,9 / 1,0 %),
+# Rechnungsgrundlagen DAV 1997 I. Die jeweils juengste Generation ist im
+# Vertrieb — bis heute: Diese Config traegt den Tagesbetrieb der PLV
+# ([tagesbetrieb], Fachkonzept docs/simulation/tagesbetrieb.md).
+#
+# Eigene, synthetische Parametrierung (Lehrbeispiel, keine realen Werte).
+
+[meta]
+seed = 20260814
+beschreibung = "Pfefferminzia LV (PLV): Gesamtbestand KLV (10 Generationen + uebernommene TG2015) und BU (3 Generationen)"
+# Referenzstichtag des Bestands: Grenze zwischen Historie und Prognose
+# im Bestandsbericht (cli_report; dessen --stichtag uebersteuert).
+# Abschluss und Fortschreibung setzen ihre Stichtage weiterhin explizit.
+referenzstichtag = 2026-01-01
+
+# --------------------------------------------------------------------------
+# KLV-Generation 1: KLV-1994, Verkauf 1994-07-01 bis 2000-06-30
+# Rechnungszins 4,0 %, Tafel DAV1994_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-1994"
+nummernkreis = 1  # Police-Nummern 1 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_1994"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 1994-07-01
+gueltig_bis = 2000-06-30
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 100
+max_endalter = 85
+zins = 0.04
+tafel = "DAV1994_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 24.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 36.0
+sd = 11.0
+min = 18.0
+max = 60.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.55, 0.45]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30, 35]
+probs = [0.10, 0.15, 0.30, 0.20, 0.20, 0.05]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.15, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 10.9
+sdlog = 0.55
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.80, 0.10, 0.06, 0.04]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.45
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "sum_insured"
+rho = 0.20
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.65
+
+# --------------------------------------------------------------------------
+# KLV-Generation 2: KLV-2000, Verkauf 2000-07-01 bis 2003-12-31
+# Rechnungszins 3,25 %, Tafel DAV1994_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2000"
+nummernkreis = 2  # Police-Nummern 2 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2000"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2000-07-01
+gueltig_bis = 2003-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 80
+max_endalter = 85
+zins = 0.0325
+tafel = "DAV1994_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 24.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 3: KLV-2004, Verkauf 2004-01-01 bis 2006-12-31
+# Rechnungszins 2,75 %, Tafel DAV1994_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2004"
+nummernkreis = 3  # Police-Nummern 3 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2004"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2004-01-01
+gueltig_bis = 2006-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 87
+max_endalter = 85
+zins = 0.0275
+tafel = "DAV1994_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 24.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 4: KLV-2007, Verkauf 2007-01-01 bis 2007-12-31
+# Rechnungszins 2,25 %, Tafel DAV1994_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2007"
+nummernkreis = 4  # Police-Nummern 4 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2007"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2007-01-01
+gueltig_bis = 2007-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 70
+max_endalter = 85
+zins = 0.0225
+tafel = "DAV1994_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 24.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 5: KLV-2008, Verkauf 2008-01-01 bis 2011-12-31
+# Rechnungszins 2,25 %, Tafel DAV2008_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2008"
+nummernkreis = 5  # Police-Nummern 5 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2008"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2008-01-01
+gueltig_bis = 2011-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 75
+max_endalter = 85
+zins = 0.0225
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 6: KLV-2012, Verkauf 2012-01-01 bis 2014-12-31
+# Rechnungszins 1,75 %, Tafel DAV2008_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2012"
+nummernkreis = 6  # Police-Nummern 6 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2012"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2012-01-01
+gueltig_bis = 2014-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 80
+max_endalter = 85
+zins = 0.0175
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 7: KLV-2015, Verkauf 2015-01-01 bis 2016-12-31
+# Rechnungszins 1,25 %, Tafel DAV2008_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2015"
+nummernkreis = 7  # Police-Nummern 7 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2015"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2015-01-01
+gueltig_bis = 2016-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 90
+max_endalter = 85
+zins = 0.0125
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 8: KLV-2017, Verkauf 2017-01-01 bis 2021-12-31
+# Rechnungszins 0,9 %, Tafel DAV2008_T
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2017"
+nummernkreis = 8  # Police-Nummern 8 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2017"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2017-01-01
+gueltig_bis = 2021-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 50
+max_endalter = 85
+zins = 0.009
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 9: KLV-2022, Verkauf 2022-01-01 bis 2024-12-31
+# Rechnungszins 0,25 %, Tafel DAV2008_T
+# (Bis zum Tagesbetrieb lief das Fenster bis 2035-12; seit dem
+# Generationenwechsel zum 2025-01-01 verkauft KLV-2025.)
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2022"
+nummernkreis = 9  # Police-Nummern 9 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2022"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2022-01-01
+gueltig_bis = 2024-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 50
+max_endalter = 85
+zins = 0.0025
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# KLV-Generation 10: KLV-2025, Verkauf ab 2025-01-01 (im Vertrieb)
+# Rechnungszins 1,0 %, Tafel DAV2008_T
+#
+# VORLAEUFIG (Fachkonzept Tagesbetrieb, Abschnitt 10): Die
+# Rechnungsgrundlagen der aktuellen Generation legt das Aktuariat der
+# Vorzeige fest; bis dahin gelten der Hoechstrechnungszins 2025 (1,0 %)
+# und die Kosten der Vorgaengergeneration. Eine Aenderung ist eine
+# Fachentscheidung, kein Entwicklerschritt.
+# --------------------------------------------------------------------------
+[[generation]]
+name = "KLV-2025"
+nummernkreis = 10  # Police-Nummern 10 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "klv/plv_2025"  # PLV-Tarifgeneration (Ontologie-Knoten)
+gueltig_von = 2025-01-01
+gueltig_bis = 2035-12-31
+# Jahresziel des Neugeschaefts und sein Trend (Fachkonzept Abschnitt 4):
+# Ziel des Jahres J = neuzugang_pro_jahr * (1 + neuzugang_trend)^(J - 2025).
+# Im Tagesbetrieb wird das Ziel wochentagsgewichtet auf die Werktage
+# verteilt; in der Fortschreibung mit --neuzugang-ab ist es der
+# Jahressatz des GeVo-Stroms (ONBOARDING.md Abschnitt 3).
+neuzugang_pro_jahr = 120
+neuzugang_trend = -0.04
+max_endalter = 85
+zins = 0.01
+tafel = "DAV2008_T"
+alpha = 0.025
+beta1 = 0.025
+gamma1 = 0.0008
+gamma2 = 0.00125
+gamma3 = 0.0025
+policy_fee = 30.0
+min_alter_flex = 60
+min_rlz_flex = 5
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.40
+
+[[generation.korrelation]]
+var_i = "duration"
+var_j = "premium_duration"
+rho = 0.60
+
+# --------------------------------------------------------------------------
+# BU-Geschaeft 2000-2016 (DAV 1997 I)
+# --------------------------------------------------------------------------
+[[generation]]
+name = "BU-2000"
+nummernkreis = 11  # Police-Nummern 11 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "bu/plv_2000"  # PLV-Tarifgeneration (Ontologie-Knoten)
+produkt = "bu"
+gueltig_von = 2000-01-01
+gueltig_bis = 2016-12-31
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 29
+# Endalter 67: das Produkt endet mit dem Rentenalter — und die DAV 1997 I
+# fuehrt ab Alter 70 keine verwendbaren Uebergaenge mehr (i = 1).
+max_endalter = 67
+zins = 0.0175
+# Rechnungsgrundlagen (BU): Aktivensterblichkeit, Invalidisierung,
+# Reaktivierung (Select), Invalidensterblichkeit (Select).
+tafel_aktiv = "DAV1997_TAA"
+tafel_i = "DAV1997_I"
+tafel_ri = "DAV1997_RI"
+tafel_ti = "DAV1997_TI"
+zuschlag = 0.05
+# tafel = Sterbetafel-Feld des KLV-Contracts; bei BU fuehrt tafel_aktiv.
+tafel = "DAV1997_TAA"
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 33.0
+sd = 8.0
+min = 20.0
+max = 55.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.58, 0.42]
+
+# Laufzeit bis Endalter: kuerzere Vertraege sind die Ausnahme (die Kappung
+# auf max_endalter - entry_age wirkt zusaetzlich im Generator).
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [15, 20, 25, 30, 35]
+probs = [0.10, 0.20, 0.30, 0.30, 0.10]
+
+# Versicherte BU-Jahresrente (Bezugsgroesse der Nachweisung).
+[generation.verteilungen.bu_rente]
+typ = "lognormal"
+meanlog = 9.4
+sdlog = 0.35
+round = -2
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.55
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "bu_rente"
+rho = 0.30
+
+# --------------------------------------------------------------------------
+# BU-Geschaeft 2017-2024 (Hoechstrechnungszins 0,9 %)
+# (Bis zum Tagesbetrieb lief das Fenster bis 2035-12; seit dem
+# Generationenwechsel zum 2025-01-01 verkauft BU-2025.)
+# --------------------------------------------------------------------------
+[[generation]]
+name = "BU-2017"
+nummernkreis = 12  # Police-Nummern 12 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "bu/plv_2017"  # PLV-Tarifgeneration (Ontologie-Knoten)
+produkt = "bu"
+gueltig_von = 2017-01-01
+gueltig_bis = 2024-12-31
+# 30 je Jahr ueber acht Fensterjahre — dieselbe Dichte wie der bisherige
+# Jahressatz des GeVo-Stroms.
+# Jahresziel des Neugeschaefts, konstant ueber das Verkaufsfenster
+# (kein Trend). Im Tagesbetrieb verteilt es sich mit den
+# Wochentagsgewichten auf die Werktage ab betriebsbeginn, in der
+# Pruefstrecke (cli_fortschreibung --neuzugang-ab) auf die Monatsersten
+# des Kalenderjahres. Jeder Vertrag kommt als Zugang ins Journal; einen
+# gezogenen Anfangsbestand gibt es nicht mehr (ADR-020).
+neuzugang_pro_jahr = 30
+# Endalter 67: das Produkt endet mit dem Rentenalter — und die DAV 1997 I
+# fuehrt ab Alter 70 keine verwendbaren Uebergaenge mehr (i = 1).
+max_endalter = 67
+zins = 0.009
+# Rechnungsgrundlagen (BU): Aktivensterblichkeit, Invalidisierung,
+# Reaktivierung (Select), Invalidensterblichkeit (Select).
+tafel_aktiv = "DAV1997_TAA"
+tafel_i = "DAV1997_I"
+tafel_ri = "DAV1997_RI"
+tafel_ti = "DAV1997_TI"
+zuschlag = 0.05
+# tafel = Sterbetafel-Feld des KLV-Contracts; bei BU fuehrt tafel_aktiv.
+tafel = "DAV1997_TAA"
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 33.0
+sd = 8.0
+min = 20.0
+max = 55.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.58, 0.42]
+
+# Laufzeit bis Endalter: kuerzere Vertraege sind die Ausnahme (die Kappung
+# auf max_endalter - entry_age wirkt zusaetzlich im Generator).
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [15, 20, 25, 30, 35]
+probs = [0.10, 0.20, 0.30, 0.30, 0.10]
+
+# Versicherte BU-Jahresrente (Bezugsgroesse der Nachweisung).
+[generation.verteilungen.bu_rente]
+typ = "lognormal"
+meanlog = 9.4
+sdlog = 0.35
+round = -2
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.55
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "bu_rente"
+rho = 0.30
+
+# --------------------------------------------------------------------------
+# BU-Neugeschaeft ab 2025 (Hoechstrechnungszins 1,0 %), im Vertrieb
+#
+# VORLAEUFIG (Fachkonzept Tagesbetrieb, Abschnitt 10): Rechnungszins 1,0 %
+# und die Grundlagen DAV 1997 I der Vorgaengergeneration, bis das
+# Aktuariat der Vorzeige die aktuelle Generation festlegt.
+# --------------------------------------------------------------------------
+[[generation]]
+name = "BU-2025"
+nummernkreis = 13  # Police-Nummern 13 * 10 Mio + ..; Eigenschaft der Generation, nicht ihrer Position (T22-09)
+knoten = "bu/plv_2025"  # PLV-Tarifgeneration (Ontologie-Knoten)
+produkt = "bu"
+gueltig_von = 2025-01-01
+gueltig_bis = 2035-12-31
+# Jahresziel und Trend wie bei KLV-2025 erklaert.
+neuzugang_pro_jahr = 30
+neuzugang_trend = -0.03
+# Endalter 67: das Produkt endet mit dem Rentenalter — und die DAV 1997 I
+# fuehrt ab Alter 70 keine verwendbaren Uebergaenge mehr (i = 1).
+max_endalter = 67
+zins = 0.01
+# Rechnungsgrundlagen (BU): Aktivensterblichkeit, Invalidisierung,
+# Reaktivierung (Select), Invalidensterblichkeit (Select).
+tafel_aktiv = "DAV1997_TAA"
+tafel_i = "DAV1997_I"
+tafel_ri = "DAV1997_RI"
+tafel_ti = "DAV1997_TI"
+zuschlag = 0.05
+# tafel = Sterbetafel-Feld des KLV-Contracts; bei BU fuehrt tafel_aktiv.
+tafel = "DAV1997_TAA"
+
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 33.0
+sd = 8.0
+min = 20.0
+max = 55.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.58, 0.42]
+
+# Laufzeit bis Endalter: kuerzere Vertraege sind die Ausnahme (die Kappung
+# auf max_endalter - entry_age wirkt zusaetzlich im Generator).
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [15, 20, 25, 30, 35]
+probs = [0.10, 0.20, 0.30, 0.30, 0.10]
+
+# Versicherte BU-Jahresrente (Bezugsgroesse der Nachweisung).
+[generation.verteilungen.bu_rente]
+typ = "lognormal"
+meanlog = 9.4
+sdlog = 0.35
+round = -2
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "duration"
+rho = -0.55
+
+[[generation.korrelation]]
+var_i = "entry_age"
+var_j = "bu_rente"
+rho = 0.30
+
+# --------------------------------------------------------------------------
+# Generation TG2015 (Baldrian Leben, Migrationsfall baldrian-klv-tg2015-fall3):
+# UEBERNOMMENE Generation ohne Neuzugang -- ihre Vertraege kommen mit der
+# Uebernahme als Zugang in den Tagesbetrieb (kein synthetischer Neuzugang).
+# Tarifwerte und Zellen: abgeleitet/bestand/generation-zellen.toml des Falls,
+# erzeugt aus der Spez (nicht abgetippt). Das Verkaufsfenster ist das des
+# abgebenden Unternehmens und darf mit KLV-2015 ueberlappen: Die PLV hat in
+# diesem Fenster nie TG2015 verkauft.
+# --------------------------------------------------------------------------
+[[generation]]
+name = "TG2015"
+nummernkreis = 14  # Eigenschaft der Generation, nicht ihrer Position
+knoten = "klv/tg2015"
+gueltig_von = 2015-01-01
+gueltig_bis = 2017-01-01
+max_endalter = 90
+zins = 0.0125
+gamma3 = 0.0025
+min_alter_flex = 60
+min_rlz_flex = 5
+zillmer_dauer = 5
+
+# Tarifwerk der Fuehrung (Freischaltung): das belegte der Spez,
+# mit dem die Pruefstrecke des Falls abgenommen hat.
+scheiben_mit_gamma1 = true
+stoab_je_baustein = true
+red_verfahren = "teilkuendigung"
+tku_umfang = "grundversicherung"
+
+# Ohne neuzugang_pro_jahr wird aus diesen Verteilungen NIE eine Zeile
+# gezogen (die Vertraege sind uebernommen). Pflichtfelder der Config, inert.
+[generation.verteilungen.entry_age]
+typ = "normal_trunc"
+mean = 40.0
+sd = 12.0
+min = 18.0
+max = 62.0
+round = 0
+
+[generation.verteilungen.sex]
+typ = "empirical_discrete"
+values = ["M", "F"]
+probs = [0.50, 0.50]
+
+[generation.verteilungen.duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25, 30]
+probs = [0.15, 0.20, 0.35, 0.20, 0.10]
+
+[generation.verteilungen.premium_duration]
+typ = "empirical_discrete"
+values = [12, 15, 20, 25]
+probs = [0.20, 0.25, 0.40, 0.15]
+
+[generation.verteilungen.sum_insured]
+typ = "lognormal"
+meanlog = 11.2
+sdlog = 0.5
+round = -3
+
+[generation.verteilungen.zahlweise]
+typ = "empirical_discrete"
+values = [12, 1, 4, 2]
+probs = [0.85, 0.07, 0.05, 0.03]
+
+[[generation.zelle]]
+auspraegungen = { status = "nichtraucher", tarifart = "einzel" }
+tafel = "DAV2008_T_NR_U70"
+alpha = 0.025
+beta1 = 0.03
+gamma1 = 0.001
+gamma2 = 0.00125
+policy_fee = 12.0
+stoab_satz = 0.005
+stoab_min = 50.0
+stoab_max = 200.0
+ratzu_zw2 = 0.02
+ratzu_zw4 = 0.03
+ratzu_zw12 = 0.05
+
+[[generation.zelle]]
+auspraegungen = { status = "nichtraucher", tarifart = "haus" }
+tafel = "DAV2008_T_NR_U70"
+alpha = 0.0
+beta1 = 0.01
+gamma1 = 0.0008
+gamma2 = 0.001
+policy_fee = 0.0
+stoab_satz = 0.0
+stoab_min = 0.0
+stoab_max = 0.0
+ratzu_zw2 = 0.0
+ratzu_zw4 = 0.0
+ratzu_zw12 = 0.0
+
+[[generation.zelle]]
+auspraegungen = { status = "nichtraucher", tarifart = "kollektiv" }
+tafel = "DAV2008_T_NR_U70"
+alpha = 0.015
+beta1 = 0.015
+gamma1 = 0.0008
+gamma2 = 0.001
+policy_fee = 12.0
+stoab_satz = 0.005
+stoab_min = 50.0
+stoab_max = 200.0
+ratzu_zw2 = 0.01
+ratzu_zw4 = 0.015
+ratzu_zw12 = 0.025
+
+[[generation.zelle]]
+auspraegungen = { status = "raucher", tarifart = "einzel" }
+tafel = "DAV2008_T_R_U70"
+alpha = 0.025
+beta1 = 0.03
+gamma1 = 0.001
+gamma2 = 0.00125
+policy_fee = 12.0
+stoab_satz = 0.005
+stoab_min = 50.0
+stoab_max = 200.0
+ratzu_zw2 = 0.02
+ratzu_zw4 = 0.03
+ratzu_zw12 = 0.05
+
+[[generation.zelle]]
+auspraegungen = { status = "raucher", tarifart = "haus" }
+tafel = "DAV2008_T_R_U70"
+alpha = 0.0
+beta1 = 0.01
+gamma1 = 0.0008
+gamma2 = 0.001
+policy_fee = 0.0
+stoab_satz = 0.0
+stoab_min = 0.0
+stoab_max = 0.0
+ratzu_zw2 = 0.0
+ratzu_zw4 = 0.0
+ratzu_zw12 = 0.0
+
+[[generation.zelle]]
+auspraegungen = { status = "raucher", tarifart = "kollektiv" }
+tafel = "DAV2008_T_R_U70"
+alpha = 0.015
+beta1 = 0.015
+gamma1 = 0.0008
+gamma2 = 0.001
+policy_fee = 12.0
+stoab_satz = 0.005
+stoab_min = 50.0
+stoab_max = 200.0
+ratzu_zw2 = 0.01
+ratzu_zw4 = 0.015
+ratzu_zw12 = 0.025
+
+# --------------------------------------------------------------------------
+# Tagesbetrieb der PLV (Fachkonzept docs/simulation/tagesbetrieb.md).
+#
+# betriebsbeginn: der erste Tag der Unternehmensgeschichte — seither wird
+# Werktag fuer Werktag verkauft. Der Stand beginnt leer; der Bestand
+# entsteht Tag fuer Tag aus dem Neugeschaeft (ADR-020), und der Bericht
+# kennt keinen Zeitraum "vor dem Betriebsbeginn". Der
+# Zugang einer Uebernahme faellt nicht mehr mit ihm zusammen: Er darf
+# ueberall in der gefuehrten Zeit liegen (Baldrian: 2026-01-01).
+# wochentagsgewichte: kein Verkauf am Wochenende, etwas mehr am Montag,
+# sonst gleichmaessig (Abschnitt 4).
+# meldeverzug_tod: VORLAEUFIG (Abschnitt 10) — lognormal, Median 14 Tage,
+# 95 Prozent unter 60 Tagen; Vorschlag des Konzepts, Entscheidung des
+# Aktuariats der Vorzeige steht aus.
+# teilbestand_getrennt: VORLAEUFIG (Abschnitt 10) — der Monatsbericht weist
+# jeden uebernommenen Teilbestand zusaetzlich getrennt aus, solange das
+# Aktuariat es will (dauerhaft oder bis zum ersten Jahresabschluss nach
+# der Uebernahme ist offen).
+# --------------------------------------------------------------------------
+[tagesbetrieb]
+betriebsbeginn = 1994-07-01
+wochentagsgewichte = { mo = 1.3, di = 1.0, mi = 1.0, do = 1.0, fr = 1.0, sa = 0.0, so = 0.0 }
+meldeverzug_tod = { verteilung = "lognormal", median_tage = 14, p95_tage = 60 }
+teilbestand_getrennt = true
+
+# --------------------------------------------------------------------------
+# Plausibilitaets-Baender fuer das Sanity-Gate (P-B1).
+# Die produktfuehrenden Leistungsspalten werden je Produkt geprueft
+# (sum_insured bei KLV, bu_rente bei BU) — die jeweils andere ist
+# strukturell 0.
+# --------------------------------------------------------------------------
+[plausibilitaet]
+entry_age = [18, 64]
+duration = [5, 40]
+premium_duration = [5, 35]
+sum_insured = [1000, 2000000]
+bu_rente = [1200, 200000]
+
+# --------------------------------------------------------------------------
+# Erfahrungsannahmen (3. Ordnung) beider Versicherungsarten.
+#
+# annahme = a + b * erste_ordnung. Der Faktor b rechnet die
+# Sicherheitsmarge richtungsrichtig heraus (belastend b < 1, entlastend
+# b > 1); Ereignisse ohne Rechnungsgrundlage tragen ihre Rate in a.
+# Die Bewertung bleibt unberuehrt auf erster Ordnung.
+#
+# Beitragsherabsetzung und Teilkuendigung (Tarifplan KLV 7.1/7.2): Annahmen
+# der Vorfuehrung, keine Tarifgroessen — damit der Bestand die Vorgaenge
+# enthaelt, die eine Migration antrifft (Auftrag des Maintainers
+# 2026-10-01; docs/simulation/bestandserzeugung.md). Fuer alle
+# KLV-Generationen gleich; die BU kennt keinen der beiden Vorgaenge.
+#   herabsetzung: 0,8 Prozent je Jahr eines beitragspflichtigen Vertrags
+#     (gezogen nur vor dem Beitragsende, nie nach einer
+#     Beitragsfreistellung, und nur in einem Tarif, der sie kennt);
+#     red_anteil ist der FORTGEFUEHRTE Beitragsanteil: 0.6 = Beitrag auf
+#     60 Prozent gesenkt.
+#   teilkuendigung: 0,5 Prozent je Jahr eines Vertrags vor dem Ablauf —
+#     beitragspflichtig, ausfinanziert und auch nach einer
+#     Beitragsfreistellung; tk_anteil ist der FORTGEFUEHRTE Summenanteil der
+#     betroffenen Bausteine (tku_umfang der Generation): 0.7 = 30 Prozent
+#     gekuendigt und ausgezahlt.
+#   Beliebig viele Vorgaenge je Vertrag, in jeder Reihenfolge, jeder auf dem
+#     Zustand davor (Tarifplan KLV 7.3; die fruehere Annahme A4, hoechstens
+#     ein Vorgang, ist ersetzt). TG2015 (red_verfahren = teilkuendigung)
+#     kennt keine Beitragsherabsetzung: Die Rate herabsetzung zieht dort
+#     nichts, die Teilkuendigung kommt allein aus ihrer eigenen Rate und
+#     kuerzt nur die Grundversicherung (tku_umfang; die fruehere Annahme A1,
+#     der Herabsetzungswunsch als Teilkuendigung, ist ersetzt).
+# --------------------------------------------------------------------------
+[annahmen]
+# Kapitallebensversicherung
+tod = { a = 0.0, b = 0.8 }
+storno = { a = 0.03, b = 0.0 }
+beitragsfreistellung = { a = 0.01, b = 0.0 }
+erhoehung = { a = 0.30, b = 0.0 }
+erh_prozent = 0.05
+herabsetzung = { a = 0.008, b = 0.0 }
+red_anteil = 0.6
+teilkuendigung = { a = 0.005, b = 0.0 }
+tk_anteil = 0.7
+# Berufsunfaehigkeit
+invalidisierung = { a = 0.0, b = 0.8 }
+reaktivierung = { a = 0.0, b = 1.25 }
+aktivensterblichkeit = { a = 0.0, b = 1.0 }
+invalidensterblichkeit = { a = 0.0, b = 1.0 }

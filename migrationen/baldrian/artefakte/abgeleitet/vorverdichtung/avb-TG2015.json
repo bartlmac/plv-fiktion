@@ -1,0 +1,22 @@
+{
+ "quelle": "faelle/baldrian-klv-tg2015-fall3/eingang/AVB_KLV_TG2015.pdf",
+ "quelle_sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772",
+ "metadaten": {
+  "creator": "Typst 0.11.0"
+ },
+ "absaetze": [
+  {
+   "stil": "",
+   "text": "Allgemeine Versicherungsbedingungen (AVB)\nKapitallebensversicherung nach Tarifwerk KLV TG2015 — Baldrian\nLebensversicherung a. G.\nFassung Januar 2015. Diese Bedingungen gelten für alle ab dem 1. Januar 2015\nnach Tarifwerk TG2015 geschlossenen Versicherungen. Die\nversicherungsmathematischen Rechnungsgrundlagen, Kostensätze und\nRechenvorschriften ergeben sich aus dem Tarifplan (Mitteilung 143).\n1. Versicherungsleistungen\nWir zahlen die vereinbarte Versicherungssumme beim Tod der versicherten Person\nwährend der Versicherungsdauer, spätestens beim Erleben des vereinbarten\nAblauftermins. Der Tarif wird in den Bestandsgruppen Einzel, Kollektiv und Haus\ngeführt; der Beitrag richtet sich nach der Bestandsgruppe und der Risikoklasse\n(Nichtraucher oder Raucher) der versicherten Person.\n2. Beiträge\nDer Jahresbeitrag ergibt sich aus der Versicherungssumme und dem tariflichen\nBeitragssatz nach dem Tarifplan. Bei unterjähriger Zahlweise wird der\nJahresbeitrag zuzüglich Stückkosten durch die Zahl der Raten geteilt und um den\nRatenzuschlag der Bestandsgruppe erhöht. Die Beitragszahlungsdauer kann kürzer\nals die Versicherungsdauer vereinbart werden.\n3. Planmäßige Erhöhungen (Dynamik)\nIst die Dynamik eingeschlossen, erhöhen vereinbarte planmäßige Erhöhungen die\nVersicherungssumme ohne erneute Gesundheitsprüfung. Jede Erhöhung wird\nversicherungstechnisch als eigenständiger Baustein geführt: mit dem bei\nWirksamwerden erreichten Alter, der restlichen Versicherungs- und\nBeitragszahlungsdauer und eigener Wertermittlung nach dem Tarifplan.\nErhöhungen sind ausgeschlossen, sobald die restliche Versicherungsdauer weniger\nals fünf Jahre beträgt; ein so kurzer Baustein ließe sich nicht mehr über die\nAbschlusskostenverteilung der Beitragskalkulation ausfinanzieren.\n4. Rückkauf und Abzug\nBei Kündigung erstatten wir den Zeitwert der Versicherung abzüglich eines\nAbzugs. Höhe, Mindest- und Höchstbetrag des Abzugs ergeben sich aus dem\nTarifplan; in der dort beschriebenen flexiblen Abrufphase entfällt der Abzug.\nDer Abzug wird für jeden Versicherungsbaustein GESONDERT erhoben: für die\nGrundversicherung und für jede planmäßige Erhöhung je einzeln, jeweils mit\nMindest- und Höchstbetrag. Der Rückkaufswert der Versicherung ist die Summe der\nRückkaufswerte ihrer Bausteine.\n5. Beitragsfreistellung\nAuf Verlangen wird die Versicherung beitragsfrei gestellt. Die beitragsfreie\nVersicherungssumme wird je Baustein zum letzten Jahrestag des\nVersicherungsbeginns nach dem Tarifplan ermittelt und ab diesem Zeitpunkt fest\ngeführt.\n1",
+   "seite": 1
+  },
+  {
+   "stil": "",
+   "text": "6. Herabsetzung der Beiträge (Teilkündigung)\nVerlangt der Versicherungsnehmer eine Herabsetzung des Beitrags, wird die\nGrundversicherung anteilig gekündigt: Die Versicherungssumme der\nGrundversicherung wird auf den fortgeführten Anteil herabgesetzt, und das\nfreiwerdende Deckungskapital wird nach Abzug des anteiligen Abzugs gemäß Ziffer\n4 AUSGEZAHLT. Planmäßige Erhöhungen bleiben von der Herabsetzung unberührt; das\nRecht auf künftige Erhöhungen bleibt bestehen.\n2",
+   "seite": 2
+  }
+ ],
+ "tabellen": [],
+ "formeln": [],
+ "hinweis": "Migrationsartefakt-Staging aus einem Text-PDF: Absaetze zeilenerhaltend, je Absatz die Seite als Fundstelle. PDF kennt keine Absatzstile, Tabellen- oder Formelstruktur — Tabellen und Formeln stehen als Text in den Absaetzen, 'tabellen' und 'formeln' sind bauartbedingt leer (kein Zeichen von Formelfreiheit der Quelle)."
+}

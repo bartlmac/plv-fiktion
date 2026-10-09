@@ -1,0 +1,10 @@
+{
+  "angelegt_am": "2026-10-02T09:30:03+00:00",
+  "beschreibung": "Uebernahme des Bestands KLV TG2015 der Baldrian Lebensversicherung a. G. zum 01.01.2026 (Fall 3, Neufassung)",
+  "name": "baldrian-klv-tg2015-fall3",
+  "schema_version": 1,
+  "scope": {
+    "schema_version": 2,
+    "typ": "bestand"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "abgebendes_haus": {
+    "aktuar": null,
+    "vermerk": "nicht benannt: Das abgebende Haus hat keinen Aktuar benannt. Benennt es ihn, haelt dieser Auftrag die Benennung fest — die PLV erkennt sie an, sie verleiht sie nicht (ADR-025, Abschnitt 8 d)."
+  },
+  "art": "fallauftrag",
+  "auftrag": "Die Programmleitung fuehrt die Uebernahme des Bestands KLV TG2015 der Baldrian Lebensversicherung a. G. zum Stichtag 01.01.2026 durch: Tarif und Bestand durch die drei Stufen bis zur Migrationsabnahme, danach die Vorbereitung des Zugangs in die Bestandsfuehrung. Grundlage ist die im Fall registrierte Lieferung; eine Nachlieferung wird registriert und neu beauftragt.",
+  "fall": {
+    "name": "baldrian-klv-tg2015-fall3",
+    "scope": "bestand"
+  },
+  "lieferung": {
+    "eingang_sha256": "1cd21fb78c7a49c2a6697e8f7fc43b82670189d09d19c47d49c37ff3167dafca",
+    "quellen": [
+      {
+        "datei": "AVB_KLV_TG2015.pdf",
+        "sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+      },
+      {
+        "datei": "LIEFERSCHEIN.md",
+        "sha256": "80bdd432f99e769cbe99079138e86dacf1a589147739cfb7940ce215af697c1a"
+      },
+      {
+        "datei": "Mitteilung_143_KLV_TG2015.pdf",
+        "sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+      },
+      {
+        "datei": "Tarifrechner_KLV_TG2015.xlsm",
+        "sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+      },
+      {
+        "datei": "anteile-06.csv",
+        "sha256": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1"
+      },
+      {
+        "datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+        "sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+      },
+      {
+        "datei": "auskunft-2-herabsetzungsanteile-einzelpolicen.md",
+        "sha256": "967d7ed1bb6fdd594cb639a12df1e9c9bbc3655f9e9ffb2d1cffd3308bca8e49"
+      },
+      {
+        "datei": "auskunft-3-bewertung-zwischen-jahrestagen.md",
+        "sha256": "356b852b241d668d27c80871b23e1af8be0196dbf5a6bc097571525d5ecf33be"
+      },
+      {
+        "datei": "auskunft-4-erwartungswerte-acht-policen.md",
+        "sha256": "d1c8fe264d0aec02508715133af8fa34d5260a50c11f8277e07875cc11e24662"
+      },
+      {
+        "datei": "auskunft-5-nachtrag-lieferung-erwartungswerte.md",
+        "sha256": "3d5dd62476c88a6a7d756a95ac21d315defc8331ef1b9c606a4966a3fb9cb522"
+      },
+      {
+        "datei": "baldrian_bestandsabzug_2026-01-01.csv",
+        "sha256": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f"
+      },
+      {
+        "datei": "baldrian_bestandsabzug_2027-01-01.csv",
+        "sha256": "a6f01126d1236757b36a143a23b568d9ae66cc1e8e259a77274313ffd8a9a408"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_geschaeftsvorfaelle.json",
+        "sha256": "812e7e2d67434b1db6cbf588a0001f30ff649fa85c823d7ee725db8c8dcf2fd6"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_stichprobe.json",
+        "sha256": "8a3f648e1310da9a8ab9a35f79e92514d6641a6b921c850a2fd752e1dc33aa37"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_stichprobe_lieferlauf2.json",
+        "sha256": "e208aaaf93f1b20ff454fa827061fd8a2a89bf5143754be08aa7a040b9bd0bd6"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_stichtag.json",
+        "sha256": "c98585b0f635681c9c52dc9115c7ff95219d92533493d379fcd321adba703372"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_stichtag_lieferlauf2.json",
+        "sha256": "b8fe393a129f78108ec1600ac10c8202f0fd99c3515d42ca2554f18a81081d66"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_verlauf.json",
+        "sha256": "f3448668a8b4af23930c5a577ebca0950f5e1d85444bc85f615240ff679723b3"
+      },
+      {
+        "datei": "baldrian_erwartungswerte_verlauf_lieferlauf2.json",
+        "sha256": "f955351685c839477e7c59a9bc305fd2ebe0e82ad0090b313fce497751004cc9"
+      },
+      {
+        "datei": "baldrian_gevo_metadaten.csv",
+        "sha256": "d9327a8b79557328c15e89b29bb1a11787ff08a1d73ee41e31e68e569bf9d9bc"
+      },
+      {
+        "datei": "baldrian_gevo_protokoll_2026.csv",
+        "sha256": "860ff4b92699bf0538c91f6c2d411226b3256a89a4f65af03715a8e7e487123e"
+      },
+      {
+        "datei": "festlegung-plv-tarifplan-migration-klv-tg2015.md",
+        "sha256": "26c3736bb2f1885b1434d2727ea7246c9ec2944fa327af731e2e945273ea333d"
+      }
+    ]
+  },
+  "mandate": {
+    "mensch/aktuariat": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+    "mensch/architektur": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+    "mensch/betrieb": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+    "mensch/programmleitung": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+    "mensch/rechenkern": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180"
+  },
+  "programmleitung": {
+    "gates": [
+      "A-M5"
+    ],
+    "rolle": "mensch/programmleitung",
+    "schluessel_sha256": "266f868c76090e22d8925870d090058ab6921f3be372c4904ec5c2c8b0eccf0b",
+    "schluesselklasse": "simulation"
+  },
+  "schema_version": 1,
+  "zielsystem": {
+    "abnahmen": {
+      "A-K2": "8bf215a69778de2861e7276104abdca6b0da9fa71a2f734b64a32f21e7e275fd",
+      "A-O1": "70c30e43625138646a29193edf0b68f2ba6956631b4d74b73b638fe8e2842b85",
+      "A-T1": "1dfc63c7a1c03641fb07b7b21130ccdda5c328927e0d215304939f8457f9e459"
+    },
+    "linie": "linie"
+  }
+}

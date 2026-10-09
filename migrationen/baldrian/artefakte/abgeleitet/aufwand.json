@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "art": "aufwand",
+  "fall": "baldrian-klv-tg2015-fall3",
+  "quelle": "Sitzungsprotokolle der Agenten: je Antwort der vom Modell gemeldete Verbrauch, jede Antwort einmal gezaehlt",
+  "sitzungen": [
+    {
+      "rolle": "programmleitung",
+      "sitzung": "b96f7a62-398f-4fe8-ac2e-980d87b4cadd",
+      "antworten_sha256": "0eae411497ac1cb687134e97e3f03353a6700a80604d7a6ab74cbb5b82acc119",
+      "protokoll_sha256": "54c401fec5f44154581d5fbe7f7058cc1989fbafb4b596b8a05e0b87807c3a10",
+      "modelle": [
+        "claude-sonnet-5-5"
+      ],
+      "antworten": 153,
+      "erste_antwort": "2026-10-02T12:59:36.042Z",
+      "letzte_antwort": "2026-10-02T16:11:26.117Z",
+      "tokens": {
+        "eingabe": 306,
+        "cache_schreiben": 699711,
+        "cache_lesen": 42424587,
+        "ausgabe": 195522
+      }
+    },
+    {
+      "rolle": "aktuariat",
+      "sitzung": "7fa4fa4b-cd42-4df6-af72-1415121ee21b",
+      "antworten_sha256": "5792d14b662cb861ef4833c68e8e82d2aa7dcd3d3bed5c04d84ec396c586c2b0",
+      "protokoll_sha256": "bfc6936e52062e288f086788a8a89efb32ff6c480b285e0d6ee5a4ec691e94a8",
+      "modelle": [
+        "claude-sonnet-5-5"
+      ],
+      "antworten": 229,
+      "erste_antwort": "2026-10-02T13:00:45.765Z",
+      "letzte_antwort": "2026-10-02T16:13:30.036Z",
+      "tokens": {
+        "eingabe": 458,
+        "cache_schreiben": 1122554,
+        "cache_lesen": 81080822,
+        "ausgabe": 296436
+      }
+    },
+    {
+      "rolle": "rechenkern",
+      "sitzung": "e6695eed-53b4-422d-80ef-0fb20de563b5",
+      "antworten_sha256": "c46d103fc364b95f61097306fb98e307fcaff75d0a3d761c29a443ec617bc8ba",
+      "protokoll_sha256": "2b3b961f0066dd40728b5b08bf3c61dbb88c09a90570f9b8c27aab0edf75c251",
+      "modelle": [
+        "claude-sonnet-5-5"
+      ],
+      "antworten": 69,
+      "erste_antwort": "2026-10-02T13:15:51.456Z",
+      "letzte_antwort": "2026-10-02T16:03:17.023Z",
+      "tokens": {
+        "eingabe": 138,
+        "cache_schreiben": 373259,
+        "cache_lesen": 10629845,
+        "ausgabe": 55608
+      }
+    },
+    {
+      "rolle": "betrieb",
+      "sitzung": "c4fa6066-8186-4dbe-9e21-68547eb723ce",
+      "antworten_sha256": "25c9b6e6a3b833b7209e54a13a66dbac19e63328d831f61174ec5ed6397bd721",
+      "protokoll_sha256": "d487dce9114a1e4f6a99fa87d5d31395086161c9514017a7a6effc1ea59fe50b",
+      "modelle": [
+        "claude-sonnet-5-5"
+      ],
+      "antworten": 18,
+      "erste_antwort": "2026-10-02T16:33:08.097Z",
+      "letzte_antwort": "2026-10-02T16:48:39.036Z",
+      "tokens": {
+        "eingabe": 36,
+        "cache_schreiben": 147001,
+        "cache_lesen": 1704634,
+        "ausgabe": 33395
+      }
+    }
+  ],
+  "je_rolle": {
+    "programmleitung": {
+      "antworten": 153,
+      "eingabe": 306,
+      "cache_schreiben": 699711,
+      "cache_lesen": 42424587,
+      "ausgabe": 195522
+    },
+    "aktuariat": {
+      "antworten": 229,
+      "eingabe": 458,
+      "cache_schreiben": 1122554,
+      "cache_lesen": 81080822,
+      "ausgabe": 296436
+    },
+    "rechenkern": {
+      "antworten": 69,
+      "eingabe": 138,
+      "cache_schreiben": 373259,
+      "cache_lesen": 10629845,
+      "ausgabe": 55608
+    },
+    "betrieb": {
+      "antworten": 18,
+      "eingabe": 36,
+      "cache_schreiben": 147001,
+      "cache_lesen": 1704634,
+      "ausgabe": 33395
+    }
+  },
+  "summe": {
+    "antworten": 469,
+    "eingabe": 938,
+    "cache_schreiben": 2342525,
+    "cache_lesen": 135839888,
+    "ausgabe": 580961
+  }
+}

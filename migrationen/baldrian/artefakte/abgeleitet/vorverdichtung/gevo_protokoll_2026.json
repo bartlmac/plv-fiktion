@@ -1,0 +1,114 @@
+{
+  "quelle_datei": "baldrian_gevo_protokoll_2026.csv",
+  "quelle_sha256": "860ff4b92699bf0538c91f6c2d411226b3256a89a4f65af03715a8e7e487123e",
+  "spalten": [
+    {
+      "beispiele": [
+        "7000002",
+        "7000004",
+        "7000009",
+        "7000013",
+        "7000020",
+        "7000022",
+        "7000023",
+        "7000027",
+        "7000029",
+        "7000030",
+        "7000033",
+        "7000035",
+        "7000036",
+        "7000037",
+        "7000042",
+        "7000044",
+        "7000048",
+        "7000049",
+        "7000052",
+        "7000068"
+      ],
+      "beispiele_vollstaendig": false,
+      "kardinalitaet": 166,
+      "leeranteil": 0.0,
+      "name": "POLNR",
+      "typ": "ganzzahl"
+    },
+    {
+      "beispiele": [
+        "ABL",
+        "ERH",
+        "PEX",
+        "RED",
+        "STO",
+        "TOD"
+      ],
+      "beispiele_vollstaendig": true,
+      "kardinalitaet": 6,
+      "leeranteil": 0.0,
+      "name": "GEVO",
+      "typ": "text"
+    },
+    {
+      "beispiele": [
+        "01.01.2027",
+        "01.02.2026",
+        "01.03.2026",
+        "01.04.2026",
+        "01.05.2026",
+        "01.06.2026",
+        "01.07.2026",
+        "01.08.2026",
+        "01.09.2026",
+        "01.10.2026",
+        "01.11.2026",
+        "01.12.2026"
+      ],
+      "beispiele_vollstaendig": true,
+      "kardinalitaet": 12,
+      "leeranteil": 0.0,
+      "name": "DATUM",
+      "typ": "datum"
+    },
+    {
+      "beispiele": [
+        "10412.54",
+        "105867.56",
+        "11007.04",
+        "11091.05",
+        "11940.81",
+        "125197.15",
+        "14138.01",
+        "1467.72",
+        "1477.46",
+        "1608.12",
+        "1758.88",
+        "1809.13",
+        "1831.91",
+        "1914.42",
+        "20153.83",
+        "2077.15",
+        "21103.83",
+        "2142.31",
+        "2144.15",
+        "22758.17"
+      ],
+      "beispiele_vollstaendig": false,
+      "kardinalitaet": 148,
+      "leeranteil": 0.0,
+      "name": "BETRAG",
+      "typ": "zahl"
+    },
+    {
+      "beispiele": [
+        "0.5",
+        "0.6",
+        "0.75"
+      ],
+      "beispiele_vollstaendig": true,
+      "kardinalitaet": 3,
+      "leeranteil": 0.9458,
+      "name": "PARAM",
+      "typ": "zahl"
+    }
+  ],
+  "trenner": ";",
+  "zeilen": 166
+}

@@ -1,0 +1,40 @@
+# Simulation — wie die Vorzeigebestände entstehen
+
+<nav class="kopf"><a href="../../">← Startseite</a><a href="../">← Hinter den Kulissen</a></nav>
+
+{% raw %}
+
+Das System braucht Bestände, an denen es sich zeigen kann: den geführten
+Bestand der Pfefferminzia und die Quellbestände der erfundenen abgebenden
+Unternehmen. Beide sind simuliert. Diese Dokumente beschreiben, wie.
+
+Das ist von der Fachdokumentation getrennt. Die
+[Grundsatzdokumentation](../../aktuariat/mathematik/grundsatzdokumentation.md) und die
+[Tarifpläne](../../aktuariat/tarifplaene/) beschreiben, wie ein Versicherer bewertet:
+Rechnungsgrundlagen erster Ordnung, prospektive Reserven,
+Migrationszugang. Wie ein Bestand über die Zeit entsteht und sich
+entwickelt, ist dagegen eine Eigenschaft des Simulationswerkzeugs; in einem
+echten Unternehmen tut das die Wirklichkeit. Eine Annahme der Simulation
+wirkt deshalb nie in die Bewertung zurück.
+
+| Dokument | Inhalt |
+|---|---|
+| [bestandserzeugung.md](bestandserzeugung.md) | Vom leeren Verzeichnis zum geführten Bestand: das eine Kommando, seine Ausgaben samt Lieferschein, die zwei Daten samt der häufigsten Fehllesart, Migration und Quellbestand |
+| [erfahrungsannahmen.md](erfahrungsannahmen.md) | Wie die Simulation ihre Ereigniswahrscheinlichkeiten bildet: dritte Ordnung als Transformation der ersten |
+| [tagesbetrieb.md](tagesbetrieb.md) | Fachkonzept: die PLV als laufendes Unternehmen — tägliches Neugeschäft, Buchungstag und Wirkungstag, nächtlicher Lauf, Monatsabschluss, Laufzeitumgebung |
+
+## Die Werkzeuge
+
+| Werkzeug | Erzeugt |
+|---|---|
+| `bestand.cli_fortschreibung` (Engines: `bestand.generator` + `bestand.ereignisse`) | den Zielbestand der Pfefferminzia: Modellpunkte je Generation, dann ein Strom datierter Geschäftsvorfälle — Bedienung: [bestandserzeugung.md](bestandserzeugung.md) |
+| `werkzeuge/quellsystem/` | die Lieferungen der fiktiven abgebenden Unternehmen: eigener Zweitkern mit den Konventionen der Quelle, Export nach `migrationen/baldrian/lieferungen/`; die Fall-Regie (Seeds, Drehbücher) bleibt außerhalb des Repos |
+| `betrieb.neugeschaeft` + `betrieb.tageslauf` (Konzept: [tagesbetrieb.md](tagesbetrieb.md)) | den Tagesbetrieb der Pfefferminzia: Neugeschäft je Werktag, nächtliche Fortschreibung, Tagesjournal, Monatsabschluss — der Punkt, ab dem das Unternehmen zu leben beginnt |
+
+Jeder Betrag kommt auch in der Simulation aus dem Rechenkern; das
+Simulationswerkzeug rechnet nichts Aktuarielles selbst. Es entscheidet nur,
+wann etwas passiert.
+
+{% endraw %}
+
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>

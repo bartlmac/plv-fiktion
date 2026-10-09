@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "gate": "P-Q2.zusammenfuehrung",
+  "command": "abox_merge",
+  "gate_version": "0.1.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 4,
+  "started_at": "2026-10-02T15:37:37.896982+00:00",
+  "input_hashes": {
+    "faelle/baldrian-klv-tg2015-fall3/eingang.json": "1cd21fb78c7a49c2a6697e8f7fc43b82670189d09d19c47d49c37ff3167dafca",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/fragmente/tg2015-auskunft.json": "35a4f9f8b29b581e1a76dca95caca60d2e5e2dcf9e0e5e45e0bed2fee1ff6339",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/fragmente/tg2015-avb.json": "54c0175f17ba689a8d48752d60a14e06edc3f1f61a8550f036aa91f01dd94af0",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/fragmente/tg2015-festlegung-plv.json": "81e3260ddf1a44dc4c5ba2845e77811c8728dfc5575358b772037100cbfab093",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/fragmente/tg2015-meldung.json": "c1682f3fefad08daa594a73c753a93bd7945c782655187bd558d633dbb6bf007",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/fragmente/tg2015-rechner.json": "2fff6b202a8760c1c0ecd9353f0d7e4e2d147a2ebad0b60adede5f04238c1fd1"
+  },
+  "summary": {
+    "fragmente": [
+      "tg2015-auskunft.json",
+      "tg2015-avb.json",
+      "tg2015-festlegung-plv.json",
+      "tg2015-meldung.json",
+      "tg2015-rechner.json"
+    ],
+    "fragment_hashes": {
+      "tg2015-auskunft.json": "35a4f9f8b29b581e1a76dca95caca60d2e5e2dcf9e0e5e45e0bed2fee1ff6339",
+      "tg2015-avb.json": "54c0175f17ba689a8d48752d60a14e06edc3f1f61a8550f036aa91f01dd94af0",
+      "tg2015-festlegung-plv.json": "81e3260ddf1a44dc4c5ba2845e77811c8728dfc5575358b772037100cbfab093",
+      "tg2015-meldung.json": "c1682f3fefad08daa594a73c753a93bd7945c782655187bd558d633dbb6bf007",
+      "tg2015-rechner.json": "2fff6b202a8760c1c0ecd9353f0d7e4e2d147a2ebad0b60adede5f04238c1fd1"
+    },
+    "akteure": {
+      "tg2015-auskunft.json": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+      "tg2015-avb.json": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+      "tg2015-festlegung-plv.json": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@2ad478c",
+      "tg2015-meldung.json": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+      "tg2015-rechner.json": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da"
+    },
+    "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+    "generationen": [
+      "klv/tg2015"
+    ],
+    "diskrepanzen": 8,
+    "exit_code": 0,
+    "ended_at": "2026-10-02T15:37:38.230269+00:00",
+    "output_hashes": {
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/abox/abox.json": "6c3575aec6fabd830adf09cc5644c807bb286361523c29366590b152cba11f86"
+    },
+    "command_line": [
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--repo-root",
+      ".",
+      "--diagnostics-dir",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/diagnostics",
+      "--ueberschreiben"
+    ]
+  }
+}

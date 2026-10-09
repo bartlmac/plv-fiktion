@@ -1,0 +1,27 @@
+{
+  "befunde": [],
+  "quelle_sha256": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f",
+  "quellspalten": [
+    "POLNR",
+    "TARIF",
+    "VTG_STATUS",
+    "GESCHL",
+    "RK",
+    "BGRP",
+    "GEBDAT",
+    "BEGINN",
+    "ABLAUF",
+    "BZDAUER",
+    "ERLSUMME",
+    "ZAHLW",
+    "JBRUTTO",
+    "DECKKAP",
+    "STORNO_KZ"
+  ],
+  "schema_version": 1,
+  "spec_sha256": "c28b46a9d27ef93dd4ac400735ac068a87898e8834144bbcbe67d3be3061b8c6",
+  "zeilen_quelle": 834,
+  "zeilen_ziel": 834,
+  "ziel_datei": "abgeleitet/bestand/bestand.parquet",
+  "ziel_sha256": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "gate": "P-Q3.fachliche-pruefung",
+  "command": "abox_validate",
+  "gate_version": "2.0.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 6,
+  "started_at": "2026-10-02T15:43:52.069622+00:00",
+  "input_hashes": {
+    "eingang.json": "1cd21fb78c7a49c2a6697e8f7fc43b82670189d09d19c47d49c37ff3167dafca",
+    "abgeleitet/abox/abox.json": "118887ec375574183e7117418be344e35877db09e86c9bf187368d53d262d3d7"
+  },
+  "summary": {
+    "scope": "bestand",
+    "fall_json_sha256": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830",
+    "tarifregeln_bestand": {
+      "klv/tg2015": true
+    },
+    "kette": "geprueft",
+    "formel_checks": {
+      "klv/tg2015": {
+        "status": "geprueft",
+        "geprueft": 18,
+        "blatt": "Tarifrechnung"
+      }
+    },
+    "generationen": [
+      "klv/tg2015"
+    ],
+    "zellen": 6,
+    "belegt_quoten": {
+      "klv/tg2015": 1.0
+    },
+    "diskrepanzen_offen": 0,
+    "diskrepanzen_aufgeloest": 8,
+    "diskrepanzen_mit_beleg": 8,
+    "entscheidungen_vorlaeufig": [],
+    "vollstaendig": true,
+    "exit_code": 0,
+    "ended_at": "2026-10-02T15:43:52.338889+00:00",
+    "command_line": [
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--repo-root",
+      "."
+    ]
+  }
+}

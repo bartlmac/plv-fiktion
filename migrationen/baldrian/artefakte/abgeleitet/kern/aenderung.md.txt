@@ -1,0 +1,68 @@
+# Kernabnahme A-K2 — Kernstand des Falls
+
+Zuletzt abgenommener Kernstand: `8c1bed3c574cede2701406b53198d7df6cd24d13` (Commit `8c1bed3c574c`, Version 3.21.0).  
+Lebender Stand: Commit `6aa7c1453dbd` auf `fall3-rueckbau`, Version 3.22.0, nicht committete Aenderungen im Arbeitsbaum: nein.
+
+Begruendung der Vorlage: Kern 3.22.0 und Tafeln DAV2008 (Fall 3); Config-Block TG2015 und Testliste: kern/ gegenueber der Vorlage 4c272d1 unveraendert
+
+## Pruefung 1 — Aenderungen entlang der Module
+
+| Modul | Zeilen hinzu | Zeilen weg | Commits | nicht committet |
+|---|---:|---:|---:|---:|
+| `src/rechner_pipeline/kern/__init__.py` | 16 | 1 | 2 | 0 |
+| `src/rechner_pipeline/kern/beitragsreduktion.py` | 43 | 9 | 1 | 0 |
+| `src/rechner_pipeline/kern/konventionen.py` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/korrekturschicht.py` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/model_point.py` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/produkte` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/rechenkern.py` | 23 | 27 | 1 | 0 |
+| `src/rechner_pipeline/kern/tafeln.py` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/tafeln.xml` | 762 | 0 | 1 | 0 |
+| `src/rechner_pipeline/kern/vorgangsfolge.py` | 40 | 15 | 1 | 0 |
+| `src/rechner_pipeline/kern/zahlungspfad.py` | 0 | 0 | 0 | 0 |
+| `src/rechner_pipeline/kern/zustandsmodell.py` | 0 | 0 | 0 | 0 |
+| `tests/fixtures/kern_referenzwerte` | 0 | 0 | 0 | 0 |
+| `docs/mathematik/grundsatzdokumentation.md` | 0 | 0 | 0 | 0 |
+
+### `src/rechner_pipeline/kern/__init__.py`
+
+- Datei `src/rechner_pipeline/kern/__init__.py`: +16 / -1
+- Commit `2ad478c18cf5` vom 2026-10-02: feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)
+- Commit `4c272d1f9dd0` vom 2026-10-02: feat(kern): Tafeln DAV2008 NR/R (F, M, U70) ueber den Tafel-Import des Falls 3 eingetragen
+
+### `src/rechner_pipeline/kern/beitragsreduktion.py`
+
+- Datei `src/rechner_pipeline/kern/beitragsreduktion.py`: +43 / -9
+- Commit `2ad478c18cf5` vom 2026-10-02: feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)
+
+### `src/rechner_pipeline/kern/rechenkern.py`
+
+- Datei `src/rechner_pipeline/kern/rechenkern.py`: +23 / -27
+- Commit `2ad478c18cf5` vom 2026-10-02: feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)
+
+### `src/rechner_pipeline/kern/tafeln.xml`
+
+- Datei `src/rechner_pipeline/kern/tafeln.xml`: +762 / -0
+- Commit `4c272d1f9dd0` vom 2026-10-02: feat(kern): Tafeln DAV2008 NR/R (F, M, U70) ueber den Tafel-Import des Falls 3 eingetragen
+
+### `src/rechner_pipeline/kern/vorgangsfolge.py`
+
+- Datei `src/rechner_pipeline/kern/vorgangsfolge.py`: +40 / -15
+- Commit `2ad478c18cf5` vom 2026-10-02: feat(kern)!: Kern 3.22.0 — Fall 3 kehrt die drei zurueckgebauten Ausgestaltungen um (Beitragsformel je Erhoehungsbaustein, Stornoabzug je Baustein, Teilkuendigung nur der Grundversicherung)
+
+## Referenzwerte
+
+Sammelhash: `f77cbd2a6d4bd7aea210cd1b706241ab13a826ed76af42654a9c654592aeb793`.  
+Bewegt: keiner.
+
+## Pruefung 2 — Regression
+
+**Regression: Ausnahme — nicht gefahren, Werkzeug noch nicht erstellt.** Die Zeichnung deckt nur die qualitative Pruefung der Aenderungen am Kernstand; die Regression ist nicht gefahren. Grundlage: ADR-018, Nachtrag 2026-10-01.
+
+## Gegenstand der Abnahme
+
+- `src/rechner_pipeline/kern` — Code des Rechenkerns: was der Kern rechnet und wie (Thiele-Rueckgrat, Produkte, Rechnungsgrundlagen)
+- `tests/fixtures/kern_referenzwerte` — eingefrorene Referenzwerte: der Massstab, an dem eine Aenderung des Kerns sichtbar wird; wer sie verschiebt, verschiebt den Massstab
+- `docs/mathematik/grundsatzdokumentation.md` — Grundsatzdokumentation: die normative Mathematik, der die Implementierung folgt
+
+Aus dem Aenderungsbeleg erzeugt (`gates.kernstand_belegen`); massgeblich ist der Beleg, nicht diese Sicht.

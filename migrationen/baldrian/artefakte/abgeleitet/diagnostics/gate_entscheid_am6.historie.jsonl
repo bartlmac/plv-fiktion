@@ -1,0 +1,6 @@
+{"ended_at": "2026-10-02T12:56:56.503642+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T12:56:56.316509+00:00", "status": "passed", "versuch": 1}
+{"ended_at": "2026-10-02T13:18:20.576612+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T13:18:20.342593+00:00", "status": "passed", "versuch": 2}
+{"ended_at": "2026-10-02T13:39:29.184082+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T13:39:28.914434+00:00", "status": "passed", "versuch": 3}
+{"ended_at": "2026-10-02T13:52:29.109988+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T13:52:28.840251+00:00", "status": "passed", "versuch": 4}
+{"ended_at": "2026-10-02T13:53:28.577971+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T13:53:28.306124+00:00", "status": "passed", "versuch": 5}
+{"ended_at": "2026-10-02T15:28:16.970285+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T15:28:16.695426+00:00", "status": "passed", "versuch": 6}

@@ -1,0 +1,169 @@
+{
+  "anfangszustand": "materialisieren",
+  "befunde": [],
+  "beitragsfrei": 160,
+  "bestanden": true,
+  "buchungen_abweichend": 0,
+  "buchungen_geprueft": {
+    "ABL": 7,
+    "PEX": 5,
+    "RED": 0,
+    "STO": 21,
+    "TKU": 12,
+    "TOD": 5
+  },
+  "endbestand_geprueft": 834,
+  "fortschreibung_geprueft": true,
+  "gedeckt": [
+    "7000396",
+    "7000523",
+    "7000533",
+    "7000539",
+    "7000676",
+    "7000679",
+    "7000722",
+    "7000754",
+    "7000910",
+    "7000994"
+  ],
+  "generation": "TG2015",
+  "mit_anfangszustand": 554,
+  "ohne_anfangszustand": [],
+  "provenienz": {
+    "aufruf": [
+      "--generation",
+      "klv/tg2015",
+      "--stichtag",
+      "2026-01-01",
+      "--uebernahme",
+      "abgeleitet/bestand",
+      "--config",
+      "abgeleitet/bestand-config/bestand_gesamt.toml",
+      "--zeilen",
+      "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.zeilen.json",
+      "--fortschreibung",
+      "abgeleitet/bestand-nach",
+      "--vorgeschichte",
+      "baldrian_gevo_metadaten.csv",
+      "--schicht",
+      "abgeleitet/schichten/verankerung_schichten.json",
+      "--red-anteile-datei",
+      "anteile-06.csv",
+      "--anker-erwartungswerte",
+      "baldrian_erwartungswerte_stichtag_lieferlauf2.json",
+      "--red-anteil-kandidat",
+      "0.5",
+      "--red-anteil-kandidat",
+      "0.6",
+      "--red-anteil-kandidat",
+      "0.75"
+    ],
+    "eingaben": {
+      "abgeleitet/bestand-config/bestand_gesamt.toml": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158",
+      "abgeleitet/bestand-nach/bestand_gesamt.parquet": "a333153eec6ac77a9c0325ae48db9f9ee55b878d16088d7422c4d59e06bc0702",
+      "abgeleitet/bestand-nach/historie.parquet": "3d4206814c3b096f73d04275c24887960e6d65c4dd44b5b762b8a2edac09695d",
+      "abgeleitet/bestand-nach/laufmanifest.json": "d67d6a2496504c9363f7e3e04a405c1bb32fdc7f6f3dc28769b7565c42f78e13",
+      "abgeleitet/bestand-nach/ledger.parquet": "bf8e0d0744019811fc604a86e9efab04724f81c1f8f606b8cda4b4e3ccd38bad",
+      "abgeleitet/bestand-nach/merkmale.parquet": "645cc2388a0a0e6a15ed9db3febed27534a028a2653377938425b525b5c94803",
+      "abgeleitet/bestand-nach/reduktionen.parquet": "360106a8e07564a530d3c5fc0d54ffbfc889c3be1b0c1ac5001840d056270098",
+      "abgeleitet/bestand-nach/scheiben.parquet": "63e1d72ad34bbf40836537e57904bc7d96fd28b9f7d93c18f975f9c89694fd27",
+      "abgeleitet/bestand-nach/schichten.parquet": "f5c5dc4714f7ae5e35cf450846a381d48f9efd64dcf97f4a514b11a3cdcc9965",
+      "abgeleitet/bestand-nach/verankerung.parquet": "28b589e6e6f38f59c51a81b77d026ec30cf232a26ae89a1312c729b1e6f95387",
+      "abgeleitet/bestand/bestand.parquet": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac",
+      "abgeleitet/bestand/historie.parquet": "8ff90d36f6aac757428f415db27bf195b7774585bd4dfd9a1e7574dfeffd7449",
+      "abgeleitet/bestand/ledger.parquet": "01a1ff9e94c260ddf9a192dacb7f187541bb3b007a6f45aecae31d2ecf15148c",
+      "abgeleitet/bestand/merkmale.parquet": "645cc2388a0a0e6a15ed9db3febed27534a028a2653377938425b525b5c94803",
+      "abgeleitet/bestand/scheiben.parquet": "b01e67e6a37bdb40d90cfeb9f14eee23cfbf76e82f6e7a554372f524a5c5dea8",
+      "abgeleitet/bestand/schichten.parquet": "f5c5dc4714f7ae5e35cf450846a381d48f9efd64dcf97f4a514b11a3cdcc9965",
+      "abgeleitet/bestand/uebernahme.json": "df4d0a31ca120b3e305878a99ecd1c76bb60edcb4fffed02bfaef3d56f7be6c5",
+      "abgeleitet/bestand/verankerung.parquet": "28b589e6e6f38f59c51a81b77d026ec30cf232a26ae89a1312c729b1e6f95387",
+      "abgeleitet/schichten/verankerung_schichten.json": "f2ea39cb492d2f6b1314f19e7c04ecb6334bdf2ccb0aae99d700d4a4a160849f",
+      "abgeleitet/spez/klv-tg2015.spez.json": "8f67d2af7c7a90bcc148e622ee43b97c0aee7ba103e995699c9e571e5b60651e",
+      "abgeleitet/transformation/baldrian_bestandsabzug_2026-01-01.zeilen.json": "3089ef0939f94e6ad140282c5bf60dd157268586101c5c03124073669643b912",
+      "eingang/anteile-06.csv": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1",
+      "eingang/baldrian_erwartungswerte_stichtag_lieferlauf2.json": "b8fe393a129f78108ec1600ac10c8202f0fd99c3515d42ca2554f18a81081d66",
+      "eingang/baldrian_gevo_metadaten.csv": "d9327a8b79557328c15e89b29bb1a11787ff08a1d73ee41e31e68e569bf9d9bc"
+    },
+    "parameter": {
+      "anker_erwartungswerte": "baldrian_erwartungswerte_stichtag_lieferlauf2.json",
+      "fortschreibung": "abgeleitet/bestand-nach",
+      "generation": "klv/tg2015",
+      "red_anteil_kandidaten": [
+        0.5,
+        0.6,
+        0.75
+      ],
+      "red_anteile_datei": {
+        "bezug": {
+          "7000396": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000523": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000533": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000539": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000676": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000679": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000722": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000754": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000910": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ],
+          "7000994": [
+            "Auskunftsschreiben Nr. 2, Einzelpruefung Kernverwaltung 2026-10-02"
+          ]
+        },
+        "name": "anteile-06.csv",
+        "sha256": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1"
+      },
+      "schicht": "abgeleitet/schichten/verankerung_schichten.json",
+      "tarifregeln": {
+        "generation": "klv/tg2015",
+        "quellverfahren": {
+          "dk_stichtag": "jahrestag",
+          "erhoehungssatz": 0.05,
+          "formfunktion": "proportional_zur_basis",
+          "red_verfahren": "teilkuendigung"
+        },
+        "tarifwerk": {
+          "red_verfahren": "teilkuendigung",
+          "scheiben_mit_gamma1": true,
+          "stoab_je_baustein": true,
+          "tku_umfang": "grundversicherung"
+        }
+      },
+      "uebernahme": "abgeleitet/bestand",
+      "vorgeschichte": "baldrian_gevo_metadaten.csv"
+    }
+  },
+  "scheiben": 2520,
+  "schema_version": 5,
+  "schichten": 834,
+  "stichtag": "2026-01-01",
+  "system": {
+    "branch": "fall3-rueckbau",
+    "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+    "dirty": "nein",
+    "quellcode_sha256": "fdd046d0c76abbbf1b6102b704c3e7a969e278f009cc57643020cb261839acc2"
+  },
+  "tarifwerk": {
+    "red_verfahren": "teilkuendigung",
+    "scheiben_mit_gamma1": true,
+    "stoab_je_baustein": true,
+    "tku_umfang": "grundversicherung"
+  },
+  "vertraege": 834
+}

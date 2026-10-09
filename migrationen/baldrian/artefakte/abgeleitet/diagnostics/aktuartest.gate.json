@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "gate": "A-M1.stichtagstest",
+  "command": "aktuartest",
+  "gate_version": "2.0.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 1,
+  "started_at": "2026-10-02T16:09:48.394043+00:00",
+  "input_hashes": {
+    "abgeleitet/berichte/aktuartest.json": "18187133679487b726cd43ee7f8d7ec27c486cef52b9a896389b0afe7c258979",
+    "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
+  },
+  "summary": {
+    "test_bestanden": true,
+    "anzahl": 108,
+    "fehlgeschlagen": 0,
+    "stichprobe_vollstaendig": true,
+    "stichprobe": {
+      "profil": "geschichtet",
+      "umfang": 108,
+      "grundgesamtheit": 834,
+      "vollerhebung": false
+    },
+    "max_abs_residuum": 0.022347698661178583,
+    "belege": {
+      "abgeleitet/berichte/aktuartest.json": "18187133679487b726cd43ee7f8d7ec27c486cef52b9a896389b0afe7c258979",
+      "abgeleitet/berichte/aktuartest.html": "b970bac667b1e5047d1d13e802969cda8feaff0450fbb47ceef979fff85ba06e"
+    },
+    "bericht_erzeugung": {
+      "titel": "Stichtagstest Baldrian KLV TG2015 (Fall 3)"
+    },
+    "exit_code": 0,
+    "ended_at": "2026-10-02T16:09:48.685926+00:00",
+    "output_hashes": {
+      "abgeleitet/berichte/aktuartest.html": "b970bac667b1e5047d1d13e802969cda8feaff0450fbb47ceef979fff85ba06e"
+    },
+    "command_line": [
+      "--abnahme",
+      "A-M1",
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--titel",
+      "Stichtagstest Baldrian KLV TG2015 (Fall 3)",
+      "--repo-root",
+      ".",
+      "--diagnostics-dir",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/diagnostics"
+    ]
+  }
+}

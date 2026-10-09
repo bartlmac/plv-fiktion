@@ -1,0 +1,276 @@
+{
+  "art": "tarifwerk",
+  "begruendung": "Der Tarifplan KLV (Abschnitt zur uebernommenen Generation TG2015, Tabelle der Tarifzellen) wurde bei der Rueckfuehrung der Generation TG2015 in die Bestand-Config neu erzeugt. Geaendert ist nur die Schreibweise der Stornoabzuege der beiden Haus-Zellen (Mindest- und Hoechstbetrag 0 zu 0.0, Wert gleich null); kein Wert, keine Rechnungsgrundlage der eigenen Generationen der PLV. Die uebernommene Generation TG2015 steht neu in der Bestand-Config als Generationsblock ohne Neuzugang; sie ist nicht Gegenstand der Tarifwerk-Abnahme (eigene Generationen), die Parametrierung der eigenen Generationen ist unveraendert.",
+  "commits": [
+    {
+      "betreff": "feat(config,tests): Generation TG2015 zurueck in die Bestand-Config; die 746 ausgesetzten Tests laufen wieder, die Liste ist geloescht",
+      "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+      "datum": "2026-10-02",
+      "teile": [
+        "configs/bestand_gesamt.toml",
+        "docs/tarifplaene/klv.md"
+      ]
+    }
+  ],
+  "gegenstand": [
+    {
+      "begruendung": "Tarifplaene: was die PLV verspricht und wie (Ausgestaltung je Produkt)",
+      "gliederung": "je_datei",
+      "pfad": "docs/tarifplaene"
+    },
+    {
+      "begruendung": "Parametrierung der eigenen Tarifgenerationen: Rechnungsgrundlagen, Kosten, Rueckkaufs- und Herabsetzungsregeln, Tarifzellen, Verkaufsfenster",
+      "gliederung": "je_generation",
+      "pfad": "configs"
+    }
+  ],
+  "generationen": [
+    {
+      "config": "configs/bestand_bu.toml",
+      "felder": [],
+      "generation": "BU-2000",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_bu.toml",
+      "felder": [],
+      "generation": "BU-2017",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "BU-2000",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "BU-2017",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "BU-2025",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-1994",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2000",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2004",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2007",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2008",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2012",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2015",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2017",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2022",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_gesamt.toml",
+      "felder": [],
+      "generation": "KLV-2025",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-1994",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2000",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2004",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2007",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2008",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2012",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2015",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2017",
+      "zustand": "unveraendert"
+    },
+    {
+      "config": "configs/bestand_klv.toml",
+      "felder": [],
+      "generation": "KLV-2022",
+      "zustand": "unveraendert"
+    }
+  ],
+  "git": {
+    "aktuell": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+    "dirty": "nein",
+    "merge_base": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "referenz": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "referenz_commit": "8c1bed3c574cede2701406b53198d7df6cd24d13",
+    "zweig": "fall3-rueckbau"
+  },
+  "nicht_tarifwerk": {
+    "korrelation": "Erfahrung/Simulation: Bestandsstruktur des Neugeschaefts",
+    "neuzugang_pro_jahr": "Erfahrung/Simulation: Verkaufsvolumen",
+    "neuzugang_trend": "Erfahrung/Simulation: Verkaufsvolumen",
+    "nummernkreis": "Betrieb: Identitaet der Policen, keine Tarifeigenschaft",
+    "verteilungen": "Erfahrung/Simulation: Bestandsstruktur des Neugeschaefts"
+  },
+  "schema_version": 1,
+  "stand": {
+    "parametrierung_sha256": "1ddb772011782802bb72a6800a04effcd3da1791566bfc0e08e2789566ae038d",
+    "tarifplaene_sha256": "ba67a4bcf15cfce91bfdab26e0460dc3036c6bb59180d3d2fa1f513b6d06286f",
+    "tarifwerk_sha256": "629e9afad3c4565d3aece0323e7aa56ad9eb9909917f1db0497c0855db7fb211"
+  },
+  "stand_vorher": {
+    "parametrierung_sha256": "1ddb772011782802bb72a6800a04effcd3da1791566bfc0e08e2789566ae038d",
+    "tarifplaene_sha256": "819f5f3f7e2133f35d8ace0b37de18552b1ce3234260158dfcd8948ce3aafe3a",
+    "tarifwerk_sha256": "716d2ff1c167906452494f68a9daa9cb2f04b7ad33db8f8c8634fc515ee5d7e5"
+  },
+  "tarifplaene": [
+    {
+      "pfad": "docs/tarifplaene/README.md",
+      "zustand": "unveraendert"
+    },
+    {
+      "pfad": "docs/tarifplaene/bu.md",
+      "zustand": "unveraendert"
+    },
+    {
+      "pfad": "docs/tarifplaene/klv.md",
+      "zustand": "geaendert"
+    }
+  ],
+  "teile": [
+    {
+      "binaer": false,
+      "commits": [],
+      "hinzu": 0,
+      "nicht_committet": [],
+      "pfad": "configs/bestand_bu.toml",
+      "weg": 0
+    },
+    {
+      "binaer": false,
+      "commits": [
+        {
+          "betreff": "feat(config,tests): Generation TG2015 zurueck in die Bestand-Config; die 746 ausgesetzten Tests laufen wieder, die Liste ist geloescht",
+          "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+          "datum": "2026-10-02"
+        }
+      ],
+      "hinzu": 156,
+      "nicht_committet": [],
+      "pfad": "configs/bestand_gesamt.toml",
+      "weg": 1
+    },
+    {
+      "binaer": false,
+      "commits": [],
+      "hinzu": 0,
+      "nicht_committet": [],
+      "pfad": "configs/bestand_klv.toml",
+      "weg": 0
+    },
+    {
+      "binaer": false,
+      "commits": [],
+      "hinzu": 0,
+      "nicht_committet": [],
+      "pfad": "docs/tarifplaene/README.md",
+      "weg": 0
+    },
+    {
+      "binaer": false,
+      "commits": [],
+      "hinzu": 0,
+      "nicht_committet": [],
+      "pfad": "docs/tarifplaene/bu.md",
+      "weg": 0
+    },
+    {
+      "binaer": false,
+      "commits": [
+        {
+          "betreff": "feat(config,tests): Generation TG2015 zurueck in die Bestand-Config; die 746 ausgesetzten Tests laufen wieder, die Liste ist geloescht",
+          "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+          "datum": "2026-10-02"
+        }
+      ],
+      "hinzu": 2,
+      "nicht_committet": [],
+      "pfad": "docs/tarifplaene/klv.md",
+      "weg": 2
+    }
+  ],
+  "veraendert": true
+}

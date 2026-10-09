@@ -1,0 +1,175 @@
+{
+  "artefakt_hashes": {
+    "abgeleitet/abox/abox.json": "02886e91a608ff763cd5526f08ad8fa2eadf5e29d281443c02af648a6fcc7ee0",
+    "abgeleitet/abox/coverage.json": "309872d3263a4a106a1df0ad03f471bff534d47e8b5ba61e7e674a3db17d67f3",
+    "abgeleitet/diagnostics/abox_merge.gate.json": "996f17e57140fef7898f4d076b254ab8a3126958e5a42fda91c7de7be4bb2629",
+    "abgeleitet/diagnostics/abox_merge.historie.jsonl": "e2c48385c024723740bec16a7912c506dfa8de5c6f6ccfcaff8ab20971386d0d",
+    "abgeleitet/diagnostics/abox_validate.gate.json": "272e291f77d59b27c0760db119854205955430521b9137fcf28f6d39fec0cfa8",
+    "abgeleitet/diagnostics/abox_validate.historie.jsonl": "f1619fd04c11cc6a501204cd9901597cc0e5327a04645cc7f99e5b47e3e8cb65",
+    "abgeleitet/diagnostics/extract.gate.json": "ab0b74bd67aafdbce51a4326767e8ef06de2fc15f66dffa567d445cc00818064",
+    "abgeleitet/diagnostics/extract.historie.jsonl": "cb1a421ea7f673621bd690de5b03401774248859f3bb4dbe23aca0c5b592a626",
+    "eingang.json": "728bb88fc42a45f1269f82278bd3893cf1554a395cbdcffbe2a7368957c3938d",
+    "eingang/AVB_KLV_TG2015.pdf": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772",
+    "eingang/LIEFERSCHEIN.md": "80bdd432f99e769cbe99079138e86dacf1a589147739cfb7940ce215af697c1a",
+    "eingang/Mitteilung_143_KLV_TG2015.pdf": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0",
+    "eingang/Tarifrechner_KLV_TG2015.xlsm": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8",
+    "eingang/anteile-06.csv": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1",
+    "eingang/auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754",
+    "eingang/auskunft-2-herabsetzungsanteile-einzelpolicen.md": "967d7ed1bb6fdd594cb639a12df1e9c9bbc3655f9e9ffb2d1cffd3308bca8e49",
+    "eingang/auskunft-3-bewertung-zwischen-jahrestagen.md": "356b852b241d668d27c80871b23e1af8be0196dbf5a6bc097571525d5ecf33be",
+    "eingang/baldrian_bestandsabzug_2026-01-01.csv": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f",
+    "eingang/baldrian_bestandsabzug_2027-01-01.csv": "a6f01126d1236757b36a143a23b568d9ae66cc1e8e259a77274313ffd8a9a408",
+    "eingang/baldrian_erwartungswerte_geschaeftsvorfaelle.json": "812e7e2d67434b1db6cbf588a0001f30ff649fa85c823d7ee725db8c8dcf2fd6",
+    "eingang/baldrian_erwartungswerte_stichprobe.json": "8a3f648e1310da9a8ab9a35f79e92514d6641a6b921c850a2fd752e1dc33aa37",
+    "eingang/baldrian_erwartungswerte_stichtag.json": "c98585b0f635681c9c52dc9115c7ff95219d92533493d379fcd321adba703372",
+    "eingang/baldrian_erwartungswerte_verlauf.json": "f3448668a8b4af23930c5a577ebca0950f5e1d85444bc85f615240ff679723b3",
+    "eingang/baldrian_gevo_metadaten.csv": "d9327a8b79557328c15e89b29bb1a11787ff08a1d73ee41e31e68e569bf9d9bc",
+    "eingang/baldrian_gevo_protokoll_2026.csv": "860ff4b92699bf0538c91f6c2d411226b3256a89a4f65af03715a8e7e487123e",
+    "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
+  },
+  "auftrag": {
+    "abgebendes_haus": {
+      "aktuar": null,
+      "vermerk": "nicht benannt: Das abgebende Haus hat keinen Aktuar benannt. Benennt es ihn, haelt dieser Auftrag die Benennung fest — die PLV erkennt sie an, sie verleiht sie nicht (ADR-025, Abschnitt 8 d)."
+    },
+    "art": "fallauftrag",
+    "auftrag": "Die Programmleitung fuehrt die Uebernahme des Bestands KLV TG2015 der Baldrian Lebensversicherung a. G. zum Stichtag 01.01.2026 durch: Tarif und Bestand durch die drei Stufen bis zur Migrationsabnahme, danach die Vorbereitung des Zugangs in die Bestandsfuehrung. Grundlage ist die im Fall registrierte Lieferung; eine Nachlieferung wird registriert und neu beauftragt.",
+    "fall": {
+      "name": "baldrian-klv-tg2015-fall3",
+      "scope": "bestand"
+    },
+    "lieferung": {
+      "eingang_sha256": "728bb88fc42a45f1269f82278bd3893cf1554a395cbdcffbe2a7368957c3938d",
+      "quellen": [
+        {
+          "datei": "AVB_KLV_TG2015.pdf",
+          "sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+        },
+        {
+          "datei": "LIEFERSCHEIN.md",
+          "sha256": "80bdd432f99e769cbe99079138e86dacf1a589147739cfb7940ce215af697c1a"
+        },
+        {
+          "datei": "Mitteilung_143_KLV_TG2015.pdf",
+          "sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+        },
+        {
+          "datei": "Tarifrechner_KLV_TG2015.xlsm",
+          "sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+        },
+        {
+          "datei": "anteile-06.csv",
+          "sha256": "d63767e46a52db936ee7ac068f44531dfdbc1e8242a65e6f334e0f5efdda6de1"
+        },
+        {
+          "datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+          "sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+        },
+        {
+          "datei": "auskunft-2-herabsetzungsanteile-einzelpolicen.md",
+          "sha256": "967d7ed1bb6fdd594cb639a12df1e9c9bbc3655f9e9ffb2d1cffd3308bca8e49"
+        },
+        {
+          "datei": "auskunft-3-bewertung-zwischen-jahrestagen.md",
+          "sha256": "356b852b241d668d27c80871b23e1af8be0196dbf5a6bc097571525d5ecf33be"
+        },
+        {
+          "datei": "baldrian_bestandsabzug_2026-01-01.csv",
+          "sha256": "9ecb8bcd90d706ca31fcda165699299699cd2d25088982172ea571778deb865f"
+        },
+        {
+          "datei": "baldrian_bestandsabzug_2027-01-01.csv",
+          "sha256": "a6f01126d1236757b36a143a23b568d9ae66cc1e8e259a77274313ffd8a9a408"
+        },
+        {
+          "datei": "baldrian_erwartungswerte_geschaeftsvorfaelle.json",
+          "sha256": "812e7e2d67434b1db6cbf588a0001f30ff649fa85c823d7ee725db8c8dcf2fd6"
+        },
+        {
+          "datei": "baldrian_erwartungswerte_stichprobe.json",
+          "sha256": "8a3f648e1310da9a8ab9a35f79e92514d6641a6b921c850a2fd752e1dc33aa37"
+        },
+        {
+          "datei": "baldrian_erwartungswerte_stichtag.json",
+          "sha256": "c98585b0f635681c9c52dc9115c7ff95219d92533493d379fcd321adba703372"
+        },
+        {
+          "datei": "baldrian_erwartungswerte_verlauf.json",
+          "sha256": "f3448668a8b4af23930c5a577ebca0950f5e1d85444bc85f615240ff679723b3"
+        },
+        {
+          "datei": "baldrian_gevo_metadaten.csv",
+          "sha256": "d9327a8b79557328c15e89b29bb1a11787ff08a1d73ee41e31e68e569bf9d9bc"
+        },
+        {
+          "datei": "baldrian_gevo_protokoll_2026.csv",
+          "sha256": "860ff4b92699bf0538c91f6c2d411226b3256a89a4f65af03715a8e7e487123e"
+        }
+      ]
+    },
+    "mandate": {
+      "mensch/aktuariat": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+      "mensch/architektur": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+      "mensch/betrieb": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+      "mensch/programmleitung": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+      "mensch/rechenkern": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180"
+    },
+    "programmleitung": {
+      "gates": [
+        "A-M5"
+      ],
+      "rolle": "mensch/programmleitung",
+      "schluessel_sha256": "266f868c76090e22d8925870d090058ab6921f3be372c4904ec5c2c8b0eccf0b",
+      "schluesselklasse": "simulation"
+    },
+    "schema_version": 1,
+    "zielsystem": {
+      "abnahmen": {
+        "A-K2": "8bf215a69778de2861e7276104abdca6b0da9fa71a2f734b64a32f21e7e275fd",
+        "A-O1": "70c30e43625138646a29193edf0b68f2ba6956631b4d74b73b638fe8e2842b85",
+        "A-T1": "1dfc63c7a1c03641fb07b7b21130ccdda5c328927e0d215304939f8457f9e459"
+      },
+      "linie": "linie"
+    }
+  },
+  "begruendung": "Nachlieferung der Quelle: auskunft-3-bewertung-zwischen-jahrestagen.md",
+  "command": "gate_entscheid",
+  "entscheid": "angenommen",
+  "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/vorstand",
+  "entschieden_am": "2026-10-02T13:52:29.106772+00:00",
+  "fall": "baldrian-klv-tg2015-fall3",
+  "fall_scope": "bestand",
+  "freigabe": {
+    "schluessel_sha256": "85e236313d3f524449c1399e28a822bfccd4827d408fa5dafb893c47392224bb",
+    "signatur": "4fc3bd0b2f7b28739917efaca8fcc6fb55dece8f0a6b47e94a8c6c29e1339226",
+    "verfahren": "hmac-sha256-v1"
+  },
+  "gate": "A-M6",
+  "gate_version": "5.0.0",
+  "pflichtbelege": {
+    "fallauftrag": [
+      "da42d5ce048a03add8a53e54c7e0e535bd6ac547914b2e7ff8b714503475e504"
+    ]
+  },
+  "rolle": "mensch/vorstand",
+  "schema_version": 10,
+  "snapshot_sha256": "e4e26ac24373cef45f69959bc131b4d932469bab18861cabbff095a9acb3a252",
+  "system": {
+    "branch": "fall3-rueckbau",
+    "commit": "2ad478c18cf5185ba87ff2eba8834727bf4846c7",
+    "dirty": "nein",
+    "quellcode_sha256": "c31d9da814cf726daf2d70468f6ac35a542bd817513be4a3c26d7c00baca28fc"
+  },
+  "vorgaenger": [
+    "0dc0144abeae160594896e2499f766a9f179cfe4248ac604df26f119aa9d04c6",
+    "fc3d42a8f0dff08385c0dfad9c64a664e522fb17228ff7dacc1a263a51a7965b",
+    "fd5221e9c3991a5267dc34b10997ef630be9c4eeaa866a8bc740625c9c6e519a"
+  ],
+  "zeichnung": {
+    "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+    "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+    "ordnungsglied_sha256": "c8c71a6807e591bf1ced049a3b91340cd2f49683f92a6c2ab9c0989f092923ed",
+    "rolle": "mensch/vorstand",
+    "schluesselklasse": "simulation"
+  }
+}

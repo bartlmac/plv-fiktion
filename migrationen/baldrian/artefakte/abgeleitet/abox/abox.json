@@ -1,0 +1,2935 @@
+{
+  "diskrepanzen": [
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:34+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:nichtraucher,einzel#zins",
+      "knoten": "klv/tg2015/zelle:nichtraucher,einzel",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$G$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:40+00:00",
+        "gewaehlter_wert": 0.01,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "beta1",
+      "id": "klv/tg2015/zelle:nichtraucher,haus#beta1",
+      "knoten": "klv/tg2015/zelle:nichtraucher,haus",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.01
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$I$7",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:39+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:nichtraucher,haus#zins",
+      "knoten": "klv/tg2015/zelle:nichtraucher,haus",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$I$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:39+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:nichtraucher,kollektiv#zins",
+      "knoten": "klv/tg2015/zelle:nichtraucher,kollektiv",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$H$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:39+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:raucher,einzel#zins",
+      "knoten": "klv/tg2015/zelle:raucher,einzel",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$G$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:40+00:00",
+        "gewaehlter_wert": 0.01,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "beta1",
+      "id": "klv/tg2015/zelle:raucher,haus#beta1",
+      "knoten": "klv/tg2015/zelle:raucher,haus",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.01
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$I$7",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:39+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:raucher,haus#zins",
+      "knoten": "klv/tg2015/zelle:raucher,haus",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$I$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    },
+    {
+      "entscheidung": {
+        "begruendung": "Abzugsabgleich: genau die Lesart der Mitteilung 143 reproduziert DECKKAP und JBRUTTO (Beleg im Fall, Ad-hoc-Skript des Aktuariats); Auskunft Nr. 1 der Baldrian: Meldung massgeblich, Rechner nicht fortgeschrieben.",
+        "beleg": {
+          "datei": "abgeleitet/berichte/abzugsabgleich.json",
+          "sha256": "44876eaf5b16b53c493b4f8750253933ed949706888dfdb1304322d20cec1406"
+        },
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:39+00:00",
+        "gewaehlter_wert": 0.0125,
+        "vorlaeufig": false,
+        "zeichnung": {
+          "mandat_sha256": "6857831ef159dc1c2610ebda3cb3d868be18cb22ef55e3afb37bd866a6abe180",
+          "ordnung_sha256": "f6cc76b017502c85ca286ec421ee95d8ef74dd4df1c823205403b3c2430dc086",
+          "rolle": "mensch/aktuariat",
+          "schluesselklasse": "simulation"
+        }
+      },
+      "entscheidungs_historie": [],
+      "feld": "zins",
+      "id": "klv/tg2015/zelle:raucher,kollektiv#zins",
+      "knoten": "klv/tg2015/zelle:raucher,kollektiv",
+      "lesarten": [
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": 0.0125
+        },
+        {
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Tarifrechnung!$H$4",
+              "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+              "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+            }
+          ],
+          "wert": 0.0175
+        }
+      ],
+      "status": "aufgeloest"
+    }
+  ],
+  "fall": "faelle/baldrian-klv-tg2015-fall3",
+  "generationen": [
+    {
+      "anmerkungen": [
+        "[auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] VORSCHLAG der Aktuariats-Rolle, nicht im Merge: Auskunftsschreiben Nr. 1 der abgebenden Gesellschaft (Datum 2026-10-02), registriert unter dem Eingang. Es ist weder Tarifmeldung noch Bedingungswerk; quelle_art 'tarifmeldung' ist die naechstliegende der drei zulaessigen Arten, kein Urteil ueber die Art der Quelle (sauberer waere eine eigene Art, T-Box-Aenderung A-O1).",
+        "[auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] Erhoehungssatz ist laut Auskunft Fuehrungspraxis; die AVB (Ziffer 3) und der Tarifplan nennen keinen Zahlwert. Gemessen: Abzug 2026 mit 291 Vertraegen (nur Erhoehungen, laufender Beitrag) und Protokoll 2026 (128 Erhoehungen, Betrag = 5 % der Erlebensfallsumme) stuetzen 0,05, siehe messung/04-auskunft-gegen-lieferung.md.",
+        "[auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] Zellen ohne Parameter wie im Fragment der AVB (der Merge verlangt die Dimensionen in jedem Fragment). Zins und Haus-beta1 stehen hier bewusst NICHT: Die Aussage der Quelle dazu entscheidet die Diskrepanz nicht (A-Q1), und eine dritte Lesart mit demselben Wert wie die Meldung wuerde sie nicht schliessen.",
+        "[auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] stoab_je_baustein nennt die Auskunft nicht; nicht belegt bleibt es dem Bedingungswerk (AVB Ziffer 4).",
+        "[AVB_KLV_TG2015.pdf] Bedingungswerk, keine Zahlen: Zellparameter verweisen durchweg auf den Tarifplan (Mitteilung 143, Ziffer 2 AVB: 'nach dem Tarifplan'; Ziffer 4: Hoehe, Mindest- und Hoechstbetrag 'ergeben sich aus dem Tarifplan'). Die Zellen tragen daher keine Parameter; die Dimensionen folgen Ziffer 1 (Bestandsgruppen Einzel, Kollektiv, Haus; Risikoklasse Nichtraucher/Raucher).",
+        "[AVB_KLV_TG2015.pdf] scheiben_mit_gamma1 = true ist gelesen, nicht woertlich: Ziffer 3 sagt 'eigenständiger Baustein ... mit ... eigener Wertermittlung nach dem Tarifplan', gamma1 wird nicht genannt (Konfidenz 0,7); bitte im Dossier pruefen.",
+        "[AVB_KLV_TG2015.pdf] Dynamiksatz: Ziffer 3 nennt keinen Satz; nur 'Erhöhungen sind ausgeschlossen, sobald die restliche Versicherungsdauer weniger als fünf Jahre beträgt' (Mindestrestdauer, nicht der Satz). quellverfahren.erhoehungssatz ist nicht belegt (Fundstelle: Ziffer 3, kein Satz).",
+        "[AVB_KLV_TG2015.pdf] Das Bedingungswerk sagt nichts ueber das Verfahren, mit dem die ABGEBENDE Gesellschaft Absetzungen lieferte (quellverfahren.red_verfahren) und nichts zu Deckungskapital-Stichtag und Formfunktion; zu letzterem siehe Tarifplan Abschnitt 6.",
+        "[AVB_KLV_TG2015.pdf] Ziffer 5: die beitragsfreie Summe wird je Baustein zum letzten Jahrestag des Versicherungsbeginns ermittelt und fest gefuehrt — Fuehrungsregel, kein Tarifwerks-Merkmal der T-Box.",
+        "[AVB_KLV_TG2015.pdf] Ziffer 3: Erhoehung nur bei Restdauer >= 5 Jahre; Ziffer 4: in der flexiblen Abrufphase entfaellt der Abzug (Werte im Tarifplan).",
+        "[festlegung-plv-tarifplan-migration-klv-tg2015.md] Dokument der Pfefferminzia Lebensversicherung (PLV), Festlegung zum Tarifplan der Migration KLV TG2015, Fassung 1, Datum 2026-10-02; KEINE Aussage der abgebenden Gesellschaft Baldrian. Quellname der Aussage: die PLV (Festlegung durch die Regie in der Rolle mensch/aktuariat unter Mandat, Simulation).",
+        "[festlegung-plv-tarifplan-migration-klv-tg2015.md] quelle_art 'tarifmeldung' ist die naechstliegende der drei zulaessigen Arten und stimmt nicht: Das Dokument ist weder Tarifmeldung noch Auskunft der Quelle; sauberer waere eine eigene Art (T-Box-Aenderung, A-O1).",
+        "[festlegung-plv-tarifplan-migration-klv-tg2015.md] fenster: kein Wert. Zur Formfunktion proportional_zur_basis darf kein Fenster stehen (Festlegung Abschnitt 4: 'Kein Fenster'; P-Q3 verweigert fenster ohne konstantes_fenster). Es steht deshalb weder in quellverfahren noch in nicht_belegt dieses Fragments.",
+        "[festlegung-plv-tarifplan-migration-klv-tg2015.md] Zellen ohne Parameter wie in den Fragmenten der AVB und der Auskunft (der Merge verlangt die Dimensionen in jedem Fragment).",
+        "[Mitteilung_143_KLV_TG2015.pdf] Das Staging liefert nur 'absaetze' (Text je Seite): 'tabellen' und 'formeln' sind bauartbedingt leer, die Fundstellen sind daher absaetze[i] plus Abschnitt.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Prozent/Promille normalisiert (25 Promille = 0.025; 1,25 Promille = 0.00125; 0,8 Promille = 0.0008; 0,5 % = 0.005).",
+        "[Mitteilung_143_KLV_TG2015.pdf] Haus: 'Abzug bei Rückkauf entfällt' und 'Ratenzuschlag entfällt' sind als 0 gelesen (Konfidenz 0,8) — Interpretation von 'entfällt'. Haus-Inkassokosten beta1 = 10 Promille = 0.01.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Tafel: 'DAV2008_T_NR_U70' auf Rechner-Konvention DAV2008_T_NR normalisiert; das Suffix U70 ist die Unisex-Vorschrift (70 % Maenner) und steht in 'unisex'.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Die Tafel haengt nur an der Risikoklasse, die Kostensaetze nur an der Bestandsgruppe (Abschnitt 2, Satz 2) — deshalb je Zelle status x tarifart.",
+        "[Mitteilung_143_KLV_TG2015.pdf] omega = 123, l(0) = 1.000.000, Rundung der Ausscheideordnung/Kommutationszahlen auf 16 Stellen, Betraege erst in der Ausgabe auf den Cent (Abschnitt 1, 5): kein Zellparameter.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Abschnitt 6 (Bestandsabzug): ERLSUMME bei beitragsfreien Vertraegen = beitragsfreie Summe; JBRUTTO 0,00 bei Beitragsfreiheit und nach Ablauf der Beitragszahlungsdauer; DECKKAP zum letzten Vertragsjahrestag.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Das Eintrittsalter x = Differenz der Kalenderjahre von Versicherungsbeginn und Geburt (Abschnitt 3) — Konvention fuer die Transformation.",
+        "[Mitteilung_143_KLV_TG2015.pdf] Dynamiksatz: der Tarifplan nennt keinen. Tarifwerk-Merkmale stehen im Bedingungswerk, nicht hier.",
+        "[Tarifrechner_KLV_TG2015.xlsm] Der Rechner rechnet einen Einzelvertrag; Erhoehungsbausteine, Herabsetzung und Teilkuendigung kommen in ihm nicht vor. Tarifwerk und Quellverfahren sind deshalb nicht belegt (der Stornoabzug J21:J71 ist je Vertrag, das ist kein Beleg fuer die Fuehrung je Baustein).",
+        "[Tarifrechner_KLV_TG2015.xlsm] Das Blatt heisst 'Tarifrechnung' (nicht 'Kalkulation'), Names-Manager nach Quellkonvention (z. B. StoAb_rel, k, B_xt).",
+        "[Tarifrechner_KLV_TG2015.xlsm] Zins 1,75 % in G4:I4 fuer alle drei Bestandsgruppen; Wert wortgleich aus der Zelle, keine Wertung.",
+        "[Tarifrechner_KLV_TG2015.xlsm] Tafel: Matrix traegt nur 'DAV2008_T'; E5 haengt _NR/_R nach RK an; Geschlecht 'U70' in B5 ist eine Beispiel-Eingabe und KEINE Unisex-Vorschrift (Regel 6) — unisex daher nicht gesetzt. Das Blatt Tafeln fuehrt DAV2008_T_NR/_R je _M/_F; der Unisex-Mix steht in VBA Act_qx (Maenneranteil aus dem Geschlechtsstring).",
+        "[Tarifrechner_KLV_TG2015.xlsm] Haus: beta1 = 0 (I7), StoAb 0 (I15:I17), Stueckkosten 0 (I11), Ratenzuschlag 0 (I12).",
+        "[Tarifrechner_KLV_TG2015.xlsm] Der Rechner nennt Raucher und Nichtraucher ueber RK (B10) nur als Eingabe; alle Tarifparameter ausser der Tafel sind fuer beide Risikoklassen gleich.",
+        "[Tarifrechner_KLV_TG2015.xlsm] ratzu (E12) ist der Ratenzuschlag je Zahlweise und NICHT der Dynamiksatz der planmaessigen Erhoehung.",
+        "[Tarifrechner_KLV_TG2015.xlsm] zillmer_dauer: im Rechner nur als Konstante 5 in der Formel H21:H71, kein benannter Parameter (Konfidenz 0,8).",
+        "[Tarifrechner_KLV_TG2015.xlsm] Rundung: rund_lx/tx/Dx/Cx/Nx/Mx/Rx = 16 Stellen, max_Alter = 123 (VBA mConstants) — kein Feld des ModelPoints.",
+        "[Tarifrechner_KLV_TG2015.xlsm] Blatt Tarifrechnung hat weitere Rechenzellen (Bxt, BJB, BZB, Pxt, Verlaufswerte A21:L71): Beispielrechnung, keine Parameter.",
+        "[Tarifrechner_KLV_TG2015.xlsm] Verifikation (Programmleitung, Zug 3): Fundstellen der 18 ratzu-Aussagen auf die reine Zelladresse gekuerzt ($G$12 Einzel, $H$12 Kollektiv, $I$12 Haus); Werte unveraendert. Anlass: Rueck-Check pruefe_ratzu_staffeln liest alles hinter '!' als Adresse (Messung agent/aktuariat, Ergebnis 02)."
+      ],
+      "dimensionen": [
+        {
+          "auspraegungen": [
+            "nichtraucher",
+            "raucher"
+          ],
+          "id": "status",
+          "name": "Risikoklasse (Raucherstatus)"
+        },
+        {
+          "auspraegungen": [
+            "einzel",
+            "kollektiv",
+            "haus"
+          ],
+          "id": "tarifart",
+          "name": "Bestandsgruppe (Tarifart)"
+        }
+      ],
+      "familie": "klv",
+      "id": "klv/tg2015",
+      "name": "TG2015",
+      "quellen": [
+        {
+          "art": "tarifmeldung",
+          "datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+          "sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+        },
+        {
+          "art": "tarifmeldung",
+          "datei": "AVB_KLV_TG2015.pdf",
+          "sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+        },
+        {
+          "art": "tarifmeldung",
+          "datei": "festlegung-plv-tarifplan-migration-klv-tg2015.md",
+          "sha256": "26c3736bb2f1885b1434d2727ea7246c9ec2944fa327af731e2e945273ea333d"
+        },
+        {
+          "art": "tarifmeldung",
+          "datei": "Mitteilung_143_KLV_TG2015.pdf",
+          "sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+        },
+        {
+          "art": "tarifrechner",
+          "datei": "Tarifrechner_KLV_TG2015.xlsm",
+          "sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+        }
+      ],
+      "quellnamen": {
+        "Abzug bei Rückkauf": "parameter:stoab_satz",
+        "BGRP": "dimension:tarifart",
+        "Bestandsgruppe": "dimension:tarifart",
+        "DAV2008_T_NR_U70": "parameter:tafel (DAV2008_T_NR) + unisex U70",
+        "DAV2008_T_R_U70": "parameter:tafel (DAV2008_T_R) + unisex U70",
+        "DECKKAP": "bestand:deckungskapital",
+        "ERH": "quellverfahren:erhoehungssatz",
+        "ERLSUMME": "bestand:erlebensfallsumme",
+        "Formfunktion": "quellverfahren:formfunktion",
+        "GESCHL": "eingabe:geschlecht",
+        "JBRUTTO": "bestand:jahresbeitrag",
+        "MinAlterFlex": "parameter:min_alter_flex",
+        "MinRLZFlex": "parameter:min_rlz_flex",
+        "RED": "quellverfahren:red_verfahren=teilkuendigung",
+        "RK": "dimension:status",
+        "Risikoklasse": "dimension:status",
+        "StoAb_max": "parameter:stoab_max",
+        "StoAb_min": "parameter:stoab_min",
+        "StoAb_rel": "parameter:stoab_satz",
+        "Stückkosten je Jahr": "parameter:policy_fee",
+        "Tafel": "parameter:tafel",
+        "Tafeln": "blatt:tafeln",
+        "Tarifrechnung": "blatt:kalkulation",
+        "Teilkündigung": "tarifwerk:red_verfahren=teilkuendigung",
+        "VS": "eingabe:versicherungssumme",
+        "Zins": "parameter:zins",
+        "alpha": "parameter:alpha",
+        "beta1": "parameter:beta1",
+        "gamma1": "parameter:gamma1",
+        "gamma2": "parameter:gamma2",
+        "gamma3": "parameter:gamma3",
+        "k": "parameter:policy_fee",
+        "n": "eingabe:vertragsdauer",
+        "t": "eingabe:beitragszahlungsdauer",
+        "x": "eingabe:alter_bei_beginn",
+        "zw": "eingabe:zahlweise"
+      },
+      "quellverfahren": {
+        "dk_stichtag": {
+          "konfidenz": 1.0,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[2] Abschnitt 6: DECKKAP 'zum letzten Vertragsjahrestag vor dem Abzugsstichtag ... interpoliert nicht'",
+              "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+              "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+            }
+          ],
+          "wert": "jahrestag",
+          "zustand": "belegt"
+        },
+        "erhoehungssatz": {
+          "konfidenz": 0.9,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 'Zu Rückfrage 02', Punkt 1: 'einheitlich 5 % der Gesamtversicherungssumme je Erhöhungstermin, 2016 bis 2025 unverändert'",
+              "quelle_datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+              "quelle_sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+            }
+          ],
+          "wert": 0.05,
+          "zustand": "belegt"
+        },
+        "fenster": {
+          "lesarten": [],
+          "provenienz": [],
+          "zustand": "nicht_belegt"
+        },
+        "formfunktion": {
+          "konfidenz": 1.0,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@2ad478c",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 3 (Entscheid 1 — Formfunktion), 'Festgelegt': 'Die Formfunktion ist proportional zur Basis (proportional_zur_basis)' (SHA-256 26c3736bb2f1885b1434d2727ea7246c9ec2944fa327af731e2e945273ea333d)",
+              "quelle_datei": "festlegung-plv-tarifplan-migration-klv-tg2015.md",
+              "quelle_sha256": "26c3736bb2f1885b1434d2727ea7246c9ec2944fa327af731e2e945273ea333d"
+            }
+          ],
+          "wert": "proportional_zur_basis",
+          "zustand": "belegt"
+        },
+        "red_verfahren": {
+          "konfidenz": 0.9,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 'Zu Rückfrage 02', Punkt 2: 'Absetzungen (GEVO = RED) sind Teilkündigungen der Grundversicherung mit Auszahlung ... Weder prospektiv noch mit_abzug ... kommt vor'",
+              "quelle_datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+              "quelle_sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+            }
+          ],
+          "wert": "teilkuendigung",
+          "zustand": "belegt"
+        }
+      },
+      "tarifwerk": {
+        "red_verfahren": {
+          "konfidenz": 0.9,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 'Zu Rückfrage 02', Punkt 2: 'Die Angabe lautet daher für alle Absetzungen: teilkuendigung'",
+              "quelle_datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+              "quelle_sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+            },
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[1] Ziffer 6: 'Herabsetzung der Beiträge (Teilkündigung)'; Grundversicherung wird anteilig gekündigt, freiwerdendes Deckungskapital nach Abzug AUSGEZAHLT",
+              "quelle_datei": "AVB_KLV_TG2015.pdf",
+              "quelle_sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+            }
+          ],
+          "wert": "teilkuendigung",
+          "zustand": "belegt"
+        },
+        "scheiben_mit_gamma1": {
+          "konfidenz": 0.7,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 'Zu Rückfrage 05', Punkt 4: 'Jede planmäßige Erhöhung wird als eigenständiger Baustein ... nach der vollen Beitragssatzformel gerechnet ... Die Formel enthält alpha, beta1, gamma1 und gamma2 und gilt je Baustein unverändert'",
+              "quelle_datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+              "quelle_sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+            },
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Ziffer 3: 'Jede Erhöhung wird versicherungstechnisch als eigenständiger Baustein geführt ... eigener Wertermittlung nach dem Tarifplan'",
+              "quelle_datei": "AVB_KLV_TG2015.pdf",
+              "quelle_sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+            }
+          ],
+          "wert": true,
+          "zustand": "belegt"
+        },
+        "stoab_je_baustein": {
+          "konfidenz": 1.0,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[0] Ziffer 4: 'Der Abzug wird für jeden Versicherungsbaustein GESONDERT erhoben ... jeweils mit Mindest- und Höchstbetrag'",
+              "quelle_datei": "AVB_KLV_TG2015.pdf",
+              "quelle_sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+            }
+          ],
+          "wert": true,
+          "zustand": "belegt"
+        },
+        "tku_umfang": {
+          "konfidenz": 0.9,
+          "lesarten": [],
+          "provenienz": [
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "Abschnitt 'Zu Rückfrage 02', Punkt 2 und 'Zu Rückfrage 04': Teilkündigung der Grundversicherung, Anteil auf die Grundversicherung allein, 'planmäßige Erhöhungen bleiben unberührt'",
+              "quelle_datei": "auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md",
+              "quelle_sha256": "8125b6fe8d881f62d995fae9b16319d7e089ee5f9fbc5b25917ca109fb1b9754"
+            },
+            {
+              "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+              "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+              "fundstelle": "absaetze[1] Ziffer 6: 'Planmäßige Erhöhungen bleiben von der Herabsetzung unberührt'",
+              "quelle_datei": "AVB_KLV_TG2015.pdf",
+              "quelle_sha256": "3a279db47f9ea69b2aa0b144713ac43ed97de62668cc9ccf8ea9664c47fe9772"
+            }
+          ],
+          "wert": "grundversicherung",
+          "zustand": "belegt"
+        }
+      },
+      "unisex": {
+        "konfidenz": 0.9,
+        "lesarten": [],
+        "provenienz": [
+          {
+            "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+            "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+            "fundstelle": "absaetze[0] Abschnitt 1: Sterbetafeln DAV2008_T_NR_U70 / DAV2008_T_R_U70 (Unisex, Männeranteil 70 %)",
+            "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+            "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+          }
+        ],
+        "wert": "U70",
+        "zustand": "belegt"
+      },
+      "zellen": [
+        {
+          "auspraegungen": {
+            "status": "nichtraucher",
+            "tarifart": "einzel"
+          },
+          "id": "zelle:nichtraucher,einzel",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.025,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$7",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.03,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.00125,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 12.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag monatlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.05,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag halbjährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.02,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag vierteljährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.03,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug höchstens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 200.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug mindestens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 50.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.005,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_NR",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        },
+        {
+          "auspraegungen": {
+            "status": "nichtraucher",
+            "tarifart": "haus"
+          },
+          "id": "zelle:nichtraucher,haus",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.01,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0008,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_NR",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        },
+        {
+          "auspraegungen": {
+            "status": "nichtraucher",
+            "tarifart": "kollektiv"
+          },
+          "id": "zelle:nichtraucher,kollektiv",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$7",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0008,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 12.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag monatlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.025,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag halbjährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.01,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag vierteljährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug höchstens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 200.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug mindestens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 50.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.005,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_NR",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        },
+        {
+          "auspraegungen": {
+            "status": "raucher",
+            "tarifart": "einzel"
+          },
+          "id": "zelle:raucher,einzel",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.025,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$7",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.03,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.00125,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 12.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag monatlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.05,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag halbjährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.02,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag vierteljährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.03,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug höchstens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 200.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug mindestens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 50.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.005,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$G$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_R",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        },
+        {
+          "auspraegungen": {
+            "status": "raucher",
+            "tarifart": "haus"
+          },
+          "id": "zelle:raucher,haus",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.01,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0008,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$I$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_R",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        },
+        {
+          "auspraegungen": {
+            "status": "raucher",
+            "tarifart": "kollektiv"
+          },
+          "id": "zelle:raucher,kollektiv",
+          "parameter": {
+            "alpha": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abschlusskosten alpha",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$6",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "beta1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Inkassokosten beta1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$7",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "gamma1": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma1",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$8",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0008,
+              "zustand": "belegt"
+            },
+            "gamma2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma2",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$9",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.001,
+              "zustand": "belegt"
+            },
+            "gamma3": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma3",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$10",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.0025,
+              "zustand": "belegt"
+            },
+            "min_alter_flex": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$13",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 60,
+              "zustand": "belegt"
+            },
+            "min_rlz_flex": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$14",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "policy_fee": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Stückkosten je Jahr",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$11",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 12.0,
+              "zustand": "belegt"
+            },
+            "ratzu_zw12": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag monatlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.025,
+              "zustand": "belegt"
+            },
+            "ratzu_zw2": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag halbjährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.01,
+              "zustand": "belegt"
+            },
+            "ratzu_zw4": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag vierteljährlich",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$12",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.015,
+              "zustand": "belegt"
+            },
+            "stoab_max": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug höchstens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$16",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 200.0,
+              "zustand": "belegt"
+            },
+            "stoab_min": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug mindestens",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$15",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 50.0,
+              "zustand": "belegt"
+            },
+            "stoab_satz": {
+              "konfidenz": 1.0,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$17",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 0.005,
+              "zustand": "belegt"
+            },
+            "tafel": {
+              "konfidenz": 0.9,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex)",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": "DAV2008_T_R",
+              "zustand": "belegt"
+            },
+            "zillmer_dauer": {
+              "konfidenz": 0.8,
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                },
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag)",
+                  "quelle_datei": "Tarifrechner_KLV_TG2015.xlsm",
+                  "quelle_sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+                }
+              ],
+              "wert": 5,
+              "zustand": "belegt"
+            },
+            "zins": {
+              "lesarten": [],
+              "provenienz": [
+                {
+                  "akteur": "claude-sonnet-5-5/extrahiere-quellfragment+verifikation@b98b9da",
+                  "erhoben_am": "2026-10-02T15:37:38.222296+00:00",
+                  "fundstelle": "absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %'",
+                  "quelle_datei": "Mitteilung_143_KLV_TG2015.pdf",
+                  "quelle_sha256": "a5cde1fb1a05d2538a21eac9f515f024f3b6703c01a7803f6023cd654ac9a0b0"
+                }
+              ],
+              "wert": 0.0125,
+              "zustand": "belegt"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "tbox_version": "0.2.0"
+}

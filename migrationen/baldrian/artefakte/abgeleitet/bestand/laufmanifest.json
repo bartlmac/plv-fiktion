@@ -1,0 +1,21 @@
+{
+  "ausgaben": {
+    "bestand.parquet": "a04872f05b976f52f07954c3fa0807fab81f4fa43dfa7e17f4a0ab31f86f5dac",
+    "historie.parquet": "8ff90d36f6aac757428f415db27bf195b7774585bd4dfd9a1e7574dfeffd7449",
+    "ledger.parquet": "01a1ff9e94c260ddf9a192dacb7f187541bb3b007a6f45aecae31d2ecf15148c",
+    "merkmale.parquet": "645cc2388a0a0e6a15ed9db3febed27534a028a2653377938425b525b5c94803",
+    "scheiben.parquet": "b01e67e6a37bdb40d90cfeb9f14eee23cfbf76e82f6e7a554372f524a5c5dea8",
+    "schichten.parquet": "f5c5dc4714f7ae5e35cf450846a381d48f9efd64dcf97f4a514b11a3cdcc9965",
+    "verankerung.parquet": "28b589e6e6f38f59c51a81b77d026ec30cf232a26ae89a1312c729b1e6f95387"
+  },
+  "config": {
+    "datei": "bestand_gesamt.toml",
+    "sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158"
+  },
+  "eingaben": {},
+  "erzeuger": "bestand_migrationszugang",
+  "horizont": "2026-01-01",
+  "kern_version": "3.22.0",
+  "neuzugang_ab": null,
+  "schema_version": 1
+}

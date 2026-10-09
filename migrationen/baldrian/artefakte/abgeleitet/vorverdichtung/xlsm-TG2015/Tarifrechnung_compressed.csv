@@ -1,0 +1,169 @@
+Section;Blatt;Adresse;Formel;Wert;Anzahl_Zellen;Normalisierte_Formel_R1C1;Label_Adresse;Label_Wert;Label_Formel;Label_Source;LLM_Hint
+values;Tarifrechnung;$A$1;Tarifrechner KLV;Tarifrechner KLV;;;;;;;
+values;Tarifrechnung;$D$1;Pfefferminzia Lebensversicherung AG;Pfefferminzia Lebensversicherung AG;;;;;;;
+values;Tarifrechnung;$K$1;VBA-Lösung mit KW-Cache;VBA-Lösung mit KW-Cache;;;;;;;
+values;Tarifrechnung;$G$2;KLV U R/NR TG2015;KLV U R/NR TG2015;;;;;;;
+values;Tarifrechnung;$A$3;Vertragsdaten;Vertragsdaten;;;;;;;
+values;Tarifrechnung;$D$3;Tarifdaten;Tarifdaten;;;;;;;
+values;Tarifrechnung;$G$3;Einzel;Einzel;;;;;;;
+values;Tarifrechnung;$H$3;Kollektiv;Kollektiv;;;;;;;
+values;Tarifrechnung;$I$3;Haus;Haus;;;;;;;
+values;Tarifrechnung;$K$3;Beitragsberechnung;Beitragsberechnung;;;;;;;
+values;Tarifrechnung;$A$4;Alter bei Beginn;Alter bei Beginn;;;;;;;
+values;Tarifrechnung;$B$4;45;45;;;;;;;
+values;Tarifrechnung;$D$4;Zins;Zins;;;;;;;
+values;Tarifrechnung;$G$4;0.0175;0.0175;;;;;;;
+values;Tarifrechnung;$H$4;0.0175;0.0175;;;;;;;
+values;Tarifrechnung;$I$4;0.0175;0.0175;;;;;;;
+values;Tarifrechnung;$A$5;Sex;Sex;;;;;;;
+values;Tarifrechnung;$B$5;U70;U70;;;;;;;
+values;Tarifrechnung;$D$5;Tafel;Tafel;;;;;;;
+values;Tarifrechnung;$G$5;DAV2008_T;DAV2008_T;;;;;;;
+values;Tarifrechnung;$H$5;DAV2008_T;DAV2008_T;;;;;;;
+values;Tarifrechnung;$I$5;DAV2008_T;DAV2008_T;;;;;;;
+values;Tarifrechnung;$K$5;Bxt;Bxt;;;;;;;
+values;Tarifrechnung;$A$6;Vertragsdauer;Vertragsdauer;;;;;;;
+values;Tarifrechnung;$B$6;30;30;;;;;;;
+values;Tarifrechnung;$D$6;alpha;alpha;;;;;;;
+values;Tarifrechnung;$G$6;0.025;0.025;;;;;;;
+values;Tarifrechnung;$H$6;0.015;0.015;;;;;;;
+values;Tarifrechnung;$I$6;0;0;;;;;;;
+values;Tarifrechnung;$K$6;BJB;BJB;;;;;;;
+values;Tarifrechnung;$A$7;Beitragszahlungsdauer;Beitragszahlungsdauer;;;;;;;
+values;Tarifrechnung;$B$7;20;20;;;;;;;
+values;Tarifrechnung;$D$7;beta1;beta1;;;;;;;
+values;Tarifrechnung;$G$7;0.03;0.03;;;;;;;
+values;Tarifrechnung;$H$7;0.015;0.015;;;;;;;
+values;Tarifrechnung;$I$7;0;0;;;;;;;
+values;Tarifrechnung;$K$7;BZB;BZB;;;;;;;
+values;Tarifrechnung;$A$8;VS;VS;;;;;;;
+values;Tarifrechnung;$B$8;100000;100000;;;;;;;
+values;Tarifrechnung;$D$8;gamma1;gamma1;;;;;;;
+values;Tarifrechnung;$G$8;0.001;0.001;;;;;;;
+values;Tarifrechnung;$H$8;0.0008;0.0008;;;;;;;
+values;Tarifrechnung;$I$8;0.0008;0.0008;;;;;;;
+values;Tarifrechnung;$A$9;zw;zw;;;;;;;
+values;Tarifrechnung;$B$9;12;12;;;;;;;
+values;Tarifrechnung;$D$9;gamma2;gamma2;;;;;;;
+values;Tarifrechnung;$G$9;0.00125;0.00125;;;;;;;
+values;Tarifrechnung;$H$9;0.001;0.001;;;;;;;
+values;Tarifrechnung;$I$9;0.001;0.001;;;;;;;
+values;Tarifrechnung;$K$9;Pxt;Pxt;;;;;;;
+values;Tarifrechnung;$A$10;Status;Status;;;;;;;
+values;Tarifrechnung;$B$10;Nichtraucher;Nichtraucher;;;;;;;
+values;Tarifrechnung;$D$10;gamma3;gamma3;;;;;;;
+values;Tarifrechnung;$G$10;0.0025;0.0025;;;;;;;
+values;Tarifrechnung;$H$10;0.0025;0.0025;;;;;;;
+values;Tarifrechnung;$I$10;0.0025;0.0025;;;;;;;
+values;Tarifrechnung;$A$11;Tarifart;Tarifart;;;;;;;
+values;Tarifrechnung;$B$11;Einzel;Einzel;;;;;;;
+values;Tarifrechnung;$D$11;k;k;;;;;;;
+values;Tarifrechnung;$G$11;12;12;;;;;;;
+values;Tarifrechnung;$H$11;12;12;;;;;;;
+values;Tarifrechnung;$I$11;0;0;;;;;;;
+values;Tarifrechnung;$D$12;ratzu;ratzu;;;;;;;
+values;Tarifrechnung;$D$13;MinAlterFlex;MinAlterFlex;;;;;;;
+values;Tarifrechnung;$G$13;60;60;;;;;;;
+values;Tarifrechnung;$H$13;60;60;;;;;;;
+values;Tarifrechnung;$I$13;60;60;;;;;;;
+values;Tarifrechnung;$D$14;MinRLZFlex;MinRLZFlex;;;;;;;
+values;Tarifrechnung;$G$14;5;5;;;;;;;
+values;Tarifrechnung;$H$14;5;5;;;;;;;
+values;Tarifrechnung;$I$14;5;5;;;;;;;
+values;Tarifrechnung;$D$15;StoAb_min;StoAb_min;;;;;;;
+values;Tarifrechnung;$G$15;50;50;;;;;;;
+values;Tarifrechnung;$H$15;50;50;;;;;;;
+values;Tarifrechnung;$I$15;0;0;;;;;;;
+values;Tarifrechnung;$D$16;StoAb_max;StoAb_max;;;;;;;
+values;Tarifrechnung;$G$16;200;200;;;;;;;
+values;Tarifrechnung;$H$16;200;200;;;;;;;
+values;Tarifrechnung;$I$16;0;0;;;;;;;
+values;Tarifrechnung;$D$17;StoAb_rel;StoAb_rel;;;;;;;
+values;Tarifrechnung;$G$17;0.005;0.005;;;;;;;
+values;Tarifrechnung;$H$17;0.005;0.005;;;;;;;
+values;Tarifrechnung;$I$17;0;0;;;;;;;
+values;Tarifrechnung;$A$19;Verlaufswerte;Verlaufswerte;;;;;;;
+values;Tarifrechnung;$A$20;k;k;;;;;;;
+values;Tarifrechnung;$B$20;Axn;Axn;;;;;;;
+values;Tarifrechnung;$C$20;axn;axn;;;;;;;
+values;Tarifrechnung;$D$20;axt;axt;;;;;;;
+values;Tarifrechnung;$E$20;kVx_bpfl;kVx_bpfl;;;;;;;
+values;Tarifrechnung;$F$20;kDRx_bpfl;kDRx_bpfl;;;;;;;
+values;Tarifrechnung;$G$20;kVx_bfr;kVx_bfr;;;;;;;
+values;Tarifrechnung;$H$20;kVx_MRV;kVx_MRV;;;;;;;
+values;Tarifrechnung;$I$20;flex. Phase;flex. Phase;;;;;;;
+values;Tarifrechnung;$J$20;StoAb;StoAb;;;;;;;
+values;Tarifrechnung;$K$20;RKW;RKW;;;;;;;
+values;Tarifrechnung;$L$20;VS_bfr;VS_bfr;;;;;;;
+values;Tarifrechnung;$A$21;0;0;;;;;;;
+values;Tarifrechnung;$A$22;1;1;;;;;;;
+values;Tarifrechnung;$A$23;2;2;;;;;;;
+values;Tarifrechnung;$A$24;3;3;;;;;;;
+values;Tarifrechnung;$A$25;4;4;;;;;;;
+values;Tarifrechnung;$A$26;5;5;;;;;;;
+values;Tarifrechnung;$A$27;6;6;;;;;;;
+values;Tarifrechnung;$A$28;7;7;;;;;;;
+values;Tarifrechnung;$A$29;8;8;;;;;;;
+values;Tarifrechnung;$A$30;9;9;;;;;;;
+values;Tarifrechnung;$A$31;10;10;;;;;;;
+values;Tarifrechnung;$A$32;11;11;;;;;;;
+values;Tarifrechnung;$A$33;12;12;;;;;;;
+values;Tarifrechnung;$A$34;13;13;;;;;;;
+values;Tarifrechnung;$A$35;14;14;;;;;;;
+values;Tarifrechnung;$A$36;15;15;;;;;;;
+values;Tarifrechnung;$A$37;16;16;;;;;;;
+values;Tarifrechnung;$A$38;17;17;;;;;;;
+values;Tarifrechnung;$A$39;18;18;;;;;;;
+values;Tarifrechnung;$A$40;19;19;;;;;;;
+values;Tarifrechnung;$A$41;20;20;;;;;;;
+values;Tarifrechnung;$A$42;21;21;;;;;;;
+values;Tarifrechnung;$A$43;22;22;;;;;;;
+values;Tarifrechnung;$A$44;23;23;;;;;;;
+values;Tarifrechnung;$A$45;24;24;;;;;;;
+values;Tarifrechnung;$A$46;25;25;;;;;;;
+values;Tarifrechnung;$A$47;26;26;;;;;;;
+values;Tarifrechnung;$A$48;27;27;;;;;;;
+values;Tarifrechnung;$A$49;28;28;;;;;;;
+values;Tarifrechnung;$A$50;29;29;;;;;;;
+values;Tarifrechnung;$A$51;30;30;;;;;;;
+values;Tarifrechnung;$A$52;31;31;;;;;;;
+values;Tarifrechnung;$A$53;32;32;;;;;;;
+values;Tarifrechnung;$A$54;33;33;;;;;;;
+values;Tarifrechnung;$A$55;34;34;;;;;;;
+values;Tarifrechnung;$A$56;35;35;;;;;;;
+values;Tarifrechnung;$A$57;36;36;;;;;;;
+values;Tarifrechnung;$A$58;37;37;;;;;;;
+values;Tarifrechnung;$A$59;38;38;;;;;;;
+values;Tarifrechnung;$A$60;39;39;;;;;;;
+values;Tarifrechnung;$A$61;40;40;;;;;;;
+values;Tarifrechnung;$A$62;41;41;;;;;;;
+values;Tarifrechnung;$A$63;42;42;;;;;;;
+values;Tarifrechnung;$A$64;43;43;;;;;;;
+values;Tarifrechnung;$A$65;44;44;;;;;;;
+values;Tarifrechnung;$A$66;45;45;;;;;;;
+values;Tarifrechnung;$A$67;46;46;;;;;;;
+values;Tarifrechnung;$A$68;47;47;;;;;;;
+values;Tarifrechnung;$A$69;48;48;;;;;;;
+values;Tarifrechnung;$A$70;49;49;;;;;;;
+values;Tarifrechnung;$A$71;50;50;;;;;;;
+formulas_unique_block;Tarifrechnung;E4;"=_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G4:I4,""?"",0)";;1;"=_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)";$D$4;Zins;Zins;left;"Label(left:$D$4)=Zins | Formula==_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G4:I4,""?"",0) | Pattern==_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)"
+formulas_unique_block;Tarifrechnung;E6:E17;"=_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G6:I6,""?"",0)";;12;"=_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)";;;;;"Label(:)= | Formula==_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G6:I6,""?"",0) | Pattern==_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)"
+formulas_unique_block;Tarifrechnung;E5;"=_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G5:I5,""?"",0)&""_""&IF(RK=""Raucher"",""R"",""NR"")";;1;"=_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)&""_""&IF(RK=""RAUCHER"",""R"",""NR"")";$D$5;Tafel;Tafel;left;"Label(left:$D$5)=Tafel | Formula==_xlfn.XLOOKUP(BGRP,$G$3:$I$3,G5:I5,""?"",0)&""_""&IF(RK=""Raucher"",""R"",""NR"") | Pattern==_XLFN.XLOOKUP(BGRP,R3C7:R3C9,R[0]C[2]:R[0]C[4],""?"",0)&""_""&IF(RK=""RAUCHER"",""R"",""NR"")"
+formulas_unique_block;Tarifrechnung;L5;=( act_nGrAx(x,n,GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x,GESCHL,Tafel,Zins)+gamma1*Act_axn_k(x,t,GESCHL,Tafel,Zins,1)+gamma2*(Act_axn_k(x,n,GESCHL,Tafel,Zins,1)-Act_axn_k(x,t,GESCHL,Tafel,Zins,1)))/((1-beta1)*Act_axn_k(x,t,GESCHL,Tafel,Zins,1)-alpha*t);;1;=(ACT_NGRAX(X,N,GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X,GESCHL,TAFEL,ZINS)+GAMMA1*ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)+GAMMA2*(ACT_AXN_K(X,N,GESCHL,TAFEL,ZINS,1)-ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)))/((1-BETA1)*ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)-ALPHA*T);$K$5;Bxt;Bxt;left;Label(left:$K$5)=Bxt | Formula==( act_nGrAx(x,n,GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x,GESCHL,Tafel,Zins)+gamma1*Act_axn_k(x,t,GESCHL,Tafel,Zins,1)+gamma2*(Act_axn_k(x,n,GESCHL,Tafel,Zins,1)-Act_axn_k(x,t,GESCHL,Tafel,Zins,1)))/((1-beta1)*Act_axn_k(x,t,GESCHL,Tafel,Zins,1)-alpha*t) | Pattern==(ACT_NGRAX(X,N,GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X,GESCHL,TAFEL,ZINS)+GAMMA1*ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)+GAMMA2*(ACT_AXN_K(X,N,GESCHL,TAFEL,ZINS,1)-ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)))/((1-BETA1)*ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)-ALPHA*T)
+formulas_unique_block;Tarifrechnung;L6;=VS*L5;;1;=VS*R[-1]C[0];$K$6;BJB;BJB;left;Label(left:$K$6)=BJB | Formula==VS*L5 | Pattern==VS*R[-1]C[0]
+formulas_unique_block;Tarifrechnung;L7;=(1+ratzu)/zw*(L6+k);;1;=(1+RATZU)/ZW*(R[-1]C[0]+K);$K$7;BZB;BZB;left;Label(left:$K$7)=BZB | Formula==(1+ratzu)/zw*(L6+k) | Pattern==(1+RATZU)/ZW*(R[-1]C[0]+K)
+formulas_unique_block;Tarifrechnung;L9;=(act_nGrAx(x,n,GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x,GESCHL,Tafel,Zins)+t*alpha*B_xt)/Act_axn_k(x,t,GESCHL,Tafel,Zins,1);;1;=(ACT_NGRAX(X,N,GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X,GESCHL,TAFEL,ZINS)+T*ALPHA*B_XT)/ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1);$K$9;Pxt;Pxt;left;Label(left:$K$9)=Pxt | Formula==(act_nGrAx(x,n,GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x,GESCHL,Tafel,Zins)+t*alpha*B_xt)/Act_axn_k(x,t,GESCHL,Tafel,Zins,1) | Pattern==(ACT_NGRAX(X,N,GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X,GESCHL,TAFEL,ZINS)+T*ALPHA*B_XT)/ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)
+formulas_unique_block;Tarifrechnung;G12;=IF(zw=2,2%,IF(zw=4,3%,IF(zw=12,5%,0)));;1;=IF(ZW=2,2%,IF(ZW=4,3%,IF(ZW=12,5%,0)));$G$11;12;12;above;Label(above:$G$11)=12 | Formula==IF(zw=2,2%,IF(zw=4,3%,IF(zw=12,5%,0))) | Pattern==IF(ZW=2,2%,IF(ZW=4,3%,IF(ZW=12,5%,0)))
+formulas_unique_block;Tarifrechnung;H12;=IF(zw=2,1%,IF(zw=4,1.5%,IF(zw=12,2.5%,0)));;1;=IF(ZW=2,1%,IF(ZW=4,1.5%,IF(ZW=12,2.5%,0)));$H$11;12;12;above;Label(above:$H$11)=12 | Formula==IF(zw=2,1%,IF(zw=4,1.5%,IF(zw=12,2.5%,0))) | Pattern==IF(ZW=2,1%,IF(ZW=4,1.5%,IF(ZW=12,2.5%,0)))
+formulas_unique_block;Tarifrechnung;I12;=IF(zw=2,0%,IF(zw=4,0%,IF(zw=12,0%,0)));;1;=IF(ZW=2,0%,IF(ZW=4,0%,IF(ZW=12,0%,0)));$I$11;0;0;above;Label(above:$I$11)=0 | Formula==IF(zw=2,0%,IF(zw=4,0%,IF(zw=12,0%,0))) | Pattern==IF(ZW=2,0%,IF(ZW=4,0%,IF(ZW=12,0%,0)))
+formulas_unique_block;Tarifrechnung;B21:B71;=IF(A21<=n,act_nGrAx(x+$A21,MAX(0,n-$A21),GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x+$A21,GESCHL,Tafel,Zins),0);;51;=IF(R[0]C[-1]<=N,ACT_NGRAX(X+R[0]C1,MAX(0,N-R[0]C1),GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X+R[0]C1,GESCHL,TAFEL,ZINS),0);$B$20;Axn;Axn;above;Label(above:$B$20)=Axn | Formula==IF(A21<=n,act_nGrAx(x+$A21,MAX(0,n-$A21),GESCHL,Tafel,Zins)+Act_Dx(x+n,GESCHL,Tafel,Zins)/Act_Dx(x+$A21,GESCHL,Tafel,Zins),0) | Pattern==IF(R[0]C[-1]<=N,ACT_NGRAX(X+R[0]C1,MAX(0,N-R[0]C1),GESCHL,TAFEL,ZINS)+ACT_DX(X+N,GESCHL,TAFEL,ZINS)/ACT_DX(X+R[0]C1,GESCHL,TAFEL,ZINS),0)
+formulas_unique_block;Tarifrechnung;C21:C71;=Act_axn_k(x+$A21,MAX(0,n-$A21),GESCHL,Tafel,Zins,1);;51;=ACT_AXN_K(X+R[0]C1,MAX(0,N-R[0]C1),GESCHL,TAFEL,ZINS,1);$C$20;axn;axn;above;Label(above:$C$20)=axn | Formula==Act_axn_k(x+$A21,MAX(0,n-$A21),GESCHL,Tafel,Zins,1) | Pattern==ACT_AXN_K(X+R[0]C1,MAX(0,N-R[0]C1),GESCHL,TAFEL,ZINS,1)
+formulas_unique_block;Tarifrechnung;D21:D71;=Act_axn_k(x+$A21,MAX(0,t-$A21),GESCHL,Tafel,Zins,1);;51;=ACT_AXN_K(X+R[0]C1,MAX(0,T-R[0]C1),GESCHL,TAFEL,ZINS,1);$D$20;axt;axt;above;Label(above:$D$20)=axt | Formula==Act_axn_k(x+$A21,MAX(0,t-$A21),GESCHL,Tafel,Zins,1) | Pattern==ACT_AXN_K(X+R[0]C1,MAX(0,T-R[0]C1),GESCHL,TAFEL,ZINS,1)
+formulas_unique_block;Tarifrechnung;E21:E71;=B21-P_xt*D21+gamma2*(C21-Act_axn_k(x,n,GESCHL,Tafel,Zins,1)/Act_axn_k(x,t,GESCHL,Tafel,Zins,1)*D21);;51;=R[0]C[-3]-P_XT*R[0]C[-1]+GAMMA2*(R[0]C[-2]-ACT_AXN_K(X,N,GESCHL,TAFEL,ZINS,1)/ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)*R[0]C[-1]);$E$20;kVx_bpfl;kVx_bpfl;above;Label(above:$E$20)=kVx_bpfl | Formula==B21-P_xt*D21+gamma2*(C21-Act_axn_k(x,n,GESCHL,Tafel,Zins,1)/Act_axn_k(x,t,GESCHL,Tafel,Zins,1)*D21) | Pattern==R[0]C[-3]-P_XT*R[0]C[-1]+GAMMA2*(R[0]C[-2]-ACT_AXN_K(X,N,GESCHL,TAFEL,ZINS,1)/ACT_AXN_K(X,T,GESCHL,TAFEL,ZINS,1)*R[0]C[-1])
+formulas_unique_block;Tarifrechnung;F21:F71;=VS*E21;;51;=VS*R[0]C[-1];$F$20;kDRx_bpfl;kDRx_bpfl;above;Label(above:$F$20)=kDRx_bpfl | Formula==VS*E21 | Pattern==VS*R[0]C[-1]
+formulas_unique_block;Tarifrechnung;G21:G71;=B21+gamma3*C21;;51;=R[0]C[-5]+GAMMA3*R[0]C[-4];$G$20;kVx_bfr;kVx_bfr;above;Label(above:$G$20)=kVx_bfr | Formula==B21+gamma3*C21 | Pattern==R[0]C[-5]+GAMMA3*R[0]C[-4]
+formulas_unique_block;Tarifrechnung;H21:H71;=F21+alpha*t*BJB*Act_axn_k(x+A21,MAX(5-A21,0),GESCHL,Tafel,Zins,1)/Act_axn_k(x,5,GESCHL,Tafel,Zins,1);;51;=R[0]C[-2]+ALPHA*T*BJB*ACT_AXN_K(X+R[0]C[-7],MAX(5-R[0]C[-7],0),GESCHL,TAFEL,ZINS,1)/ACT_AXN_K(X,5,GESCHL,TAFEL,ZINS,1);$H$20;kVx_MRV;kVx_MRV;above;Label(above:$H$20)=kVx_MRV | Formula==F21+alpha*t*BJB*Act_axn_k(x+A21,MAX(5-A21,0),GESCHL,Tafel,Zins,1)/Act_axn_k(x,5,GESCHL,Tafel,Zins,1) | Pattern==R[0]C[-2]+ALPHA*T*BJB*ACT_AXN_K(X+R[0]C[-7],MAX(5-R[0]C[-7],0),GESCHL,TAFEL,ZINS,1)/ACT_AXN_K(X,5,GESCHL,TAFEL,ZINS,1)
+formulas_unique_block;Tarifrechnung;I21:I71;=IF(AND(x+A21>=MinAlterFlex,A21>=n-MinRLZFlex),1,0);;51;=IF(AND(X+R[0]C[-8]>=MINALTERFLEX,R[0]C[-8]>=N-MINRLZFLEX),1,0);$I$20;flex. Phase;flex. Phase;above;Label(above:$I$20)=flex. Phase | Formula==IF(AND(x+A21>=MinAlterFlex,A21>=n-MinRLZFlex),1,0) | Pattern==IF(AND(X+R[0]C[-8]>=MINALTERFLEX,R[0]C[-8]>=N-MINRLZFLEX),1,0)
+formulas_unique_block;Tarifrechnung;J21:J71;=IF(OR(A21>n,I21),0,MIN(StoAb_max,MAX(StoAb_min,StoAb_rel*(VS-F21))));;51;=IF(OR(R[0]C[-9]>N,R[0]C[-1]),0,MIN(STOAB_MAX,MAX(STOAB_MIN,STOAB_REL*(VS-R[0]C[-4]))));$J$20;StoAb;StoAb;above;Label(above:$J$20)=StoAb | Formula==IF(OR(A21>n,I21),0,MIN(StoAb_max,MAX(StoAb_min,StoAb_rel*(VS-F21)))) | Pattern==IF(OR(R[0]C[-9]>N,R[0]C[-1]),0,MIN(STOAB_MAX,MAX(STOAB_MIN,STOAB_REL*(VS-R[0]C[-4]))))
+formulas_unique_block;Tarifrechnung;K21:K71;=MAX(0,H21-J21);;51;=MAX(0,R[0]C[-3]-R[0]C[-1]);$K$20;RKW;RKW;above;Label(above:$K$20)=RKW | Formula==MAX(0,H21-J21) | Pattern==MAX(0,R[0]C[-3]-R[0]C[-1])
+formulas_unique_block;Tarifrechnung;L21:L71;=IFERROR(IF(A21>n,0,IF(A21<t,H21/G21,VS)),0);;51;=IFERROR(IF(R[0]C[-11]>N,0,IF(R[0]C[-11]<T,R[0]C[-4]/R[0]C[-5],VS)),0);$L$20;VS_bfr;VS_bfr;above;Label(above:$L$20)=VS_bfr | Formula==IFERROR(IF(A21>n,0,IF(A21<t,H21/G21,VS)),0) | Pattern==IFERROR(IF(R[0]C[-11]>N,0,IF(R[0]C[-11]<T,R[0]C[-4]/R[0]C[-5],VS)),0)

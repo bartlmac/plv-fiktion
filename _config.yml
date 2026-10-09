@@ -1,0 +1,34 @@
+# Jekyll-Konfiguration der veroeffentlichten Vorfuehrung. Die
+# Artefakte werden ausdruecklich NICHT von Jekyll angefasst, damit
+# JSON und CSV unveraendert herunterladbar bleiben.
+# Kein fremdes Theme: Die Gestaltung gehoert zum Auftritt und liegt in
+# assets/stil.css und _layouts/default.html — sonst kaempft das eigene
+# Stylesheet gegen die Vorgaben eines Themes.
+# Die Seite liegt unter https://bartlmac.github.io/plv-fiktion/ (Repository
+# bartlmac/plv-fiktion, Pages ueber GitHub Actions). Ausdruecklich gesetzt,
+# damit der lokale Bau mit dem Renderer von Pages dieselben Pfade ergibt.
+url: "https://bartlmac.github.io"
+baseurl: "/plv-fiktion"
+title: Pfefferminzia Lebensversicherung AG
+description: >-
+  Fiktives Unternehmen — Vorfuehrung einer agentischen
+  Bestandsmigration. Erfundene Gesellschaften, synthetische Vertraege,
+  mit einem Simulationsschluessel gezeichnete Abnahmen.
+include:
+  - artefakte
+keep_files:
+  - artefakte
+
+# Jede Seite bekommt das Layout, auch ohne eigenen Vorspann.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Die Markdown-Quellen nicht zusaetzlich als Datei veroeffentlichen
+# (jekyll-optional-front-matter, auf Pages Standard). Das entfernt jede .md,
+# die zur Seite wird, auch unter artefakte/ oder plv/ (gemessen am 09.10.2026);
+# die Seitenpruefung (pages) laesst dort darum keine .md zu.
+optional_front_matter:
+  remove_originals: true

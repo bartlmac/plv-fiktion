@@ -1,0 +1,18 @@
+{
+  "contract_version": "info_from_excel.v1",
+  "adapter_id": "excel",
+  "source_path": "faelle/baldrian-klv-tg2015-fall3/eingang/Tarifrechner_KLV_TG2015.xlsm",
+  "manifest_path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/export_manifest.json",
+  "expectation_coverage": "full",
+  "coverage_detail": {
+    "scalar_files": 1,
+    "scalar_keys_expected": 8,
+    "scalar_keys_numeric": 7,
+    "table_files": 1,
+    "table_cells_expected": 612,
+    "sheets_with_compressed": 1,
+    "names_manager_present": true,
+    "source_text_files": 3
+  },
+  "warnings": []
+}

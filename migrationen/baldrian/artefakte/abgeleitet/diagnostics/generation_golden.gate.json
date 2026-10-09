@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "gate": "P-K1.generations-golden-master",
+  "command": "generation_golden",
+  "gate_version": "1.0.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 1,
+  "started_at": "2026-10-02T16:04:44.200190+00:00",
+  "input_hashes": {
+    "abgeleitet/abox/abox.json": "118887ec375574183e7117418be344e35877db09e86c9bf187368d53d262d3d7",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv": "1d923e1643babada12ff6a33890de48c1365a1c966fd26ac4ba28aa22577e02b",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/spez/klv-tg2015.spez.json": "8f67d2af7c7a90bcc148e622ee43b97c0aee7ba103e995699c9e571e5b60651e",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_scalar.json": "eb52927ab887183f0046220622e475ef396947c1f7ec02fb5ad1b676fd0aa502",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_table_values.csv": "f31b44e495d436207487aa3c0e2e7bbd2464096db05b58f4587a5c09aca2f747",
+    "src/rechner_pipeline/kern/tafeln.xml": "760d38f966df427aff78e5296443cc414a26fb6d7781e73ceb3f851e08aa451a"
+  },
+  "summary": {
+    "generation": "klv/tg2015",
+    "abox_sha256": "118887ec375574183e7117418be344e35877db09e86c9bf187368d53d262d3d7",
+    "system": {
+      "commit": "6aa7c1453dbd3877c89ab8c8628a0c1f1d7d031a",
+      "branch": "fall3-rueckbau",
+      "dirty": "nein",
+      "quellcode_sha256": "fdd046d0c76abbbf1b6102b704c3e7a969e278f009cc57643020cb261839acc2"
+    },
+    "zelle": "klv/tg2015/zelle:nichtraucher,einzel",
+    "kalkulationsblatt": "Tarifrechnung",
+    "zellen_gesamt": 6,
+    "zellen_ohne_erwartungswerte": [
+      "klv/tg2015/zelle:nichtraucher,haus",
+      "klv/tg2015/zelle:nichtraucher,kollektiv",
+      "klv/tg2015/zelle:raucher,einzel",
+      "klv/tg2015/zelle:raucher,haus",
+      "klv/tg2015/zelle:raucher,kollektiv"
+    ],
+    "modellpunkt": {
+      "x": 45,
+      "n": 30,
+      "t": 20,
+      "sum_insured": 100000.0,
+      "zw": 12,
+      "sex": "U70",
+      "tafel": "DAV2008_T_NR_U70",
+      "status": "Nichtraucher",
+      "tarifart": "Einzel"
+    },
+    "gegenprobe_gegen_rechner_lesart": {
+      "zins": {
+        "rechner_wert": 0.0175,
+        "spez_wert": 0.0125,
+        "entscheider": "Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat",
+        "entschieden_am": "2026-10-02T15:43:34+00:00"
+      }
+    },
+    "skalare_verglichen": 4,
+    "parameter_geprueft": [
+      "Zins",
+      "Tafel"
+    ],
+    "tabellen_zeilen": 51,
+    "werte_verglichen": 616,
+    "erwartung_uebersprungen": [
+      "0",
+      "12"
+    ],
+    "abweichungen": 0,
+    "exit_code": 0,
+    "ended_at": "2026-10-02T16:04:44.574312+00:00",
+    "command_line": [
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--generation",
+      "klv/tg2015",
+      "--repo-root",
+      "."
+    ]
+  }
+}

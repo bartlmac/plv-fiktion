@@ -1,0 +1,5 @@
+{"ended_at": "2026-10-02T16:06:14.470052+00:00", "exit_code": 20, "fehler": ["manifest", "fuehrung", "fuehrung", "fuehrung", "fuehrung", "fuehrung", "fuehrung", "fuehrung"], "started_at": "2026-10-02T16:06:13.625307+00:00", "status": "failed", "versuch": 1}
+{"ended_at": "2026-10-02T16:06:32.962159+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T16:06:32.080767+00:00", "status": "passed", "versuch": 2}
+{"ended_at": "2026-10-02T16:07:47.371093+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T16:07:46.486918+00:00", "status": "passed", "versuch": 3}
+{"ended_at": "2026-10-02T16:07:56.920863+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T16:07:56.037162+00:00", "status": "passed", "versuch": 4}
+{"ended_at": "2026-10-02T16:09:14.868560+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T16:09:14.091081+00:00", "status": "passed", "versuch": 5}

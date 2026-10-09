@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "gate": "A-M3.geschaeftsvorfalltest",
+  "command": "aktuartest-A-M3",
+  "gate_version": "2.0.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 1,
+  "started_at": "2026-10-02T16:09:49.220586+00:00",
+  "input_hashes": {
+    "abgeleitet/berichte/aktuartest-A-M3.json": "ebc8d42fdff3079c067aab962cde2e0ad0e86360f72559a36591c9a23c3d03f3",
+    "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
+  },
+  "summary": {
+    "test_bestanden": true,
+    "anzahl": 166,
+    "fehlgeschlagen": 0,
+    "stichprobe_vollstaendig": true,
+    "stichprobe": {
+      "profil": "vollbestand",
+      "umfang": 166,
+      "grundgesamtheit": 166,
+      "vollerhebung": true
+    },
+    "max_abs_residuum": 0.019700279934113496,
+    "belege": {
+      "abgeleitet/berichte/aktuartest-A-M3.json": "ebc8d42fdff3079c067aab962cde2e0ad0e86360f72559a36591c9a23c3d03f3",
+      "abgeleitet/berichte/aktuartest-A-M3.html": "622353106793914de7ee018ad9bd7e8cbaeae5e886f0e04df5bc75beff891ca8"
+    },
+    "bericht_erzeugung": {
+      "titel": "Geschaeftsvorfalltest Baldrian KLV TG2015 (Fall 3)"
+    },
+    "exit_code": 0,
+    "ended_at": "2026-10-02T16:09:49.522970+00:00",
+    "output_hashes": {
+      "abgeleitet/berichte/aktuartest-A-M3.html": "622353106793914de7ee018ad9bd7e8cbaeae5e886f0e04df5bc75beff891ca8"
+    },
+    "command_line": [
+      "--abnahme",
+      "A-M3",
+      "--fall",
+      "faelle/baldrian-klv-tg2015-fall3",
+      "--titel",
+      "Geschaeftsvorfalltest Baldrian KLV TG2015 (Fall 3)",
+      "--repo-root",
+      ".",
+      "--diagnostics-dir",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/diagnostics"
+    ]
+  }
+}

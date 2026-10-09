@@ -1,0 +1,99 @@
+{
+  "out_dir": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015",
+  "sheet_csvs": [
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tafeln.csv"
+  ],
+  "sheet_artifacts": [
+    {
+      "original_name": "Tarifrechnung",
+      "file_name": "Tarifrechnung.csv"
+    },
+    {
+      "original_name": "Tafeln",
+      "file_name": "Tafeln.csv"
+    }
+  ],
+  "vba_txts": [
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mGWerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mBarwerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mConstants.txt"
+  ],
+  "names_manager_csv": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv",
+  "replacements": {
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung.csv": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_compressed.csv"
+  },
+  "llm_inputs": [
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_compressed.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tafeln.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mGWerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mBarwerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mConstants.txt"
+  ],
+  "all_outputs": [
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tafeln.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_compressed.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mBarwerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mConstants.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mGWerte.txt",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_scalar.json",
+    "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_table_values.csv"
+  ],
+  "warnings": [],
+  "prompt_runs": [],
+  "output_hashes": [
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tafeln.csv",
+      "bytes": 33492,
+      "sha256": "1ce920935ce25701ecf3a3af86e94da7552f5d44e39ee3e1cc0728a8d67af6c5"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung.csv",
+      "bytes": 56614,
+      "sha256": "ba37348d162157b1aeeb260a2d61563b08cfeaa40bbeccc998920f3d11a334cf"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_compressed.csv",
+      "bytes": 15007,
+      "sha256": "e55a700882a2ed91f1cf6763b8fbfb37de64406d69bdadcb3d4a76023f26b595"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_scalar.json",
+      "bytes": 190,
+      "sha256": "eb52927ab887183f0046220622e475ef396947c1f7ec02fb5ad1b676fd0aa502"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_table_values.csv",
+      "bytes": 6366,
+      "sha256": "f31b44e495d436207487aa3c0e2e7bbd2464096db05b58f4587a5c09aca2f747"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv",
+      "bytes": 1520,
+      "sha256": "1d923e1643babada12ff6a33890de48c1365a1c966fd26ac4ba28aa22577e02b"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mBarwerte.txt",
+      "bytes": 3260,
+      "sha256": "df9b34fcfa12fe459cce96ca78ca01e360ac01c0e63850d83a9569bdcc279adb"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mConstants.txt",
+      "bytes": 302,
+      "sha256": "fc197834ccfc02793fdb49d934848322e6c1acbe2324965a74059158a9feb2e3"
+    },
+    {
+      "path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mGWerte.txt",
+      "bytes": 12590,
+      "sha256": "db2067f2f0adf741d105cb659c8b6c6db234a70e0f0867a20e7ebd3553fc51da"
+    }
+  ],
+  "source": {
+    "path": "faelle/baldrian-klv-tg2015-fall3/eingang/Tarifrechner_KLV_TG2015.xlsm",
+    "bytes": 54398,
+    "sha256": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+  }
+}

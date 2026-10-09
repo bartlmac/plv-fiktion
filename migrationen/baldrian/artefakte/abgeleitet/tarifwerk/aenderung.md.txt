@@ -1,0 +1,62 @@
+# Tarifwerk-Abnahme A-T1 — Tarifwerk der PLV
+
+Zuletzt abgenommener Stand: `8c1bed3c574cede2701406b53198d7df6cd24d13` (Commit `8c1bed3c574c`).  
+Lebender Stand: Commit `6aa7c1453dbd` auf `fall3-rueckbau`, nicht committete Aenderungen im Arbeitsbaum: nein.
+
+Begruendung der Vorlage: Der Tarifplan KLV (Abschnitt zur uebernommenen Generation TG2015, Tabelle der Tarifzellen) wurde bei der Rueckfuehrung der Generation TG2015 in die Bestand-Config neu erzeugt. Geaendert ist nur die Schreibweise der Stornoabzuege der beiden Haus-Zellen (Mindest- und Hoechstbetrag 0 zu 0.0, Wert gleich null); kein Wert, keine Rechnungsgrundlage der eigenen Generationen der PLV. Die uebernommene Generation TG2015 steht neu in der Bestand-Config als Generationsblock ohne Neuzugang; sie ist nicht Gegenstand der Tarifwerk-Abnahme (eigene Generationen), die Parametrierung der eigenen Generationen ist unveraendert.
+
+## Tarifplaene
+
+| Tarifplan | Zustand | Zeilen hinzu | Zeilen weg | Commits |
+|---|---|---:|---:|---:|
+| `docs/tarifplaene/README.md` | unveraendert | 0 | 0 | 0 |
+| `docs/tarifplaene/bu.md` | unveraendert | 0 | 0 | 0 |
+| `docs/tarifplaene/klv.md` | geaendert | 2 | 2 | 1 |
+
+## Tarifgenerationen der Configs
+
+| Config | Generation | Zustand | geaenderte Felder |
+|---|---|---|---:|
+| `configs/bestand_bu.toml` | BU-2000 | unveraendert | 0 |
+| `configs/bestand_bu.toml` | BU-2017 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | BU-2000 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | BU-2017 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | BU-2025 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-1994 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2000 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2004 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2007 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2008 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2012 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2015 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2017 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2022 | unveraendert | 0 |
+| `configs/bestand_gesamt.toml` | KLV-2025 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-1994 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2000 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2004 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2007 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2008 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2012 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2015 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2017 | unveraendert | 0 |
+| `configs/bestand_klv.toml` | KLV-2022 | unveraendert | 0 |
+
+## Commits des Zweigs
+
+### `configs/bestand_gesamt.toml`
+
+- Commit `6aa7c1453dbd` vom 2026-10-02: feat(config,tests): Generation TG2015 zurueck in die Bestand-Config; die 746 ausgesetzten Tests laufen wieder, die Liste ist geloescht
+
+### `docs/tarifplaene/klv.md`
+
+- Commit `6aa7c1453dbd` vom 2026-10-02: feat(config,tests): Generation TG2015 zurueck in die Bestand-Config; die 746 ausgesetzten Tests laufen wieder, die Liste ist geloescht
+
+## Gegenstand der Abnahme
+
+- `docs/tarifplaene` — Tarifplaene: was die PLV verspricht und wie (Ausgestaltung je Produkt)
+- `configs` — Parametrierung der eigenen Tarifgenerationen: Rechnungsgrundlagen, Kosten, Rueckkaufs- und Herabsetzungsregeln, Tarifzellen, Verkaufsfenster
+
+Nicht Gegenstand (je Generation): `korrelation` (Erfahrung/Simulation: Bestandsstruktur des Neugeschaefts), `neuzugang_pro_jahr` (Erfahrung/Simulation: Verkaufsvolumen), `neuzugang_trend` (Erfahrung/Simulation: Verkaufsvolumen), `nummernkreis` (Betrieb: Identitaet der Policen, keine Tarifeigenschaft), `verteilungen` (Erfahrung/Simulation: Bestandsstruktur des Neugeschaefts).
+
+Aus dem Aenderungsbeleg erzeugt (`gates.tarifwerk_belegen`); massgeblich ist der Beleg, nicht diese Sicht.

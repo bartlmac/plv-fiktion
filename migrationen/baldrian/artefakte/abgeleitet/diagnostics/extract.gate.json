@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "gate": "P-Q1.quellfragment",
+  "command": "extract",
+  "gate_version": "1.1.0",
+  "required": true,
+  "status": "passed",
+  "attempt": 1,
+  "started_at": "2026-10-02T12:59:51.223660+00:00",
+  "input_hashes": {
+    "faelle/baldrian-klv-tg2015-fall3/eingang/Tarifrechner_KLV_TG2015.xlsm": "e0cd0a03298f2a191a3f645d8c8f1263e050909dddbb29c9ec22aff9870683a8"
+  },
+  "summary": {
+    "input_bundle": {
+      "contract_version": "info_from_excel.v1",
+      "adapter_id": "excel",
+      "source_path": "faelle/baldrian-klv-tg2015-fall3/eingang/Tarifrechner_KLV_TG2015.xlsm",
+      "manifest_path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/export_manifest.json",
+      "expectation_coverage": "full",
+      "coverage_detail": {
+        "scalar_files": 1,
+        "scalar_keys_expected": 8,
+        "scalar_keys_numeric": 7,
+        "table_files": 1,
+        "table_cells_expected": 612,
+        "sheets_with_compressed": 1,
+        "names_manager_present": true,
+        "source_text_files": 3
+      },
+      "warnings": []
+    },
+    "expectation_coverage": "full",
+    "artifact_counts": {
+      "sheet_csvs": 2,
+      "compressed_csvs": 1,
+      "vba_txts": 3,
+      "names_manager_csv": 1,
+      "scalar_jsons": 1,
+      "table_value_csvs": 1,
+      "llm_inputs": 6,
+      "all_outputs": 10
+    },
+    "cleaned_stale_derived": [],
+    "input_bundle_path": "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/input_bundle.json",
+    "exit_code": 0,
+    "ended_at": "2026-10-02T12:59:52.195500+00:00",
+    "output_hashes": {
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tarifrechnung_compressed.csv": "e55a700882a2ed91f1cf6763b8fbfb37de64406d69bdadcb3d4a76023f26b595",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/Tafeln.csv": "1ce920935ce25701ecf3a3af86e94da7552f5d44e39ee3e1cc0728a8d67af6c5",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/names_manager.csv": "1d923e1643babada12ff6a33890de48c1365a1c966fd26ac4ba28aa22577e02b",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mGWerte.txt": "db2067f2f0adf741d105cb659c8b6c6db234a70e0f0867a20e7ebd3553fc51da",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mBarwerte.txt": "df9b34fcfa12fe459cce96ca78ca01e360ac01c0e63850d83a9569bdcc279adb",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/vba/mConstants.txt": "fc197834ccfc02793fdb49d934848322e6c1acbe2324965a74059158a9feb2e3",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015/export_manifest.json": "6e2000ec484cec2c67a778ce1a6152c30068a48a86a85d3b06d0e4e6589f3e57"
+    },
+    "command_line": [
+      "--repo-root",
+      ".",
+      "--input",
+      "faelle/baldrian-klv-tg2015-fall3/eingang/Tarifrechner_KLV_TG2015.xlsm",
+      "--out-dir",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/vorverdichtung/xlsm-TG2015",
+      "--adapter",
+      "excel",
+      "--diagnostics-dir",
+      "faelle/baldrian-klv-tg2015-fall3/abgeleitet/diagnostics"
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+# Fachspezifikation TG2015 (Produktfamilie KLV)
+
+> GENERIERT aus der A-Box des Falls `faelle/baldrian-klv-tg2015-fall3` (T-Box 0.2.0, Spez 0.1.0, Fachspez-Generator 0.2.0). Dieses Dokument ist Projektion der belegten Aussagen — Aenderungen gehoeren in die Quellen bzw. die Diskrepanz-Aufloesung, nicht in den Text.
+
+## 1 Quellen und Provenienzbindung
+
+| Quelle | Art | SHA-256 |
+|---|---|---|
+| auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md | tarifmeldung | `8125b6fe8d881f62...` |
+| AVB_KLV_TG2015.pdf | tarifmeldung | `3a279db47f9ea69b...` |
+| festlegung-plv-tarifplan-migration-klv-tg2015.md | tarifmeldung | `26c3736bb2f1885b...` |
+| Mitteilung_143_KLV_TG2015.pdf | tarifmeldung | `a5cde1fb1a05d253...` |
+| Tarifrechner_KLV_TG2015.xlsm | tarifrechner | `e0cd0a03298f2a19...` |
+
+## 2 Struktur-Urteil (berechnet)
+
+Ergebnis: **parametrierung**
+
+- neue Tafeln (Import/Ableitung): DAV2008_T_NR_F, DAV2008_T_NR_M, DAV2008_T_NR_U70, DAV2008_T_R_F, DAV2008_T_R_M, DAV2008_T_R_U70
+- Unisex-Vorgabe U70: als abgeleitete Mischtafel (min(1, f*qx_M + (1-f)*qx_F)) — Daten-Ableitung, keine Kern-Formelaenderung (exakter Tafelname gewinnt in der Kern-Aufloesung)
+
+## 3 Merkmalsdimensionen
+
+| Dimension | Auspraegungen |
+|---|---|
+| Risikoklasse (Raucherstatus) (status) | nichtraucher, raucher |
+| Bestandsgruppe (Tarifart) (tarifart) | einzel, kollektiv, haus |
+
+## 4 Unisex-Kalkulation
+
+Vorgabe **U70** (Maenneranteil 70 %); Quellenlage: tarifmeldung. Umsetzung als abgeleitete Mischtafel je Basis: `qx = min(1, f*qx_M + (1-f)*qx_F)` je Alter — Daten-Ableitung, keine Kern-Formelaenderung.
+
+| Abgeleitete Tafel | Basis M | Basis F | Maenneranteil |
+|---|---|---|---|
+| DAV2008_T_NR_U70 | DAV2008_T_NR_M | DAV2008_T_NR_F | 0.7 |
+| DAV2008_T_R_U70 | DAV2008_T_R_M | DAV2008_T_R_F | 0.7 |
+
+## 5 Parametrierung je Merkmalskombination
+
+### Zelle: status=nichtraucher, tarifart=einzel
+
+Knoten: `klv/tg2015/zelle:nichtraucher,einzel`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_NR_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$G$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$6 |
+| Inkassokosten (`beta1`) | 0.03 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Inkassokosten beta1; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$7 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.00125 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$10 |
+| Stueckkosten p. a. (`policy_fee`) | 12.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.005 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 50.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug mindestens; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 200.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug höchstens; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.05 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag monatlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.02 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag halbjährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.03 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag vierteljährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+### Zelle: status=nichtraucher, tarifart=haus
+
+Knoten: `klv/tg2015/zelle:nichtraucher,haus`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_NR_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$I$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$6 |
+| Inkassokosten (`beta1`) | 0.01 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.0008 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$10 |
+| Stueckkosten p. a. (`policy_fee`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+### Zelle: status=nichtraucher, tarifart=kollektiv
+
+Knoten: `klv/tg2015/zelle:nichtraucher,kollektiv`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_NR_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: NR DAV2008_T_NR_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$H$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$6 |
+| Inkassokosten (`beta1`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Inkassokosten beta1; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$7 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.0008 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$10 |
+| Stueckkosten p. a. (`policy_fee`) | 12.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.005 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 50.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug mindestens; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 200.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug höchstens; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag monatlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.01 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag halbjährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag vierteljährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+### Zelle: status=raucher, tarifart=einzel
+
+Knoten: `klv/tg2015/zelle:raucher,einzel`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_R_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$G$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$6 |
+| Inkassokosten (`beta1`) | 0.03 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Inkassokosten beta1; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$7 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.00125 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$10 |
+| Stueckkosten p. a. (`policy_fee`) | 12.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.005 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 50.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug mindestens; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 200.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Abzug höchstens; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.05 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag monatlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.02 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag halbjährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.03 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 2, Bestandsgruppe Einzel: Ratenzuschlag vierteljährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$G$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+### Zelle: status=raucher, tarifart=haus
+
+Knoten: `klv/tg2015/zelle:raucher,haus`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_R_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$I$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$6 |
+| Inkassokosten (`beta1`) | 0.01 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Inkassokosten beta1 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.0008 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$10 |
+| Stueckkosten p. a. (`policy_fee`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Abzug bei Rückkauf entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Haus: 'Ratenzuschlag entfällt'; Tarifrechner_KLV_TG2015:Tarifrechnung!$I$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+### Zelle: status=raucher, tarifart=kollektiv
+
+Knoten: `klv/tg2015/zelle:raucher,kollektiv`
+
+| Parameter | Wert | Quellenlage | Fundstellen |
+|---|---|---|---|
+| Rechnungszins (`zins`) | 0.0125 | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Der Tarifzins beträgt 1,25 %' |
+| Sterbetafel (`tafel`) | DAV2008_T_R_U70 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: Tabelle Risikoklasse/Sterbetafel: R DAV2008_T_R_U70 (Suffix U70 nach unisex); Tarifrechner_KLV_TG2015:Tarifrechnung!$H$5 (Basis DAV2008_T) + Tarifrechnung!$E$5 (Suffix _NR/_R nach RK) |
+| Abschlusskosten (Zillmer) (`alpha`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abschlusskosten alpha; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$6 |
+| Inkassokosten (`beta1`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Inkassokosten beta1; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$7 |
+| Verwaltungskosten 1 (bpfl.) (`gamma1`) | 0.0008 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma1; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$8 |
+| Verwaltungskosten 2 (`gamma2`) | 0.001 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma2; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$9 |
+| Verwaltungskosten 3 (bfr.) (`gamma3`) | 0.0025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Verwaltung gamma3; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$10 |
+| Stueckkosten p. a. (`policy_fee`) | 12.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Stückkosten je Jahr; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$11 |
+| Stornoabzug-Satz (`stoab_satz`) | 0.005 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug bei Rückkauf (der Differenz VS - DK) 0,5 %; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$17 |
+| Stornoabzug-Untergrenze (`stoab_min`) | 50.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug mindestens; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$15 |
+| Stornoabzug-Obergrenze (`stoab_max`) | 200.0 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Abzug höchstens; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$16 |
+| flexible Phase: Mindestalter (`min_alter_flex`) | 60 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: flexible Abrufphase 'ab Alter 60'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$13 |
+| flexible Phase: Mindest-Restlaufzeit (`min_rlz_flex`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'bei einer Restlaufzeit von höchstens fünf Jahren'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$14 |
+| Ratenzuschlag zw=12 (`ratzu_zw12`) | 0.025 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag monatlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Ratenzuschlag zw=2 (`ratzu_zw2`) | 0.01 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag halbjährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Ratenzuschlag zw=4 (`ratzu_zw4`) | 0.015 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[1] Abschnitt 2, Bestandsgruppe Kollektiv: Ratenzuschlag vierteljährlich; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$12 |
+| Zillmer-Amortisationsdauer (`zillmer_dauer`) | 5 | tarifmeldung+tarifrechner | Mitteilung_143_KLV_TG2015:absaetze[0] Abschnitt 1: 'Abschlusskosten ... über die ersten fünf Versicherungsjahre getilgt (Zillmerdauer)'; Tarifrechner_KLV_TG2015:Tarifrechnung!$H$21:$H$71 (Formel: Act_axn_k(x,5,...) im Zillmer-Zuschlag) |
+
+## 6 Coverage (Pflichtumfang der T-Box)
+
+Belegt: 78 von 78 Pflichtfeldern (100%); gesucht-nicht-gefunden: 0; von der Extraktion uebersehen: 0; widerspruechlich: 0.
+
+## 7 Diskrepanzen zwischen den Quellen
+
+| Knoten/Feld | Lesarten | Status | Entscheidung |
+|---|---|---|---|
+| `zelle:nichtraucher,einzel#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:nichtraucher,haus#beta1` | 0.01 (tarifmeldung) vs. 0 (tarifrechner) | aufgeloest | 0.01 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:nichtraucher,haus#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:nichtraucher,kollektiv#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:raucher,einzel#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:raucher,haus#beta1` | 0.01 (tarifmeldung) vs. 0 (tarifrechner) | aufgeloest | 0.01 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:raucher,haus#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+| `zelle:raucher,kollektiv#zins` | 0.0125 (tarifmeldung) vs. 0.0175 (tarifrechner) | aufgeloest | 0.0125 — Regie (KI-Session) unter Mandat des Maintainers vom 2026-10-02, als mensch/aktuariat (mensch/aktuariat, Schluessel: simulation) |
+
+## 8 Tafel-Anforderungen an den Kern
+
+Importe (aus dem Quell-Rechner, mit Provenienz im XML): `DAV2008_T_NR_F`, `DAV2008_T_NR_M`, `DAV2008_T_R_F`, `DAV2008_T_R_M`
+
+Ableitungen: `DAV2008_T_NR_U70`, `DAV2008_T_R_U70`
+
+## 9 Erweiterungsstellen
+
+Keine — die Generation ist vollstaendig als Parametrierung des Rueckgrats `kern.klv/kommutation+zustandsmodell` ausgedrueckt.
+
+## 10 Quellnamen-Mapping (fremde Benennungslogik)
+
+| Quellname | Zielfeld |
+|---|---|
+| Abzug bei Rückkauf | `parameter:stoab_satz` |
+| BGRP | `dimension:tarifart` |
+| Bestandsgruppe | `dimension:tarifart` |
+| DAV2008_T_NR_U70 | `parameter:tafel (DAV2008_T_NR) + unisex U70` |
+| DAV2008_T_R_U70 | `parameter:tafel (DAV2008_T_R) + unisex U70` |
+| DECKKAP | `bestand:deckungskapital` |
+| ERH | `quellverfahren:erhoehungssatz` |
+| ERLSUMME | `bestand:erlebensfallsumme` |
+| Formfunktion | `quellverfahren:formfunktion` |
+| GESCHL | `eingabe:geschlecht` |
+| JBRUTTO | `bestand:jahresbeitrag` |
+| MinAlterFlex | `parameter:min_alter_flex` |
+| MinRLZFlex | `parameter:min_rlz_flex` |
+| RED | `quellverfahren:red_verfahren=teilkuendigung` |
+| RK | `dimension:status` |
+| Risikoklasse | `dimension:status` |
+| StoAb_max | `parameter:stoab_max` |
+| StoAb_min | `parameter:stoab_min` |
+| StoAb_rel | `parameter:stoab_satz` |
+| Stückkosten je Jahr | `parameter:policy_fee` |
+| Tafel | `parameter:tafel` |
+| Tafeln | `blatt:tafeln` |
+| Tarifrechnung | `blatt:kalkulation` |
+| Teilkündigung | `tarifwerk:red_verfahren=teilkuendigung` |
+| VS | `eingabe:versicherungssumme` |
+| Zins | `parameter:zins` |
+| alpha | `parameter:alpha` |
+| beta1 | `parameter:beta1` |
+| gamma1 | `parameter:gamma1` |
+| gamma2 | `parameter:gamma2` |
+| gamma3 | `parameter:gamma3` |
+| k | `parameter:policy_fee` |
+| n | `eingabe:vertragsdauer` |
+| t | `eingabe:beitragszahlungsdauer` |
+| x | `eingabe:alter_bei_beginn` |
+| zw | `eingabe:zahlweise` |
+
+## 11 Anmerkungen der Extraktion (ohne Schemafeld)
+
+- [auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] VORSCHLAG der Aktuariats-Rolle, nicht im Merge: Auskunftsschreiben Nr. 1 der abgebenden Gesellschaft (Datum 2026-10-02), registriert unter dem Eingang. Es ist weder Tarifmeldung noch Bedingungswerk; quelle_art 'tarifmeldung' ist die naechstliegende der drei zulaessigen Arten, kein Urteil ueber die Art der Quelle (sauberer waere eine eigene Art, T-Box-Aenderung A-O1).
+- [auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] Erhoehungssatz ist laut Auskunft Fuehrungspraxis; die AVB (Ziffer 3) und der Tarifplan nennen keinen Zahlwert. Gemessen: Abzug 2026 mit 291 Vertraegen (nur Erhoehungen, laufender Beitrag) und Protokoll 2026 (128 Erhoehungen, Betrag = 5 % der Erlebensfallsumme) stuetzen 0,05, siehe messung/04-auskunft-gegen-lieferung.md.
+- [auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] Zellen ohne Parameter wie im Fragment der AVB (der Merge verlangt die Dimensionen in jedem Fragment). Zins und Haus-beta1 stehen hier bewusst NICHT: Die Aussage der Quelle dazu entscheidet die Diskrepanz nicht (A-Q1), und eine dritte Lesart mit demselben Wert wie die Meldung wuerde sie nicht schliessen.
+- [auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md] stoab_je_baustein nennt die Auskunft nicht; nicht belegt bleibt es dem Bedingungswerk (AVB Ziffer 4).
+- [AVB_KLV_TG2015.pdf] Bedingungswerk, keine Zahlen: Zellparameter verweisen durchweg auf den Tarifplan (Mitteilung 143, Ziffer 2 AVB: 'nach dem Tarifplan'; Ziffer 4: Hoehe, Mindest- und Hoechstbetrag 'ergeben sich aus dem Tarifplan'). Die Zellen tragen daher keine Parameter; die Dimensionen folgen Ziffer 1 (Bestandsgruppen Einzel, Kollektiv, Haus; Risikoklasse Nichtraucher/Raucher).
+- [AVB_KLV_TG2015.pdf] scheiben_mit_gamma1 = true ist gelesen, nicht woertlich: Ziffer 3 sagt 'eigenständiger Baustein ... mit ... eigener Wertermittlung nach dem Tarifplan', gamma1 wird nicht genannt (Konfidenz 0,7); bitte im Dossier pruefen.
+- [AVB_KLV_TG2015.pdf] Dynamiksatz: Ziffer 3 nennt keinen Satz; nur 'Erhöhungen sind ausgeschlossen, sobald die restliche Versicherungsdauer weniger als fünf Jahre beträgt' (Mindestrestdauer, nicht der Satz). quellverfahren.erhoehungssatz ist nicht belegt (Fundstelle: Ziffer 3, kein Satz).
+- [AVB_KLV_TG2015.pdf] Das Bedingungswerk sagt nichts ueber das Verfahren, mit dem die ABGEBENDE Gesellschaft Absetzungen lieferte (quellverfahren.red_verfahren) und nichts zu Deckungskapital-Stichtag und Formfunktion; zu letzterem siehe Tarifplan Abschnitt 6.
+- [AVB_KLV_TG2015.pdf] Ziffer 5: die beitragsfreie Summe wird je Baustein zum letzten Jahrestag des Versicherungsbeginns ermittelt und fest gefuehrt — Fuehrungsregel, kein Tarifwerks-Merkmal der T-Box.
+- [AVB_KLV_TG2015.pdf] Ziffer 3: Erhoehung nur bei Restdauer >= 5 Jahre; Ziffer 4: in der flexiblen Abrufphase entfaellt der Abzug (Werte im Tarifplan).
+- [festlegung-plv-tarifplan-migration-klv-tg2015.md] Dokument der Pfefferminzia Lebensversicherung (PLV), Festlegung zum Tarifplan der Migration KLV TG2015, Fassung 1, Datum 2026-10-02; KEINE Aussage der abgebenden Gesellschaft Baldrian. Quellname der Aussage: die PLV (Festlegung durch die Regie in der Rolle mensch/aktuariat unter Mandat, Simulation).
+- [festlegung-plv-tarifplan-migration-klv-tg2015.md] quelle_art 'tarifmeldung' ist die naechstliegende der drei zulaessigen Arten und stimmt nicht: Das Dokument ist weder Tarifmeldung noch Auskunft der Quelle; sauberer waere eine eigene Art (T-Box-Aenderung, A-O1).
+- [festlegung-plv-tarifplan-migration-klv-tg2015.md] fenster: kein Wert. Zur Formfunktion proportional_zur_basis darf kein Fenster stehen (Festlegung Abschnitt 4: 'Kein Fenster'; P-Q3 verweigert fenster ohne konstantes_fenster). Es steht deshalb weder in quellverfahren noch in nicht_belegt dieses Fragments.
+- [festlegung-plv-tarifplan-migration-klv-tg2015.md] Zellen ohne Parameter wie in den Fragmenten der AVB und der Auskunft (der Merge verlangt die Dimensionen in jedem Fragment).
+- [Mitteilung_143_KLV_TG2015.pdf] Das Staging liefert nur 'absaetze' (Text je Seite): 'tabellen' und 'formeln' sind bauartbedingt leer, die Fundstellen sind daher absaetze[i] plus Abschnitt.
+- [Mitteilung_143_KLV_TG2015.pdf] Prozent/Promille normalisiert (25 Promille = 0.025; 1,25 Promille = 0.00125; 0,8 Promille = 0.0008; 0,5 % = 0.005).
+- [Mitteilung_143_KLV_TG2015.pdf] Haus: 'Abzug bei Rückkauf entfällt' und 'Ratenzuschlag entfällt' sind als 0 gelesen (Konfidenz 0,8) — Interpretation von 'entfällt'. Haus-Inkassokosten beta1 = 10 Promille = 0.01.
+- [Mitteilung_143_KLV_TG2015.pdf] Tafel: 'DAV2008_T_NR_U70' auf Rechner-Konvention DAV2008_T_NR normalisiert; das Suffix U70 ist die Unisex-Vorschrift (70 % Maenner) und steht in 'unisex'.
+- [Mitteilung_143_KLV_TG2015.pdf] Die Tafel haengt nur an der Risikoklasse, die Kostensaetze nur an der Bestandsgruppe (Abschnitt 2, Satz 2) — deshalb je Zelle status x tarifart.
+- [Mitteilung_143_KLV_TG2015.pdf] omega = 123, l(0) = 1.000.000, Rundung der Ausscheideordnung/Kommutationszahlen auf 16 Stellen, Betraege erst in der Ausgabe auf den Cent (Abschnitt 1, 5): kein Zellparameter.
+- [Mitteilung_143_KLV_TG2015.pdf] Abschnitt 6 (Bestandsabzug): ERLSUMME bei beitragsfreien Vertraegen = beitragsfreie Summe; JBRUTTO 0,00 bei Beitragsfreiheit und nach Ablauf der Beitragszahlungsdauer; DECKKAP zum letzten Vertragsjahrestag.
+- [Mitteilung_143_KLV_TG2015.pdf] Das Eintrittsalter x = Differenz der Kalenderjahre von Versicherungsbeginn und Geburt (Abschnitt 3) — Konvention fuer die Transformation.
+- [Mitteilung_143_KLV_TG2015.pdf] Dynamiksatz: der Tarifplan nennt keinen. Tarifwerk-Merkmale stehen im Bedingungswerk, nicht hier.
+- [Tarifrechner_KLV_TG2015.xlsm] Der Rechner rechnet einen Einzelvertrag; Erhoehungsbausteine, Herabsetzung und Teilkuendigung kommen in ihm nicht vor. Tarifwerk und Quellverfahren sind deshalb nicht belegt (der Stornoabzug J21:J71 ist je Vertrag, das ist kein Beleg fuer die Fuehrung je Baustein).
+- [Tarifrechner_KLV_TG2015.xlsm] Das Blatt heisst 'Tarifrechnung' (nicht 'Kalkulation'), Names-Manager nach Quellkonvention (z. B. StoAb_rel, k, B_xt).
+- [Tarifrechner_KLV_TG2015.xlsm] Zins 1,75 % in G4:I4 fuer alle drei Bestandsgruppen; Wert wortgleich aus der Zelle, keine Wertung.
+- [Tarifrechner_KLV_TG2015.xlsm] Tafel: Matrix traegt nur 'DAV2008_T'; E5 haengt _NR/_R nach RK an; Geschlecht 'U70' in B5 ist eine Beispiel-Eingabe und KEINE Unisex-Vorschrift (Regel 6) — unisex daher nicht gesetzt. Das Blatt Tafeln fuehrt DAV2008_T_NR/_R je _M/_F; der Unisex-Mix steht in VBA Act_qx (Maenneranteil aus dem Geschlechtsstring).
+- [Tarifrechner_KLV_TG2015.xlsm] Haus: beta1 = 0 (I7), StoAb 0 (I15:I17), Stueckkosten 0 (I11), Ratenzuschlag 0 (I12).
+- [Tarifrechner_KLV_TG2015.xlsm] Der Rechner nennt Raucher und Nichtraucher ueber RK (B10) nur als Eingabe; alle Tarifparameter ausser der Tafel sind fuer beide Risikoklassen gleich.
+- [Tarifrechner_KLV_TG2015.xlsm] ratzu (E12) ist der Ratenzuschlag je Zahlweise und NICHT der Dynamiksatz der planmaessigen Erhoehung.
+- [Tarifrechner_KLV_TG2015.xlsm] zillmer_dauer: im Rechner nur als Konstante 5 in der Formel H21:H71, kein benannter Parameter (Konfidenz 0,8).
+- [Tarifrechner_KLV_TG2015.xlsm] Rundung: rund_lx/tx/Dx/Cx/Nx/Mx/Rx = 16 Stellen, max_Alter = 123 (VBA mConstants) — kein Feld des ModelPoints.
+- [Tarifrechner_KLV_TG2015.xlsm] Blatt Tarifrechnung hat weitere Rechenzellen (Bxt, BJB, BZB, Pxt, Verlaufswerte A21:L71): Beispielrechnung, keine Parameter.
+- [Tarifrechner_KLV_TG2015.xlsm] Verifikation (Programmleitung, Zug 3): Fundstellen der 18 ratzu-Aussagen auf die reine Zelladresse gekuerzt ($G$12 Einzel, $H$12 Kollektiv, $I$12 Haus); Werte unveraendert. Anlass: Rueck-Check pruefe_ratzu_staffeln liest alles hinter '!' als Adresse (Messung agent/aktuariat, Ergebnis 02).
+
+Diese Beobachtungen der Extraktion haben KEIN Schemafeld — sie sind weder belegt noch widerlegt und deshalb menschlich zu wuerdigen (Herkunft in eckigen Klammern, soweit erfasst).
+
+## 12 Tarifwerk und Verfahren der Quelle
+
+Das Tarifwerk bestimmt, wie Erhoehung, Rueckkauf, Herabsetzung und Teilkuendigung dieser Generation rechnen; das Verfahren der Quelle, wie die abgebende Gesellschaft eine gelieferte Absetzung gemeint hat. Ein nicht erhobenes Merkmal ist eine offene Frage an die Quelle — die Vorgabe des eigenen Geschaefts gilt dafuer nicht.
+
+| Block | Merkmal | Wert | Zustand | Quellenlage | Fundstellen |
+|---|---|---|---|---|---|
+| Tarifwerk | `scheiben_mit_gamma1` | ja | belegt | tarifmeldung | AVB_KLV_TG2015:absaetze[0] Ziffer 3: 'Jede Erhöhung wird versicherungstechnisch als eigenständiger Baustein geführt ... eigener Wertermittlung nach dem Tarifplan'; auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung:Abschnitt 'Zu Rückfrage 05', Punkt 4: 'Jede planmäßige Erhöhung wird als eigenständiger Baustein ... nach der vollen Beitragssatzformel gerechnet ... Die Formel enthält alpha, beta1, gamma1 und gamma2 und gilt je Baustein unverändert' |
+| Tarifwerk | `stoab_je_baustein` | ja | belegt | tarifmeldung | AVB_KLV_TG2015:absaetze[0] Ziffer 4: 'Der Abzug wird für jeden Versicherungsbaustein GESONDERT erhoben ... jeweils mit Mindest- und Höchstbetrag' |
+| Tarifwerk | `red_verfahren` | teilkuendigung | belegt | tarifmeldung | AVB_KLV_TG2015:absaetze[1] Ziffer 6: 'Herabsetzung der Beiträge (Teilkündigung)'; Grundversicherung wird anteilig gekündigt, freiwerdendes Deckungskapital nach Abzug AUSGEZAHLT; auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung:Abschnitt 'Zu Rückfrage 02', Punkt 2: 'Die Angabe lautet daher für alle Absetzungen: teilkuendigung' |
+| Tarifwerk | `tku_umfang` | grundversicherung | belegt | tarifmeldung | AVB_KLV_TG2015:absaetze[1] Ziffer 6: 'Planmäßige Erhöhungen bleiben von der Herabsetzung unberührt'; auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung:Abschnitt 'Zu Rückfrage 02', Punkt 2 und 'Zu Rückfrage 04': Teilkündigung der Grundversicherung, Anteil auf die Grundversicherung allein, 'planmäßige Erhöhungen bleiben unberührt' |
+| Quellverfahren | `red_verfahren` | teilkuendigung | belegt | tarifmeldung | auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung:Abschnitt 'Zu Rückfrage 02', Punkt 2: 'Absetzungen (GEVO = RED) sind Teilkündigungen der Grundversicherung mit Auszahlung ... Weder prospektiv noch mit_abzug ... kommt vor' |
+| Quellverfahren | `erhoehungssatz` | 0.05 | belegt | tarifmeldung | auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung:Abschnitt 'Zu Rückfrage 02', Punkt 1: 'einheitlich 5 % der Gesamtversicherungssumme je Erhöhungstermin, 2016 bis 2025 unverändert' |
+| Quellverfahren | `dk_stichtag` | jahrestag | belegt | tarifmeldung | Mitteilung_143_KLV_TG2015:absaetze[2] Abschnitt 6: DECKKAP 'zum letzten Vertragsjahrestag vor dem Abzugsstichtag ... interpoliert nicht' |
+| Quellverfahren | `formfunktion` | proportional_zur_basis | belegt | tarifmeldung | festlegung-plv-tarifplan-migration-klv-tg2015:Abschnitt 3 (Entscheid 1 — Formfunktion), 'Festgelegt': 'Die Formfunktion ist proportional zur Basis (proportional_zur_basis)' (SHA-256 26c3736bb2f1885b1434d2727ea7246c9ec2944fa327af731e2e945273ea333d) |
+| Quellverfahren | `fenster` | — | nicht_belegt | - | - |
+

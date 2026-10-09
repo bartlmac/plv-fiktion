@@ -1,0 +1,397 @@
+{
+  "diskrepanzen_offen": 0,
+  "fall": "faelle/baldrian-klv-tg2015-fall3",
+  "generationen": [
+    {
+      "belegt_quote": 1.0,
+      "generation": "klv/tg2015",
+      "pflicht_gesamt": 78,
+      "pflichtfelder": 13,
+      "quellverfahren": {
+        "dk_stichtag": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "erhoehungssatz": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "fenster": {
+          "quellen": "-",
+          "zustand": "nicht_belegt"
+        },
+        "formfunktion": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "red_verfahren": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        }
+      },
+      "quellverfahren_vollstaendig": false,
+      "tarifregeln_bestand": {
+        "luecken": [],
+        "vollstaendig": true
+      },
+      "tarifwerk": {
+        "red_verfahren": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "scheiben_mit_gamma1": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "stoab_je_baustein": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        },
+        "tku_umfang": {
+          "quellen": "tarifmeldung",
+          "zustand": "belegt"
+        }
+      },
+      "tarifwerk_vollstaendig": true,
+      "vollstaendig": true,
+      "zaehler": {
+        "belegt": 78,
+        "fehlt_in_extraktion": 0,
+        "mehrdeutig": 0,
+        "nicht_belegt": 0,
+        "widerspruechlich": 0
+      },
+      "zellen": {
+        "zelle:nichtraucher,einzel": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        },
+        "zelle:nichtraucher,haus": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        },
+        "zelle:nichtraucher,kollektiv": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        },
+        "zelle:raucher,einzel": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        },
+        "zelle:raucher,haus": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        },
+        "zelle:raucher,kollektiv": {
+          "alpha": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "beta1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma1": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma2": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "gamma3": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_alter_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "min_rlz_flex": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "policy_fee": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_max": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_min": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "stoab_satz": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "tafel": {
+            "quellen": "tarifmeldung+tarifrechner",
+            "zustand": "belegt"
+          },
+          "zins": {
+            "quellen": "tarifmeldung",
+            "zustand": "belegt"
+          }
+        }
+      }
+    }
+  ],
+  "quellverfahren_vollstaendig": false,
+  "tarifregeln_bestand_vollstaendig": true,
+  "tarifwerk_vollstaendig": true,
+  "tbox_version": "0.2.0",
+  "vollstaendig": true
+}

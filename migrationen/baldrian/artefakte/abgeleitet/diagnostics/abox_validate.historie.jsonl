@@ -1,0 +1,6 @@
+{"ended_at": "2026-10-02T13:07:43.912652+00:00", "exit_code": 20, "fehler": ["coverage", "tarifregeln", "diskrepanzen_offen", "formel_check", "formel_check", "formel_check", "formel_check", "formel_check"], "started_at": "2026-10-02T13:07:43.711673+00:00", "status": "failed", "versuch": 1}
+{"ended_at": "2026-10-02T13:14:26.741564+00:00", "exit_code": 20, "fehler": ["coverage", "tarifregeln", "diskrepanzen_offen"], "started_at": "2026-10-02T13:14:26.502209+00:00", "status": "failed", "versuch": 2}
+{"ended_at": "2026-10-02T13:30:10.259303+00:00", "exit_code": 20, "fehler": ["coverage", "tarifregeln", "diskrepanzen_offen"], "started_at": "2026-10-02T13:30:10.039307+00:00", "status": "failed", "versuch": 3}
+{"ended_at": "2026-10-02T13:40:04.476921+00:00", "exit_code": 20, "fehler": ["coverage", "tarifregeln", "diskrepanzen_offen"], "started_at": "2026-10-02T13:40:04.207180+00:00", "status": "failed", "versuch": 4}
+{"ended_at": "2026-10-02T15:37:38.621002+00:00", "exit_code": 20, "fehler": ["coverage", "diskrepanzen_offen"], "started_at": "2026-10-02T15:37:38.351946+00:00", "status": "failed", "versuch": 5}
+{"ended_at": "2026-10-02T15:43:52.340395+00:00", "exit_code": 0, "fehler": [], "started_at": "2026-10-02T15:43:52.069622+00:00", "status": "passed", "versuch": 6}

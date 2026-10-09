@@ -1,0 +1,216 @@
+{
+ "bereinigt": [
+  {
+   "datei": "artefakte/abgeleitet/berichte/zugangsprobe.json",
+   "ersetzungen": {
+    "<baum>": 1
+   },
+   "gebunden_von": [
+    "A-B2"
+   ],
+   "original": "abgeleitet/berichte/zugangsprobe.json",
+   "sha256_original": "073fb02dc438f99d9d9b80f232c778ca7000c8c324d955d6d263c90ad6fb4e71",
+   "sha256_veroeffentlicht": "0e4563e277b2cf0e87254f5b243468887e5a0bbeabf74b94e8642a004c85930b"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/abnahmebericht.gate.json",
+   "ersetzungen": {
+    "<baum>": 1
+   },
+   "gebunden_von": [
+    "A-B1",
+    "A-B2",
+    "A-M1",
+    "A-M2",
+    "A-M3",
+    "A-M4",
+    "A-Q1",
+    "A-T1"
+   ],
+   "original": "abgeleitet/diagnostics/abnahmebericht.gate.json",
+   "sha256_original": "acbee802ce9db2c4f236b53df109b76da8b75c6d78f24575cd6b476a25513acb",
+   "sha256_veroeffentlicht": "9364cfcace72d654fff2caee351892242074c1a5afa732c5450cc2e0c3a02afd"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_ab1.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_ab1.gate.json",
+   "sha256_original": "4001ce3b8c4fb03b150a74e90c1cadce6280131868783b57e290c7f9581dca88",
+   "sha256_veroeffentlicht": "bd852587ddbce529f80a8501d735076a4ed4cf450f30b44c9418a0ee25cb8dcd"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_ab2.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_ab2.gate.json",
+   "sha256_original": "9d246aeffd9a46e86556fe9f8d7c7a756c2670ca4b34369a01f4bbfc5d58c98b",
+   "sha256_veroeffentlicht": "d52646d3eeaaee42d61a4259b792ffcd47f70a9698f59f177e266e7a69a7489b"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_ak2.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_ak2.gate.json",
+   "sha256_original": "6effe2bd192f5eb25894d1225ad22d30fcd7f02a1356e8685f3f14ba1658ec4d",
+   "sha256_veroeffentlicht": "5e0b9564d238b9fcd427e3431a2639ae7d4852d3cebe84c9380e5a40b8c69fc4"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_am1.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_am1.gate.json",
+   "sha256_original": "fa14e9b7e577eec671672d3b896074a1d90339a40fa9bdf914a7bd9d251caa5d",
+   "sha256_veroeffentlicht": "0fa1d5efd713c62a70adfb7009b00994b11a77861874494d6cd159ee33faedbd"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_am2.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_am2.gate.json",
+   "sha256_original": "1748ca86e051385af6aeec3f2aac76234ae7a9a288197affec18c7dbb066069c",
+   "sha256_veroeffentlicht": "e9b0dcefcf015c24c3712f6b9f97a7b4de395638d48354057d45ce9b716e010e"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_am3.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_am3.gate.json",
+   "sha256_original": "4794d67c1a3b69719af8aaa124eab6b4571f08f9e1db39024667c5da3b74e7ce",
+   "sha256_veroeffentlicht": "576be8114694e687b98e99f24a7f1e8d855b7205ba77ac16fda4177571ace64c"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_am4.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_am4.gate.json",
+   "sha256_original": "5a6fec29ff5f4d7d08e64ebfc19e507c545ea85542d202ac987451a1cbde759a",
+   "sha256_veroeffentlicht": "05aee8fece93ddacc0f4a4fee2f70e947d1b9e9f537d86cfecf3f5a4d97f240b"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_am6.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_am6.gate.json",
+   "sha256_original": "0e9be969e382d28e478ed17323051d56527bc79f48546213465a43906144d5d4",
+   "sha256_veroeffentlicht": "eb993498603ef1063fe4ce04c65ddb71a17e66ec1bd59b3c6204a15a990bc1be"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_aq1.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_aq1.gate.json",
+   "sha256_original": "b8649b8d21ee736d1fcccf0622974d0d639a727e9c77a47de9463aa7d187a1d8",
+   "sha256_veroeffentlicht": "a853f700cbbcf8339614c7b869f49c649abce94e0da60768e4ab102350b449cb"
+  },
+  {
+   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_at1.gate.json",
+   "ersetzungen": {
+    "<baum>": 3,
+    "<schluesselverzeichnis>": 1,
+    "<welt>": 2
+   },
+   "gebunden_von": [],
+   "original": "abgeleitet/diagnostics/gate_entscheid_at1.gate.json",
+   "sha256_original": "d2e0b5d7902f2db8d0d6df902161857bb8101637534fb859691c305f41c1917e",
+   "sha256_veroeffentlicht": "b28b39d83e353583f5ed9eca9b692e3f4dd64871e572df72549bce2146659861"
+  },
+  {
+   "datei": "artefakte/eingang.json",
+   "ersetzungen": {
+    "<baum>": 12,
+    "<welt>": 9
+   },
+   "gebunden_von": [
+    "A-B1",
+    "A-B2",
+    "A-K2",
+    "A-M1",
+    "A-M2",
+    "A-M3",
+    "A-M4",
+    "A-M6",
+    "A-Q1",
+    "A-T1"
+   ],
+   "original": "eingang.json",
+   "sha256_original": "1cd21fb78c7a49c2a6697e8f7fc43b82670189d09d19c47d49c37ff3167dafca",
+   "sha256_veroeffentlicht": "d9694050cea500629d4ec816197142c5aeb58a1a6c8963a0df79a2b004915c89"
+  }
+ ],
+ "regeln": [
+  {
+   "platzhalter": "<baum>",
+   "steht_fuer": "den Arbeitsbaum, in dem der Fall liegt"
+  },
+  {
+   "platzhalter": "<schluesselverzeichnis>",
+   "steht_fuer": "das Verzeichnis des Schlüsselmaterials"
+  },
+  {
+   "platzhalter": "<welt>",
+   "steht_fuer": "die Laufzeitumgebung"
+  },
+  {
+   "platzhalter": "<laufordner>",
+   "steht_fuer": "ein Laufverzeichnis außerhalb des Falls (Stands-Paket, Anker)"
+  }
+ ],
+ "schema_version": 3,
+ "weiterleitungen": [
+  {
+   "datei": "artefakte/abgeleitet/berichte/abgeleitet/berichte/bestandsbericht-nach.html",
+   "verweis_aus": "artefakte/abgeleitet/berichte/migrationsabnahme.html",
+   "ziel": "../../bestandsbericht-nach.html"
+  },
+  {
+   "datei": "artefakte/abgeleitet/berichte/abgeleitet/berichte/bestandsbericht-vor.html",
+   "verweis_aus": "artefakte/abgeleitet/berichte/migrationsabnahme.html",
+   "ziel": "../../bestandsbericht-vor.html"
+  }
+ ],
+ "zurueckgehalten": [
+  {
+   "grund": "überholter Entscheid-Snapshot mit einer vertraulichen Angabe",
+   "original": "entscheide/A-M6-fc3d42a8f0dff08385c0dfad9c64a664e522fb17228ff7dacc1a263a51a7965b.json",
+   "sha256": "ae39704d90faf8ddf12c2edd3b69e5fca641f2726e8e5b90290d707995dce353"
+  }
+ ],
+ "zweck": "Hostpfade der Belege sind in der veröffentlichten Fassung durch benannte Platzhalter ersetzt. Je Datei: die Prüfsumme des Originals im Fall, die Entscheide, die dieses Original über seine Prüfsumme binden (leer: keiner), die Prüfsumme der veröffentlichten Fassung und die Ersetzungen je Regel. Alle übrigen Belege unter artefakte/ sind bytegleich mit ihren Originalen im Fall; die Ansichten der Lieferung (artefakte/lieferung/) sind Ansichten — eine CSV als Vorschau ihrer ersten Zeilen, alles Übrige bytegleich. Weiterleitungen sind Seiten des Auftritts, keine Belege: Verweist ein Beleg vom Fallordner aus, liegt dort, wohin der Browser den Verweis auflöst, eine Weiterleitung auf die Datei, die gemeint ist."
+}

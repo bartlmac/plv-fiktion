@@ -1,0 +1,56 @@
+# Fallauftrag A-M6 — baldrian-klv-tg2015-fall3
+
+Scope: bestand.  
+Auftrag: Die Programmleitung fuehrt die Uebernahme des Bestands KLV TG2015 der Baldrian Lebensversicherung a. G. zum Stichtag 01.01.2026 durch: Tarif und Bestand durch die drei Stufen bis zur Migrationsabnahme, danach die Vorbereitung des Zugangs in die Bestandsfuehrung. Grundlage ist die im Fall registrierte Lieferung; eine Nachlieferung wird registriert und neu beauftragt.
+
+## Die Lieferung
+
+Eingangsregister `1cd21fb78c7a49c2`; aendert sich der Eingang, gilt dieser Auftrag nicht mehr.
+
+- `AVB_KLV_TG2015.pdf` `3a279db47f9ea69b`
+- `LIEFERSCHEIN.md` `80bdd432f99e769c`
+- `Mitteilung_143_KLV_TG2015.pdf` `a5cde1fb1a05d253`
+- `Tarifrechner_KLV_TG2015.xlsm` `e0cd0a03298f2a19`
+- `anteile-06.csv` `d63767e46a52db93`
+- `auskunft-1-rechnungsgrundlagen-kodierungen-herabsetzung.md` `8125b6fe8d881f62`
+- `auskunft-2-herabsetzungsanteile-einzelpolicen.md` `967d7ed1bb6fdd59`
+- `auskunft-3-bewertung-zwischen-jahrestagen.md` `356b852b241d668d`
+- `auskunft-4-erwartungswerte-acht-policen.md` `d1c8fe264d0aec02`
+- `auskunft-5-nachtrag-lieferung-erwartungswerte.md` `3d5dd62476c88a6a`
+- `baldrian_bestandsabzug_2026-01-01.csv` `9ecb8bcd90d706ca`
+- `baldrian_bestandsabzug_2027-01-01.csv` `a6f01126d1236757`
+- `baldrian_erwartungswerte_geschaeftsvorfaelle.json` `812e7e2d67434b1d`
+- `baldrian_erwartungswerte_stichprobe.json` `8a3f648e1310da9a`
+- `baldrian_erwartungswerte_stichprobe_lieferlauf2.json` `e208aaaf93f1b20f`
+- `baldrian_erwartungswerte_stichtag.json` `c98585b0f635681c`
+- `baldrian_erwartungswerte_stichtag_lieferlauf2.json` `b8fe393a129f7810`
+- `baldrian_erwartungswerte_verlauf.json` `f3448668a8b4af23`
+- `baldrian_erwartungswerte_verlauf_lieferlauf2.json` `f955351685c83947`
+- `baldrian_gevo_metadaten.csv` `d9327a8b79557328`
+- `baldrian_gevo_protokoll_2026.csv` `860ff4b92699bf05`
+- `festlegung-plv-tarifplan-migration-klv-tg2015.md` `26c3736bb2f1885b`
+
+## Die Programmleitung des Falls
+
+mensch/programmleitung, Schluessel `266f868c76090e22`, Klasse simulation; ihr Recht aus diesem Auftrag: \['A-M5'\] (Fallabbruch).
+
+## Mandate simulierter Rollen
+
+- mensch/aktuariat: `6857831ef159dc1c`
+- mensch/architektur: `6857831ef159dc1c`
+- mensch/betrieb: `6857831ef159dc1c`
+- mensch/programmleitung: `6857831ef159dc1c`
+- mensch/rechenkern: `6857831ef159dc1c`
+
+## Stand des Zielsystems
+
+Linie linie:
+- A-K2: `8bf215a69778de28`
+- A-O1: `70c30e4362513864`
+- A-T1: `1dfc63c7a1c03641`
+
+## Das abgebende Haus
+
+nicht benannt: Das abgebende Haus hat keinen Aktuar benannt. Benennt es ihn, haelt dieser Auftrag die Benennung fest — die PLV erkennt sie an, sie verleiht sie nicht (ADR-025, Abschnitt 8 d).
+
+Aus der Vorlage erzeugt (`gates.fall_belegen auftrag`); massgeblich ist die Vorlage und, nach der Zeichnung, der A-M6-Snapshot.
