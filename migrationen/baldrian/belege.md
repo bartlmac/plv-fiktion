@@ -100,5 +100,5 @@ Entscheid, Rolle und Prüfstand:
 
 <div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
 
-*Erzeugt am 2026-10-09 aus dem Systemstand `3ff625f83e8b`.*
+*Erzeugt am 2026-10-11 aus dem Systemstand `70e3934acd7d`.*
 
