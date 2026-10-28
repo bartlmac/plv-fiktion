@@ -30,4 +30,4 @@ Die KI-Agenten arbeiten AUSSERHALB dieser Laufzeit: Sie lesen
 Lieferungen und schlagen vor; gerechnet und geurteilt wird
 ausschliesslich im deterministischen Kern.
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

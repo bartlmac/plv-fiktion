@@ -48,4 +48,4 @@ Wie die Gates in einem Fall gelaufen sind, zeigt die Seite der
 jeweiligen Übernahme unter [Bestandsmigrationen](./): je Station
 der Lauf, der zählt, und im Verzeichnis der Belege alle Prüfläufe
 und Entscheide.
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

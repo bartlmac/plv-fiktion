@@ -219,4 +219,4 @@ geprüft; eine Abweichung ist ein Fehler und blockiert.
 
 {% endraw %}
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

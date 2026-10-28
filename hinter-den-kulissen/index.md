@@ -47,4 +47,4 @@ Seine Architektur, wie das Repository sie dokumentiert:
 * [Landkarte](architektur/landkarte.html) — die Schichtung des Codes,
   erzeugt aus dem Code selbst.
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

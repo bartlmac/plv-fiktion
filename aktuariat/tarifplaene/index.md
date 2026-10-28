@@ -14,4 +14,4 @@ Das gemeinsame mathematische Rückgrat — Zustandsraum,
 Thiele-Rekursion, Rechnungsgrundlagen — steht einmal in der
 [Grundsatzdokumentation](../mathematik/grundsatzdokumentation.html).
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

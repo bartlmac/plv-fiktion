@@ -14,10 +14,6 @@ Der Abschluss-Entscheid bindet 59 Artefakte, darunter die Snapshots der Entschei
 
 | Gate | Entscheid | entschieden am | Status | Rolle | Snapshot | Schlüssel (laut Snapshot) | Prüfstand |
 |---|---|---|---|---|---|---|---|
-| <span class="kennung">A-B1</span> | angenommen | 2026-10-08 | **geltend** | mensch/betrieb | [`f1c48698`](artefakte/entscheide/A-B1-f1c48698c92afc9342f29718021a194d738a3f714a96612449815ed4ebc20ba2.json) | `d40988ade3cdc38c…` | strukturell geprüft, Signatur hier nicht verifiziert |
-| <span class="kennung">A-B1</span> | angenommen | 2026-10-06 | überholt | mensch/betrieb | [`035885de`](artefakte/entscheide/A-B1-035885de478429e00aedf37aa2ef880e7c7553cd672580512069d12fa32d89f9.json) | `d40988ade3cdc38c…` | strukturell geprüft, Signatur hier nicht verifiziert |
-| <span class="kennung">A-B1</span> | angenommen | 2026-10-06 | überholt | mensch/betrieb | [`851ae99a`](artefakte/entscheide/A-B1-851ae99a504ac904be192b925d7d4ad5e361fafdf5258846592bd90e59bcfc94.json) | `d40988ade3cdc38c…` | strukturell geprüft, Signatur hier nicht verifiziert |
-| <span class="kennung">A-B1</span> | angenommen | 2026-10-03 | überholt | mensch/betrieb | [`303e2634`](artefakte/entscheide/A-B1-303e2634cd162c8dd2364d9e2ab6c4e75554b10322075c713496398480c4a7c6.json) | `d40988ade3cdc38c…` | strukturell geprüft, Signatur hier nicht verifiziert |
 | <span class="kennung">A-B2</span> | angenommen | 2026-10-02 | **geltend** | mensch/betrieb | [`383669ee`](artefakte/entscheide/A-B2-383669eeab5ae1b82023e5ee5a2a701d743fdc3c8f7431718324c1f587ab373c.json) | `d40988ade3cdc38c…` | strukturell geprüft, Signatur hier nicht verifiziert |
 | <span class="kennung">A-M4</span> | angenommen | 2026-10-02 | **final** | mensch/aktuariat | [`588dae9f`](artefakte/entscheide/A-M4-588dae9f6578e838b62e6bff573ea26d6ff51aa541dfd5afc5f18c9907d3ef65.json) | `162817c937c33d0a…` | strukturell geprüft, Signatur hier nicht verifiziert |
 | <span class="kennung">A-T1</span> | angenommen | 2026-10-02 | **geltend** | mensch/aktuariat | [`a148410b`](artefakte/entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json) | `162817c937c33d0a…` | strukturell geprüft, Signatur hier nicht verifiziert |
@@ -41,7 +37,7 @@ Nachweis einer Zeichnung. Ein Fall kann seine eigene
 menschliche Freigabe nicht behaupten — genau deshalb nennt
 diese Seite nichts gezeichnet, was sie nicht verifiziert hat.
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>
 
-*Diese Seite wurde am 2026-10-11 aus dem Systemstand `70e3934acd7d` erzeugt.*
+*Diese Seite wurde am 2026-10-29 aus dem Systemstand `0b6470c3e57f` erzeugt.*
 

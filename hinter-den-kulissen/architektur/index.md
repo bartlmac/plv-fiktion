@@ -77,6 +77,7 @@ Stelle arbeitet, die sie regeln.
 | [020](https://github.com/bartlmac/rechner-pipeline/blob/main/docs/architektur/adr-020-ein-erzeuger-bestand-aus-dem-zugangsstrom.md) | Der Bestand entsteht aus dem Strom der Zugänge, nicht aus einem gezogenen Anfangsbestand | gilt |
 | [022](https://github.com/bartlmac/rechner-pipeline/blob/main/docs/architektur/adr-022-zugangsabnahme-a-b2.md) | Der Betrieb nimmt den Zugang eines übernommenen Bestands mit einer Probe ab | gilt |
 | [023](https://github.com/bartlmac/rechner-pipeline/blob/main/docs/architektur/adr-023-herabsetzung-und-teilkuendigung.md) | Herabsetzung und Teilkündigung sind getrennte Geschäftsvorfälle | gilt |
+| [029](https://github.com/bartlmac/rechner-pipeline/blob/main/docs/architektur/adr-029-taeglicher-betriebsteil-der-seite.md) | Die Seite zeigt jeden Abend den geführten Tag: Der Server schiebt Daten, GitHub prüft und rendert sie | gilt |
 
 **Repository und Entwicklung**
 
@@ -94,4 +95,4 @@ Stelle arbeitet, die sie regeln.
 
 {% endraw %}
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

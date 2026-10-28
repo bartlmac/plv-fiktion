@@ -15,7 +15,7 @@ der einen bestimmten sucht.
 | [A-M3 Geschäftsvorfalltest](artefakte/abgeleitet/berichte/aktuartest-A-M3.html) | [Station 11 · Geschäftsvorfälle prüfen](./#geschaeftsvorfaelle-pruefen) |
 | [A-M4 Migrationscontrolling](artefakte/abgeleitet/berichte/migrationsabnahme.html) | [Station 12 · Migrationscontrolling](./#migrationscontrolling) |
 
-149 Dateien unter `artefakte/`. Welche Datei an welche Station gehört, ist aus der Belegkette des Falls erhoben — aus dem, was jedes Prüfprotokoll gelesen und geschrieben hat, und aus den Prüfsummen, die jeder Entscheid bindet:
+143 Dateien unter `artefakte/`. Welche Datei an welche Station gehört, ist aus der Belegkette des Falls erhoben — aus dem, was jedes Prüfprotokoll gelesen und geschrieben hat, und aus den Prüfsummen, die jeder Entscheid bindet:
 
 * [Station 1 · Auftrag und Lieferung](./#die-lieferung) — 33 Dateien, dazu 1 nicht veröffentlicht
 * [Station 2 · Quellen lesen](./#quellen-lesen) — 24 Dateien
@@ -29,20 +29,19 @@ der einen bestimmten sucht.
 * [Station 10 · Verlauf prüfen](./#verlauf-pruefen) — 7 Dateien
 * [Station 11 · Geschäftsvorfälle prüfen](./#geschaeftsvorfaelle-pruefen) — 7 Dateien
 * [Station 12 · Migrationscontrolling](./#migrationscontrolling) — 10 Dateien
-* [Station 13 · Zugang in die Bücher](./#der-bestand) — 10 Dateien
+* [Station 13 · Zugang in die Bücher](./#der-bestand) — 4 Dateien
 * `lieferung` — Ansichten der gelieferten Dateien (22 Dateien)
 * [`abgeleitet/aufwand.json`](artefakte/abgeleitet/aufwand.json) — gelesen von dieser Darstellung, keiner Station der Kette zugeordnet
 * [`abgeleitet/schichten/verankerung_schichten.json`](artefakte/abgeleitet/schichten/verankerung_schichten.json) — gelesen von dieser Darstellung, keiner Station der Kette zugeordnet
 
 ## Bereinigt veröffentlicht {#bereinigt}
 
-13 Dateien tragen im Fall Pfade des Rechners, auf dem der Lauf lief. Veröffentlicht sind sie mit benannten Platzhaltern — `<baum>` für den Arbeitsbaum, in dem der Fall liegt, `<schluesselverzeichnis>` für das Verzeichnis des Schlüsselmaterials, `<welt>` für die Laufzeitumgebung — und darum nicht bytegleich mit dem Original. Je Datei nennt das [Bereinigungsmanifest](artefakte/bereinigung.json) die Prüfsumme des Originals im Fall, die Entscheide, die dieses Original über seine Prüfsumme binden, die Prüfsumme der veröffentlichten Fassung und die Ersetzungen; 10 der 13 Originale bindet kein Entscheid. Alle übrigen Belege unter `artefakte/` sind bytegleich mit ihren Originalen im Fall; die Ansichten der Lieferung sind Ansichten — eine CSV als Vorschau ihrer ersten Zeilen, alles Übrige bytegleich.
+12 Dateien tragen im Fall Pfade des Rechners, auf dem der Lauf lief. Veröffentlicht sind sie mit benannten Platzhaltern — `<baum>` für den Arbeitsbaum, in dem der Fall liegt, `<schluesselverzeichnis>` für das Verzeichnis des Schlüsselmaterials, `<welt>` für die Laufzeitumgebung — und darum nicht bytegleich mit dem Original. Je Datei nennt das [Bereinigungsmanifest](artefakte/bereinigung.json) die Prüfsumme des Originals im Fall, die Entscheide, die dieses Original über seine Prüfsumme binden, die Prüfsumme der veröffentlichten Fassung und die Ersetzungen; 9 der 12 Originale bindet kein Entscheid. Alle übrigen Belege unter `artefakte/` sind bytegleich mit ihren Originalen im Fall; die Ansichten der Lieferung sind Ansichten — eine CSV als Vorschau ihrer ersten Zeilen, alles Übrige bytegleich.
 
 | Datei | Original im Fall | gebunden von | veröffentlicht | ersetzt |
 |---|---|---|---|---|
 | [`abgeleitet/berichte/zugangsprobe.json`](artefakte/abgeleitet/berichte/zugangsprobe.json) | `073fb02dc438f99d…` | <span class="kennung">A-B2</span> | `0e4563e277b2cf0e…` | <span class="kennung">`<baum>` ×1</span> |
 | [`abgeleitet/diagnostics/abnahmebericht.gate.json`](artefakte/abgeleitet/diagnostics/abnahmebericht.gate.json) | `acbee802ce9db2c4…` | <span class="kennung">A-B1</span>, <span class="kennung">A-B2</span>, <span class="kennung">A-M1</span>, <span class="kennung">A-M2</span>, <span class="kennung">A-M3</span>, <span class="kennung">A-M4</span>, <span class="kennung">A-Q1</span>, <span class="kennung">A-T1</span> | `9364cfcace72d654…` | <span class="kennung">`<baum>` ×1</span> |
-| [`abgeleitet/diagnostics/gate_entscheid_ab1.gate.json`](artefakte/abgeleitet/diagnostics/gate_entscheid_ab1.gate.json) | `4001ce3b8c4fb03b…` | keinem Entscheid | `bd852587ddbce529…` | <span class="kennung">`<baum>` ×3</span>, <span class="kennung">`<schluesselverzeichnis>` ×1</span>, <span class="kennung">`<welt>` ×2</span> |
 | [`abgeleitet/diagnostics/gate_entscheid_ab2.gate.json`](artefakte/abgeleitet/diagnostics/gate_entscheid_ab2.gate.json) | `9d246aeffd9a46e8…` | keinem Entscheid | `d52646d3eeaaee42…` | <span class="kennung">`<baum>` ×3</span>, <span class="kennung">`<schluesselverzeichnis>` ×1</span>, <span class="kennung">`<welt>` ×2</span> |
 | [`abgeleitet/diagnostics/gate_entscheid_ak2.gate.json`](artefakte/abgeleitet/diagnostics/gate_entscheid_ak2.gate.json) | `6effe2bd192f5eb2…` | keinem Entscheid | `5e0b9564d238b9fc…` | <span class="kennung">`<baum>` ×3</span>, <span class="kennung">`<schluesselverzeichnis>` ×1</span>, <span class="kennung">`<welt>` ×2</span> |
 | [`abgeleitet/diagnostics/gate_entscheid_am1.gate.json`](artefakte/abgeleitet/diagnostics/gate_entscheid_am1.gate.json) | `fa14e9b7e577eec6…` | keinem Entscheid | `0fa1d5efd713c62a…` | <span class="kennung">`<baum>` ×3</span>, <span class="kennung">`<schluesselverzeichnis>` ×1</span>, <span class="kennung">`<welt>` ×2</span> |
@@ -56,15 +55,15 @@ der einen bestimmten sucht.
 
 Nicht veröffentlicht: `entscheide/A-M6-fc3d42a8f0dff08385c0dfad9c64a664e522fb17228ff7dacc1a263a51a7965b.json` — ein überholter Entscheid-Snapshot mit einer vertraulichen Angabe; Prüfsumme der Datei `ae39704d90faf8ddf12c2edd3b69e5fca641f2726e8e5b90290d707995dce353`. Ein Snapshot wird nie bereinigt, weil eine Änderung seine Signatur und die Verweise der Folgeentscheide bräche.
 
-Nicht auf dieser Seite: 132 Dateien des Falls, die keine Station trägt — Arbeitsunterlagen der Agenten (Protokolle, Messungen, Übergaben) und überholte Zwischenstände. Sie sind nicht Teil der Belegkette.
+Nicht auf dieser Seite: 138 Dateien des Falls, die keine Station trägt — Arbeitsunterlagen der Agenten (Protokolle, Messungen, Übergaben) und überholte Zwischenstände. Sie sind nicht Teil der Belegkette.
 
 Außerhalb des Falls gelesen: `src/rechner_pipeline/kern/tafeln.xml` (P-K1) — eine Datei des Systemstands, nicht des Falls.
 
 ## Alle Prüfläufe und ihre Ledger {#wie-es-lief}
 
-19 Prüfschritte, 42 Anläufe bis zum
+18 Prüfschritte, 37 Anläufe bis zum
 Urteil. Die Seite der Übernahme nennt je Station den Lauf, der zählt; hier
-stehen alle, auch die 10 Entscheid-Gates, die je
+stehen alle, auch die 9 Entscheid-Gates, die je
 Entscheid-Runde ein eigenes Ledger schreiben.
 
 | Prüfschritt | Anläufe | Urteil | Ledger |
@@ -87,18 +86,17 @@ Entscheid-Runde ein eigenes Ledger schreiben.
 | entscheid.A-T1 | 1 | passed | [`json`](artefakte/abgeleitet/diagnostics/gate_entscheid_at1.gate.json) |
 | entscheid.A-M4 | 1 | passed | [`json`](artefakte/abgeleitet/diagnostics/gate_entscheid_am4.gate.json) |
 | entscheid.A-B2 | 1 | passed | [`json`](artefakte/abgeleitet/diagnostics/gate_entscheid_ab2.gate.json) |
-| entscheid.A-B1 | 5 | passed | [`json`](artefakte/abgeleitet/diagnostics/gate_entscheid_ab1.gate.json) |
 
 ## Die Entscheid-Snapshots {#zeichnungen}
 
-18 Entscheid-Snapshots liegen im Fall, 10 davon geltend —
+14 Entscheid-Snapshots liegen im Fall, 9 davon geltend —
 je Gate einer; die übrigen sind Runden, die durch Korrekturen
 überholt wurden und erhalten bleiben. Je Snapshot Gate,
 Entscheid, Rolle und Prüfstand:
 [Die Entscheid-Snapshots der Gates](entscheide.html).
 
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>
 
-*Erzeugt am 2026-10-11 aus dem Systemstand `70e3934acd7d`.*
+*Erzeugt am 2026-10-29 aus dem Systemstand `0b6470c3e57f`.*
 
