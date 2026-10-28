@@ -39,8 +39,8 @@ Baldrian) und die Berufsunfähigkeitsversicherung.
 ## Was der Kern für den Bestand leistet {#im-bestand}
 
 Die Zahlen, die der Kern für den geführten Bestand rechnet, stehen unter
-[Bestandsführung](../geschaeftsentwicklung/): der Bestand am Stichtag und
-die [Monatsberichte](../geschaeftsentwicklung/#monatsberichte).
+[Bestandsführung](../betrieb/): der Bestand am Stichtag und
+die [Monatsberichte](../betrieb/#monatsberichte).
 
 Wie der Kern eine Übernahme nachrechnet und wer sie abnimmt, steht unter
 [Bestandsmigrationen](../migrationen/#abnahmen). Die Bestandsberichte zur
@@ -48,4 +48,4 @@ Wie der Kern eine Übernahme nachrechnet und wer sie abnimmt, steht unter
 [nach der Übernahme, Stichtag 01.01.2026](../migrationen/baldrian/artefakte/abgeleitet/berichte/bestandsbericht-nach.html)
 und [der gelieferte Bestand zum Vergleich](../migrationen/baldrian/artefakte/abgeleitet/berichte/bestandsbericht-vor.html).
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

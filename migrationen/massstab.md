@@ -107,4 +107,4 @@ Arbeitsgruppe eine eigene Veröffentlichung angekündigt. Wie wir sie
 einsetzen, steht unter
 [Künstliche Intelligenz in unseren Migrationen](ki.html).
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>

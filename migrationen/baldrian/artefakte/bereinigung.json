@@ -32,18 +32,6 @@
    "sha256_veroeffentlicht": "9364cfcace72d654fff2caee351892242074c1a5afa732c5450cc2e0c3a02afd"
   },
   {
-   "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_ab1.gate.json",
-   "ersetzungen": {
-    "<baum>": 3,
-    "<schluesselverzeichnis>": 1,
-    "<welt>": 2
-   },
-   "gebunden_von": [],
-   "original": "abgeleitet/diagnostics/gate_entscheid_ab1.gate.json",
-   "sha256_original": "4001ce3b8c4fb03b150a74e90c1cadce6280131868783b57e290c7f9581dca88",
-   "sha256_veroeffentlicht": "bd852587ddbce529f80a8501d735076a4ed4cf450f30b44c9418a0ee25cb8dcd"
-  },
-  {
    "datei": "artefakte/abgeleitet/diagnostics/gate_entscheid_ab2.gate.json",
    "ersetzungen": {
     "<baum>": 3,

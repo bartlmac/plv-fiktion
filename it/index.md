@@ -24,4 +24,4 @@ Ein Lauf, dessen Eingaben sich geändert haben, gilt als anderer Lauf.
 
 [Techstack](techstack.html) — Sprache, Bibliotheken, Versionen.
 
-<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a></div>
+<div class="fuss-fiktion">Fiktives Unternehmen — <a href="../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>
