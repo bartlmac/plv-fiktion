@@ -1,0 +1,4136 @@
+{
+  "abschluesse": [
+    {
+      "datei": "abschluss_1994-07-01.parquet",
+      "in_kraft": 0,
+      "leistungen": 0,
+      "sha256": "cb055df06e5274c652d2c905fdd0bbeb73fb45aaf8e94aa97530d46c6e365071",
+      "stichtag": "1994-07-01",
+      "zugaenge": 0
+    },
+    {
+      "datei": "abschluss_1994-08-01.parquet",
+      "in_kraft": 9,
+      "leistungen": 0,
+      "sha256": "32f804db665223ee197eb2249e0383e35a57a7060bae50dcd847c72c2fee5a32",
+      "stichtag": "1994-08-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1994-09-01.parquet",
+      "in_kraft": 18,
+      "leistungen": 0,
+      "sha256": "9efacd25643c35d280123110f055ca9527293dd520d053ec387fe149a19076ec",
+      "stichtag": "1994-09-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1994-10-01.parquet",
+      "in_kraft": 25,
+      "leistungen": 0,
+      "sha256": "ff1bf241693e50c6c1d4fa4f77b2fc1fd7f84dd659c6d0499478a2475afb8b46",
+      "stichtag": "1994-10-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_1994-11-01.parquet",
+      "in_kraft": 34,
+      "leistungen": 0,
+      "sha256": "21e52cd311dd85a7989afce2fe35dcd42b0b795499cd35d64b53e83699de2164",
+      "stichtag": "1994-11-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1994-12-01.parquet",
+      "in_kraft": 42,
+      "leistungen": 0,
+      "sha256": "60aceb1e2b4edde44b0962eb3053c2b70a36002808f9cb269c9ae2a6cdd78676",
+      "stichtag": "1994-12-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1995-01-01.parquet",
+      "in_kraft": 51,
+      "leistungen": 0,
+      "sha256": "10cf6b8d32f01cb7a2487358c5668c1e2c5759fa9a149426c4e4ac76c094681c",
+      "stichtag": "1995-01-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1995-02-01.parquet",
+      "in_kraft": 56,
+      "leistungen": 0,
+      "sha256": "91eb8ace0ff957c365e2c4b0770c612bf68b035073a067fc3aae4c05068bf5a8",
+      "stichtag": "1995-02-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_1995-03-01.parquet",
+      "in_kraft": 66,
+      "leistungen": 0,
+      "sha256": "64b7709c7db86759652c92402fd63e877c4c34054f8dd329d741594e1a6bb8cb",
+      "stichtag": "1995-03-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1995-04-01.parquet",
+      "in_kraft": 75,
+      "leistungen": 0,
+      "sha256": "b44e8605b0ac370177d1397d566e70ffd2be8ad2bdd1ea09f9bdbc487d5d58b4",
+      "stichtag": "1995-04-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1995-05-01.parquet",
+      "in_kraft": 82,
+      "leistungen": 0,
+      "sha256": "11010d4655b39adf89ebd44bc0c804171a2ba17bbd5dc6e51c8b2ad847543116",
+      "stichtag": "1995-05-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_1995-06-01.parquet",
+      "in_kraft": 94,
+      "leistungen": 0,
+      "sha256": "2855a8d8889c0c6984c3f257b5de0b691418f41467a6bcde328ec8a8a4894ff1",
+      "stichtag": "1995-06-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_1995-07-01.parquet",
+      "in_kraft": 104,
+      "leistungen": 0,
+      "sha256": "769beeac4ea2273042a8e63213679afd668b4e8ff6ee29ccaed0ece6cd4e930f",
+      "stichtag": "1995-07-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1995-08-01.parquet",
+      "in_kraft": 111,
+      "leistungen": 2,
+      "sha256": "8b735163d0522d913b2403c46ea1766c0ba49d037531588c2a14bfca3927e0a2",
+      "stichtag": "1995-08-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1995-09-01.parquet",
+      "in_kraft": 120,
+      "leistungen": 0,
+      "sha256": "a2a9b97071937884d0bacc9e1a27bca65ced4724b8e467369da2a8f60202f3e9",
+      "stichtag": "1995-09-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_1995-10-01.parquet",
+      "in_kraft": 124,
+      "leistungen": 0,
+      "sha256": "61068dbd17ca792e68d7468254492dbd7013375b47bec049262b8b6870729e79",
+      "stichtag": "1995-10-01",
+      "zugaenge": 4
+    },
+    {
+      "datei": "abschluss_1995-11-01.parquet",
+      "in_kraft": 128,
+      "leistungen": 2,
+      "sha256": "6242d62e98c8cd4e33c94aef2b5907557ce38d420ea6e3212c1fa2ab677d2836",
+      "stichtag": "1995-11-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1995-12-01.parquet",
+      "in_kraft": 136,
+      "leistungen": 0,
+      "sha256": "92a7a27cb3619e5ffa21953bcaf4bbf304a69367c7cc1ec4e0c84d1fdb70285e",
+      "stichtag": "1995-12-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_1996-01-01.parquet",
+      "in_kraft": 139,
+      "leistungen": 0,
+      "sha256": "2aa652377079135cb9ffb89ec90bc350909156025765bc5cd51b766ed41b660c",
+      "stichtag": "1996-01-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_1996-02-01.parquet",
+      "in_kraft": 147,
+      "leistungen": 0,
+      "sha256": "688309fb5543a94f830dd47fc04305a9c000961baeada020d9794b014903ba7a",
+      "stichtag": "1996-02-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1996-03-01.parquet",
+      "in_kraft": 152,
+      "leistungen": 0,
+      "sha256": "b88bc7708582c6ebbb3c85aaa873a1c388c056e781b24494b8554c4e8c052b49",
+      "stichtag": "1996-03-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1996-04-01.parquet",
+      "in_kraft": 158,
+      "leistungen": 0,
+      "sha256": "7475b16da1114731899337eb2752c8b0ac535655aabecf2fadb59677e97a3061",
+      "stichtag": "1996-04-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1996-05-01.parquet",
+      "in_kraft": 164,
+      "leistungen": 0,
+      "sha256": "cbf540bb9ad78614b69a25da68288bf2af7781f0c9a267a127de1574d8addf34",
+      "stichtag": "1996-05-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1996-06-01.parquet",
+      "in_kraft": 170,
+      "leistungen": 0,
+      "sha256": "209a3685c5be3de5505769ad4618bfde66e245b31aa3f3c7d7e01bac942cb183",
+      "stichtag": "1996-06-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_1996-07-01.parquet",
+      "in_kraft": 177,
+      "leistungen": 0,
+      "sha256": "054c8170ae438f08890ba821d68ba1062824d075a721f91dcdef8befbb85a618",
+      "stichtag": "1996-07-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_1996-08-01.parquet",
+      "in_kraft": 183,
+      "leistungen": 1,
+      "sha256": "79b1f5a4c210a0e7a98aae8dd894288170d5d4edbee90d24456ba3e71b19f7dd",
+      "stichtag": "1996-08-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1996-09-01.parquet",
+      "in_kraft": 192,
+      "leistungen": 1,
+      "sha256": "c222348a92751aa95be33afa4cc84c9a2f7adb01f66724d2f118d8931b4495c2",
+      "stichtag": "1996-09-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1996-10-01.parquet",
+      "in_kraft": 206,
+      "leistungen": 0,
+      "sha256": "45893f52544b120711ed5aca0fb1c28e96fe9d93798b69a4321a4df39fb33231",
+      "stichtag": "1996-10-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_1996-11-01.parquet",
+      "in_kraft": 217,
+      "leistungen": 0,
+      "sha256": "0d10375416b9cf71f2de247c513933421a2d89e855659e3010452b79f0eb0a59",
+      "stichtag": "1996-11-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_1996-12-01.parquet",
+      "in_kraft": 225,
+      "leistungen": 0,
+      "sha256": "cd8c53de723fd4661d80d89b9337ce830bd9a7c77896e839ce2f5a6aa2363fef",
+      "stichtag": "1996-12-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1997-01-01.parquet",
+      "in_kraft": 234,
+      "leistungen": 2,
+      "sha256": "bf9493f05e291e06c7f1803b36aa3a5bd545041c17aff2f525e251941ea184a9",
+      "stichtag": "1997-01-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_1997-02-01.parquet",
+      "in_kraft": 241,
+      "leistungen": 0,
+      "sha256": "6270d1de8e7576dbb9e6faa613f71553e112710d2b9fd936c5a09b5a685c8c18",
+      "stichtag": "1997-02-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_1997-03-01.parquet",
+      "in_kraft": 248,
+      "leistungen": 0,
+      "sha256": "3091e0c8f2fe5a2bdba083c90e3b8d672683868952e193f8a439ef8dd816f204",
+      "stichtag": "1997-03-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1997-04-01.parquet",
+      "in_kraft": 262,
+      "leistungen": 0,
+      "sha256": "aeb637be92496046904dc3646524e70ad920b5d1c20fb392fa794522a248d3d0",
+      "stichtag": "1997-04-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_1997-05-01.parquet",
+      "in_kraft": 271,
+      "leistungen": 0,
+      "sha256": "0ccf3e162513c898bf6879081fd4092a4630b7531be9045d25fa5c1d96e677ad",
+      "stichtag": "1997-05-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_1997-06-01.parquet",
+      "in_kraft": 280,
+      "leistungen": 0,
+      "sha256": "4a80dc5489d561caa08b50e71045df623d35f3d89717a01feef42d91903777a2",
+      "stichtag": "1997-06-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1997-07-01.parquet",
+      "in_kraft": 281,
+      "leistungen": 3,
+      "sha256": "c0c1102a70ac4881b1e79fbaec88d69ed76e6306b0fd5fe45b69bbcd7f35dbaa",
+      "stichtag": "1997-07-01",
+      "zugaenge": 20
+    },
+    {
+      "datei": "abschluss_1997-08-01.parquet",
+      "in_kraft": 292,
+      "leistungen": 0,
+      "sha256": "97cc304853b3cac69f27823261cc11a8fcfcb666b38c380edae742af84a02717",
+      "stichtag": "1997-08-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_1997-09-01.parquet",
+      "in_kraft": 302,
+      "leistungen": 0,
+      "sha256": "9fc90a80890aa59294eb564d28720dbb8f46b32d6555d8915468ed934154aa67",
+      "stichtag": "1997-09-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_1997-10-01.parquet",
+      "in_kraft": 309,
+      "leistungen": 2,
+      "sha256": "55e958ac6f93c1d87c261e55286a0cbd0da531df063f613c70303b55e0139718",
+      "stichtag": "1997-10-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1997-11-01.parquet",
+      "in_kraft": 316,
+      "leistungen": 0,
+      "sha256": "7d23b3a5c91059e9ed75b3baef23ffe8ea290d912eba4bf62d3e733097a909b9",
+      "stichtag": "1997-11-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_1997-12-01.parquet",
+      "in_kraft": 322,
+      "leistungen": 2,
+      "sha256": "cc7d4f4b721ce9df69be31a8701379aa94051456a8852ff914072505457c4650",
+      "stichtag": "1997-12-01",
+      "zugaenge": 19
+    },
+    {
+      "datei": "abschluss_1998-01-01.parquet",
+      "in_kraft": 334,
+      "leistungen": 1,
+      "sha256": "a9e882adf30f2f5e5bd603cdb49480488b3353da531a197b4ec2642a3c1de34b",
+      "stichtag": "1998-01-01",
+      "zugaenge": 18
+    },
+    {
+      "datei": "abschluss_1998-02-01.parquet",
+      "in_kraft": 344,
+      "leistungen": 0,
+      "sha256": "ab5ff5c44d86939b4c8064c2c0b9518e807ef2216a0ce5278eb25dad430f27d5",
+      "stichtag": "1998-02-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_1998-03-01.parquet",
+      "in_kraft": 350,
+      "leistungen": 1,
+      "sha256": "b72326256cea754ca9e2e8c5aa2ffb1b7f4afa98c16b083394a2c696f9c8c768",
+      "stichtag": "1998-03-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_1998-04-01.parquet",
+      "in_kraft": 354,
+      "leistungen": 6,
+      "sha256": "95ef5dd6cff0fa2c5b16b1de693bcbc6c4006f3281c971f08f3d114f04ce001b",
+      "stichtag": "1998-04-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_1998-05-01.parquet",
+      "in_kraft": 364,
+      "leistungen": 0,
+      "sha256": "77ec7a2a59eede08fbadd8d83fba536b720c0e17acc350c542eac4c10c038643",
+      "stichtag": "1998-05-01",
+      "zugaenge": 16
+    },
+    {
+      "datei": "abschluss_1998-06-01.parquet",
+      "in_kraft": 370,
+      "leistungen": 2,
+      "sha256": "525e830a16f4025c78ab7ff6c2c85956d30604eaa0540c9ba53055fd50c266ba",
+      "stichtag": "1998-06-01",
+      "zugaenge": 16
+    },
+    {
+      "datei": "abschluss_1998-07-01.parquet",
+      "in_kraft": 380,
+      "leistungen": 1,
+      "sha256": "f9d65eb332b678af138136a0d944330003384a1fb95c9c6ed2b9d51dde4e3c99",
+      "stichtag": "1998-07-01",
+      "zugaenge": 14
+    },
+    {
+      "datei": "abschluss_1998-08-01.parquet",
+      "in_kraft": 385,
+      "leistungen": 0,
+      "sha256": "3b2fdf7897d88b8c3103fdb16af897b9bacdce1c88a2ae1dd6fc7052f65dd64e",
+      "stichtag": "1998-08-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_1998-09-01.parquet",
+      "in_kraft": 389,
+      "leistungen": 1,
+      "sha256": "d43d512d1a81b90ffd7fe081e95602a3ff3d8f15ea771ce9002f2a94b8dc85ca",
+      "stichtag": "1998-09-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_1998-10-01.parquet",
+      "in_kraft": 394,
+      "leistungen": 2,
+      "sha256": "eefebc8333fbf9a2b4b45820f5d0c2e958c1cf317b12a287811abe1afcc2ea32",
+      "stichtag": "1998-10-01",
+      "zugaenge": 15
+    },
+    {
+      "datei": "abschluss_1998-11-01.parquet",
+      "in_kraft": 400,
+      "leistungen": 0,
+      "sha256": "46ce84bbd69c2504db58aa722fdd9a0facc622946ddb8928a61b33a7d060fe96",
+      "stichtag": "1998-11-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_1998-12-01.parquet",
+      "in_kraft": 407,
+      "leistungen": 3,
+      "sha256": "4788932b27a376b9aaa469a143967495d0d28f015d2ebc6c5a09d2320ff1b4ed",
+      "stichtag": "1998-12-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_1999-01-01.parquet",
+      "in_kraft": 412,
+      "leistungen": 2,
+      "sha256": "6e96991feac0dd9b15874ac898f52f564edf3e63f8414f4fd905c5422ee3aa23",
+      "stichtag": "1999-01-01",
+      "zugaenge": 20
+    },
+    {
+      "datei": "abschluss_1999-02-01.parquet",
+      "in_kraft": 418,
+      "leistungen": 2,
+      "sha256": "7c834671ea23d8d27ece10a29217229ffc22f5ab5b5b375a4c1c97010d2af5e7",
+      "stichtag": "1999-02-01",
+      "zugaenge": 18
+    },
+    {
+      "datei": "abschluss_1999-03-01.parquet",
+      "in_kraft": 426,
+      "leistungen": 1,
+      "sha256": "a9bc24d4ee95deaa660e3af3e6dc000a87ba74e058dcf86775bae4089024a6fd",
+      "stichtag": "1999-03-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_1999-04-01.parquet",
+      "in_kraft": 431,
+      "leistungen": 2,
+      "sha256": "51bbc131f9e2916fa72ceb1ad66a864decb758b2c860da2d504fef0d5bdf4469",
+      "stichtag": "1999-04-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_1999-05-01.parquet",
+      "in_kraft": 439,
+      "leistungen": 0,
+      "sha256": "1b35e04da499825cb63ecdc4ebdc61ec41365b422f5c846f118d122d0eec92cd",
+      "stichtag": "1999-05-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_1999-06-01.parquet",
+      "in_kraft": 444,
+      "leistungen": 2,
+      "sha256": "97710f1ed3cf708e08ae8948a316b944ebbf9e0bc41c5a09c99bf5879213a676",
+      "stichtag": "1999-06-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_1999-07-01.parquet",
+      "in_kraft": 454,
+      "leistungen": 1,
+      "sha256": "8db54ac9385f2df8d6f1389b0e2835150f6c8396bd0b6c37f3b16537174da5b3",
+      "stichtag": "1999-07-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_1999-08-01.parquet",
+      "in_kraft": 463,
+      "leistungen": 0,
+      "sha256": "c536c4b576631be77332fa777017f45cab57e9906c7154e40eea82c63e704f33",
+      "stichtag": "1999-08-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_1999-09-01.parquet",
+      "in_kraft": 468,
+      "leistungen": 1,
+      "sha256": "6b71042126692c53bc31246320df063e15fa8468e7c22fb5932c72a19d34cd99",
+      "stichtag": "1999-09-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_1999-10-01.parquet",
+      "in_kraft": 474,
+      "leistungen": 1,
+      "sha256": "decf308ffe2bdddd9a09a4d78d8ab82bd0607ffd891d4da2fc0a1fbac8a311a0",
+      "stichtag": "1999-10-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_1999-11-01.parquet",
+      "in_kraft": 483,
+      "leistungen": 2,
+      "sha256": "5acd3a9957acf09f3df454c7f4f717fa134af2329a4978757ebbfe74287052ad",
+      "stichtag": "1999-11-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_1999-12-01.parquet",
+      "in_kraft": 492,
+      "leistungen": 2,
+      "sha256": "59569b9b50abc7df781c0ae704c0f6770b257db9a74fb64bff542210c222380b",
+      "stichtag": "1999-12-01",
+      "zugaenge": 18
+    },
+    {
+      "datei": "abschluss_2000-01-01.parquet",
+      "in_kraft": 502,
+      "leistungen": 0,
+      "sha256": "ab9aa7ff9db74f2e66fb1fe55b2b15a9ec5ce7d739796c777aa6431f46712392",
+      "stichtag": "2000-01-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2000-02-01.parquet",
+      "in_kraft": 513,
+      "leistungen": 0,
+      "sha256": "3b146972f439ba673cdcd2793ec245088267e1b8828239d33587b20610b1d99a",
+      "stichtag": "2000-02-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2000-03-01.parquet",
+      "in_kraft": 520,
+      "leistungen": 1,
+      "sha256": "e71ca272f59a0b2ba73c611156323c84a6961474131cfb8d8a6b25cc6f529e73",
+      "stichtag": "2000-03-01",
+      "zugaenge": 18
+    },
+    {
+      "datei": "abschluss_2000-04-01.parquet",
+      "in_kraft": 533,
+      "leistungen": 0,
+      "sha256": "ab75db860843a617de185f4b0519b36d7e1b79ffe1dafc8032229c25954f6b94",
+      "stichtag": "2000-04-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2000-05-01.parquet",
+      "in_kraft": 542,
+      "leistungen": 1,
+      "sha256": "ad6913f54d5c50ee58db3e2bd1734bf71d030baf85d265d0147f52a908396c31",
+      "stichtag": "2000-05-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2000-06-01.parquet",
+      "in_kraft": 553,
+      "leistungen": 1,
+      "sha256": "b7ee26631065a8aed9aef4eb9fb869da686dc75d198a02c28b6025d7e58560a9",
+      "stichtag": "2000-06-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_2000-07-01.parquet",
+      "in_kraft": 560,
+      "leistungen": 0,
+      "sha256": "d27d0796c6154115e2106a34bad75f1b568c15efa8896c13776f47741c1389eb",
+      "stichtag": "2000-07-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2000-08-01.parquet",
+      "in_kraft": 563,
+      "leistungen": 3,
+      "sha256": "548169b85ac2b916566bafb3f877d60ff5ea60ec741be8d4d08ac631fea143aa",
+      "stichtag": "2000-08-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2000-09-01.parquet",
+      "in_kraft": 569,
+      "leistungen": 3,
+      "sha256": "aff57ef637c46b878fa6983f8011b9dea1ada73e0823a196fe5c10996e813dbe",
+      "stichtag": "2000-09-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2000-10-01.parquet",
+      "in_kraft": 576,
+      "leistungen": 0,
+      "sha256": "c7fb132b860b283fa9b79c136a5003dd2e282da26111b5a1f9b2da030d406aa8",
+      "stichtag": "2000-10-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2000-11-01.parquet",
+      "in_kraft": 578,
+      "leistungen": 4,
+      "sha256": "31da494e9bb0834fd247825f353fcb13d0f7c2a25190128bb4e9890ba72f140f",
+      "stichtag": "2000-11-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_2000-12-01.parquet",
+      "in_kraft": 584,
+      "leistungen": 2,
+      "sha256": "1e1819b91445d1a06f999638a2589512d756c4f0ac19e389a23f3d32872bb0f9",
+      "stichtag": "2000-12-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_2001-01-01.parquet",
+      "in_kraft": 595,
+      "leistungen": 1,
+      "sha256": "2734b5cc0d631a3b7f4c21b3161bb8eb5fd4dd31622a07a7e0862b94fe431766",
+      "stichtag": "2001-01-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2001-02-01.parquet",
+      "in_kraft": 609,
+      "leistungen": 0,
+      "sha256": "4c5f9dde45de3ede11fe1e249cabe3afeaf50c7147e7306c7dd6c92296e31f15",
+      "stichtag": "2001-02-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2001-03-01.parquet",
+      "in_kraft": 614,
+      "leistungen": 1,
+      "sha256": "f195c99abf99c5d2578ceab5d62af66d8e038115d98fc7280c58851c3aa79414",
+      "stichtag": "2001-03-01",
+      "zugaenge": 15
+    },
+    {
+      "datei": "abschluss_2001-04-01.parquet",
+      "in_kraft": 628,
+      "leistungen": 0,
+      "sha256": "404522fcc1a4f5175e6ed9d74c06ef37f8ee32a2b75fd30028fbc72d58f984ed",
+      "stichtag": "2001-04-01",
+      "zugaenge": 14
+    },
+    {
+      "datei": "abschluss_2001-05-01.parquet",
+      "in_kraft": 629,
+      "leistungen": 4,
+      "sha256": "c7995b0f3d8ac16281a0103c3c4a89dc32be1efb44a0bb5ddd831460b4d1788a",
+      "stichtag": "2001-05-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2001-06-01.parquet",
+      "in_kraft": 643,
+      "leistungen": 1,
+      "sha256": "7dbcceecd533220066200d73cfafec65d1687a0c2136b29cd883e591184a3f4d",
+      "stichtag": "2001-06-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2001-07-01.parquet",
+      "in_kraft": 649,
+      "leistungen": 0,
+      "sha256": "6eb371bc1df5bff1741e95cd7c3213f3740a74b62cfc0953c45810ef9920a846",
+      "stichtag": "2001-07-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2001-08-01.parquet",
+      "in_kraft": 657,
+      "leistungen": 1,
+      "sha256": "9af67a14dfd50e944b770ade149f766ca2148b9c8637ec7ef580d40636dc4c57",
+      "stichtag": "2001-08-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2001-09-01.parquet",
+      "in_kraft": 663,
+      "leistungen": 0,
+      "sha256": "a885ee8529fd6a73f529419fb6ddbeed42a85aac584948036fe99a90ed01eed0",
+      "stichtag": "2001-09-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2001-10-01.parquet",
+      "in_kraft": 674,
+      "leistungen": 0,
+      "sha256": "efbff02367ca67542ce4a09d3adf3cc04f8c76fa2e7cad64fe77ff2ae60fe42c",
+      "stichtag": "2001-10-01",
+      "zugaenge": 34
+    },
+    {
+      "datei": "abschluss_2001-11-01.parquet",
+      "in_kraft": 685,
+      "leistungen": 1,
+      "sha256": "17b6cae331cfc3eefc655aac98c9b8a5120eabb9eedbf4c67696eed41f6f9f7f",
+      "stichtag": "2001-11-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2001-12-01.parquet",
+      "in_kraft": 695,
+      "leistungen": 1,
+      "sha256": "d1545fe3bc09e5bce5746eca4ec2cb00caa8c72eaa1a5e3d93f390b4382f2590",
+      "stichtag": "2001-12-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2002-01-01.parquet",
+      "in_kraft": 699,
+      "leistungen": 2,
+      "sha256": "6a7683ea0e875afb05584f48b1cc1cd83dcdc2c216854110eb7e382747a6a652",
+      "stichtag": "2002-01-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2002-02-01.parquet",
+      "in_kraft": 707,
+      "leistungen": 2,
+      "sha256": "11452c9098cfa748ddda659c169fe2d2c53b88a3ec37e162d5e4c616cbe8a207",
+      "stichtag": "2002-02-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2002-03-01.parquet",
+      "in_kraft": 718,
+      "leistungen": 3,
+      "sha256": "c6c7928bd33128b6decf85628876ed97a057700317b34e2f06853639efe562bc",
+      "stichtag": "2002-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2002-04-01.parquet",
+      "in_kraft": 723,
+      "leistungen": 4,
+      "sha256": "6412720a128f03b66fec74c31d8ea2ba8240490da94f5cd4c1906bd516c3f599",
+      "stichtag": "2002-04-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_2002-05-01.parquet",
+      "in_kraft": 725,
+      "leistungen": 4,
+      "sha256": "f515ddfb9e52061d90f290dffd8b159e39ce3b407ae02082e0bced68fad00eca",
+      "stichtag": "2002-05-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2002-06-01.parquet",
+      "in_kraft": 733,
+      "leistungen": 0,
+      "sha256": "076ca6e5fcd75725b831b03f6c7dd003d0fa3de2982190cdc85401938add5cfb",
+      "stichtag": "2002-06-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2002-07-01.parquet",
+      "in_kraft": 742,
+      "leistungen": 4,
+      "sha256": "c418ee538d41b27ed25a2806e9c7594f97488f8bd5e4ee2f315cb1e49ce04afc",
+      "stichtag": "2002-07-01",
+      "zugaenge": 40
+    },
+    {
+      "datei": "abschluss_2002-08-01.parquet",
+      "in_kraft": 749,
+      "leistungen": 5,
+      "sha256": "54d95bb5b6afe441c3f2b69852b95a36407e9830438d27788a118d4fd09bfc74",
+      "stichtag": "2002-08-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2002-09-01.parquet",
+      "in_kraft": 757,
+      "leistungen": 0,
+      "sha256": "5fd475135cc6d0828688b9f6a42d6401264df6a5e95b394c8e590d14ac5c1f9c",
+      "stichtag": "2002-09-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2002-10-01.parquet",
+      "in_kraft": 756,
+      "leistungen": 9,
+      "sha256": "70d6aac8076b24f665e1fe1579aa1ce0e1c5864a05f477f3dc2ee461f9353d10",
+      "stichtag": "2002-10-01",
+      "zugaenge": 37
+    },
+    {
+      "datei": "abschluss_2002-11-01.parquet",
+      "in_kraft": 764,
+      "leistungen": 1,
+      "sha256": "0102ea8b1677f731ff625d7a229aca682f9ce38b8948eacc156866ab34387555",
+      "stichtag": "2002-11-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2002-12-01.parquet",
+      "in_kraft": 778,
+      "leistungen": 0,
+      "sha256": "c3154e83e2acf0b808c850e59a9f4fbda774f1fcf0de0b18001d83efea4b7632",
+      "stichtag": "2002-12-01",
+      "zugaenge": 14
+    },
+    {
+      "datei": "abschluss_2003-01-01.parquet",
+      "in_kraft": 783,
+      "leistungen": 5,
+      "sha256": "af50fad7839c99397047c47359d03157c733fe3064d138fedb518d32425d94f7",
+      "stichtag": "2003-01-01",
+      "zugaenge": 44
+    },
+    {
+      "datei": "abschluss_2003-02-01.parquet",
+      "in_kraft": 790,
+      "leistungen": 0,
+      "sha256": "db71f01d4990cfcd4645eb2b81aef25ac56b45ef38d5a629ba2d84d63317d17d",
+      "stichtag": "2003-02-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2003-03-01.parquet",
+      "in_kraft": 799,
+      "leistungen": 3,
+      "sha256": "5f9c80d899a9744526986668b84497471a3ad15bd7448ba1e3dd1a0fd7838c90",
+      "stichtag": "2003-03-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_2003-04-01.parquet",
+      "in_kraft": 807,
+      "leistungen": 3,
+      "sha256": "738a712cf22dc5ba00cbcf5c8ef9fef1173daa100a6a03a2e9e8733d58e582a3",
+      "stichtag": "2003-04-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2003-05-01.parquet",
+      "in_kraft": 813,
+      "leistungen": 0,
+      "sha256": "0572a6cca0610312863998aa6cd05d426e3f9b5814e5a52abf1a59b692cec6b1",
+      "stichtag": "2003-05-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2003-06-01.parquet",
+      "in_kraft": 824,
+      "leistungen": 0,
+      "sha256": "6517e64099195e87f9f4548bbe9b916cfb0a246252b9de6b9c4382b7ff37d5fa",
+      "stichtag": "2003-06-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2003-07-01.parquet",
+      "in_kraft": 827,
+      "leistungen": 4,
+      "sha256": "009787fd0d078aa412ba5b8a88b8bd5a54add070360ec7279e4c1e7da87b2f2f",
+      "stichtag": "2003-07-01",
+      "zugaenge": 45
+    },
+    {
+      "datei": "abschluss_2003-08-01.parquet",
+      "in_kraft": 835,
+      "leistungen": 2,
+      "sha256": "c5f4b31ae9f8f1731ab2276a06eaae9c04e3f4e6f55b93b4e7762587afaab34c",
+      "stichtag": "2003-08-01",
+      "zugaenge": 19
+    },
+    {
+      "datei": "abschluss_2003-09-01.parquet",
+      "in_kraft": 845,
+      "leistungen": 0,
+      "sha256": "7f15b99303328ab4056d75dbea6fb9d391a756d201abd49227d3a38e2b36936d",
+      "stichtag": "2003-09-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2003-10-01.parquet",
+      "in_kraft": 851,
+      "leistungen": 1,
+      "sha256": "22dddf1e5e42ea04dbb2bc25bf879908224501010e2fc9a813c785c7ba06ebd8",
+      "stichtag": "2003-10-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2003-11-01.parquet",
+      "in_kraft": 861,
+      "leistungen": 0,
+      "sha256": "77d665fa7330cebe8c0797b1d8e3ab64575c67dfbf7d1c7873fa3da52d0d6f57",
+      "stichtag": "2003-11-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2003-12-01.parquet",
+      "in_kraft": 867,
+      "leistungen": 2,
+      "sha256": "7a70a8cab226e707a536f1606af1480a57532f2b48078ca1229e341eea68362b",
+      "stichtag": "2003-12-01",
+      "zugaenge": 44
+    },
+    {
+      "datei": "abschluss_2004-01-01.parquet",
+      "in_kraft": 878,
+      "leistungen": 3,
+      "sha256": "23a92c294c8e6c44b8a87c4d8124fb3e68a10277306b6769e1f191eec3784e6a",
+      "stichtag": "2004-01-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2004-02-01.parquet",
+      "in_kraft": 887,
+      "leistungen": 1,
+      "sha256": "f78e4ec35de6bd0d157b58920646fdcfec8cb5f3eee5a4359494ff8d6cc2df79",
+      "stichtag": "2004-02-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2004-03-01.parquet",
+      "in_kraft": 892,
+      "leistungen": 5,
+      "sha256": "d717363a0bb132b6c76fccd9ee242e6e90c8bf48878a2ca21c432712310fde66",
+      "stichtag": "2004-03-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2004-04-01.parquet",
+      "in_kraft": 902,
+      "leistungen": 3,
+      "sha256": "caef376d179da1f372a7ffc911152bbc897664b66261a2e017b2baa7a6c167d9",
+      "stichtag": "2004-04-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2004-05-01.parquet",
+      "in_kraft": 912,
+      "leistungen": 1,
+      "sha256": "8f5390780db1d1e93693f55b5502f9f906014376b185ed9b2d08ed441153e8fa",
+      "stichtag": "2004-05-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2004-06-01.parquet",
+      "in_kraft": 916,
+      "leistungen": 2,
+      "sha256": "92469c66c92953cb8679d2d8d564a27377325b71fc7f7bfa4aeab397d7563c35",
+      "stichtag": "2004-06-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2004-07-01.parquet",
+      "in_kraft": 925,
+      "leistungen": 1,
+      "sha256": "1740b233629462478fe98ddabfdf9cdf272e6e8657803700b2e24033e88b5cc3",
+      "stichtag": "2004-07-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2004-08-01.parquet",
+      "in_kraft": 938,
+      "leistungen": 0,
+      "sha256": "bf592e1f863a453d06357384b6def60c31358cf599b9d5fe43ce5e5c17c4d8f9",
+      "stichtag": "2004-08-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2004-09-01.parquet",
+      "in_kraft": 945,
+      "leistungen": 3,
+      "sha256": "cc185a0556eaa1d56d4064f9f28eb2cd5062360b77724d32103d2532b9c3250d",
+      "stichtag": "2004-09-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2004-10-01.parquet",
+      "in_kraft": 947,
+      "leistungen": 3,
+      "sha256": "b869d7b5a279953c1dabe76ca57b67dcc0821c041076b546ad27dfe2273d98a3",
+      "stichtag": "2004-10-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2004-11-01.parquet",
+      "in_kraft": 955,
+      "leistungen": 3,
+      "sha256": "438704ff55e71349e172d3ade53910bea993103b2cf342b14562b3a34ed1a28e",
+      "stichtag": "2004-11-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2004-12-01.parquet",
+      "in_kraft": 964,
+      "leistungen": 4,
+      "sha256": "f9777346ead5a77e3f03863a08b50624fad28af872bd5cb4fed17573a2768383",
+      "stichtag": "2004-12-01",
+      "zugaenge": 36
+    },
+    {
+      "datei": "abschluss_2005-01-01.parquet",
+      "in_kraft": 972,
+      "leistungen": 0,
+      "sha256": "2ce30f76831a1d3f6992f0e551adfdc46b40c245752a70573b15259c794511c3",
+      "stichtag": "2005-01-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2005-02-01.parquet",
+      "in_kraft": 975,
+      "leistungen": 4,
+      "sha256": "8193056b7ff301d7d84f7863f8ff7732f36e6ca95cfccfa4f31ef33faf46d5d0",
+      "stichtag": "2005-02-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2005-03-01.parquet",
+      "in_kraft": 980,
+      "leistungen": 2,
+      "sha256": "65b0a30f5a47ab080d31851b97a94c03d21a449003389db3e8fb63752e4b86be",
+      "stichtag": "2005-03-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_2005-04-01.parquet",
+      "in_kraft": 988,
+      "leistungen": 4,
+      "sha256": "7b2c598cf8f79976efc91d97f5a88c50eb1155e72b5be0cca09c15b680ac76b6",
+      "stichtag": "2005-04-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2005-05-01.parquet",
+      "in_kraft": 997,
+      "leistungen": 0,
+      "sha256": "fc6b217c9d0ececd94bc89f7d4639aef8f04cc29a11025331d8bc173ff3930a5",
+      "stichtag": "2005-05-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2005-06-01.parquet",
+      "in_kraft": 1004,
+      "leistungen": 4,
+      "sha256": "65527d7c9b67b4cd28b3b4fabe8f69ee49f687c065d8c8bb20d897d2af1ae8d8",
+      "stichtag": "2005-06-01",
+      "zugaenge": 48
+    },
+    {
+      "datei": "abschluss_2005-07-01.parquet",
+      "in_kraft": 1007,
+      "leistungen": 5,
+      "sha256": "afdbe605614cb011ecb4e46795613a6c4de5b3aec91911bfee5bbc4390e2fb88",
+      "stichtag": "2005-07-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2005-08-01.parquet",
+      "in_kraft": 1005,
+      "leistungen": 5,
+      "sha256": "30ec81267307f0f2986898b96a1b0166e112699850a8270810eba14e6891e999",
+      "stichtag": "2005-08-01",
+      "zugaenge": 22
+    },
+    {
+      "datei": "abschluss_2005-09-01.parquet",
+      "in_kraft": 1013,
+      "leistungen": 0,
+      "sha256": "56a1374f14496a3ad2dcbd1eac5e834aae6196cd8ca4e45d7fa6fcfcf37beb75",
+      "stichtag": "2005-09-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2005-10-01.parquet",
+      "in_kraft": 1025,
+      "leistungen": 0,
+      "sha256": "13bb5899a119d87614087b10d4192ecb5481fa477320c074d0b050c05edfedf9",
+      "stichtag": "2005-10-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_2005-11-01.parquet",
+      "in_kraft": 1030,
+      "leistungen": 1,
+      "sha256": "4a63ad2b320135b40f11b32f9efc7a0ac9b965f0f47997360ebc8d5ae9e18a1a",
+      "stichtag": "2005-11-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2005-12-01.parquet",
+      "in_kraft": 1031,
+      "leistungen": 7,
+      "sha256": "31f42f06e50a06124dbdcffc8f6ecee4e07cb2795985b8890600be6c7c4d6693",
+      "stichtag": "2005-12-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2006-01-01.parquet",
+      "in_kraft": 1046,
+      "leistungen": 0,
+      "sha256": "0660e918f5678a628a5f633f7c222c181912e9a781d28672f586d1a3aad36f86",
+      "stichtag": "2006-01-01",
+      "zugaenge": 15
+    },
+    {
+      "datei": "abschluss_2006-02-01.parquet",
+      "in_kraft": 1047,
+      "leistungen": 9,
+      "sha256": "c0878bec08b35fd152cc6d303dffb05feaf717342e6fe1537520c57a307373cd",
+      "stichtag": "2006-02-01",
+      "zugaenge": 54
+    },
+    {
+      "datei": "abschluss_2006-03-01.parquet",
+      "in_kraft": 1051,
+      "leistungen": 3,
+      "sha256": "014d151f71f5b74a006476d37be2190886f5a8dc5a26e7fcf51bfaf7ff8bf37f",
+      "stichtag": "2006-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2006-04-01.parquet",
+      "in_kraft": 1056,
+      "leistungen": 1,
+      "sha256": "995923cfc94bb1061fbef8b1476daf063582b89e2fa44a8de93cd3c2d4a14dc4",
+      "stichtag": "2006-04-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2006-05-01.parquet",
+      "in_kraft": 1057,
+      "leistungen": 7,
+      "sha256": "85ca37197a788077557d915e7239ca96aad15470cc6b7a18c7af06fa07fbf20d",
+      "stichtag": "2006-05-01",
+      "zugaenge": 53
+    },
+    {
+      "datei": "abschluss_2006-06-01.parquet",
+      "in_kraft": 1067,
+      "leistungen": 1,
+      "sha256": "d02e7b88c0c9d7e5591e990a0134f2f3eff6696a7d36c34f9ae887c880a3489a",
+      "stichtag": "2006-06-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2006-07-01.parquet",
+      "in_kraft": 1078,
+      "leistungen": 0,
+      "sha256": "bf8aad16bdad2b4dfc3d3f4f17c23d0096d3cc839044a690445de5b97b88f194",
+      "stichtag": "2006-07-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2006-08-01.parquet",
+      "in_kraft": 1083,
+      "leistungen": 2,
+      "sha256": "96608026fa904aa0841c2d898802974b2979b2397baa4e0d7605fe85b88ae3dc",
+      "stichtag": "2006-08-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2006-09-01.parquet",
+      "in_kraft": 1089,
+      "leistungen": 4,
+      "sha256": "ca0eaf31c6bfca42ea45a1b04b2485eb598811656ac7367aca44e63b81c6fe32",
+      "stichtag": "2006-09-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2006-10-01.parquet",
+      "in_kraft": 1097,
+      "leistungen": 0,
+      "sha256": "830e983e9a8bdbdbe6d92cc7c3018f8eeb28ef71fbca8b0e1a247b6376705dbe",
+      "stichtag": "2006-10-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2006-11-01.parquet",
+      "in_kraft": 1099,
+      "leistungen": 6,
+      "sha256": "78f91419596e6e43103afcb3d797edda4afb6f80029d051a062e52442ede8eae",
+      "stichtag": "2006-11-01",
+      "zugaenge": 47
+    },
+    {
+      "datei": "abschluss_2006-12-01.parquet",
+      "in_kraft": 1107,
+      "leistungen": 3,
+      "sha256": "2aeb2335e3101d625e368c87220a26025ee4086467ffc975db35f97bd49fe427",
+      "stichtag": "2006-12-01",
+      "zugaenge": 40
+    },
+    {
+      "datei": "abschluss_2007-01-01.parquet",
+      "in_kraft": 1111,
+      "leistungen": 3,
+      "sha256": "e6faf37a3c24f5c0a5ff46ab418cabc5adab4a9cacbbee5043946bf683e2782a",
+      "stichtag": "2007-01-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2007-02-01.parquet",
+      "in_kraft": 1120,
+      "leistungen": 3,
+      "sha256": "5f9e3910524f64ef332b43e95a4e76e24853fff5a516d44af27090c0d89cd7a5",
+      "stichtag": "2007-02-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_2007-03-01.parquet",
+      "in_kraft": 1127,
+      "leistungen": 2,
+      "sha256": "56932b1d854b7080ca211468a2be63ad48ee91ff9d1d3232fa805177fdf492b9",
+      "stichtag": "2007-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2007-04-01.parquet",
+      "in_kraft": 1135,
+      "leistungen": 0,
+      "sha256": "0ebd3d36ec666fd1b69f0c41b74066c4d499f97454650939ba6f990da3633496",
+      "stichtag": "2007-04-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2007-05-01.parquet",
+      "in_kraft": 1136,
+      "leistungen": 6,
+      "sha256": "a239db7b58c4d60192394668c33749441ce8a8f145a141e6bcf158b1a7a7813e",
+      "stichtag": "2007-05-01",
+      "zugaenge": 41
+    },
+    {
+      "datei": "abschluss_2007-06-01.parquet",
+      "in_kraft": 1140,
+      "leistungen": 5,
+      "sha256": "18f13977dd57001eedc68c9f02b4f6b86b86b94ca9fd8b62810180a75618aa86",
+      "stichtag": "2007-06-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2007-07-01.parquet",
+      "in_kraft": 1146,
+      "leistungen": 0,
+      "sha256": "914d0dcb91badf061b34048eeca3d6344ef0b650f257481c48fc43f5094a265f",
+      "stichtag": "2007-07-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2007-08-01.parquet",
+      "in_kraft": 1151,
+      "leistungen": 5,
+      "sha256": "40a6c7a488ddf058a2c023c74fa61c8a68bb55826e844a7e0d35e1d300a0c0a3",
+      "stichtag": "2007-08-01",
+      "zugaenge": 62
+    },
+    {
+      "datei": "abschluss_2007-09-01.parquet",
+      "in_kraft": 1159,
+      "leistungen": 0,
+      "sha256": "065ef05faed6e6c44fca855532bae948e265dd950af3cdeb48f7d96d3e875aff",
+      "stichtag": "2007-09-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2007-10-01.parquet",
+      "in_kraft": 1161,
+      "leistungen": 7,
+      "sha256": "c874a64576414eef9fc2f6c75fe302baae2dc63f2e102c8678d1f274eec2eb03",
+      "stichtag": "2007-10-01",
+      "zugaenge": 47
+    },
+    {
+      "datei": "abschluss_2007-11-01.parquet",
+      "in_kraft": 1170,
+      "leistungen": 2,
+      "sha256": "30127ab4efa2a8d73304dce9eb50f1521311f781fc06d6ab77619aaebcb26bfb",
+      "stichtag": "2007-11-01",
+      "zugaenge": 37
+    },
+    {
+      "datei": "abschluss_2007-12-01.parquet",
+      "in_kraft": 1176,
+      "leistungen": 0,
+      "sha256": "0943f211c7568638b67d38b23c559609f6fd9d7b8a6424a8e6494a28d398ebbf",
+      "stichtag": "2007-12-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2008-01-01.parquet",
+      "in_kraft": 1178,
+      "leistungen": 8,
+      "sha256": "c449f014aafce2dc61e26dda72b1b34d5802080402bc85fa93f016ddb2a91220",
+      "stichtag": "2008-01-01",
+      "zugaenge": 44
+    },
+    {
+      "datei": "abschluss_2008-02-01.parquet",
+      "in_kraft": 1189,
+      "leistungen": 2,
+      "sha256": "3f31785d9e131a47169eece4e987fb391fa392c940a8f5498850b4c1eb87c5bd",
+      "stichtag": "2008-02-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2008-03-01.parquet",
+      "in_kraft": 1199,
+      "leistungen": 2,
+      "sha256": "3246526f10ae55f6c4eec5be9fa8feffe1b18d65c468a360a97c701919354ceb",
+      "stichtag": "2008-03-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_2008-04-01.parquet",
+      "in_kraft": 1209,
+      "leistungen": 2,
+      "sha256": "891f7f8b0b1996373e9e63f68c70a5fbb994448ffda2f1f9ef2da819cd3a9795",
+      "stichtag": "2008-04-01",
+      "zugaenge": 60
+    },
+    {
+      "datei": "abschluss_2008-05-01.parquet",
+      "in_kraft": 1215,
+      "leistungen": 5,
+      "sha256": "097c841106b74ae071539f5418d9b7452fde32aedaae0a81f673c91e81dc12b2",
+      "stichtag": "2008-05-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2008-06-01.parquet",
+      "in_kraft": 1222,
+      "leistungen": 0,
+      "sha256": "47219a5a052e67a3f8d625ab1112064ee5f3202ef18d4d87e67d137b88e6bc28",
+      "stichtag": "2008-06-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2008-07-01.parquet",
+      "in_kraft": 1224,
+      "leistungen": 8,
+      "sha256": "8382dc184dc21ce4d4e7778ec5161ea86f96a3c337a3a7803e7fc0d7b43d61e0",
+      "stichtag": "2008-07-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2008-08-01.parquet",
+      "in_kraft": 1230,
+      "leistungen": 4,
+      "sha256": "366ff1a631da2601f2b50516664d6bc0fcf2e7b08be7f66067e96035511e06bb",
+      "stichtag": "2008-08-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2008-09-01.parquet",
+      "in_kraft": 1236,
+      "leistungen": 5,
+      "sha256": "76a419e0910a2555df0405a4529039f16676ef6b20a000ddc82fe3f5d072b28e",
+      "stichtag": "2008-09-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2008-10-01.parquet",
+      "in_kraft": 1237,
+      "leistungen": 5,
+      "sha256": "c5f09295b152b85572aea84b6988efbbfceb6b8542b2104f31f3afdd59206fc5",
+      "stichtag": "2008-10-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2008-11-01.parquet",
+      "in_kraft": 1250,
+      "leistungen": 1,
+      "sha256": "dbf54bd0d75b35f39c0ae99e132c5cf072594dd81b1af901ef8b2409161a4f7a",
+      "stichtag": "2008-11-01",
+      "zugaenge": 15
+    },
+    {
+      "datei": "abschluss_2008-12-01.parquet",
+      "in_kraft": 1250,
+      "leistungen": 5,
+      "sha256": "e65d814c599a1416e47c1727e75e940a3fabf9d582c35126f1e641dc55bb2ec8",
+      "stichtag": "2008-12-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2009-01-01.parquet",
+      "in_kraft": 1258,
+      "leistungen": 0,
+      "sha256": "2bef0abeb85b93998b0f42a0f3d37330c326f103df78ffaa9ebd86284100f6f1",
+      "stichtag": "2009-01-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2009-02-01.parquet",
+      "in_kraft": 1263,
+      "leistungen": 3,
+      "sha256": "9035e141c3992f6f5eabd4a8b2ad3f18065ef3c89c7c0d2731d253c84015a4b1",
+      "stichtag": "2009-02-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2009-03-01.parquet",
+      "in_kraft": 1265,
+      "leistungen": 6,
+      "sha256": "7e476de4192094f75879752e03f264ef6d17bafa3be56e1d32f29e437d6a012f",
+      "stichtag": "2009-03-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2009-04-01.parquet",
+      "in_kraft": 1263,
+      "leistungen": 11,
+      "sha256": "e777e8d1d5de435781fcdb42423a9dcbca8b858a774142c80c018102e273b65e",
+      "stichtag": "2009-04-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2009-05-01.parquet",
+      "in_kraft": 1270,
+      "leistungen": 4,
+      "sha256": "8121ae6917281cfa6f8a34677cdd15201082fbce9ef219c3e00f662eeb0213d7",
+      "stichtag": "2009-05-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2009-06-01.parquet",
+      "in_kraft": 1276,
+      "leistungen": 3,
+      "sha256": "0e9bb9d447751c87d2dc52522c6b0cd80641b4797d6f21dcf31e50f41c9e6bf5",
+      "stichtag": "2009-06-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2009-07-01.parquet",
+      "in_kraft": 1281,
+      "leistungen": 8,
+      "sha256": "9a5c7e8435161a182df38268229f23cdef75d2c699b58177736e2139bf5d1880",
+      "stichtag": "2009-07-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2009-08-01.parquet",
+      "in_kraft": 1288,
+      "leistungen": 0,
+      "sha256": "5a5ee64e70e52760dadb75d5f4220aa36bc9e142322ac01f12c8b39bca7a6f8e",
+      "stichtag": "2009-08-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2009-09-01.parquet",
+      "in_kraft": 1291,
+      "leistungen": 6,
+      "sha256": "387a3a00ecebe30936a287cae4cf55e81aded2601db79198ecb4301deef93e54",
+      "stichtag": "2009-09-01",
+      "zugaenge": 54
+    },
+    {
+      "datei": "abschluss_2009-10-01.parquet",
+      "in_kraft": 1295,
+      "leistungen": 2,
+      "sha256": "ebfceff7d1819bda9a60cb11b2d726674313e14f99889335b82ec55158070006",
+      "stichtag": "2009-10-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2009-11-01.parquet",
+      "in_kraft": 1306,
+      "leistungen": 0,
+      "sha256": "a8ff7649c51fcbcfa254cb40e83403c5f566fba15eb7ad5d2a5efad0e9225db6",
+      "stichtag": "2009-11-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2009-12-01.parquet",
+      "in_kraft": 1306,
+      "leistungen": 9,
+      "sha256": "55e04d4697a59fafe7308ea8858a37556aaa5dbcde839dfd9dd6fed41e59ae7e",
+      "stichtag": "2009-12-01",
+      "zugaenge": 58
+    },
+    {
+      "datei": "abschluss_2010-01-01.parquet",
+      "in_kraft": 1306,
+      "leistungen": 8,
+      "sha256": "bb1a243bbeb064b548b4ed87b91ec125ecc10e44195748baa382c5eff818d4cc",
+      "stichtag": "2010-01-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2010-02-01.parquet",
+      "in_kraft": 1305,
+      "leistungen": 7,
+      "sha256": "db92116cfcd3f2c96683d3ef0e21a5b3375f4a942f6ff898c25d86f974ed72c8",
+      "stichtag": "2010-02-01",
+      "zugaenge": 37
+    },
+    {
+      "datei": "abschluss_2010-03-01.parquet",
+      "in_kraft": 1304,
+      "leistungen": 9,
+      "sha256": "91944e6fe04011a536835a0cb7038931344f6899631247e2f05ace68ce424916",
+      "stichtag": "2010-03-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2010-04-01.parquet",
+      "in_kraft": 1310,
+      "leistungen": 4,
+      "sha256": "d9e3272df12abd6d4604a35ee3389fc2a0171e6948f48f62e4e3bdb58af53bd2",
+      "stichtag": "2010-04-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2010-05-01.parquet",
+      "in_kraft": 1318,
+      "leistungen": 0,
+      "sha256": "69476cb0ba52923c71c4a6c69c5eff3a417c6db8e6fd7e5a260f5f8e3e67f650",
+      "stichtag": "2010-05-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2010-06-01.parquet",
+      "in_kraft": 1333,
+      "leistungen": 4,
+      "sha256": "ceadff15b61f512a260ca850f8daf329c552f3a884a0c15d496751182abcf78e",
+      "stichtag": "2010-06-01",
+      "zugaenge": 67
+    },
+    {
+      "datei": "abschluss_2010-07-01.parquet",
+      "in_kraft": 1340,
+      "leistungen": 5,
+      "sha256": "603ef43abd0a1face4476645de91d784605257cf19ebcecb69a733fb1b728034",
+      "stichtag": "2010-07-01",
+      "zugaenge": 40
+    },
+    {
+      "datei": "abschluss_2010-08-01.parquet",
+      "in_kraft": 1349,
+      "leistungen": 0,
+      "sha256": "e0407c952318af1d9ceb75bde89298dc48032bd5c5a394a324fb1fc029feef2f",
+      "stichtag": "2010-08-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2010-09-01.parquet",
+      "in_kraft": 1352,
+      "leistungen": 5,
+      "sha256": "2e55ed46edc1fd0e3e4adf5a81d412a9acd6c4c2922d19df8e74262ed978936f",
+      "stichtag": "2010-09-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2010-10-01.parquet",
+      "in_kraft": 1351,
+      "leistungen": 6,
+      "sha256": "4ac8cef120f6713b80f7fe086333df32f82eeb29306441f04ad96a64c3e05577",
+      "stichtag": "2010-10-01",
+      "zugaenge": 22
+    },
+    {
+      "datei": "abschluss_2010-11-01.parquet",
+      "in_kraft": 1358,
+      "leistungen": 4,
+      "sha256": "924faf1d31612248f276ea08114ca778d75abdbdd853ff32705779aadbd7edee",
+      "stichtag": "2010-11-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2010-12-01.parquet",
+      "in_kraft": 1363,
+      "leistungen": 5,
+      "sha256": "2ff2bb8a88a9d79850a339f1210a96314c0d1562d45b50c28430b13361fcf322",
+      "stichtag": "2010-12-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2011-01-01.parquet",
+      "in_kraft": 1373,
+      "leistungen": 1,
+      "sha256": "c9bd0cceb9510beda6c412a81b883a540020bd719736ef8eed97e739377fa74e",
+      "stichtag": "2011-01-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2011-02-01.parquet",
+      "in_kraft": 1376,
+      "leistungen": 8,
+      "sha256": "739a0a98a79eaf7390b6f7cbbab08ec0bde36e868183eb9063991104b4d4f68b",
+      "stichtag": "2011-02-01",
+      "zugaenge": 55
+    },
+    {
+      "datei": "abschluss_2011-03-01.parquet",
+      "in_kraft": 1383,
+      "leistungen": 2,
+      "sha256": "fd2015140b330b3a071843f74a1b62edc1fb54fedd96e485e3918713e66a9adb",
+      "stichtag": "2011-03-01",
+      "zugaenge": 36
+    },
+    {
+      "datei": "abschluss_2011-04-01.parquet",
+      "in_kraft": 1388,
+      "leistungen": 3,
+      "sha256": "2132d7843f5508c585aca6b0d285ab0d3b76d73ac60d87afcc91fc98a987c506",
+      "stichtag": "2011-04-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2011-05-01.parquet",
+      "in_kraft": 1396,
+      "leistungen": 0,
+      "sha256": "9bf1bd2af2879ebb6c63811a3845a9232aea4a839e0e3e88bb195ac2fdd79f93",
+      "stichtag": "2011-05-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2011-06-01.parquet",
+      "in_kraft": 1399,
+      "leistungen": 10,
+      "sha256": "6ea09e99db607a9b81674661f9801063a71f6668c9a3e9e3b8bdad463a662ee2",
+      "stichtag": "2011-06-01",
+      "zugaenge": 44
+    },
+    {
+      "datei": "abschluss_2011-07-01.parquet",
+      "in_kraft": 1403,
+      "leistungen": 4,
+      "sha256": "104567f38fc2cbee8613510be1ed13f379eabeccc2d606adba0169901a4387bd",
+      "stichtag": "2011-07-01",
+      "zugaenge": 36
+    },
+    {
+      "datei": "abschluss_2011-08-01.parquet",
+      "in_kraft": 1408,
+      "leistungen": 4,
+      "sha256": "66f6762ea7b425ee661e7cca007b72943479de07033dda6c5c50cb911a1e895e",
+      "stichtag": "2011-08-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2011-09-01.parquet",
+      "in_kraft": 1411,
+      "leistungen": 5,
+      "sha256": "9789af29fcee2ce7fd0106aafd2c4974cb61af60337c7079ea76f24816b8221d",
+      "stichtag": "2011-09-01",
+      "zugaenge": 21
+    },
+    {
+      "datei": "abschluss_2011-10-01.parquet",
+      "in_kraft": 1423,
+      "leistungen": 0,
+      "sha256": "2a201da1acc8e42943c101b1edaf85e554a59efce00abaa0f6cc832d21455765",
+      "stichtag": "2011-10-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2011-11-01.parquet",
+      "in_kraft": 1423,
+      "leistungen": 9,
+      "sha256": "5aa6a075c85c85678438a6c6544030a82984baddae6d2a18e96322e680760be6",
+      "stichtag": "2011-11-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2011-12-01.parquet",
+      "in_kraft": 1429,
+      "leistungen": 8,
+      "sha256": "2ee958d7000fe2b7eb257b2b7d87a0f6aa7d0686892765993c2f4b92b2818063",
+      "stichtag": "2011-12-01",
+      "zugaenge": 36
+    },
+    {
+      "datei": "abschluss_2012-01-01.parquet",
+      "in_kraft": 1437,
+      "leistungen": 0,
+      "sha256": "1544c34fe981c04076014016f9f6b75774bd8914c97f3b27eda5b41029754f24",
+      "stichtag": "2012-01-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2012-02-01.parquet",
+      "in_kraft": 1442,
+      "leistungen": 4,
+      "sha256": "215259ebbabf24b8ff778b43945e073fbad6709656dd1a9cdf6dd599e79d1b1a",
+      "stichtag": "2012-02-01",
+      "zugaenge": 62
+    },
+    {
+      "datei": "abschluss_2012-03-01.parquet",
+      "in_kraft": 1448,
+      "leistungen": 5,
+      "sha256": "af91c9d804572219e5cdf848fbe7666a785733c024d5587af6cd1e718aa06e9a",
+      "stichtag": "2012-03-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2012-04-01.parquet",
+      "in_kraft": 1451,
+      "leistungen": 1,
+      "sha256": "dff1a4a717e6734960394f2b48d274ec437f68954998fcea6c95a6f3114a289e",
+      "stichtag": "2012-04-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2012-05-01.parquet",
+      "in_kraft": 1450,
+      "leistungen": 12,
+      "sha256": "fedc4d1f760d4b4d9dd9578e3aaef6fc4e57217cecf9729e0460cdc081c33220",
+      "stichtag": "2012-05-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2012-06-01.parquet",
+      "in_kraft": 1451,
+      "leistungen": 9,
+      "sha256": "d58d0a6cf922c69fd51d521d8c230cebc4dd56caad10c4594663748e9ee2aaf1",
+      "stichtag": "2012-06-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2012-07-01.parquet",
+      "in_kraft": 1458,
+      "leistungen": 1,
+      "sha256": "ff1cb653b866f8e7b14a7f77eb1dadff9b96d2a3505e79be3755dbad3e66e4ba",
+      "stichtag": "2012-07-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2012-08-01.parquet",
+      "in_kraft": 1464,
+      "leistungen": 7,
+      "sha256": "358d677347385d88ffd76bf2acce47c4082cee57bf8ff170bd74f01bf60dcca5",
+      "stichtag": "2012-08-01",
+      "zugaenge": 56
+    },
+    {
+      "datei": "abschluss_2012-09-01.parquet",
+      "in_kraft": 1475,
+      "leistungen": 2,
+      "sha256": "b1c29ea7c9fed3c7aece3186c3a279e5058b3e18f97b3ef8b7d88727c29cf9f8",
+      "stichtag": "2012-09-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2012-10-01.parquet",
+      "in_kraft": 1472,
+      "leistungen": 8,
+      "sha256": "832381d4a2cb9e38049ee18f5cd27bf80facaef637b949bc622c1fe4abc8c2e5",
+      "stichtag": "2012-10-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2012-11-01.parquet",
+      "in_kraft": 1478,
+      "leistungen": 6,
+      "sha256": "c54f105e2582103f07e5fe906a4054f5da6543064343219b785fe07a8daa5670",
+      "stichtag": "2012-11-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2012-12-01.parquet",
+      "in_kraft": 1483,
+      "leistungen": 0,
+      "sha256": "21c88bb7d62b3f07d6a63af0fd80c168bf387a77d36d23015a3b617b99b2c4a0",
+      "stichtag": "2012-12-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2013-01-01.parquet",
+      "in_kraft": 1485,
+      "leistungen": 9,
+      "sha256": "deebcf106cf08a78b071c9cad47d64726cf0e39fb71e294318e1e04921b2a8b5",
+      "stichtag": "2013-01-01",
+      "zugaenge": 52
+    },
+    {
+      "datei": "abschluss_2013-02-01.parquet",
+      "in_kraft": 1487,
+      "leistungen": 5,
+      "sha256": "f1e8e4e54d00d25f41e5bf5215786ed137c48fabe1152aeb24b881ac7e9ede81",
+      "stichtag": "2013-02-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2013-03-01.parquet",
+      "in_kraft": 1489,
+      "leistungen": 8,
+      "sha256": "c26fdc4e9693ee6fccbc01a04f86ab1b51e0fb3d66b8a09551d7226bae8f7ec1",
+      "stichtag": "2013-03-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2013-04-01.parquet",
+      "in_kraft": 1494,
+      "leistungen": 4,
+      "sha256": "50539524c5af0430f9183247f3aa15a9921b4502f50cd2925a2419fff344e39e",
+      "stichtag": "2013-04-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_2013-05-01.parquet",
+      "in_kraft": 1498,
+      "leistungen": 6,
+      "sha256": "471ef07479cc489ef74351b971941b9ed6e98aec23973a97940b3a6a29a918e5",
+      "stichtag": "2013-05-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2013-06-01.parquet",
+      "in_kraft": 1505,
+      "leistungen": 1,
+      "sha256": "d33b5716816779a134260051a4ed4f5b37f523594c2d878cb6bf6d99624c8676",
+      "stichtag": "2013-06-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2013-07-01.parquet",
+      "in_kraft": 1506,
+      "leistungen": 6,
+      "sha256": "3a7e0bfde026a2d4264facf25634a8e8b8a04eb31582afb59e923208822050e0",
+      "stichtag": "2013-07-01",
+      "zugaenge": 52
+    },
+    {
+      "datei": "abschluss_2013-08-01.parquet",
+      "in_kraft": 1512,
+      "leistungen": 5,
+      "sha256": "81a65a76cd85477caf58f7b44674c5b2fcafe27f41e46b683a9f834d047175ba",
+      "stichtag": "2013-08-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2013-09-01.parquet",
+      "in_kraft": 1522,
+      "leistungen": 0,
+      "sha256": "383ceb80091b860a85afa5185eaa4a608fb8e449b606a19f38dcad1433148f03",
+      "stichtag": "2013-09-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2013-10-01.parquet",
+      "in_kraft": 1527,
+      "leistungen": 8,
+      "sha256": "880af65cc94260bb7122cd5edf5849cf407da48f119ae9e74ec14ed701d8a5a0",
+      "stichtag": "2013-10-01",
+      "zugaenge": 55
+    },
+    {
+      "datei": "abschluss_2013-11-01.parquet",
+      "in_kraft": 1532,
+      "leistungen": 7,
+      "sha256": "3f30855a036e8b90da05e487f9d83aa14cc30edebd9b0187917ba49369f0da6d",
+      "stichtag": "2013-11-01",
+      "zugaenge": 41
+    },
+    {
+      "datei": "abschluss_2013-12-01.parquet",
+      "in_kraft": 1536,
+      "leistungen": 0,
+      "sha256": "3c33e5b616fb5a10809641b00ca3648193430a4a110b60cd9b420110677b5061",
+      "stichtag": "2013-12-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2014-01-01.parquet",
+      "in_kraft": 1543,
+      "leistungen": 9,
+      "sha256": "ca138842fa6b22d70d0420faed15785a3f65625fbcf16d245b49b948da63bd06",
+      "stichtag": "2014-01-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2014-02-01.parquet",
+      "in_kraft": 1556,
+      "leistungen": 0,
+      "sha256": "feebea464a7eab834e71c743a5bd71782253930e94b48e423b1e6c92b0a140cc",
+      "stichtag": "2014-02-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2014-03-01.parquet",
+      "in_kraft": 1561,
+      "leistungen": 2,
+      "sha256": "78cc6ad3af61356ded35c35a2e5a73e64c1620dd54cada27539c3d79a9a0d2b8",
+      "stichtag": "2014-03-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2014-04-01.parquet",
+      "in_kraft": 1567,
+      "leistungen": 6,
+      "sha256": "9aec7918fe4246e348b27fb57f9d1d0b81cd49b8c693b8b2609638bcd3d72212",
+      "stichtag": "2014-04-01",
+      "zugaenge": 63
+    },
+    {
+      "datei": "abschluss_2014-05-01.parquet",
+      "in_kraft": 1576,
+      "leistungen": 3,
+      "sha256": "fa9a142c19b1c4d8b57162f96cb5fb546a703f7fde5fd8985a9cd89028912983",
+      "stichtag": "2014-05-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2014-06-01.parquet",
+      "in_kraft": 1581,
+      "leistungen": 1,
+      "sha256": "3e044813199e1abc9bf83ec15ded128ce78b581f0b230034d4d90a42c7614898",
+      "stichtag": "2014-06-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2014-07-01.parquet",
+      "in_kraft": 1592,
+      "leistungen": 6,
+      "sha256": "238a70fbcf70fdebde3a31dfbb4a6f6e0131f8ca9f53e4b6cdad31ce3b17ea64",
+      "stichtag": "2014-07-01",
+      "zugaenge": 70
+    },
+    {
+      "datei": "abschluss_2014-08-01.parquet",
+      "in_kraft": 1598,
+      "leistungen": 6,
+      "sha256": "b4d7c32985e166a9709696608a1b7eacd67a1c2004ec998730f83816c88a0e6f",
+      "stichtag": "2014-08-01",
+      "zugaenge": 34
+    },
+    {
+      "datei": "abschluss_2014-09-01.parquet",
+      "in_kraft": 1597,
+      "leistungen": 11,
+      "sha256": "2534e4bcd713ab39c539088b0c8941414f96732790082c2bfa87ef9abe4d203a",
+      "stichtag": "2014-09-01",
+      "zugaenge": 34
+    },
+    {
+      "datei": "abschluss_2014-10-01.parquet",
+      "in_kraft": 1601,
+      "leistungen": 7,
+      "sha256": "b1b414160291a680cb245daf4877bedd68c823ba757452f968954b07505fdfac",
+      "stichtag": "2014-10-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2014-11-01.parquet",
+      "in_kraft": 1605,
+      "leistungen": 1,
+      "sha256": "d839f94bf47ffc783ba2a10d3415029b5fd1c2ea4bed0258755208ad7a54b24c",
+      "stichtag": "2014-11-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2014-12-01.parquet",
+      "in_kraft": 1597,
+      "leistungen": 16,
+      "sha256": "6a4d3d139bdfa2c8737cecc3149a48ff587c5a87f6a661064610ee790029d8e9",
+      "stichtag": "2014-12-01",
+      "zugaenge": 47
+    },
+    {
+      "datei": "abschluss_2015-01-01.parquet",
+      "in_kraft": 1602,
+      "leistungen": 5,
+      "sha256": "1352f8212c8535065daa45a4fac6d4a51d283b136b6351c9b5750f2970f550ac",
+      "stichtag": "2015-01-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2015-02-01.parquet",
+      "in_kraft": 1612,
+      "leistungen": 0,
+      "sha256": "517d7ad0ac74b6c01058bfb9d2ec673bdfb66b25106b5122c92afb7cf26a46e9",
+      "stichtag": "2015-02-01",
+      "zugaenge": 13
+    },
+    {
+      "datei": "abschluss_2015-03-01.parquet",
+      "in_kraft": 1622,
+      "leistungen": 4,
+      "sha256": "c25241390b1cfbea0bf7e85d6e96aa022f467d0e1a411b20edf970296a019ead",
+      "stichtag": "2015-03-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2015-04-01.parquet",
+      "in_kraft": 1628,
+      "leistungen": 11,
+      "sha256": "40b2b2b53e89dcde57645b7529a30c43e59fbca8eee302c39f9aaeb5cdba4269",
+      "stichtag": "2015-04-01",
+      "zugaenge": 61
+    },
+    {
+      "datei": "abschluss_2015-05-01.parquet",
+      "in_kraft": 1646,
+      "leistungen": 2,
+      "sha256": "5a90e9183ba48135751b7646744530d66e45efbb0cdf3864736cf9a833a0a992",
+      "stichtag": "2015-05-01",
+      "zugaenge": 39
+    },
+    {
+      "datei": "abschluss_2015-06-01.parquet",
+      "in_kraft": 1650,
+      "leistungen": 7,
+      "sha256": "9d7e5cd1393568d17a3be6bf2000071fd49a852f3f91cff5a091e59878ff5d24",
+      "stichtag": "2015-06-01",
+      "zugaenge": 36
+    },
+    {
+      "datei": "abschluss_2015-07-01.parquet",
+      "in_kraft": 1648,
+      "leistungen": 7,
+      "sha256": "dccac25e16277db2180613581f01cb56ae8a08390f95f1961036d34fbf53dcb5",
+      "stichtag": "2015-07-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2015-08-01.parquet",
+      "in_kraft": 1655,
+      "leistungen": 0,
+      "sha256": "13f6a4bccdad5f5f8f04b136c2a4a22aad5cceb6dfbf1de3b945b13d81144bf9",
+      "stichtag": "2015-08-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2015-09-01.parquet",
+      "in_kraft": 1660,
+      "leistungen": 12,
+      "sha256": "d1a31c226472382a5f490f39f192c7d964271a164f5baf4a2371222e7baa49fb",
+      "stichtag": "2015-09-01",
+      "zugaenge": 61
+    },
+    {
+      "datei": "abschluss_2015-10-01.parquet",
+      "in_kraft": 1666,
+      "leistungen": 5,
+      "sha256": "75ff441a96ee593f7946a929a5acefba4d14946619b3bd44d1c71861f8a74c85",
+      "stichtag": "2015-10-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2015-11-01.parquet",
+      "in_kraft": 1674,
+      "leistungen": 0,
+      "sha256": "682c64f9dc5bd2ce1e87a1842507bbde436e016b376da85ee1aee5b6ffe9ea48",
+      "stichtag": "2015-11-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2015-12-01.parquet",
+      "in_kraft": 1680,
+      "leistungen": 6,
+      "sha256": "a7ce12b06442c9a3f788fe0332c326eb167dc6c94caad21112a93b177540fd34",
+      "stichtag": "2015-12-01",
+      "zugaenge": 53
+    },
+    {
+      "datei": "abschluss_2016-01-01.parquet",
+      "in_kraft": 1685,
+      "leistungen": 5,
+      "sha256": "6abb4ef795b9cbe0a1407ce0c215f95ef4eb747b123b4464812b9a4285218755",
+      "stichtag": "2016-01-01",
+      "zugaenge": 30
+    },
+    {
+      "datei": "abschluss_2016-02-01.parquet",
+      "in_kraft": 1684,
+      "leistungen": 5,
+      "sha256": "f7aff31bce424c37eb134aa9ce5601979bbbd10853cda911250e786014c4402b",
+      "stichtag": "2016-02-01",
+      "zugaenge": 39
+    },
+    {
+      "datei": "abschluss_2016-03-01.parquet",
+      "in_kraft": 1686,
+      "leistungen": 7,
+      "sha256": "282559b27346ae11648b73ec3ad1a1feefacaaae03f74d8086e3ec4eadcd816f",
+      "stichtag": "2016-03-01",
+      "zugaenge": 40
+    },
+    {
+      "datei": "abschluss_2016-04-01.parquet",
+      "in_kraft": 1688,
+      "leistungen": 11,
+      "sha256": "26407be60854d584abc62561cc8ef62c846e53faf1e6ad9d0dc0f6894467038c",
+      "stichtag": "2016-04-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2016-05-01.parquet",
+      "in_kraft": 1694,
+      "leistungen": 1,
+      "sha256": "17a6c37c5ba518e2fb59a2e4c3d1e850d250c125410a585163c08ac1d90b11f2",
+      "stichtag": "2016-05-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2016-06-01.parquet",
+      "in_kraft": 1692,
+      "leistungen": 12,
+      "sha256": "341e8938ba8dfbd8f71fd6eecee904f26e7c80c366043d3a62c6e29d29c55c05",
+      "stichtag": "2016-06-01",
+      "zugaenge": 63
+    },
+    {
+      "datei": "abschluss_2016-07-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 4,
+      "sha256": "e88a85c5c02d3168afaa89f5c4bf0c80f79227bc0f343222c42a463e68d4ac41",
+      "stichtag": "2016-07-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2016-08-01.parquet",
+      "in_kraft": 1705,
+      "leistungen": 6,
+      "sha256": "4e1ac21402efeff0a9428e5d68831efc1b860eab770c1cf41f7527c96ac2e4af",
+      "stichtag": "2016-08-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2016-09-01.parquet",
+      "in_kraft": 1707,
+      "leistungen": 9,
+      "sha256": "b792294750d078c9c69f9e1b9fa233db37c9f301f1554bc9d4dc396a8ac38367",
+      "stichtag": "2016-09-01",
+      "zugaenge": 39
+    },
+    {
+      "datei": "abschluss_2016-10-01.parquet",
+      "in_kraft": 1711,
+      "leistungen": 1,
+      "sha256": "3de50e9ab1f6227b5156bafcee92de77618742d8d0d6200f9f8295a97da42770",
+      "stichtag": "2016-10-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2016-11-01.parquet",
+      "in_kraft": 1708,
+      "leistungen": 18,
+      "sha256": "379b6cf9c71f972ee1e838c9ce7367c2b774ccb8713a10bd100176a495c0ff04",
+      "stichtag": "2016-11-01",
+      "zugaenge": 55
+    },
+    {
+      "datei": "abschluss_2016-12-01.parquet",
+      "in_kraft": 1712,
+      "leistungen": 8,
+      "sha256": "aaeedac71f32c08e5f8286d03e246071a3bf2bb30bf19470e26480c52939b9da",
+      "stichtag": "2016-12-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2017-01-01.parquet",
+      "in_kraft": 1716,
+      "leistungen": 0,
+      "sha256": "e6be0397a49d611d4a5fa257da11d6b80f5611864584bd1b7b5daef0fbdd04d5",
+      "stichtag": "2017-01-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2017-02-01.parquet",
+      "in_kraft": 1713,
+      "leistungen": 22,
+      "sha256": "69195e19d6cbdc587d0b8b740b5f88e40fe0f5a4d7abfde3569b8015f1763900",
+      "stichtag": "2017-02-01",
+      "zugaenge": 67
+    },
+    {
+      "datei": "abschluss_2017-03-01.parquet",
+      "in_kraft": 1713,
+      "leistungen": 7,
+      "sha256": "0cdb6acd0e03ad0205073225a2c24d7a210a563553295036fc140d6469c76cc7",
+      "stichtag": "2017-03-01",
+      "zugaenge": 22
+    },
+    {
+      "datei": "abschluss_2017-04-01.parquet",
+      "in_kraft": 1709,
+      "leistungen": 1,
+      "sha256": "bb73a1d70f5a95c4997cfdf39fdc688829cc0fabe1aae75827563f3b896ae514",
+      "stichtag": "2017-04-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2017-05-01.parquet",
+      "in_kraft": 1703,
+      "leistungen": 18,
+      "sha256": "8a08bc2af168e4174c4e77af07869d3276d5094743233155d344d1adce88ae3a",
+      "stichtag": "2017-05-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2017-06-01.parquet",
+      "in_kraft": 1712,
+      "leistungen": 0,
+      "sha256": "6783bfc4109ce3b7184ff990af2449a828409f2c921af5ae0b05eb1b863ada66",
+      "stichtag": "2017-06-01",
+      "zugaenge": 47
+    },
+    {
+      "datei": "abschluss_2017-07-01.parquet",
+      "in_kraft": 1719,
+      "leistungen": 0,
+      "sha256": "924810d441ee1953111282a5f72dc29c1a676a3a6f39d405d6040021e64e9f7e",
+      "stichtag": "2017-07-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2017-08-01.parquet",
+      "in_kraft": 1709,
+      "leistungen": 18,
+      "sha256": "90600f999c14359542a7cea954e8fe798c0ac49a33e91539adfe5519e0c5074f",
+      "stichtag": "2017-08-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2017-09-01.parquet",
+      "in_kraft": 1715,
+      "leistungen": 6,
+      "sha256": "c9c951c5cb46e1b6e177e77a249ab8188aa897682412d7b89b66896f2d325152",
+      "stichtag": "2017-09-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2017-10-01.parquet",
+      "in_kraft": 1719,
+      "leistungen": 2,
+      "sha256": "7816994b1bd998aed2f2e11cbbaefdbe6894f2f8da49db3cbb32edc6b46cc028",
+      "stichtag": "2017-10-01",
+      "zugaenge": 10
+    },
+    {
+      "datei": "abschluss_2017-11-01.parquet",
+      "in_kraft": 1716,
+      "leistungen": 14,
+      "sha256": "9f9cbf71d6ae878a0a0910ff5f80db2b59a12169e11e2eeabbd52e1db479651d",
+      "stichtag": "2017-11-01",
+      "zugaenge": 50
+    },
+    {
+      "datei": "abschluss_2017-12-01.parquet",
+      "in_kraft": 1714,
+      "leistungen": 8,
+      "sha256": "8c0c4cdb13b7fa777a5e98308f2671a5de5f33aa5645755acbc4074a666dadbb",
+      "stichtag": "2017-12-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2018-01-01.parquet",
+      "in_kraft": 1714,
+      "leistungen": 6,
+      "sha256": "95429f5d3840d877208b997ae15365c2cc1a4bccb9d73ee2768ac14e85cd6a0d",
+      "stichtag": "2018-01-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2018-02-01.parquet",
+      "in_kraft": 1711,
+      "leistungen": 11,
+      "sha256": "c6f65a308349d40a2d3a4cf40983d8459da7b0e64f87e305768e62e32266b668",
+      "stichtag": "2018-02-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_2018-03-01.parquet",
+      "in_kraft": 1715,
+      "leistungen": 4,
+      "sha256": "399b6890b5d6e2243ae0272f90e688da7f0e3e8c8afe7e88272ce3159afda054",
+      "stichtag": "2018-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2018-04-01.parquet",
+      "in_kraft": 1717,
+      "leistungen": 0,
+      "sha256": "467680ad49cbb365e55866046bb03286b52ceb4df72be3bef0ad61e7604b2cfa",
+      "stichtag": "2018-04-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2018-05-01.parquet",
+      "in_kraft": 1715,
+      "leistungen": 16,
+      "sha256": "aacea0b7a009ff61f34ddf4d6ff3fc4197ab89c708db88fd59be56258b8cb6fb",
+      "stichtag": "2018-05-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2018-06-01.parquet",
+      "in_kraft": 1713,
+      "leistungen": 10,
+      "sha256": "d43bdc0616ff29f78bc5deb11e3f250dea4db495ed743eca674e2fc3603b63c6",
+      "stichtag": "2018-06-01",
+      "zugaenge": 37
+    },
+    {
+      "datei": "abschluss_2018-07-01.parquet",
+      "in_kraft": 1715,
+      "leistungen": 2,
+      "sha256": "d9965d65faf799a5e42a832cd42b0d0d4b53a70ece8450897910b7001699f3dc",
+      "stichtag": "2018-07-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2018-08-01.parquet",
+      "in_kraft": 1716,
+      "leistungen": 11,
+      "sha256": "1e0461e9059db98f5bacc95e81ce433e9ff581af39300f5887e07b764aeef38d",
+      "stichtag": "2018-08-01",
+      "zugaenge": 57
+    },
+    {
+      "datei": "abschluss_2018-09-01.parquet",
+      "in_kraft": 1719,
+      "leistungen": 0,
+      "sha256": "2596e37ebe17a5261c14af491c38538bf976abae683289bd45d635594d095729",
+      "stichtag": "2018-09-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2018-10-01.parquet",
+      "in_kraft": 1712,
+      "leistungen": 19,
+      "sha256": "0f474f09ab59e844b7f16e0bfd1bccdd9387ec14d27f6eaeedb0a9fb7de2f1ba",
+      "stichtag": "2018-10-01",
+      "zugaenge": 52
+    },
+    {
+      "datei": "abschluss_2018-11-01.parquet",
+      "in_kraft": 1711,
+      "leistungen": 10,
+      "sha256": "2c606b5dbf2fac64f6a31656f735339f77be0010a793b1c8b202dcaca0748300",
+      "stichtag": "2018-11-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_2018-12-01.parquet",
+      "in_kraft": 1711,
+      "leistungen": 1,
+      "sha256": "e604d2db75ffa4c2b852b59bb07e8270916c99cc1f06ee57de35af3a2083ba05",
+      "stichtag": "2018-12-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2019-01-01.parquet",
+      "in_kraft": 1713,
+      "leistungen": 7,
+      "sha256": "fe953b00b2d3a799bf19c5b6c2903d066bf877938a11b57ed62539591ef89a21",
+      "stichtag": "2019-01-01",
+      "zugaenge": 53
+    },
+    {
+      "datei": "abschluss_2019-02-01.parquet",
+      "in_kraft": 1710,
+      "leistungen": 12,
+      "sha256": "a9701335478aeed3504eb25e09a588b410e41ac4b4166af22d4162fec56923f8",
+      "stichtag": "2019-02-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2019-03-01.parquet",
+      "in_kraft": 1706,
+      "leistungen": 7,
+      "sha256": "eaf8fecd416cf7ee9fb8cde342a6299760621c4d35b07e770ddb0365ad7842da",
+      "stichtag": "2019-03-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2019-04-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 11,
+      "sha256": "481a9c61f1c324b1a7edd793a8a04621de7f92e75d80364990bfe83bd0b38ba5",
+      "stichtag": "2019-04-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2019-05-01.parquet",
+      "in_kraft": 1699,
+      "leistungen": 9,
+      "sha256": "ffdbb3544df1d060b6763b2424f78310c1417dd91ce76a2186e0063229268faa",
+      "stichtag": "2019-05-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2019-06-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 2,
+      "sha256": "cdb8c683a746d369da43c6ea42ab34eb6fd261265268821215a594d0862c9dac",
+      "stichtag": "2019-06-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2019-07-01.parquet",
+      "in_kraft": 1702,
+      "leistungen": 12,
+      "sha256": "27131af3e9881f988b5a219f34ea4c0c3c5ef6f9798dde2c9bae97276fa17d89",
+      "stichtag": "2019-07-01",
+      "zugaenge": 52
+    },
+    {
+      "datei": "abschluss_2019-08-01.parquet",
+      "in_kraft": 1696,
+      "leistungen": 9,
+      "sha256": "ba185ffdcae98992389999115c0e1acb40d76dc0ef18e25664f139be2362da4e",
+      "stichtag": "2019-08-01",
+      "zugaenge": 22
+    },
+    {
+      "datei": "abschluss_2019-09-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 0,
+      "sha256": "2bd56d2da52e95ffaaf4cde2f59e51ce5d452a8d2445414d83e4f717cd8e187b",
+      "stichtag": "2019-09-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2019-10-01.parquet",
+      "in_kraft": 1703,
+      "leistungen": 9,
+      "sha256": "9aa3872eca683c70b4142fc8bee16b9867cb111e3b5effae8a9d25dbe70d5d71",
+      "stichtag": "2019-10-01",
+      "zugaenge": 48
+    },
+    {
+      "datei": "abschluss_2019-11-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 9,
+      "sha256": "db02346128c63c41e9b46ffe5ac6dd432878eba62d88631ab346c14d22d41ed9",
+      "stichtag": "2019-11-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2019-12-01.parquet",
+      "in_kraft": 1703,
+      "leistungen": 0,
+      "sha256": "79de7ecf93e58fe41aaebd50f6807904ab27f152b78aaf903c60aa3a931feb0b",
+      "stichtag": "2019-12-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2020-01-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 10,
+      "sha256": "1d29312041f7d9d4109aed545f73794763cc1f09fd5e116dd21eea972528e5fb",
+      "stichtag": "2020-01-01",
+      "zugaenge": 46
+    },
+    {
+      "datei": "abschluss_2020-02-01.parquet",
+      "in_kraft": 1699,
+      "leistungen": 0,
+      "sha256": "48cd1836f81911021e53d5e954c2f9439c626a4f103c1542a56dd83da30a8d8f",
+      "stichtag": "2020-02-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2020-03-01.parquet",
+      "in_kraft": 1705,
+      "leistungen": 15,
+      "sha256": "fd69bef7c02725c5de2c453cd80ec38a2912d147c29283a7d02d6f8c484d5ee1",
+      "stichtag": "2020-03-01",
+      "zugaenge": 34
+    },
+    {
+      "datei": "abschluss_2020-04-01.parquet",
+      "in_kraft": 1707,
+      "leistungen": 11,
+      "sha256": "56abcc0c0ca45952e7c6d2f2cccbe7839642f73b5d73ad01c52e027f33ec413b",
+      "stichtag": "2020-04-01",
+      "zugaenge": 57
+    },
+    {
+      "datei": "abschluss_2020-05-01.parquet",
+      "in_kraft": 1706,
+      "leistungen": 8,
+      "sha256": "ccba7a8b2949c9059fe250d3850839ae33d3e59ef2cbd2d6ab02bdbcb2dc6bd8",
+      "stichtag": "2020-05-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2020-06-01.parquet",
+      "in_kraft": 1704,
+      "leistungen": 11,
+      "sha256": "e92e411ab956d5ef9ffc447badaaa740d676a5985ad8e36bb17c307656c79507",
+      "stichtag": "2020-06-01",
+      "zugaenge": 26
+    },
+    {
+      "datei": "abschluss_2020-07-01.parquet",
+      "in_kraft": 1705,
+      "leistungen": 9,
+      "sha256": "bcc4bdb73fbbdef492cba8ecff10ed4149ad4f872aaca2330340952372426c49",
+      "stichtag": "2020-07-01",
+      "zugaenge": 34
+    },
+    {
+      "datei": "abschluss_2020-08-01.parquet",
+      "in_kraft": 1708,
+      "leistungen": 0,
+      "sha256": "031fdba82a1ff9f12d2fc2e3de109ad528d0da85d7526d8c5b2a77dc06cd6e2a",
+      "stichtag": "2020-08-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2020-09-01.parquet",
+      "in_kraft": 1705,
+      "leistungen": 18,
+      "sha256": "32fbc774d022f794141a1c726ee48d27a9f2e5a29319d8b2c308f9e34ea5c499",
+      "stichtag": "2020-09-01",
+      "zugaenge": 56
+    },
+    {
+      "datei": "abschluss_2020-10-01.parquet",
+      "in_kraft": 1712,
+      "leistungen": 8,
+      "sha256": "523f67e58eb79334a25fe3cdd943a774c059f6ffdab5a1a2275ced2c231b6683",
+      "stichtag": "2020-10-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2020-11-01.parquet",
+      "in_kraft": 1714,
+      "leistungen": 0,
+      "sha256": "bdfe58690e6e051d172c7feaad2486702893bff49d4b75ebc4f2971c8488990a",
+      "stichtag": "2020-11-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2020-12-01.parquet",
+      "in_kraft": 1710,
+      "leistungen": 17,
+      "sha256": "9c5a449e1b2ae652729a3b900c44b122139b85174b380af4cbf6b860220ae633",
+      "stichtag": "2020-12-01",
+      "zugaenge": 41
+    },
+    {
+      "datei": "abschluss_2021-01-01.parquet",
+      "in_kraft": 1709,
+      "leistungen": 7,
+      "sha256": "95ceaf7444fc44a4bd3e063fd832bf3f88c35588061ae441fab265caca3eec95",
+      "stichtag": "2021-01-01",
+      "zugaenge": 20
+    },
+    {
+      "datei": "abschluss_2021-02-01.parquet",
+      "in_kraft": 1702,
+      "leistungen": 14,
+      "sha256": "7c06a7ce9328ecec87e77b42f3b6e9f76e5d2f059fc266f03f5654bb24fdf9b8",
+      "stichtag": "2021-02-01",
+      "zugaenge": 20
+    },
+    {
+      "datei": "abschluss_2021-03-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 7,
+      "sha256": "6799b9f33a93e35f27d0d1cd2de34c44750559d775fc08f0cda18915a4fc7e41",
+      "stichtag": "2021-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2021-04-01.parquet",
+      "in_kraft": 1702,
+      "leistungen": 4,
+      "sha256": "4a6e72724a921579be9605af69ce3330beeef88b0b45c2638321aa7b602e1c81",
+      "stichtag": "2021-04-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2021-05-01.parquet",
+      "in_kraft": 1710,
+      "leistungen": 0,
+      "sha256": "aef779c37a667a6ff7a84388863f18b91067a49b5bcdebdceaa06f19794d5614",
+      "stichtag": "2021-05-01",
+      "zugaenge": 9
+    },
+    {
+      "datei": "abschluss_2021-06-01.parquet",
+      "in_kraft": 1706,
+      "leistungen": 14,
+      "sha256": "e394dd7889970dcfe32c965fff71f0e99188800bb35149ffb055ac86bf656049",
+      "stichtag": "2021-06-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2021-07-01.parquet",
+      "in_kraft": 1701,
+      "leistungen": 7,
+      "sha256": "bda6789faa284a56c5b1587daff5a40ab0fe95d604f52a9fcdcf7bca83e7e5ee",
+      "stichtag": "2021-07-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2021-08-01.parquet",
+      "in_kraft": 1709,
+      "leistungen": 0,
+      "sha256": "8cfd563b47f44e4e3930a8f41555facb90bfe9efda112297638c68da063391d0",
+      "stichtag": "2021-08-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_2021-09-01.parquet",
+      "in_kraft": 1707,
+      "leistungen": 14,
+      "sha256": "d5893d32bf3511e611f94b32b4516afb21456a4aaa9e84f83419caad7b533423",
+      "stichtag": "2021-09-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2021-10-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 16,
+      "sha256": "ffd6e9dfcc49b5444b8a12f5ff7cf142a8785a322dfa1dd998f2f3bf42e8a0a2",
+      "stichtag": "2021-10-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2021-11-01.parquet",
+      "in_kraft": 1696,
+      "leistungen": 10,
+      "sha256": "0fd1e62c5671849387be3d95ddf6b4389aabc8e7c73fddb38599d910cc711cee",
+      "stichtag": "2021-11-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2021-12-01.parquet",
+      "in_kraft": 1694,
+      "leistungen": 7,
+      "sha256": "c7f45731ff24af21a8188aa649e884ba1470007f485dd2edb384cb07c4e65c01",
+      "stichtag": "2021-12-01",
+      "zugaenge": 19
+    },
+    {
+      "datei": "abschluss_2022-01-01.parquet",
+      "in_kraft": 1696,
+      "leistungen": 0,
+      "sha256": "cedf7f110ccc658d7331067ae5e32a62ef014ce45b20064f3ad18ccebdea8f87",
+      "stichtag": "2022-01-01",
+      "zugaenge": 8
+    },
+    {
+      "datei": "abschluss_2022-02-01.parquet",
+      "in_kraft": 1699,
+      "leistungen": 13,
+      "sha256": "89b4a8c9ee7c44c05c6e437a7f1f64fb95081cebf0d121832416eb341740785b",
+      "stichtag": "2022-02-01",
+      "zugaenge": 46
+    },
+    {
+      "datei": "abschluss_2022-03-01.parquet",
+      "in_kraft": 1702,
+      "leistungen": 8,
+      "sha256": "b4ce8c50a8e579c0bdb2d198b5828c75ff95209770ea521e2fec5dd30678d9c2",
+      "stichtag": "2022-03-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2022-04-01.parquet",
+      "in_kraft": 1701,
+      "leistungen": 8,
+      "sha256": "8dcb53f9c6920b70109820d47a3903c484f7ca0d53a500579fea849fa0f3a182",
+      "stichtag": "2022-04-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2022-05-01.parquet",
+      "in_kraft": 1705,
+      "leistungen": 0,
+      "sha256": "8c60f50e44fb8fced18c6837d778a9c17a8a18aaaa89af807c059d6c8a881793",
+      "stichtag": "2022-05-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2022-06-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 16,
+      "sha256": "dd62867cbf85e8681f2df206c879c6a6313f30f12a784f0f7f9bcaf87224faf3",
+      "stichtag": "2022-06-01",
+      "zugaenge": 53
+    },
+    {
+      "datei": "abschluss_2022-07-01.parquet",
+      "in_kraft": 1699,
+      "leistungen": 11,
+      "sha256": "24a2fa51cc43397e1268362b13d9f4108d7eb310d849320eb98842da7e4bdd74",
+      "stichtag": "2022-07-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_2022-08-01.parquet",
+      "in_kraft": 1699,
+      "leistungen": 13,
+      "sha256": "7c4a2b6f9c0ff920cb1b0cae26b3deff61de30acd9196837b36fd308ada52d86",
+      "stichtag": "2022-08-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2022-09-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 11,
+      "sha256": "5fcd0504feeb2e4ab5bc4ed19fe30e4eec71bf13737c461303b86b561c23b66b",
+      "stichtag": "2022-09-01",
+      "zugaenge": 29
+    },
+    {
+      "datei": "abschluss_2022-10-01.parquet",
+      "in_kraft": 1700,
+      "leistungen": 1,
+      "sha256": "ac2781a95202428aa225a171620729446fd7dad66e8e78b1fa44291ff3ab6769",
+      "stichtag": "2022-10-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2022-11-01.parquet",
+      "in_kraft": 1694,
+      "leistungen": 12,
+      "sha256": "717c3dd57f404d47b4280b8502e501b21ab73e1a6d19b5211765a700f4a40546",
+      "stichtag": "2022-11-01",
+      "zugaenge": 37
+    },
+    {
+      "datei": "abschluss_2022-12-01.parquet",
+      "in_kraft": 1695,
+      "leistungen": 8,
+      "sha256": "0abdfd3dfda05819e9ce0a59b0e40d0c7a7ddb725877292a77a7ff61d58a37cf",
+      "stichtag": "2022-12-01",
+      "zugaenge": 31
+    },
+    {
+      "datei": "abschluss_2023-01-01.parquet",
+      "in_kraft": 1695,
+      "leistungen": 0,
+      "sha256": "6b8d29c0984743314cac9372a8e69a5cd633e888b2e3e58b8568e79df22292e1",
+      "stichtag": "2023-01-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2023-02-01.parquet",
+      "in_kraft": 1692,
+      "leistungen": 17,
+      "sha256": "599fad921b88de0985522129cf54c97493fba6686a7e505ec8df107b5133d87a",
+      "stichtag": "2023-02-01",
+      "zugaenge": 42
+    },
+    {
+      "datei": "abschluss_2023-03-01.parquet",
+      "in_kraft": 1691,
+      "leistungen": 11,
+      "sha256": "27fdfce62dcae67bd6010e84db60cdf34474d48eb0d34e4e20bd943a0cca93cd",
+      "stichtag": "2023-03-01",
+      "zugaenge": 27
+    },
+    {
+      "datei": "abschluss_2023-04-01.parquet",
+      "in_kraft": 1693,
+      "leistungen": 2,
+      "sha256": "2f11deb051467fa86885b42cd2e7de7f5fb0a9fd64615172d3a81dc40060832e",
+      "stichtag": "2023-04-01",
+      "zugaenge": 6
+    },
+    {
+      "datei": "abschluss_2023-05-01.parquet",
+      "in_kraft": 1692,
+      "leistungen": 12,
+      "sha256": "e4fc0c6781e5f0770d2b3330e9e5f519b5d4f952fd8d75b426a9250678e3e3a5",
+      "stichtag": "2023-05-01",
+      "zugaenge": 43
+    },
+    {
+      "datei": "abschluss_2023-06-01.parquet",
+      "in_kraft": 1691,
+      "leistungen": 10,
+      "sha256": "3cbabc6b8a0833eb4be4fcd3350232e8b06fd753da4152dac017aa1e47f33a52",
+      "stichtag": "2023-06-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2023-07-01.parquet",
+      "in_kraft": 1692,
+      "leistungen": 0,
+      "sha256": "74ae681a6ff9191b682657ce5f40020eb1e1aba12a37cbc07282a23fa1e25481",
+      "stichtag": "2023-07-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2023-08-01.parquet",
+      "in_kraft": 1693,
+      "leistungen": 16,
+      "sha256": "1a01a5c58b6e7deb47aa7becd9f5b128ddf1ee34ecbcc9397db5f36ad5bb582c",
+      "stichtag": "2023-08-01",
+      "zugaenge": 51
+    },
+    {
+      "datei": "abschluss_2023-09-01.parquet",
+      "in_kraft": 1688,
+      "leistungen": 10,
+      "sha256": "47339569c4d10bf056168553add90fce6ac7d101a26b0a19f2d1a5ebf10c52e2",
+      "stichtag": "2023-09-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2023-10-01.parquet",
+      "in_kraft": 1686,
+      "leistungen": 0,
+      "sha256": "bdfe1c671a9f3d32dafbc22c64bbe62b926ddbd89241f6cccc5fca220d344a71",
+      "stichtag": "2023-10-01",
+      "zugaenge": 4
+    },
+    {
+      "datei": "abschluss_2023-11-01.parquet",
+      "in_kraft": 1684,
+      "leistungen": 18,
+      "sha256": "ece2dbda5617d21fb06627e058b80806a6f21a8fd6fb6226901739e2007e6d30",
+      "stichtag": "2023-11-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2023-12-01.parquet",
+      "in_kraft": 1682,
+      "leistungen": 6,
+      "sha256": "c0f596bb032f22c882194a2a7e12b58fcc9a069cf35581f6991c69fdf921b073",
+      "stichtag": "2023-12-01",
+      "zugaenge": 19
+    },
+    {
+      "datei": "abschluss_2024-01-01.parquet",
+      "in_kraft": 1681,
+      "leistungen": 9,
+      "sha256": "6dc3ca373d6be08d075ab9e1c9f95ad072691ccd44b73c7e6e004fd1e9935969",
+      "stichtag": "2024-01-01",
+      "zugaenge": 33
+    },
+    {
+      "datei": "abschluss_2024-02-01.parquet",
+      "in_kraft": 1683,
+      "leistungen": 8,
+      "sha256": "95f5e961f8a7f0981a15b97913d965650323f67e0e3425d6dc9762a32c88b7e5",
+      "stichtag": "2024-02-01",
+      "zugaenge": 25
+    },
+    {
+      "datei": "abschluss_2024-03-01.parquet",
+      "in_kraft": 1676,
+      "leistungen": 10,
+      "sha256": "942f9c51d791e594d80a53250b83bfcdb29e6f1bbd88a6cd52562a832a060ae9",
+      "stichtag": "2024-03-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_2024-04-01.parquet",
+      "in_kraft": 1677,
+      "leistungen": 6,
+      "sha256": "83dbb0e86d354d599db106752c37fe00c9a85d7ee1bff8671d041666121bba76",
+      "stichtag": "2024-04-01",
+      "zugaenge": 17
+    },
+    {
+      "datei": "abschluss_2024-05-01.parquet",
+      "in_kraft": 1675,
+      "leistungen": 9,
+      "sha256": "1aa7e2b24a24abac4454ef234383e27ae9c8f0e5bf3c8e9cac34a6b87d4dcc22",
+      "stichtag": "2024-05-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2024-06-01.parquet",
+      "in_kraft": 1675,
+      "leistungen": 1,
+      "sha256": "8b785b0b0c8b146b97d75666e9bcbe6874e2f5f0f22bc887c6e9fc24d8907a18",
+      "stichtag": "2024-06-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2024-07-01.parquet",
+      "in_kraft": 1665,
+      "leistungen": 20,
+      "sha256": "02cb27613a67b09bfe43eacebb484fc2974179d3e5e48903134c6933c9f95fe4",
+      "stichtag": "2024-07-01",
+      "zugaenge": 50
+    },
+    {
+      "datei": "abschluss_2024-08-01.parquet",
+      "in_kraft": 1666,
+      "leistungen": 9,
+      "sha256": "26b1708a068223eef5cb4256e19b140c95f0bc954c12b5869e39cc31aee4f4ca",
+      "stichtag": "2024-08-01",
+      "zugaenge": 28
+    },
+    {
+      "datei": "abschluss_2024-09-01.parquet",
+      "in_kraft": 1663,
+      "leistungen": 3,
+      "sha256": "5138087da7abde7747d2b12932bc31ae226774c65544318ab7677fa067b7d4c8",
+      "stichtag": "2024-09-01",
+      "zugaenge": 5
+    },
+    {
+      "datei": "abschluss_2024-10-01.parquet",
+      "in_kraft": 1663,
+      "leistungen": 15,
+      "sha256": "57a763ee6e55105b3b389208cfc5736947ac5d03a91410e9f6964d1804c74c31",
+      "stichtag": "2024-10-01",
+      "zugaenge": 49
+    },
+    {
+      "datei": "abschluss_2024-11-01.parquet",
+      "in_kraft": 1664,
+      "leistungen": 5,
+      "sha256": "d69f00b3792e1f46f524d982536e80b0b261c9af35f4821d328e3e72477678db",
+      "stichtag": "2024-11-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2024-12-01.parquet",
+      "in_kraft": 1664,
+      "leistungen": 0,
+      "sha256": "5bf8fd47e103558860484054368a5561e0eeeda355a213f7c23ab76884cf79ec",
+      "stichtag": "2024-12-01",
+      "zugaenge": 7
+    },
+    {
+      "datei": "abschluss_2025-01-01.parquet",
+      "in_kraft": 1656,
+      "leistungen": 19,
+      "sha256": "dc9612b711cf6cd7572056bb0ce736e771dde286731538f5042da1c8dbd14666",
+      "stichtag": "2025-01-01",
+      "zugaenge": 35
+    },
+    {
+      "datei": "abschluss_2025-02-01.parquet",
+      "in_kraft": 1666,
+      "leistungen": 0,
+      "sha256": "4eb8d7035e4f76c8425f213afd53dfb6491226908686af8ff6b97e966f9ca5ae",
+      "stichtag": "2025-02-01",
+      "zugaenge": 12
+    },
+    {
+      "datei": "abschluss_2025-03-01.parquet",
+      "in_kraft": 1671,
+      "leistungen": 5,
+      "sha256": "e9dff4da3e8ee6b14b3f2bf1393bf58fdd0ca37c2b6f273456d8a8a94de3938a",
+      "stichtag": "2025-03-01",
+      "zugaenge": 23
+    },
+    {
+      "datei": "abschluss_2025-04-01.parquet",
+      "in_kraft": 1669,
+      "leistungen": 16,
+      "sha256": "e9d314e916a1cf615d590acf356c94d686af162fc95daddabf44b2f19b4f2a44",
+      "stichtag": "2025-04-01",
+      "zugaenge": 39
+    },
+    {
+      "datei": "abschluss_2025-05-01.parquet",
+      "in_kraft": 1674,
+      "leistungen": 10,
+      "sha256": "6adc80e1fdf1bd6575db6af523a48897045c9189edb706d5d28456cfb99e9e4b",
+      "stichtag": "2025-05-01",
+      "zugaenge": 38
+    },
+    {
+      "datei": "abschluss_2025-06-01.parquet",
+      "in_kraft": 1677,
+      "leistungen": 1,
+      "sha256": "36db664760632d9ba7878a3ecff352ffdd5dff347b39c240e13bcad06402733b",
+      "stichtag": "2025-06-01",
+      "zugaenge": 11
+    },
+    {
+      "datei": "abschluss_2025-07-01.parquet",
+      "in_kraft": 1677,
+      "leistungen": 20,
+      "sha256": "ae13bb51fb771cde6495877a335c82696fa8ebea0e630d8110527702aa5c644f",
+      "stichtag": "2025-07-01",
+      "zugaenge": 44
+    },
+    {
+      "datei": "abschluss_2025-08-01.parquet",
+      "in_kraft": 1689,
+      "leistungen": 3,
+      "sha256": "7842df400b1807f18fc8aab9e8762b93d2a39373ba20ea3646a6c87e9f2a1c52",
+      "stichtag": "2025-08-01",
+      "zugaenge": 32
+    },
+    {
+      "datei": "abschluss_2025-09-01.parquet",
+      "in_kraft": 1693,
+      "leistungen": 9,
+      "sha256": "29266fd7d5373052469497d39dc681d835bc9f7f1e05971eff87a141af4dc9ef",
+      "stichtag": "2025-09-01",
+      "zugaenge": 24
+    },
+    {
+      "datei": "abschluss_2025-10-01.parquet",
+      "in_kraft": 1688,
+      "leistungen": 15,
+      "sha256": "50fb5accda9d2856269ba8686c078ceea4b00877ed4515e8c7c14ff2623dc980",
+      "stichtag": "2025-10-01",
+      "zugaenge": 26
+    },
+    {
+      "bericht": "bestandsbericht_2025-11-01.html",
+      "bericht_sha256": "78d710df49ebe148a18f78aa3930f1a18eec3052793ee8b593a71217a201d616",
+      "datei": "abschluss_2025-11-01.parquet",
+      "in_kraft": 1697,
+      "leistungen": 0,
+      "sha256": "a14df75c58ac3dddce4c0bdf3090989ba2306585b36ef88338e1b459a328225f",
+      "stichtag": "2025-11-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2025-11-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "a228ad9b11683bdff5c869bdbc807e6b6e524a870df2dc89b6977be94f824a86",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 13
+    },
+    {
+      "bericht": "bestandsbericht_2025-12-01.html",
+      "bericht_sha256": "29d69c47ba81dd701f97f35a67ea61b5ed5477b19a7ccf8d44237a8e385e78a0",
+      "datei": "abschluss_2025-12-01.parquet",
+      "in_kraft": 1698,
+      "leistungen": 19,
+      "sha256": "f97f104917efffd7da90e8f412ebd322fa1296492ab40fe4fd754d001fb509fc",
+      "stichtag": "2025-12-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2025-12-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "74963f1fb1cc3d4732f7e0db8cab68b3784e2e278d8fdf81eb25439e581caa7c",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 42
+    },
+    {
+      "bericht": "bestandsbericht_2026-01-01.html",
+      "bericht_sha256": "14aa5c42cbe01a398a3b37bb0bc54245218f88787e375a5513c070d5c701737b",
+      "datei": "abschluss_2026-01-01.parquet",
+      "in_kraft": 2531,
+      "jahresbericht": "jahresbericht_2025.html",
+      "jahresbericht_sha256": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
+      "leistungen": 16,
+      "sha256": "026545ce0373bf1c9b0a3281c85fe3506ed636b4aa44bf6b9736ea22d0bd571a",
+      "stichtag": "2026-01-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-01-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "4f05f7edd6569b6c5b732de0646009e1a3418f28e0480bda27cd256cb8eb7fc7",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 860
+    },
+    {
+      "bericht": "bestandsbericht_2026-02-01.html",
+      "bericht_sha256": "9efd41b28c1c67f6d8d9b53e8c5e3b920bee2c0e202cd6c9f12eff0e1868fc2e",
+      "datei": "abschluss_2026-02-01.parquet",
+      "in_kraft": 2537,
+      "leistungen": 1,
+      "sha256": "1613400ee770d7b613e3b7cb377f84c78a63ccd29ee93437e54e895024bee4be",
+      "stichtag": "2026-02-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-02-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "87e768113268a403c59b3f541c2c23e69fcd2c97f996b56fe073ea0b9bd8f764",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 16
+    },
+    {
+      "bericht": "bestandsbericht_2026-03-01.html",
+      "bericht_sha256": "c10dd4b0dc2790ea8c5fee8952f04cf7d9f9c78359ed565709adfad6a04d5310",
+      "datei": "abschluss_2026-03-01.parquet",
+      "in_kraft": 2533,
+      "leistungen": 17,
+      "sha256": "b3e366fa2e1ab82d07017e1aa7b11ff379e7c22ec243539f4680e67d127b1910",
+      "stichtag": "2026-03-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-03-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "8518f6787f69d9b3b4d2c27d8fd7430e016d74128481b55dc40605f4fc3b1038",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 33
+    },
+    {
+      "bericht": "bestandsbericht_2026-04-01.html",
+      "bericht_sha256": "5cbcf664ecc4cf39a3aee27c10ad5dffc4673bc20e4b9795630b342af64182b3",
+      "datei": "abschluss_2026-04-01.parquet",
+      "in_kraft": 2533,
+      "leistungen": 21,
+      "sha256": "af24992a961fe3700ae1f408be2f37fee1e7bf53e5150613594a00125d54228e",
+      "stichtag": "2026-04-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-04-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "86152fc818c14721d56d813c9d0966e8016d4a2b25a9f027f3e81e3c4e142496",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 79
+    },
+    {
+      "bericht": "bestandsbericht_2026-05-01.html",
+      "bericht_sha256": "dffbc94387693ee1ab976e0076047b7452cefdbb26883ea9440b8526dabd743b",
+      "datei": "abschluss_2026-05-01.parquet",
+      "in_kraft": 2532,
+      "leistungen": 6,
+      "sha256": "d08d07d335c45b5f9e9f70567b72e3b4f0dcf778a1d8b75366f7387ab322cb7a",
+      "stichtag": "2026-05-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-05-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "54d90b3b993c415996ecbdaf0d5ea3a0b7372ecca6c601374a51266a14986637",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 43
+    },
+    {
+      "bericht": "bestandsbericht_2026-06-01.html",
+      "bericht_sha256": "b78bd613f16d6fab098ebd6b5b68d548ed5e66d669b431bd1aa884a03bd3f9de",
+      "datei": "abschluss_2026-06-01.parquet",
+      "in_kraft": 2528,
+      "leistungen": 16,
+      "sha256": "d476ecfe980f8af5aba1b372455d6480f4786d6b784c7157d194c5b0d34f8954",
+      "stichtag": "2026-06-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-06-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "ffb0b973689a5479aa7fb7d5d31994801a5e34f63f57fbcdcfa4d52f3e1b728b",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 41
+    },
+    {
+      "bericht": "bestandsbericht_2026-07-01.html",
+      "bericht_sha256": "0186a4dadaab82c3e0f7284c869f2b5ce7d2f8cf4c36a928c8a7d4cbb23a45dc",
+      "datei": "abschluss_2026-07-01.parquet",
+      "in_kraft": 2532,
+      "leistungen": 11,
+      "sha256": "5df1d1085c1eb060f1f8c48daf70705ebd4c575a42f2842b2050f67622e3169c",
+      "stichtag": "2026-07-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-07-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "ae7e62eef2b0380e987a538f3d481ad0320240647421a8cb07249975289b0e08",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 47
+    },
+    {
+      "bericht": "bestandsbericht_2026-08-01.html",
+      "bericht_sha256": "9ffd4d4a10b1149e74071d20abb2d020513a8a9b1236c651456dc2d7c0606d58",
+      "datei": "abschluss_2026-08-01.parquet",
+      "in_kraft": 2541,
+      "leistungen": 1,
+      "sha256": "7a5136e251757c7e94a05cf3eb60ce5d069d26c5ba9f282dd60d4daaa766279c",
+      "stichtag": "2026-08-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-08-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "346b2f33c5480f6d73e1dbefb4352363705c21b27a0f9d4141e4f814df4b8330",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 13
+    },
+    {
+      "bericht": "bestandsbericht_2026-09-01.html",
+      "bericht_sha256": "5ec3476c37af8c7300693df893cc1762ca38ab6d6d9abf1f1533eeb9dcbb14b6",
+      "datei": "abschluss_2026-09-01.parquet",
+      "in_kraft": 2543,
+      "leistungen": 18,
+      "sha256": "1b3503c262161d9168fd937bda64604f534983483762705af3e252e96fe7ed0b",
+      "stichtag": "2026-09-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-09-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "a307e41ec330925a54bd3739c14215f549d72ec9e34587c7de1661ba2e8dc116",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 72
+    },
+    {
+      "bericht": "bestandsbericht_2026-10-01.html",
+      "bericht_sha256": "0bdfc2cde45d502fa66a08e45c3a72e04d30c574c8decce25ea238d4ef1ddf90",
+      "datei": "abschluss_2026-10-01.parquet",
+      "in_kraft": 2544,
+      "leistungen": 10,
+      "sha256": "f9194b3ebd069634aa3aceabe9fc27e2f5fb7a1edb50604bbe638735fddc3db4",
+      "stichtag": "2026-10-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 50
+    }
+  ],
+  "abschluss_kennzahlen": {
+    "aktuell": {
+      "datei": "abschluesse/abschluss_2026-10-01.parquet",
+      "dk_konvention": "monatsgenau",
+      "gesamt": {
+        "deckungskapital": 81878343.78,
+        "jahresbeitrag": 8101690.55,
+        "vertraege": 2544
+      },
+      "je_produkt": {
+        "bu": {
+          "deckungskapital": 3162070.87,
+          "jahresbeitrag": 465958.14,
+          "vertraege": 657
+        },
+        "klv": {
+          "deckungskapital": 78716272.91,
+          "jahresbeitrag": 7635732.4,
+          "vertraege": 1887
+        }
+      },
+      "stichtag": "2026-10-01"
+    }
+  },
+  "anker": {
+    "art": "auslieferung",
+    "datei": "/anker/anker.jsonl",
+    "sha256": "3cce5abd5a37fa5ba4c6eaf8407f411ca78a6f936bedccc94b9c60bde5c706fa",
+    "stand": "2026-10-29",
+    "zeichnung": {
+      "rolle": "betrieb/tageslauf",
+      "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
+      "schluesselklasse": "betrieb",
+      "signatur": "844edc9e33c64d458ea2b3334226cf013303e8f1255bcc6e3bc916caf5360dea",
+      "verfahren": "hmac-sha256-v2"
+    }
+  },
+  "bestand": {
+    "in_force": 2543,
+    "je_produkt": {
+      "bu": 657,
+      "klv": 1886
+    },
+    "policiert_beginn_folgt": 13,
+    "uebernommen_in_force": 808
+  },
+  "buchungen": {
+    "gesamt": 23909,
+    "je_ereignis": {
+      "ABL": 707,
+      "ERH": 6935,
+      "INV": 50,
+      "PEX": 393,
+      "REA": 4,
+      "RED": 178,
+      "STO": 771,
+      "TKU": 130,
+      "TOD": 146,
+      "ZUG": 4180
+    },
+    "letzte": [
+      {
+        "betrag": 57000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-28",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130101,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 2083.2918010008148,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-28",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130101,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 18000.0,
+        "betrag_art": "BU_Jahresrente",
+        "buchungsdatum": "2026-10-23",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135129601,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 1919.7595107132165,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-23",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135129601,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 113000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-22",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129501,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 9577.3292600771,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-22",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129501,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 49000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-20",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129301,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 4083.8211299746304,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-20",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129301,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 11700.0,
+        "betrag_art": "BU_Jahresrente",
+        "buchungsdatum": "2026-10-19",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135129201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 726.1371428323874,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-19",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135129201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 65000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-19",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 3935.294227043351,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-19",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105129201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 47000.0,
+        "betrag_art": "Todesfallleistung",
+        "buchungsdatum": "2026-10-14",
+        "ereignis": "TOD",
+        "herkunft": "fortschreibung",
+        "police_id": 734,
+        "wirkungstag": "2026-10-01"
+      },
+      {
+        "betrag": 14400.0,
+        "betrag_art": "BU_Jahresrente",
+        "buchungsdatum": "2026-10-13",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135128601,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 1401.5215062307425,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-13",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135128601,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 8700.0,
+        "betrag_art": "BU_Jahresrente",
+        "buchungsdatum": "2026-10-12",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135128501,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 270.8565807697391,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-12",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 135128501,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 61000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-09",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105128201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 3852.4300497587988,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-09",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105128201,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 50000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-08",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105128101,
+        "wirkungstag": "2026-11-01"
+      }
+    ]
+  },
+  "dateien": {
+    "abschluesse/abschluss_2025-11-01.parquet": "a14df75c58ac3dddce4c0bdf3090989ba2306585b36ef88338e1b459a328225f",
+    "abschluesse/abschluss_2025-12-01.parquet": "f97f104917efffd7da90e8f412ebd322fa1296492ab40fe4fd754d001fb509fc",
+    "abschluesse/abschluss_2026-01-01.parquet": "026545ce0373bf1c9b0a3281c85fe3506ed636b4aa44bf6b9736ea22d0bd571a",
+    "abschluesse/abschluss_2026-02-01.parquet": "1613400ee770d7b613e3b7cb377f84c78a63ccd29ee93437e54e895024bee4be",
+    "abschluesse/abschluss_2026-03-01.parquet": "b3e366fa2e1ab82d07017e1aa7b11ff379e7c22ec243539f4680e67d127b1910",
+    "abschluesse/abschluss_2026-04-01.parquet": "af24992a961fe3700ae1f408be2f37fee1e7bf53e5150613594a00125d54228e",
+    "abschluesse/abschluss_2026-05-01.parquet": "d08d07d335c45b5f9e9f70567b72e3b4f0dcf778a1d8b75366f7387ab322cb7a",
+    "abschluesse/abschluss_2026-06-01.parquet": "d476ecfe980f8af5aba1b372455d6480f4786d6b784c7157d194c5b0d34f8954",
+    "abschluesse/abschluss_2026-07-01.parquet": "5df1d1085c1eb060f1f8c48daf70705ebd4c575a42f2842b2050f67622e3169c",
+    "abschluesse/abschluss_2026-08-01.parquet": "7a5136e251757c7e94a05cf3eb60ce5d069d26c5ba9f282dd60d4daaa766279c",
+    "abschluesse/abschluss_2026-09-01.parquet": "1b3503c262161d9168fd937bda64604f534983483762705af3e252e96fe7ed0b",
+    "abschluesse/abschluss_2026-10-01.parquet": "f9194b3ebd069634aa3aceabe9fc27e2f5fb7a1edb50604bbe638735fddc3db4",
+    "bestandsbericht_2025-11-01.html": "78d710df49ebe148a18f78aa3930f1a18eec3052793ee8b593a71217a201d616",
+    "bestandsbericht_2025-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "a228ad9b11683bdff5c869bdbc807e6b6e524a870df2dc89b6977be94f824a86",
+    "bestandsbericht_2025-12-01.html": "29d69c47ba81dd701f97f35a67ea61b5ed5477b19a7ccf8d44237a8e385e78a0",
+    "bestandsbericht_2025-12-01_teilbestand-baldrian-klv-tg2015-fall3.html": "74963f1fb1cc3d4732f7e0db8cab68b3784e2e278d8fdf81eb25439e581caa7c",
+    "bestandsbericht_2026-01-01.html": "14aa5c42cbe01a398a3b37bb0bc54245218f88787e375a5513c070d5c701737b",
+    "bestandsbericht_2026-01-01_teilbestand-baldrian-klv-tg2015-fall3.html": "4f05f7edd6569b6c5b732de0646009e1a3418f28e0480bda27cd256cb8eb7fc7",
+    "bestandsbericht_2026-02-01.html": "9efd41b28c1c67f6d8d9b53e8c5e3b920bee2c0e202cd6c9f12eff0e1868fc2e",
+    "bestandsbericht_2026-02-01_teilbestand-baldrian-klv-tg2015-fall3.html": "87e768113268a403c59b3f541c2c23e69fcd2c97f996b56fe073ea0b9bd8f764",
+    "bestandsbericht_2026-03-01.html": "c10dd4b0dc2790ea8c5fee8952f04cf7d9f9c78359ed565709adfad6a04d5310",
+    "bestandsbericht_2026-03-01_teilbestand-baldrian-klv-tg2015-fall3.html": "8518f6787f69d9b3b4d2c27d8fd7430e016d74128481b55dc40605f4fc3b1038",
+    "bestandsbericht_2026-04-01.html": "5cbcf664ecc4cf39a3aee27c10ad5dffc4673bc20e4b9795630b342af64182b3",
+    "bestandsbericht_2026-04-01_teilbestand-baldrian-klv-tg2015-fall3.html": "86152fc818c14721d56d813c9d0966e8016d4a2b25a9f027f3e81e3c4e142496",
+    "bestandsbericht_2026-05-01.html": "dffbc94387693ee1ab976e0076047b7452cefdbb26883ea9440b8526dabd743b",
+    "bestandsbericht_2026-05-01_teilbestand-baldrian-klv-tg2015-fall3.html": "54d90b3b993c415996ecbdaf0d5ea3a0b7372ecca6c601374a51266a14986637",
+    "bestandsbericht_2026-06-01.html": "b78bd613f16d6fab098ebd6b5b68d548ed5e66d669b431bd1aa884a03bd3f9de",
+    "bestandsbericht_2026-06-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ffb0b973689a5479aa7fb7d5d31994801a5e34f63f57fbcdcfa4d52f3e1b728b",
+    "bestandsbericht_2026-07-01.html": "0186a4dadaab82c3e0f7284c869f2b5ce7d2f8cf4c36a928c8a7d4cbb23a45dc",
+    "bestandsbericht_2026-07-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ae7e62eef2b0380e987a538f3d481ad0320240647421a8cb07249975289b0e08",
+    "bestandsbericht_2026-08-01.html": "9ffd4d4a10b1149e74071d20abb2d020513a8a9b1236c651456dc2d7c0606d58",
+    "bestandsbericht_2026-08-01_teilbestand-baldrian-klv-tg2015-fall3.html": "346b2f33c5480f6d73e1dbefb4352363705c21b27a0f9d4141e4f814df4b8330",
+    "bestandsbericht_2026-09-01.html": "5ec3476c37af8c7300693df893cc1762ca38ab6d6d9abf1f1533eeb9dcbb14b6",
+    "bestandsbericht_2026-09-01_teilbestand-baldrian-klv-tg2015-fall3.html": "a307e41ec330925a54bd3739c14215f549d72ec9e34587c7de1661ba2e8dc116",
+    "bestandsbericht_2026-10-01.html": "0bdfc2cde45d502fa66a08e45c3a72e04d30c574c8decce25ea238d4ef1ddf90",
+    "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
+    "index.html": "b3e293568587e60630097a0dd12a0e1385c1915cb35e1e34b4826f8ee79f7286",
+    "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
+    "laufmanifest.json": "00280e615a39ea3cbbd9aaa99eee5f687fab5d5468be66e77911d5d029563053",
+    "protokoll.jsonl": "2b4f97d6632b75ae30cb595f937fae4abdbcf4aa95c7051e9f13cea9a1ba4e5a",
+    "tagesjournal.parquet": "1ce3695ee3568505a777107ec3256bdc6ca03096976d435b0d8e068f3a502fdd"
+  },
+  "gefuehrt_seit": "1994-07-01",
+  "geschaeftsentwicklung": {
+    "gelesen_aus": [
+      "tagesjournal.parquet (Stands-Paket)"
+    ],
+    "je_zeitraum": {
+      "aktueller_monat": {
+        "ABL": {
+          "anzahl": 5,
+          "betraege": {
+            "Ablaufleistung": 225221.06,
+            "BU_Jahresrente": 0.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "Ablaufleistung": 225221.06,
+              "BU_Jahresrente": 0.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 5
+          },
+          "zeilen": 5
+        },
+        "ERH": {
+          "anzahl": 39,
+          "betraege": {
+            "BJB": 49130.38,
+            "VS_erhoehung": 164567.59
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BJB": 49130.38,
+              "VS_erhoehung": 164567.59
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 39
+          },
+          "zeilen": 78
+        },
+        "RED": {
+          "anzahl": 2,
+          "betraege": {
+            "VS_herabsetzung": 69889.63
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_herabsetzung": 69889.63
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 2
+          },
+          "zeilen": 2
+        },
+        "STO": {
+          "anzahl": 4,
+          "betraege": {
+            "RKW": 198258.76
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW": 198258.76
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 4
+          },
+          "zeilen": 4
+        },
+        "TOD": {
+          "anzahl": 1,
+          "betraege": {
+            "Todesfallleistung": 47000.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "Todesfallleistung": 47000.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 1
+          },
+          "zeilen": 1
+        },
+        "ZUG": {
+          "anzahl": 13,
+          "betraege": {
+            "BJB": 46675.66,
+            "BU_Jahresrente": 52800.0,
+            "VS": 593000.0
+          },
+          "betraege_je_herkunft": {
+            "neugeschaeft": {
+              "BJB": 46675.66,
+              "BU_Jahresrente": 52800.0,
+              "VS": 593000.0
+            }
+          },
+          "je_herkunft": {
+            "neugeschaeft": 13
+          },
+          "zeilen": 26
+        }
+      },
+      "aktuelles_jahr": {
+        "ABL": {
+          "anzahl": 52,
+          "betraege": {
+            "Ablaufleistung": 3117808.94,
+            "BU_Jahresrente": 66700.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "Ablaufleistung": 3117808.94,
+              "BU_Jahresrente": 66700.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 52
+          },
+          "zeilen": 52
+        },
+        "ERH": {
+          "anzahl": 299,
+          "betraege": {
+            "BJB": 316177.0,
+            "VS_erhoehung": 1313189.7
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BJB": 316177.0,
+              "VS_erhoehung": 1313189.7
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 299
+          },
+          "zeilen": 598
+        },
+        "INV": {
+          "anzahl": 1,
+          "betraege": {
+            "BU_Jahresrente": 17200.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 17200.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 1
+          },
+          "zeilen": 1
+        },
+        "PEX": {
+          "anzahl": 168,
+          "betraege": {
+            "VS": 3646717.95,
+            "VS_bfr": 440736.7
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS": 3646717.95,
+              "VS_bfr": 440736.7
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 168
+          },
+          "zeilen": 168
+        },
+        "RED": {
+          "anzahl": 8,
+          "betraege": {
+            "VS_herabsetzung": 485488.12
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_herabsetzung": 485488.12
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 8
+          },
+          "zeilen": 8
+        },
+        "STO": {
+          "anzahl": 44,
+          "betraege": {
+            "RKW": 2025594.12
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW": 2025594.12
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 44
+          },
+          "zeilen": 44
+        },
+        "TKU": {
+          "anzahl": 7,
+          "betraege": {
+            "RKW_teilkuendigung": 70413.91,
+            "VS_teilkuendigung": 422062.13,
+            "dDK_absorption": -0.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW_teilkuendigung": 70413.91,
+              "VS_teilkuendigung": 422062.13,
+              "dDK_absorption": -0.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 7
+          },
+          "zeilen": 18
+        },
+        "TOD": {
+          "anzahl": 12,
+          "betraege": {
+            "BU_Jahresrente": 0.0,
+            "Todesfallleistung": 750058.52
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 0.0,
+              "Todesfallleistung": 750058.52
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 12
+          },
+          "zeilen": 12
+        },
+        "ZUG": {
+          "anzahl": 955,
+          "betraege": {
+            "BJB": 514372.09,
+            "BU_Jahresrente": 272200.0,
+            "VS": 71422209.23
+          },
+          "betraege_je_herkunft": {
+            "neugeschaeft": {
+              "BJB": 514372.09,
+              "BU_Jahresrente": 272200.0,
+              "VS": 8227000.0
+            },
+            "uebernahme": {
+              "VS": 63195209.23
+            }
+          },
+          "je_herkunft": {
+            "neugeschaeft": 121,
+            "uebernahme": 834
+          },
+          "zeilen": 1076
+        }
+      },
+      "letztes_jahr": {
+        "ABL": {
+          "anzahl": 61,
+          "betraege": {
+            "Ablaufleistung": 3462182.48,
+            "BU_Jahresrente": 43900.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "Ablaufleistung": 3462182.48,
+              "BU_Jahresrente": 43900.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 61
+          },
+          "zeilen": 61
+        },
+        "ERH": {
+          "anzahl": 184,
+          "betraege": {
+            "BJB": 187861.7,
+            "VS_erhoehung": 867453.28
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BJB": 187861.7,
+              "VS_erhoehung": 867453.28
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 184
+          },
+          "zeilen": 368
+        },
+        "INV": {
+          "anzahl": 5,
+          "betraege": {
+            "BU_Jahresrente": 77400.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 77400.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 5
+          },
+          "zeilen": 5
+        },
+        "PEX": {
+          "anzahl": 4,
+          "betraege": {
+            "VS_bfr": 93817.23
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_bfr": 93817.23
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 4
+          },
+          "zeilen": 4
+        },
+        "RED": {
+          "anzahl": 5,
+          "betraege": {
+            "VS_herabsetzung": 347661.63
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_herabsetzung": 347661.63
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 5
+          },
+          "zeilen": 5
+        },
+        "STO": {
+          "anzahl": 29,
+          "betraege": {
+            "RKW": 1714963.2
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW": 1714963.2
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 29
+          },
+          "zeilen": 29
+        },
+        "TKU": {
+          "anzahl": 1,
+          "betraege": {
+            "RKW_teilkuendigung": 4516.74,
+            "VS_teilkuendigung": 80850.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW_teilkuendigung": 4516.74,
+              "VS_teilkuendigung": 80850.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 1
+          },
+          "zeilen": 2
+        },
+        "TOD": {
+          "anzahl": 12,
+          "betraege": {
+            "BU_Jahresrente": 11000.0,
+            "Todesfallleistung": 537691.32
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 11000.0,
+              "Todesfallleistung": 537691.32
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 12
+          },
+          "zeilen": 12
+        },
+        "ZUG": {
+          "anzahl": 147,
+          "betraege": {
+            "BJB": 671324.52,
+            "BU_Jahresrente": 321600.0,
+            "VS": 10373000.0
+          },
+          "betraege_je_herkunft": {
+            "neugeschaeft": {
+              "BJB": 671324.52,
+              "BU_Jahresrente": 321600.0,
+              "VS": 10373000.0
+            }
+          },
+          "je_herkunft": {
+            "neugeschaeft": 147
+          },
+          "zeilen": 294
+        }
+      },
+      "vorjahr_bis_heute": {
+        "ABL": {
+          "anzahl": 49,
+          "betraege": {
+            "Ablaufleistung": 2700275.97,
+            "BU_Jahresrente": 43900.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "Ablaufleistung": 2700275.97,
+              "BU_Jahresrente": 43900.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 49
+          },
+          "zeilen": 49
+        },
+        "ERH": {
+          "anzahl": 156,
+          "betraege": {
+            "BJB": 154179.44,
+            "VS_erhoehung": 742678.73
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BJB": 154179.44,
+              "VS_erhoehung": 742678.73
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 156
+          },
+          "zeilen": 312
+        },
+        "INV": {
+          "anzahl": 3,
+          "betraege": {
+            "BU_Jahresrente": 51300.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 51300.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 3
+          },
+          "zeilen": 3
+        },
+        "PEX": {
+          "anzahl": 2,
+          "betraege": {
+            "VS_bfr": 42400.05
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_bfr": 42400.05
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 2
+          },
+          "zeilen": 2
+        },
+        "RED": {
+          "anzahl": 5,
+          "betraege": {
+            "VS_herabsetzung": 347661.63
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "VS_herabsetzung": 347661.63
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 5
+          },
+          "zeilen": 5
+        },
+        "STO": {
+          "anzahl": 25,
+          "betraege": {
+            "RKW": 1370286.04
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW": 1370286.04
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 25
+          },
+          "zeilen": 25
+        },
+        "TKU": {
+          "anzahl": 1,
+          "betraege": {
+            "RKW_teilkuendigung": 4516.74,
+            "VS_teilkuendigung": 80850.0
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "RKW_teilkuendigung": 4516.74,
+              "VS_teilkuendigung": 80850.0
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 1
+          },
+          "zeilen": 2
+        },
+        "TOD": {
+          "anzahl": 9,
+          "betraege": {
+            "BU_Jahresrente": 0.0,
+            "Todesfallleistung": 429691.32
+          },
+          "betraege_je_herkunft": {
+            "fortschreibung": {
+              "BU_Jahresrente": 0.0,
+              "Todesfallleistung": 429691.32
+            }
+          },
+          "je_herkunft": {
+            "fortschreibung": 9
+          },
+          "zeilen": 9
+        },
+        "ZUG": {
+          "anzahl": 119,
+          "betraege": {
+            "BJB": 575951.88,
+            "BU_Jahresrente": 238100.0,
+            "VS": 8856000.0
+          },
+          "betraege_je_herkunft": {
+            "neugeschaeft": {
+              "BJB": 575951.88,
+              "BU_Jahresrente": 238100.0,
+              "VS": 8856000.0
+            }
+          },
+          "je_herkunft": {
+            "neugeschaeft": 119
+          },
+          "zeilen": 238
+        }
+      }
+    },
+    "zeitraeume": {
+      "aktueller_monat": {
+        "ausserhalb_betrieb": false,
+        "bis": "2026-10-29",
+        "von": "2026-10-01"
+      },
+      "aktuelles_jahr": {
+        "ausserhalb_betrieb": false,
+        "bis": "2026-10-29",
+        "von": "2026-01-01"
+      },
+      "letztes_jahr": {
+        "ausserhalb_betrieb": false,
+        "bis": "2025-12-31",
+        "von": "2025-01-01"
+      },
+      "vorjahr_bis_heute": {
+        "ausserhalb_betrieb": false,
+        "bis": "2025-10-29",
+        "von": "2025-01-01"
+      }
+    }
+  },
+  "luecken": [],
+  "neugeschaeft": {
+    "seit_betriebsbeginn": 3346,
+    "woche": {
+      "2026-10-23": 1,
+      "2026-10-28": 1
+    },
+    "woche_summe": 2
+  },
+  "provenienz": {
+    "config_sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158",
+    "image_digest": "ghcr.io/bartlmac/rechner-pipeline-plv@sha256:cdbe3aa3cc4ed7ca058eb32be7d2ce14831aa4cc4f79c79f33a31d822c4e03a8",
+    "image_revision": "0b6470c3e57f2c7968178efc82838a12b27cd91b",
+    "image_tag": "0b6470c3e57f",
+    "kern_version": "3.22.0",
+    "manifest_sha256": "00280e615a39ea3cbbd9aaa99eee5f687fab5d5468be66e77911d5d029563053",
+    "pb1": "gruen",
+    "tagesjournal_sha256": "1ce3695ee3568505a777107ec3256bdc6ca03096976d435b0d8e068f3a502fdd"
+  },
+  "schema_version": 6,
+  "stand": "2026-10-29",
+  "uebernahmen": [
+    {
+      "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
+      "fall": "baldrian-klv-tg2015-fall3",
+      "snapshot_sha256": "a84ac974650f00db633989ea8a01098f8228512d0e2d6de83110854f83215dd1",
+      "stichtag": "2026-01-01",
+      "vertraege": 834,
+      "zeichnung": {
+        "entscheid": "angenommen",
+        "entscheider": "Nachfahren des festgehaltenen Falls 3 unter Mandat des Maintainers, simulierte Rolle, als mensch/aktuariat",
+        "gate": "A-M4",
+        "mandat_sha256": "ab33db054b7f2a875ff4a880db3260d111606f111da1f41c876c4d5f1b21929f",
+        "quelle": "A-M4-a84ac974650f00db633989ea8a01098f8228512d0e2d6de83110854f83215dd1.json",
+        "rolle": "mensch/aktuariat",
+        "schema_version": 10,
+        "schluessel_sha256": "f79dafb87e3b53ec",
+        "schluesselklasse": "simulation",
+        "signatur_verifiziert": true
+      }
+    }
+  ],
+  "verankerung": {
+    "angewandt": true,
+    "hinweis": "Verankerung und Korrekturschicht der uebernommenen Vertraege gehen in Storno und Bewertung der Fortschreibung ein (Freischaltung, Schritte 4/5/9)",
+    "registriert": 834
+  }
+}

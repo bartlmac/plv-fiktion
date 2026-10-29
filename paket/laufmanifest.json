@@ -1,0 +1,29 @@
+{
+  "ausgaben": {
+    "bestand.parquet": "2fe105ff4e9c5347d3b8d2a86b5096256faa6a415d9c7eab56f96e921df63b2d",
+    "bestand_gesamt.parquet": "b56443fb6feac44360fb53b4ed96de9d261212f28886c02ba633b2d0bd683aeb",
+    "historie.parquet": "6410060dc770299543d75293e9314c945690e92eaeb827052febbfb334b92caa",
+    "ledger.parquet": "d6a40e59d56268e4c80bd3b8f205a6554e94ae4dce8251408acd554dcf363acc",
+    "merkmale.parquet": "33a231dfc749b93bbe549562ac677f0ae3f45b561b2d169080c6027dbea8d363",
+    "reduktionen.parquet": "766a62a2c22d380f0b2ec7beebc977a21230bbde8ecc54eab69871198940d78a",
+    "scheiben.parquet": "1a71d2a697795247677214e8be53c20cfc36e0daedc4accbcafa21101486aade",
+    "schichten.parquet": "ce598a9eb9bf4fd72cd8c29fb3271f25d553aac4a05defa5deebd47e0831217d",
+    "verankerung.parquet": "7dbcec7e3644e6fcdba864772a263c8989e45fb28c020db9c6aa2b2418da9b03",
+    "zugaenge.parquet": "3616c9f55fc9b2aee75932d598f1f500c29b9443888af28a22047bcc2e3aaf62"
+  },
+  "config": {
+    "datei": "bestand.toml",
+    "sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158"
+  },
+  "eingaben": {
+    "uebernahme:baldrian-klv-tg2015-fall3": {
+      "datei": "eingang.json",
+      "sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795"
+    }
+  },
+  "erzeuger": "bestand_fortschreibung",
+  "horizont": "2026-10-29",
+  "kern_version": "3.22.0",
+  "neuzugang_ab": null,
+  "schema_version": 1
+}
