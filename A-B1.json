@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 29.10.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 30.10.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-10-29T05:31:57.148586+00:00",
+  "entschieden_am": "2026-10-30T22:30:09.916779+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "1a8d9cf2314c2c404bd7db63289881ecb10dec0089832017aa6355c20f01692f",
+    "signatur": "34373dba1af5b8defd4d6d72aba9ec3905bec9428868851844703a3d65a29dd4",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "3cce5abd5a37fa5ba4c6eaf8407f411ca78a6f936bedccc94b9c60bde5c706fa"
+      "6c66d3042d8740fd442f1271bf2cd4f3ef74919afc81f183fc179f0e4cf0aaf6"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "a18021ffb5d6d7fc26524ccaee1f6b53995fb7889648220cf298f4c8067b38a6",
+  "snapshot_sha256": "1fbbbb98b682135db3787c57b66e558bb4a648e3584e2a872be1b32428fa1394",
   "system": {
     "branch": "unbekannt",
     "commit": "unbekannt",
@@ -95,6 +95,7 @@
     "035885de478429e00aedf37aa2ef880e7c7553cd672580512069d12fa32d89f9",
     "303e2634cd162c8dd2364d9e2ab6c4e75554b10322075c713496398480c4a7c6",
     "851ae99a504ac904be192b925d7d4ad5e361fafdf5258846592bd90e59bcfc94",
+    "a18021ffb5d6d7fc26524ccaee1f6b53995fb7889648220cf298f4c8067b38a6",
     "f1c48698c92afc9342f29718021a194d738a3f714a96612449815ed4ebc20ba2"
   ],
   "zeichnung": {

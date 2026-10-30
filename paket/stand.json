@@ -3242,13 +3242,13 @@
   "anker": {
     "art": "auslieferung",
     "datei": "/anker/anker.jsonl",
-    "sha256": "3cce5abd5a37fa5ba4c6eaf8407f411ca78a6f936bedccc94b9c60bde5c706fa",
-    "stand": "2026-10-29",
+    "sha256": "6c66d3042d8740fd442f1271bf2cd4f3ef74919afc81f183fc179f0e4cf0aaf6",
+    "stand": "2026-10-30",
     "zeichnung": {
       "rolle": "betrieb/tageslauf",
       "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
       "schluesselklasse": "betrieb",
-      "signatur": "844edc9e33c64d458ea2b3334226cf013303e8f1255bcc6e3bc916caf5360dea",
+      "signatur": "92fc1c6b3178174591f4345019ade1bf769e5bab78d739283dda38fc4039decf",
       "verfahren": "hmac-sha256-v2"
     }
   },
@@ -3258,11 +3258,11 @@
       "bu": 657,
       "klv": 1886
     },
-    "policiert_beginn_folgt": 13,
+    "policiert_beginn_folgt": 14,
     "uebernommen_in_force": 808
   },
   "buchungen": {
-    "gesamt": 23909,
+    "gesamt": 23911,
     "je_ereignis": {
       "ABL": 707,
       "ERH": 6935,
@@ -3273,9 +3273,27 @@
       "STO": 771,
       "TKU": 130,
       "TOD": 146,
-      "ZUG": 4180
+      "ZUG": 4181
     },
     "letzte": [
+      {
+        "betrag": 187000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-10-30",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130301,
+        "wirkungstag": "2026-11-01"
+      },
+      {
+        "betrag": 8454.317001979716,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-10-30",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130301,
+        "wirkungstag": "2026-11-01"
+      },
       {
         "betrag": 57000.0,
         "betrag_art": "VS",
@@ -3437,24 +3455,6 @@
         "herkunft": "neugeschaeft",
         "police_id": 105128201,
         "wirkungstag": "2026-11-01"
-      },
-      {
-        "betrag": 3852.4300497587988,
-        "betrag_art": "BJB",
-        "buchungsdatum": "2026-10-09",
-        "ereignis": "ZUG",
-        "herkunft": "neugeschaeft",
-        "police_id": 105128201,
-        "wirkungstag": "2026-11-01"
-      },
-      {
-        "betrag": 50000.0,
-        "betrag_art": "VS",
-        "buchungsdatum": "2026-10-08",
-        "ereignis": "ZUG",
-        "herkunft": "neugeschaeft",
-        "police_id": 105128101,
-        "wirkungstag": "2026-11-01"
       }
     ]
   },
@@ -3495,11 +3495,11 @@
     "bestandsbericht_2026-09-01_teilbestand-baldrian-klv-tg2015-fall3.html": "a307e41ec330925a54bd3739c14215f549d72ec9e34587c7de1661ba2e8dc116",
     "bestandsbericht_2026-10-01.html": "0bdfc2cde45d502fa66a08e45c3a72e04d30c574c8decce25ea238d4ef1ddf90",
     "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
-    "index.html": "b3e293568587e60630097a0dd12a0e1385c1915cb35e1e34b4826f8ee79f7286",
+    "index.html": "63627928c844e85b9e7a07fcbd4e9f5fb3fb11b51856c884eb79ca9a2ade1881",
     "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
-    "laufmanifest.json": "00280e615a39ea3cbbd9aaa99eee5f687fab5d5468be66e77911d5d029563053",
-    "protokoll.jsonl": "2b4f97d6632b75ae30cb595f937fae4abdbcf4aa95c7051e9f13cea9a1ba4e5a",
-    "tagesjournal.parquet": "1ce3695ee3568505a777107ec3256bdc6ca03096976d435b0d8e068f3a502fdd"
+    "laufmanifest.json": "c56af9d05f4622f5dbaea2a7f63e2e3ab9a5b368724cb36db042f9e39e914ddc",
+    "protokoll.jsonl": "28f56e1e75f43a567f6beacc6a0b4f5a9328bc8bcd1da24d3ef87ed7f49849d6",
+    "tagesjournal.parquet": "9a8be2999c52c6aab117d836daceb28e54cd567061c93d4709ef627f71cc5fdb"
   },
   "gefuehrt_seit": "1994-07-01",
   "geschaeftsentwicklung": {
@@ -3588,23 +3588,23 @@
           "zeilen": 1
         },
         "ZUG": {
-          "anzahl": 13,
+          "anzahl": 14,
           "betraege": {
-            "BJB": 46675.66,
+            "BJB": 55129.97,
             "BU_Jahresrente": 52800.0,
-            "VS": 593000.0
+            "VS": 780000.0
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 46675.66,
+              "BJB": 55129.97,
               "BU_Jahresrente": 52800.0,
-              "VS": 593000.0
+              "VS": 780000.0
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 13
+            "neugeschaeft": 14
           },
-          "zeilen": 26
+          "zeilen": 28
         }
       },
       "aktuelles_jahr": {
@@ -3741,27 +3741,27 @@
           "zeilen": 12
         },
         "ZUG": {
-          "anzahl": 955,
+          "anzahl": 956,
           "betraege": {
-            "BJB": 514372.09,
+            "BJB": 522826.41,
             "BU_Jahresrente": 272200.0,
-            "VS": 71422209.23
+            "VS": 71609209.23
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 514372.09,
+              "BJB": 522826.41,
               "BU_Jahresrente": 272200.0,
-              "VS": 8227000.0
+              "VS": 8414000.0
             },
             "uebernahme": {
               "VS": 63195209.23
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 121,
+            "neugeschaeft": 122,
             "uebernahme": 834
           },
-          "zeilen": 1076
+          "zeilen": 1078
         }
       },
       "letztes_jahr": {
@@ -4066,12 +4066,12 @@
     "zeitraeume": {
       "aktueller_monat": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-10-29",
+        "bis": "2026-10-30",
         "von": "2026-10-01"
       },
       "aktuelles_jahr": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-10-29",
+        "bis": "2026-10-30",
         "von": "2026-01-01"
       },
       "letztes_jahr": {
@@ -4081,17 +4081,17 @@
       },
       "vorjahr_bis_heute": {
         "ausserhalb_betrieb": false,
-        "bis": "2025-10-29",
+        "bis": "2025-10-30",
         "von": "2025-01-01"
       }
     }
   },
   "luecken": [],
   "neugeschaeft": {
-    "seit_betriebsbeginn": 3346,
+    "seit_betriebsbeginn": 3347,
     "woche": {
-      "2026-10-23": 1,
-      "2026-10-28": 1
+      "2026-10-28": 1,
+      "2026-10-30": 1
     },
     "woche_summe": 2
   },
@@ -4101,12 +4101,12 @@
     "image_revision": "0b6470c3e57f2c7968178efc82838a12b27cd91b",
     "image_tag": "0b6470c3e57f",
     "kern_version": "3.22.0",
-    "manifest_sha256": "00280e615a39ea3cbbd9aaa99eee5f687fab5d5468be66e77911d5d029563053",
+    "manifest_sha256": "c56af9d05f4622f5dbaea2a7f63e2e3ab9a5b368724cb36db042f9e39e914ddc",
     "pb1": "gruen",
-    "tagesjournal_sha256": "1ce3695ee3568505a777107ec3256bdc6ca03096976d435b0d8e068f3a502fdd"
+    "tagesjournal_sha256": "9a8be2999c52c6aab117d836daceb28e54cd567061c93d4709ef627f71cc5fdb"
   },
   "schema_version": 6,
-  "stand": "2026-10-29",
+  "stand": "2026-10-30",
   "uebernahmen": [
     {
       "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
