@@ -3213,52 +3213,69 @@
         }
       ],
       "zugaenge": 50
+    },
+    {
+      "bericht": "bestandsbericht_2026-11-01.html",
+      "bericht_sha256": "8e8306388c899949ed443f5988156d4a460c084ad196b0d56f437b9ed002fd63",
+      "datei": "abschluss_2026-11-01.parquet",
+      "in_kraft": 2553,
+      "leistungen": 1,
+      "sha256": "b1b36b4023945f594e089fd47bb846f5d9c23ef2b69543e11a13eb47ab50ebdd",
+      "stichtag": "2026-11-01",
+      "teilbestaende": [
+        {
+          "bericht": "bestandsbericht_2026-11-01_teilbestand-baldrian-klv-tg2015-fall3.html",
+          "bericht_sha256": "ba4e67decc29542f76935a62b8e12fbc9b26fea6c18269b1619d358d1345ca40",
+          "fall": "baldrian-klv-tg2015-fall3"
+        }
+      ],
+      "zugaenge": 14
     }
   ],
   "abschluss_kennzahlen": {
     "aktuell": {
-      "datei": "abschluesse/abschluss_2026-10-01.parquet",
+      "datei": "abschluesse/abschluss_2026-11-01.parquet",
       "dk_konvention": "monatsgenau",
       "gesamt": {
-        "deckungskapital": 81878343.78,
-        "jahresbeitrag": 8101690.55,
-        "vertraege": 2544
+        "deckungskapital": 82263012.56,
+        "jahresbeitrag": 8155236.78,
+        "vertraege": 2553
       },
       "je_produkt": {
         "bu": {
-          "deckungskapital": 3162070.87,
-          "jahresbeitrag": 465958.14,
-          "vertraege": 657
+          "deckungskapital": 3147834.72,
+          "jahresbeitrag": 468692.69,
+          "vertraege": 660
         },
         "klv": {
-          "deckungskapital": 78716272.91,
-          "jahresbeitrag": 7635732.4,
-          "vertraege": 1887
+          "deckungskapital": 79115177.83,
+          "jahresbeitrag": 7686544.1,
+          "vertraege": 1893
         }
       },
-      "stichtag": "2026-10-01"
+      "stichtag": "2026-11-01"
     }
   },
   "anker": {
     "art": "auslieferung",
     "datei": "/anker/anker.jsonl",
-    "sha256": "a91649dab090352ec5965d49483499d7ea780203d4a0e7c2be182f40a38a3e43",
-    "stand": "2026-10-31",
+    "sha256": "8c75e6fc5db172a1e54e2892ca9a101c075fc0a42fc7b51c1d15b58e56a411a6",
+    "stand": "2026-11-01",
     "zeichnung": {
       "rolle": "betrieb/tageslauf",
       "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
       "schluesselklasse": "betrieb",
-      "signatur": "8eabd3a411a2650b417be276b866bb96e396cc6fe55b001d611c76aae123f7a0",
+      "signatur": "f10ddc17bb726ffc9f2655d0d5acc214e70970a859d4d0fa66757988bf93db54",
       "verfahren": "hmac-sha256-v2"
     }
   },
   "bestand": {
-    "in_force": 2543,
+    "in_force": 2553,
     "je_produkt": {
-      "bu": 657,
-      "klv": 1886
+      "bu": 660,
+      "klv": 1893
     },
-    "policiert_beginn_folgt": 14,
+    "policiert_beginn_folgt": 0,
     "uebernommen_in_force": 808
   },
   "buchungen": {
@@ -3459,7 +3476,6 @@
     ]
   },
   "dateien": {
-    "abschluesse/abschluss_2025-11-01.parquet": "a14df75c58ac3dddce4c0bdf3090989ba2306585b36ef88338e1b459a328225f",
     "abschluesse/abschluss_2025-12-01.parquet": "f97f104917efffd7da90e8f412ebd322fa1296492ab40fe4fd754d001fb509fc",
     "abschluesse/abschluss_2026-01-01.parquet": "026545ce0373bf1c9b0a3281c85fe3506ed636b4aa44bf6b9736ea22d0bd571a",
     "abschluesse/abschluss_2026-02-01.parquet": "1613400ee770d7b613e3b7cb377f84c78a63ccd29ee93437e54e895024bee4be",
@@ -3471,8 +3487,7 @@
     "abschluesse/abschluss_2026-08-01.parquet": "7a5136e251757c7e94a05cf3eb60ce5d069d26c5ba9f282dd60d4daaa766279c",
     "abschluesse/abschluss_2026-09-01.parquet": "1b3503c262161d9168fd937bda64604f534983483762705af3e252e96fe7ed0b",
     "abschluesse/abschluss_2026-10-01.parquet": "f9194b3ebd069634aa3aceabe9fc27e2f5fb7a1edb50604bbe638735fddc3db4",
-    "bestandsbericht_2025-11-01.html": "78d710df49ebe148a18f78aa3930f1a18eec3052793ee8b593a71217a201d616",
-    "bestandsbericht_2025-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "a228ad9b11683bdff5c869bdbc807e6b6e524a870df2dc89b6977be94f824a86",
+    "abschluesse/abschluss_2026-11-01.parquet": "b1b36b4023945f594e089fd47bb846f5d9c23ef2b69543e11a13eb47ab50ebdd",
     "bestandsbericht_2025-12-01.html": "29d69c47ba81dd701f97f35a67ea61b5ed5477b19a7ccf8d44237a8e385e78a0",
     "bestandsbericht_2025-12-01_teilbestand-baldrian-klv-tg2015-fall3.html": "74963f1fb1cc3d4732f7e0db8cab68b3784e2e278d8fdf81eb25439e581caa7c",
     "bestandsbericht_2026-01-01.html": "14aa5c42cbe01a398a3b37bb0bc54245218f88787e375a5513c070d5c701737b",
@@ -3495,10 +3510,12 @@
     "bestandsbericht_2026-09-01_teilbestand-baldrian-klv-tg2015-fall3.html": "a307e41ec330925a54bd3739c14215f549d72ec9e34587c7de1661ba2e8dc116",
     "bestandsbericht_2026-10-01.html": "0bdfc2cde45d502fa66a08e45c3a72e04d30c574c8decce25ea238d4ef1ddf90",
     "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
-    "index.html": "19588434d7782b4bd2eb2acf073ab89f353bcf2235c7e2c7477abf49c1574a11",
+    "bestandsbericht_2026-11-01.html": "8e8306388c899949ed443f5988156d4a460c084ad196b0d56f437b9ed002fd63",
+    "bestandsbericht_2026-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ba4e67decc29542f76935a62b8e12fbc9b26fea6c18269b1619d358d1345ca40",
+    "index.html": "701e1f42a2913f44b2f776a7467667605760c5d9df0e18a7e771e6e0eef0d10d",
     "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
-    "laufmanifest.json": "3f18b176be39ef288d7b04235bb121aad6994426348d80cb2fef2f9a9b6d840c",
-    "protokoll.jsonl": "c365637c01ffab9a939a17d2ccc92e688b9eb62d19cda39dd0e8b6f3d9af0110",
+    "laufmanifest.json": "a2e9f246f7e046115cfdc8d63ae7a679ad70522c84ddd49f25113c09d020a341",
+    "protokoll.jsonl": "4a00a9fca82406fb48b3cfd16fbcf84a66cc3d136596a8382efabbe647b9e84a",
     "tagesjournal.parquet": "9a8be2999c52c6aab117d836daceb28e54cd567061c93d4709ef627f71cc5fdb"
   },
   "gefuehrt_seit": "1994-07-01",
@@ -3507,106 +3524,7 @@
       "tagesjournal.parquet (Stands-Paket)"
     ],
     "je_zeitraum": {
-      "aktueller_monat": {
-        "ABL": {
-          "anzahl": 5,
-          "betraege": {
-            "Ablaufleistung": 225221.06,
-            "BU_Jahresrente": 0.0
-          },
-          "betraege_je_herkunft": {
-            "fortschreibung": {
-              "Ablaufleistung": 225221.06,
-              "BU_Jahresrente": 0.0
-            }
-          },
-          "je_herkunft": {
-            "fortschreibung": 5
-          },
-          "zeilen": 5
-        },
-        "ERH": {
-          "anzahl": 39,
-          "betraege": {
-            "BJB": 49130.38,
-            "VS_erhoehung": 164567.59
-          },
-          "betraege_je_herkunft": {
-            "fortschreibung": {
-              "BJB": 49130.38,
-              "VS_erhoehung": 164567.59
-            }
-          },
-          "je_herkunft": {
-            "fortschreibung": 39
-          },
-          "zeilen": 78
-        },
-        "RED": {
-          "anzahl": 2,
-          "betraege": {
-            "VS_herabsetzung": 69889.63
-          },
-          "betraege_je_herkunft": {
-            "fortschreibung": {
-              "VS_herabsetzung": 69889.63
-            }
-          },
-          "je_herkunft": {
-            "fortschreibung": 2
-          },
-          "zeilen": 2
-        },
-        "STO": {
-          "anzahl": 4,
-          "betraege": {
-            "RKW": 198258.76
-          },
-          "betraege_je_herkunft": {
-            "fortschreibung": {
-              "RKW": 198258.76
-            }
-          },
-          "je_herkunft": {
-            "fortschreibung": 4
-          },
-          "zeilen": 4
-        },
-        "TOD": {
-          "anzahl": 1,
-          "betraege": {
-            "Todesfallleistung": 47000.0
-          },
-          "betraege_je_herkunft": {
-            "fortschreibung": {
-              "Todesfallleistung": 47000.0
-            }
-          },
-          "je_herkunft": {
-            "fortschreibung": 1
-          },
-          "zeilen": 1
-        },
-        "ZUG": {
-          "anzahl": 14,
-          "betraege": {
-            "BJB": 55129.97,
-            "BU_Jahresrente": 52800.0,
-            "VS": 780000.0
-          },
-          "betraege_je_herkunft": {
-            "neugeschaeft": {
-              "BJB": 55129.97,
-              "BU_Jahresrente": 52800.0,
-              "VS": 780000.0
-            }
-          },
-          "je_herkunft": {
-            "neugeschaeft": 14
-          },
-          "zeilen": 28
-        }
-      },
+      "aktueller_monat": {},
       "aktuelles_jahr": {
         "ABL": {
           "anzahl": 52,
@@ -4066,12 +3984,12 @@
     "zeitraeume": {
       "aktueller_monat": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-10-31",
-        "von": "2026-10-01"
+        "bis": "2026-11-01",
+        "von": "2026-11-01"
       },
       "aktuelles_jahr": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-10-31",
+        "bis": "2026-11-01",
         "von": "2026-01-01"
       },
       "letztes_jahr": {
@@ -4081,7 +3999,7 @@
       },
       "vorjahr_bis_heute": {
         "ausserhalb_betrieb": false,
-        "bis": "2025-10-31",
+        "bis": "2025-11-01",
         "von": "2025-01-01"
       }
     }
@@ -4101,12 +4019,12 @@
     "image_revision": "0b6470c3e57f2c7968178efc82838a12b27cd91b",
     "image_tag": "0b6470c3e57f",
     "kern_version": "3.22.0",
-    "manifest_sha256": "3f18b176be39ef288d7b04235bb121aad6994426348d80cb2fef2f9a9b6d840c",
+    "manifest_sha256": "a2e9f246f7e046115cfdc8d63ae7a679ad70522c84ddd49f25113c09d020a341",
     "pb1": "gruen",
     "tagesjournal_sha256": "9a8be2999c52c6aab117d836daceb28e54cd567061c93d4709ef627f71cc5fdb"
   },
   "schema_version": 6,
-  "stand": "2026-10-31",
+  "stand": "2026-11-01",
   "uebernahmen": [
     {
       "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
