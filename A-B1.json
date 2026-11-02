@@ -62,39 +62,40 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 01.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 02.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-01T22:30:10.432982+00:00",
+  "entschieden_am": "2026-11-02T22:30:10.879179+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "73d1aa97943fec8ac5efd216dea75dbe37abf1526bd1439da0f3e7fedca9e7ad",
+    "signatur": "2754321a9a95632874ab6c72dc45375e171e8fa2016ed1773603848018394650",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "8c75e6fc5db172a1e54e2892ca9a101c075fc0a42fc7b51c1d15b58e56a411a6"
+      "9e032e581be1bed667de9e71360ec77dfcfca382216e6bfbd2287c4d844f157d"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "445acb2a8fd2e1e9e75f91a9ef91ccf1fd52077534c560b8008bb24f4879e342",
+  "snapshot_sha256": "b0cac44279de0beda63de2e13e8b258db9c51c3cbb4b6e4b5564530a6575f6aa",
   "system": {
     "branch": "unbekannt",
     "commit": "unbekannt",
     "dirty": "unbekannt",
-    "quellcode_sha256": "69264bfd185269bde35a65ffd0bbb7985c071dec70ca60a9e72d24ae25142f4a"
+    "quellcode_sha256": "c46776ffcc8d6e73d0bb4dd2e3e0c03fcd69cf00258bdbda2b477a37387e01f3"
   },
   "vorgaenger": [
     "035885de478429e00aedf37aa2ef880e7c7553cd672580512069d12fa32d89f9",
     "1fbbbb98b682135db3787c57b66e558bb4a648e3584e2a872be1b32428fa1394",
     "303e2634cd162c8dd2364d9e2ab6c4e75554b10322075c713496398480c4a7c6",
+    "445acb2a8fd2e1e9e75f91a9ef91ccf1fd52077534c560b8008bb24f4879e342",
     "851ae99a504ac904be192b925d7d4ad5e361fafdf5258846592bd90e59bcfc94",
     "a18021ffb5d6d7fc26524ccaee1f6b53995fb7889648220cf298f4c8067b38a6",
     "d71c3459aa19bd9ee6af46ba53580d56ce89deabb99a934ffbb1204ded281bb8",
