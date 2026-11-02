@@ -98,5 +98,5 @@ Entscheid, Rolle und Prüfstand:
 
 <div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>
 
-*Erzeugt am 2026-10-29 aus dem Systemstand `0b6470c3e57f`.*
+*Erzeugt am 2026-11-02 aus dem Systemstand `9986830d6dee`.*
 
