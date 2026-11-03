@@ -3259,13 +3259,13 @@
   "anker": {
     "art": "auslieferung",
     "datei": "/anker/anker.jsonl",
-    "sha256": "9e032e581be1bed667de9e71360ec77dfcfca382216e6bfbd2287c4d844f157d",
-    "stand": "2026-11-02",
+    "sha256": "55ca9ec610d5bc5755513e57ddf5860e42e64e5b943470ceb111ea58bb49e582",
+    "stand": "2026-11-03",
     "zeichnung": {
       "rolle": "betrieb/tageslauf",
       "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
       "schluesselklasse": "betrieb",
-      "signatur": "c7992507604a5d194314941707719e0499b86f6cc01850ba760c9fa00e02c587",
+      "signatur": "f08c42144a5e2c457cfb58f7f6e0b38d4c8902b4937fcc430a8c3ac69be89ade",
       "verfahren": "hmac-sha256-v2"
     }
   },
@@ -3275,11 +3275,11 @@
       "bu": 660,
       "klv": 1890
     },
-    "policiert_beginn_folgt": 1,
+    "policiert_beginn_folgt": 2,
     "uebernommen_in_force": 806
   },
   "buchungen": {
-    "gesamt": 23986,
+    "gesamt": 23988,
     "je_ereignis": {
       "ABL": 711,
       "ERH": 6965,
@@ -3290,9 +3290,27 @@
       "STO": 774,
       "TKU": 131,
       "TOD": 146,
-      "ZUG": 4182
+      "ZUG": 4183
     },
     "letzte": [
+      {
+        "betrag": 44000.0,
+        "betrag_art": "VS",
+        "buchungsdatum": "2026-11-03",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130701,
+        "wirkungstag": "2026-12-01"
+      },
+      {
+        "betrag": 2178.5197110529507,
+        "betrag_art": "BJB",
+        "buchungsdatum": "2026-11-03",
+        "ereignis": "ZUG",
+        "herkunft": "neugeschaeft",
+        "police_id": 105130701,
+        "wirkungstag": "2026-12-01"
+      },
       {
         "betrag": 0.0,
         "betrag_art": "BU_Jahresrente",
@@ -3454,24 +3472,6 @@
         "herkunft": "fortschreibung",
         "police_id": 85030401,
         "wirkungstag": "2026-11-01"
-      },
-      {
-        "betrag": 572.1239580275312,
-        "betrag_art": "BJB",
-        "buchungsdatum": "2026-11-02",
-        "ereignis": "ERH",
-        "herkunft": "fortschreibung",
-        "police_id": 85030401,
-        "wirkungstag": "2026-11-01"
-      },
-      {
-        "betrag": 2431.0125000000003,
-        "betrag_art": "VS_erhoehung",
-        "buchungsdatum": "2026-11-02",
-        "ereignis": "ERH",
-        "herkunft": "fortschreibung",
-        "police_id": 75130001,
-        "wirkungstag": "2026-11-01"
       }
     ]
   },
@@ -3512,11 +3512,11 @@
     "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
     "bestandsbericht_2026-11-01.html": "8e8306388c899949ed443f5988156d4a460c084ad196b0d56f437b9ed002fd63",
     "bestandsbericht_2026-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ba4e67decc29542f76935a62b8e12fbc9b26fea6c18269b1619d358d1345ca40",
-    "index.html": "5eefd845cdb6c18080d21134f77088032dd9d91b3ad29814f6e7c2c03e7d720f",
+    "index.html": "6c5bc2f2c427a7ba080280b7dbc1430e6b2a6cc51226646d2b65c5a1373f7fe4",
     "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
-    "laufmanifest.json": "1121f2b221ba83263a812e48213610c719b80619bbb9520de6576a782c129904",
-    "protokoll.jsonl": "487dd2b01731211b526357a5e5724ca7d310561c5c5408d49f4c3d3d292891d0",
-    "tagesjournal.parquet": "aef47e1ea13da99ea60346ecc9e0410ec18e2b33cdb638e43354320ca3b0d0ca"
+    "laufmanifest.json": "c5074b6b844508586cd1d01bc295a4d93449b786798ff7d17999100896d0a9b3",
+    "protokoll.jsonl": "feab979ef33662cfc84112324677308eea27ab52240953781d3c8e09a31b5a50",
+    "tagesjournal.parquet": "6e67fb50bda5c11e6138faf1e335b7157d1874120516c46e798436025584cb58"
   },
   "gefuehrt_seit": "1994-07-01",
   "geschaeftsentwicklung": {
@@ -3624,21 +3624,21 @@
           "zeilen": 3
         },
         "ZUG": {
-          "anzahl": 1,
+          "anzahl": 2,
           "betraege": {
-            "BJB": 5328.6,
-            "VS": 84000.0
+            "BJB": 7507.12,
+            "VS": 128000.0
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 5328.6,
-              "VS": 84000.0
+              "BJB": 7507.12,
+              "VS": 128000.0
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 1
+            "neugeschaeft": 2
           },
-          "zeilen": 2
+          "zeilen": 4
         }
       },
       "aktuelles_jahr": {
@@ -3775,27 +3775,27 @@
           "zeilen": 12
         },
         "ZUG": {
-          "anzahl": 957,
+          "anzahl": 958,
           "betraege": {
-            "BJB": 528155.01,
+            "BJB": 530333.53,
             "BU_Jahresrente": 272200.0,
-            "VS": 71693209.23
+            "VS": 71737209.23
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 528155.01,
+              "BJB": 530333.53,
               "BU_Jahresrente": 272200.0,
-              "VS": 8498000.0
+              "VS": 8542000.0
             },
             "uebernahme": {
               "VS": 63195209.23
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 123,
+            "neugeschaeft": 124,
             "uebernahme": 834
           },
-          "zeilen": 1080
+          "zeilen": 1082
         }
       },
       "letztes_jahr": {
@@ -3949,68 +3949,68 @@
       },
       "vorjahr_bis_heute": {
         "ABL": {
-          "anzahl": 49,
+          "anzahl": 53,
           "betraege": {
-            "Ablaufleistung": 2700275.97,
+            "Ablaufleistung": 3032435.61,
             "BU_Jahresrente": 43900.0
           },
           "betraege_je_herkunft": {
             "fortschreibung": {
-              "Ablaufleistung": 2700275.97,
+              "Ablaufleistung": 3032435.61,
               "BU_Jahresrente": 43900.0
             }
           },
           "je_herkunft": {
-            "fortschreibung": 49
+            "fortschreibung": 53
           },
-          "zeilen": 49
+          "zeilen": 53
         },
         "ERH": {
-          "anzahl": 156,
+          "anzahl": 174,
           "betraege": {
-            "BJB": 154179.44,
-            "VS_erhoehung": 742678.73
+            "BJB": 172310.64,
+            "VS_erhoehung": 820107.2
           },
           "betraege_je_herkunft": {
             "fortschreibung": {
-              "BJB": 154179.44,
-              "VS_erhoehung": 742678.73
+              "BJB": 172310.64,
+              "VS_erhoehung": 820107.2
             }
           },
           "je_herkunft": {
-            "fortschreibung": 156
+            "fortschreibung": 174
           },
-          "zeilen": 312
+          "zeilen": 348
         },
         "INV": {
-          "anzahl": 3,
+          "anzahl": 5,
           "betraege": {
-            "BU_Jahresrente": 51300.0
+            "BU_Jahresrente": 77400.0
           },
           "betraege_je_herkunft": {
             "fortschreibung": {
-              "BU_Jahresrente": 51300.0
+              "BU_Jahresrente": 77400.0
             }
           },
           "je_herkunft": {
-            "fortschreibung": 3
+            "fortschreibung": 5
           },
-          "zeilen": 3
+          "zeilen": 5
         },
         "PEX": {
-          "anzahl": 2,
+          "anzahl": 4,
           "betraege": {
-            "VS_bfr": 42400.05
+            "VS_bfr": 93817.23
           },
           "betraege_je_herkunft": {
             "fortschreibung": {
-              "VS_bfr": 42400.05
+              "VS_bfr": 93817.23
             }
           },
           "je_herkunft": {
-            "fortschreibung": 2
+            "fortschreibung": 4
           },
-          "zeilen": 2
+          "zeilen": 4
         },
         "RED": {
           "anzahl": 5,
@@ -4028,19 +4028,19 @@
           "zeilen": 5
         },
         "STO": {
-          "anzahl": 25,
+          "anzahl": 26,
           "betraege": {
-            "RKW": 1370286.04
+            "RKW": 1374168.74
           },
           "betraege_je_herkunft": {
             "fortschreibung": {
-              "RKW": 1370286.04
+              "RKW": 1374168.74
             }
           },
           "je_herkunft": {
-            "fortschreibung": 25
+            "fortschreibung": 26
           },
-          "zeilen": 25
+          "zeilen": 26
         },
         "TKU": {
           "anzahl": 1,
@@ -4077,35 +4077,35 @@
           "zeilen": 9
         },
         "ZUG": {
-          "anzahl": 120,
+          "anzahl": 121,
           "betraege": {
-            "BJB": 585355.13,
+            "BJB": 586475.2,
             "BU_Jahresrente": 238100.0,
-            "VS": 9057000.0
+            "VS": 9081000.0
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 585355.13,
+              "BJB": 586475.2,
               "BU_Jahresrente": 238100.0,
-              "VS": 9057000.0
+              "VS": 9081000.0
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 120
+            "neugeschaeft": 121
           },
-          "zeilen": 240
+          "zeilen": 242
         }
       }
     },
     "zeitraeume": {
       "aktueller_monat": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-02",
+        "bis": "2026-11-03",
         "von": "2026-11-01"
       },
       "aktuelles_jahr": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-02",
+        "bis": "2026-11-03",
         "von": "2026-01-01"
       },
       "letztes_jahr": {
@@ -4115,20 +4115,21 @@
       },
       "vorjahr_bis_heute": {
         "ausserhalb_betrieb": false,
-        "bis": "2025-11-02",
+        "bis": "2025-11-03",
         "von": "2025-01-01"
       }
     }
   },
   "luecken": [],
   "neugeschaeft": {
-    "seit_betriebsbeginn": 3348,
+    "seit_betriebsbeginn": 3349,
     "woche": {
       "2026-10-28": 1,
       "2026-10-30": 1,
-      "2026-11-02": 1
+      "2026-11-02": 1,
+      "2026-11-03": 1
     },
-    "woche_summe": 3
+    "woche_summe": 4
   },
   "provenienz": {
     "config_sha256": "13b001b2bc6b982f4367fba14c7941734336de0cac6b6030c09ae2f95ea8d158",
@@ -4136,12 +4137,12 @@
     "image_revision": "9986830d6dee796322259db2b410857cadf2d958",
     "image_tag": "9986830d6dee",
     "kern_version": "3.22.0",
-    "manifest_sha256": "1121f2b221ba83263a812e48213610c719b80619bbb9520de6576a782c129904",
+    "manifest_sha256": "c5074b6b844508586cd1d01bc295a4d93449b786798ff7d17999100896d0a9b3",
     "pb1": "gruen",
-    "tagesjournal_sha256": "aef47e1ea13da99ea60346ecc9e0410ec18e2b33cdb638e43354320ca3b0d0ca"
+    "tagesjournal_sha256": "6e67fb50bda5c11e6138faf1e335b7157d1874120516c46e798436025584cb58"
   },
   "schema_version": 6,
-  "stand": "2026-11-02",
+  "stand": "2026-11-03",
   "uebernahmen": [
     {
       "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
