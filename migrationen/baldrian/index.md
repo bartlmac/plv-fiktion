@@ -357,5 +357,5 @@ die Entscheide: [Verzeichnis der Belege](belege.html).
 
 <div class="fuss-fiktion">Fiktives Unternehmen — <a href="../../hinter-den-kulissen/">Hinter den Kulissen</a> · <a href="https://github.com/bartlmac/rechner-pipeline">Quellcode</a></div>
 
-*Erzeugt am 2026-11-02 aus dem Systemstand `9986830d6dee`.*
+*Erzeugt am 2026-11-05 aus dem Systemstand `5880336de558`.*
 
