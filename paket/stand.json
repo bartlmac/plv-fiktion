@@ -3259,13 +3259,13 @@
   "anker": {
     "art": "auslieferung",
     "datei": "/anker/anker.jsonl",
-    "sha256": "b66f8c368ddd92bd6a957805b890bb9f8e66e200ab1febb87908b9d83ea6f355",
-    "stand": "2026-11-04",
+    "sha256": "403aed81dd37de4254091c69a46e55ad27c9f05b5b76670599072acc36cec1e0",
+    "stand": "2026-11-05",
     "zeichnung": {
       "rolle": "betrieb/tageslauf",
       "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
       "schluesselklasse": "betrieb",
-      "signatur": "2e6a3e4bacee4f5a74e6c67ed7a641b7bbcbfbfde118bd8ff54581c087ce5a61",
+      "signatur": "596ac1fb19f0669373906ab0960b81cb85122f1499bbf041164b0b97d963f30d",
       "verfahren": "hmac-sha256-v2"
     }
   },
@@ -3512,10 +3512,10 @@
     "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
     "bestandsbericht_2026-11-01.html": "8e8306388c899949ed443f5988156d4a460c084ad196b0d56f437b9ed002fd63",
     "bestandsbericht_2026-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ba4e67decc29542f76935a62b8e12fbc9b26fea6c18269b1619d358d1345ca40",
-    "index.html": "77daf4b4bcdd98a6e0895b561c38c670feb947f51eb5060c9310da90b6fba7d7",
+    "index.html": "ac8afb6cdca3ede5003611ca3e8190076128e23df0d3ab43b111fd568941eaca",
     "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
-    "laufmanifest.json": "7b72256c685a9c8e66dc153d48e5d9da22430b34115f094c2151e784a2c39b62",
-    "protokoll.jsonl": "6a5bf78075884f8d1ae2a940ec3282bcd62aa4e9dec719ac29f837a63f85699e",
+    "laufmanifest.json": "f81092e40e9df4267a1e469ccd6229993e10ef3a3f02d094c393b51ea29d2397",
+    "protokoll.jsonl": "0297ca3d659074578f32cd92deb59895757902c4506fe4533a60e59632036091",
     "tagesjournal.parquet": "c130b15f6cdac0a06fb48de930af208548602bddfd3064f0f3589842d8d87b0e"
   },
   "gefuehrt_seit": "1994-07-01",
@@ -4077,35 +4077,35 @@
           "zeilen": 9
         },
         "ZUG": {
-          "anzahl": 121,
+          "anzahl": 122,
           "betraege": {
-            "BJB": 586475.2,
+            "BJB": 591466.98,
             "BU_Jahresrente": 238100.0,
-            "VS": 9081000.0
+            "VS": 9179000.0
           },
           "betraege_je_herkunft": {
             "neugeschaeft": {
-              "BJB": 586475.2,
+              "BJB": 591466.98,
               "BU_Jahresrente": 238100.0,
-              "VS": 9081000.0
+              "VS": 9179000.0
             }
           },
           "je_herkunft": {
-            "neugeschaeft": 121
+            "neugeschaeft": 122
           },
-          "zeilen": 242
+          "zeilen": 244
         }
       }
     },
     "zeitraeume": {
       "aktueller_monat": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-04",
+        "bis": "2026-11-05",
         "von": "2026-11-01"
       },
       "aktuelles_jahr": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-04",
+        "bis": "2026-11-05",
         "von": "2026-01-01"
       },
       "letztes_jahr": {
@@ -4115,7 +4115,7 @@
       },
       "vorjahr_bis_heute": {
         "ausserhalb_betrieb": false,
-        "bis": "2025-11-04",
+        "bis": "2025-11-05",
         "von": "2025-01-01"
       }
     }
@@ -4137,12 +4137,12 @@
     "image_revision": "9986830d6dee796322259db2b410857cadf2d958",
     "image_tag": "9986830d6dee",
     "kern_version": "3.22.0",
-    "manifest_sha256": "7b72256c685a9c8e66dc153d48e5d9da22430b34115f094c2151e784a2c39b62",
+    "manifest_sha256": "f81092e40e9df4267a1e469ccd6229993e10ef3a3f02d094c393b51ea29d2397",
     "pb1": "gruen",
     "tagesjournal_sha256": "c130b15f6cdac0a06fb48de930af208548602bddfd3064f0f3589842d8d87b0e"
   },
   "schema_version": 6,
-  "stand": "2026-11-04",
+  "stand": "2026-11-05",
   "uebernahmen": [
     {
       "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
