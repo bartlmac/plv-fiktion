@@ -1,9 +1,9 @@
 {
   "ausgaben": {
     "bestand.parquet": "2fe105ff4e9c5347d3b8d2a86b5096256faa6a415d9c7eab56f96e921df63b2d",
-    "bestand_gesamt.parquet": "9d4f2e0c51dcfe6ee4b0c07f45e2b7a55df10279c51e879b50657fca5228b279",
-    "historie.parquet": "2813a756517b826e2690167bafeb4ec8a9bd875bbec2a16e64cb11b1dafbd3dd",
-    "ledger.parquet": "82430318989c96db8fcb13871f048ef3c40f021d6a8ad1826514a98dfed778bf",
+    "bestand_gesamt.parquet": "af462454b5a34527d33ef9463d0454ec6b9fe34a305f408041ea11f0d3414ebe",
+    "historie.parquet": "a999c0b52724a51c0e48731ad659989b725aa9ed4edfbcb9e2d5ecd7fffd0ca5",
+    "ledger.parquet": "882bff3a229761e14764e89186ded6d836bfcd34d615624401cc59636791335a",
     "merkmale.parquet": "33a231dfc749b93bbe549562ac677f0ae3f45b561b2d169080c6027dbea8d363",
     "reduktionen.parquet": "7860d66bbf8b04f41750f72bd62064df86ce62d48b43b186ad4dbd81eb9cfd9f",
     "scheiben.parquet": "38ef6a3403af783697c851bdd9938785e05cb472292593ef60fa1f19c3ac21a8",
@@ -22,7 +22,7 @@
     }
   },
   "erzeuger": "bestand_fortschreibung",
-  "horizont": "2026-11-05",
+  "horizont": "2026-11-06",
   "kern_version": "3.22.0",
   "neuzugang_ab": null,
   "schema_version": 1
