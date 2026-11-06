@@ -18,7 +18,7 @@ Netz. Versionen exakt gepinnt:
 | `pyarrow` | 25.0.1 |
 | `matplotlib` | 3.11.1 |
 | `pydantic` | 2.13.4 |
-| `pypdf` | 6.19.0 |
+| `pypdf` | 6.21.4 |
 
 | Entwicklung | Version |
 |---|---|
