@@ -3259,13 +3259,13 @@
   "anker": {
     "art": "auslieferung",
     "datei": "/anker/anker.jsonl",
-    "sha256": "3aecfc500983864a413c299869ce68cbf0c3a4bb948b48446b811a589bcc1913",
-    "stand": "2026-11-07",
+    "sha256": "bd7d86281019baead8b9576d657d24bfe29ec79bdb7728cddd3dbf7fc3e47a1d",
+    "stand": "2026-11-08",
     "zeichnung": {
       "rolle": "betrieb/tageslauf",
       "schluessel_sha256": "4ca4acd1f467a64b1902f6801fea67d98597f6312e9a92a501e0ea140bc46c0e",
       "schluesselklasse": "betrieb",
-      "signatur": "889340ee9b42399122f995a8273779b73b897cd6495faa2abe930aee62221d8f",
+      "signatur": "ebc01df24b0316b89a8ce87a2f53cb3f37db0059a51dbafb269147ba4f125c4e",
       "verfahren": "hmac-sha256-v2"
     }
   },
@@ -3512,10 +3512,10 @@
     "bestandsbericht_2026-10-01_teilbestand-baldrian-klv-tg2015-fall3.html": "3f5ad322073cad79612c6aac5ca8aa25945018e63cba77987e6063c70f467b3d",
     "bestandsbericht_2026-11-01.html": "8e8306388c899949ed443f5988156d4a460c084ad196b0d56f437b9ed002fd63",
     "bestandsbericht_2026-11-01_teilbestand-baldrian-klv-tg2015-fall3.html": "ba4e67decc29542f76935a62b8e12fbc9b26fea6c18269b1619d358d1345ca40",
-    "index.html": "031807785149708f74829300e7ae4a0f660e7edf09fe1427b1d6b3749c8f2af9",
+    "index.html": "ef67de613c99bbdd00dd505b397449309edf5e044ac35d4ba260cbc520ef0631",
     "jahresbericht_2025.html": "4153d182b6f9b4432fb9f7a9a0b0783c9ad58541bc5c24f0a96484e04ac41e3b",
-    "laufmanifest.json": "80f7f63d04b6aa8165ea2a85b0c407dafb44fa9a225950984c1b41d3dd987083",
-    "protokoll.jsonl": "4be377e8c79374ca146600f0c10e5197ecf96989cd804ac2c16938466fdc8745",
+    "laufmanifest.json": "143da9d954af461a8824523033dcd5d2913211a05197660e7b3e5d6b595941c1",
+    "protokoll.jsonl": "7961cbf76b623efd12de14918ee256a750b62c8b0f1f9bc43bdff2ebd260a764",
     "tagesjournal.parquet": "9a0c3b91edfb52107f863ea0307bd212611e7ed32c9e4b343cdc3683532c6223"
   },
   "gefuehrt_seit": "1994-07-01",
@@ -4115,12 +4115,12 @@
     "zeitraeume": {
       "aktueller_monat": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-07",
+        "bis": "2026-11-08",
         "von": "2026-11-01"
       },
       "aktuelles_jahr": {
         "ausserhalb_betrieb": false,
-        "bis": "2026-11-07",
+        "bis": "2026-11-08",
         "von": "2026-01-01"
       },
       "letztes_jahr": {
@@ -4130,7 +4130,7 @@
       },
       "vorjahr_bis_heute": {
         "ausserhalb_betrieb": false,
-        "bis": "2025-11-07",
+        "bis": "2025-11-08",
         "von": "2025-01-01"
       }
     }
@@ -4151,12 +4151,12 @@
     "image_revision": "5880336de5587dcd325ec3b92a100198d17fcfe6",
     "image_tag": "5880336de558",
     "kern_version": "3.22.0",
-    "manifest_sha256": "80f7f63d04b6aa8165ea2a85b0c407dafb44fa9a225950984c1b41d3dd987083",
+    "manifest_sha256": "143da9d954af461a8824523033dcd5d2913211a05197660e7b3e5d6b595941c1",
     "pb1": "gruen",
     "tagesjournal_sha256": "9a0c3b91edfb52107f863ea0307bd212611e7ed32c9e4b343cdc3683532c6223"
   },
   "schema_version": 6,
-  "stand": "2026-11-07",
+  "stand": "2026-11-08",
   "uebernahmen": [
     {
       "eingang_sha256": "3f69e55d46ef3d37c947230f10b9a1e301e52b481f29ded5e8fd129f139d6795",
