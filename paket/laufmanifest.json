@@ -1,15 +1,15 @@
 {
   "ausgaben": {
     "bestand.parquet": "2fe105ff4e9c5347d3b8d2a86b5096256faa6a415d9c7eab56f96e921df63b2d",
-    "bestand_gesamt.parquet": "90ba4019c653389b8aa1386a86eb9e063c4def84496286014244470e13002055",
+    "bestand_gesamt.parquet": "bcf042a8cad4352f6940c973e5c3c6cff144bc8949d9c1107c6637f834469ffc",
     "historie.parquet": "54adfd0f114ebc2070e2e12be0236717b6bcfe0aa86817116c094eb08ba12d02",
-    "ledger.parquet": "0ebe8d836520635af6de60d1a17bd0bbeb9fcd128722312127d5253c08e03ce8",
+    "ledger.parquet": "f0767dc3cd37159a0bb47fe3e2691c1f222547184bf701f56b7b9755682ef6ce",
     "merkmale.parquet": "33a231dfc749b93bbe549562ac677f0ae3f45b561b2d169080c6027dbea8d363",
     "reduktionen.parquet": "7860d66bbf8b04f41750f72bd62064df86ce62d48b43b186ad4dbd81eb9cfd9f",
     "scheiben.parquet": "38ef6a3403af783697c851bdd9938785e05cb472292593ef60fa1f19c3ac21a8",
     "schichten.parquet": "ce598a9eb9bf4fd72cd8c29fb3271f25d553aac4a05defa5deebd47e0831217d",
     "verankerung.parquet": "7dbcec7e3644e6fcdba864772a263c8989e45fb28c020db9c6aa2b2418da9b03",
-    "zugaenge.parquet": "730979a1704eb767ef49e2f24af12c8ba6246c782226b5869f1527bb1d2ce7b5"
+    "zugaenge.parquet": "174cd3ab69f3334ae212fdc702beb4a3922ee3a90fd2d0110c1b84be495d44b8"
   },
   "config": {
     "datei": "bestand.toml",
@@ -22,7 +22,7 @@
     }
   },
   "erzeuger": "bestand_fortschreibung",
-  "horizont": "2026-11-11",
+  "horizont": "2026-11-12",
   "kern_version": "3.22.0",
   "neuzugang_ab": null,
   "schema_version": 1

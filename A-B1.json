@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 11.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 12.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-11T22:30:09.974551+00:00",
+  "entschieden_am": "2026-11-12T22:30:10.378393+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "d69b918ba3da284851f88903b8ad973d82ef768cad768619937a1339b0d67f26",
+    "signatur": "a65586ca5df7b460d8135f9d3894c9ddf8b97316ae8da8b553349ea2d040cdb0",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "f21bebcb775f9eb1a7579d1d2fe326a0f4ac9090fa547b54231e3d171fb1f663"
+      "1ca2949c11615dfa9a774452d461f0242f6949570900846eb358dd9c73a289e0"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "43d4bf9056ea85daa06e14b0c35dd9bd6872d50c427793783d6269f794d63675",
+  "snapshot_sha256": "7df263678dfe3391382e72493e9d3bf59a4530d58387a6e881d1ff1bdd59178c",
   "system": {
     "branch": "unbekannt",
     "commit": "5880336de5587dcd325ec3b92a100198d17fcfe6",
@@ -98,6 +98,7 @@
     "1fbbbb98b682135db3787c57b66e558bb4a648e3584e2a872be1b32428fa1394",
     "2cdccb5c4abcf0eb9b84a33f1a61fda18bb6addcb7b7fb4c52bb7e4553271e2a",
     "303e2634cd162c8dd2364d9e2ab6c4e75554b10322075c713496398480c4a7c6",
+    "43d4bf9056ea85daa06e14b0c35dd9bd6872d50c427793783d6269f794d63675",
     "445acb2a8fd2e1e9e75f91a9ef91ccf1fd52077534c560b8008bb24f4879e342",
     "56e86c77b89e1cbb9eaed40229b050ca9eb8d13a85b6212362897adf721f690e",
     "69451199f4d5228c9977f7ae3d232fac4225fed50ece1bfe1feab23e323ed53d",
