@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 16.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 17.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-16T22:30:10.206117+00:00",
+  "entschieden_am": "2026-11-17T22:30:10.108592+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "f3c0a83d8a165b558fd7b6b1abf8231870620d3ce0db409bd24eb7a5a965e8d2",
+    "signatur": "13c4127db4804240ea1e092c1fe404d0940dcd41b2d66eb56b6034a7384f5695",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "2a9156994c32945ec63b0a2a4f6b34f10abe191eea1c429dc8b124b0e65d690e"
+      "796856f9b50f0445a13eba202bd1fc24087a01a959f8b327b352df8456ab9a51"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "ec808744a7a3108927a3778d90870ca43731c6843231a5e09ba1638c8d14a453",
+  "snapshot_sha256": "038532fe2e05156089b839ac56ec0a56fc3be4af59b02c1e06bcbd732cefc454",
   "system": {
     "branch": "unbekannt",
     "commit": "5880336de5587dcd325ec3b92a100198d17fcfe6",
@@ -112,6 +112,7 @@
     "c46b54f6d2be663e39c00cd627ed6c64105ad8f7a2faf633bc0a6966f8043a2f",
     "cadc8615e8b8ab5802fb03901b27cc2630fe6799e64aee503588471972eb5d67",
     "d71c3459aa19bd9ee6af46ba53580d56ce89deabb99a934ffbb1204ded281bb8",
+    "ec808744a7a3108927a3778d90870ca43731c6843231a5e09ba1638c8d14a453",
     "edfcd23bca8de070d226ea303fe3fe8f830fd71d65ee49a5ecc8a32d43c8d4e5",
     "f1c48698c92afc9342f29718021a194d738a3f714a96612449815ed4ebc20ba2"
   ],
