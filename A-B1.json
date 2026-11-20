@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 19.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 20.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-19T22:30:09.257624+00:00",
+  "entschieden_am": "2026-11-20T22:30:10.378778+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "f93af75fc56e553f49113b8c4399e6f0f2ab9dea7f8410c477c601726b69185f",
+    "signatur": "0500d029cb4b8c88a4f9ce58e32d6dd53a17ecbdbec1e8152c1321e62d271c7a",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "38e07ea354cbb410ce5209670fb8a43d0f68d6a5584c96ae4e7c08e917104309"
+      "250bba4aa1a871ffad0dfffdaf8ab2b99d7de8ac9ef15c9a32305c7bf9873b8f"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "abf39117cebb728cd30cd4dd8ba40dd49f4c41aed401145d54f386435ea81477",
+  "snapshot_sha256": "4acd837449efc1ddfea2f078f51c928c0df6a966d189b94605f1868b55c60bfc",
   "system": {
     "branch": "unbekannt",
     "commit": "5880336de5587dcd325ec3b92a100198d17fcfe6",
@@ -109,6 +109,7 @@
     "851ae99a504ac904be192b925d7d4ad5e361fafdf5258846592bd90e59bcfc94",
     "a18021ffb5d6d7fc26524ccaee1f6b53995fb7889648220cf298f4c8067b38a6",
     "a6a3a737f8338b08aeee96e523f0a97fed35668c9aabfeab571734c684893872",
+    "abf39117cebb728cd30cd4dd8ba40dd49f4c41aed401145d54f386435ea81477",
     "b0cac44279de0beda63de2e13e8b258db9c51c3cbb4b6e4b5564530a6575f6aa",
     "b4a02cab5010671dac2e3d732a8c6e3441db4f163eb9804ec94903afec7cc60b",
     "c46b54f6d2be663e39c00cd627ed6c64105ad8f7a2faf633bc0a6966f8043a2f",
