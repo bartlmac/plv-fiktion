@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 25.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 26.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-25T22:30:09.964713+00:00",
+  "entschieden_am": "2026-11-26T22:30:11.108653+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "428d4e039e659b9c24db80bae267fb12bf088fe56cf87f24952807f3e3108c18",
+    "signatur": "72c627668694bd942234921ab2c312c42d7f6ff61b0db9f2b17a6351ec801297",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "3d36d67f0bce5af85084da8d2b18766a7477aee412e0ddefdf87c78daed9b1d3"
+      "039da44417d047d624a10c1f61247d54e0d01494b6f1dd787365174b6a0ae823"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "a1ec353265f608fcf27f53a585fdbe9889f9a60b2377a305e88808e55c13ecf7",
+  "snapshot_sha256": "23d6fb1e676155ad923485a2a77269546655855528a83d845047a6cb93ce20d7",
   "system": {
     "branch": "unbekannt",
     "commit": "5880336de5587dcd325ec3b92a100198d17fcfe6",
@@ -112,6 +112,7 @@
     "851ae99a504ac904be192b925d7d4ad5e361fafdf5258846592bd90e59bcfc94",
     "8643505c1ac46df01b193559f9a794c2443a4c933bcbfe3e01436227fa06edd4",
     "a18021ffb5d6d7fc26524ccaee1f6b53995fb7889648220cf298f4c8067b38a6",
+    "a1ec353265f608fcf27f53a585fdbe9889f9a60b2377a305e88808e55c13ecf7",
     "a6a3a737f8338b08aeee96e523f0a97fed35668c9aabfeab571734c684893872",
     "abf39117cebb728cd30cd4dd8ba40dd49f4c41aed401145d54f386435ea81477",
     "b0cac44279de0beda63de2e13e8b258db9c51c3cbb4b6e4b5564530a6575f6aa",
