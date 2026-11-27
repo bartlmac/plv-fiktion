@@ -62,29 +62,29 @@
     "entscheide/A-T1-a148410bbbd6b7ba7123540b8b29bd4ac9eea1baddb39ef833ffe5fd297d00ef.json": "e911a7fc9e958f17fdddb3ee68a8ffb6c7822feef57c3c97b1aae60d362dd76a",
     "fall.json": "cf64360cfa2fb4086b951cb6d8d892d101befd60e66730523e380e9b09355830"
   },
-  "begruendung": "Auslieferung des Stands vom 26.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
+  "begruendung": "Auslieferung des Stands vom 27.11.2026, gezeichnet von der Routine des Betriebsteils (Simulation)",
   "command": "gate_entscheid",
   "entscheid": "angenommen",
   "entscheider": "die Routine des Betriebsteils, als mensch/betrieb (Simulation)",
-  "entschieden_am": "2026-11-26T22:30:11.108653+00:00",
+  "entschieden_am": "2026-11-27T22:30:09.528682+00:00",
   "fall": "baldrian-klv-tg2015-fall3",
   "fall_scope": "bestand",
   "fallauftrag": "4a9691cb507798212c1a274160d53916f32f2cd01fe8b02953189f55379021b2",
   "freigabe": {
     "schluessel_sha256": "d40988ade3cdc38cca63a506cc5ebcd4a7bac5601f2ff8ad5f57b634e33c31fd",
-    "signatur": "72c627668694bd942234921ab2c312c42d7f6ff61b0db9f2b17a6351ec801297",
+    "signatur": "145937bbcbe9e1df3cd792eeb47e6fef3bf3b44bbfac7167169a364cd63a1517",
     "verfahren": "hmac-sha256-v1"
   },
   "gate": "A-B1",
   "gate_version": "5.0.0",
   "pflichtbelege": {
     "anker": [
-      "039da44417d047d624a10c1f61247d54e0d01494b6f1dd787365174b6a0ae823"
+      "cf114a455f5794b544fe4ae90071b77f721447016b39f063dfd394e82d92e0f8"
     ]
   },
   "rolle": "mensch/betrieb",
   "schema_version": 10,
-  "snapshot_sha256": "23d6fb1e676155ad923485a2a77269546655855528a83d845047a6cb93ce20d7",
+  "snapshot_sha256": "7b5e944a2e477ac684d832cd99967c2114356ea5f7257eb0c90f9f40b59f4161",
   "system": {
     "branch": "unbekannt",
     "commit": "5880336de5587dcd325ec3b92a100198d17fcfe6",
@@ -97,6 +97,7 @@
     "0b576400215791fb11b6534a888fee7b365985094396ac8055196d80ab180a8b",
     "170b6462ca49683babe2313264ebc3ec51a837e186dac0c87e7be90a7a8eb024",
     "1fbbbb98b682135db3787c57b66e558bb4a648e3584e2a872be1b32428fa1394",
+    "23d6fb1e676155ad923485a2a77269546655855528a83d845047a6cb93ce20d7",
     "273f44d4eb1b041daf10aab63c8462bb6778b9cd9620bee3cac9ac5bd1aaf90a",
     "2cdccb5c4abcf0eb9b84a33f1a61fda18bb6addcb7b7fb4c52bb7e4553271e2a",
     "303e2634cd162c8dd2364d9e2ab6c4e75554b10322075c713496398480c4a7c6",
